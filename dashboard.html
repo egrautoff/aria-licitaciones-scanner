@@ -1,0 +1,541 @@
+<title>Radar SECOP</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --surface: #ffffff;
+    --surface-2: #eef0f3;
+    --border: #e0e3e9;
+    --text: #1b2130;
+    --text-muted: #5c6478;
+    --accent: #2f6f6d;
+    --accent-strong: #1e4d4b;
+    --accent-tint: #e4efee;
+    --good: #2e7d5b;
+    --good-tint: #e3f1eb;
+    --warn: #96650f;
+    --warn-tint: #faefdc;
+    --state-closed: #6b7284;
+    --state-closed-tint: #e9eaee;
+    --low-conf: #a24b1f;
+    --low-conf-tint: #fbeee5;
+    --shadow: 0 1px 2px rgba(20, 24, 34, 0.06), 0 8px 24px -12px rgba(20, 24, 34, 0.12);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e141f;
+      --surface: #161d2a;
+      --surface-2: #1c2433;
+      --border: #2a3243;
+      --text: #e7ebf1;
+      --text-muted: #96a1b3;
+      --accent: #5fb8b3;
+      --accent-strong: #86cdc7;
+      --accent-tint: #16302e;
+      --good: #4caf7d;
+      --good-tint: #163326;
+      --warn: #d9a441;
+      --warn-tint: #362b12;
+      --state-closed: #8b93a3;
+      --state-closed-tint: #232a38;
+      --low-conf: #e08a5c;
+      --low-conf-tint: #362316;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0e141f;
+    --surface: #161d2a;
+    --surface-2: #1c2433;
+    --border: #2a3243;
+    --text: #e7ebf1;
+    --text-muted: #96a1b3;
+    --accent: #5fb8b3;
+    --accent-strong: #86cdc7;
+    --accent-tint: #16302e;
+    --good: #4caf7d;
+    --good-tint: #163326;
+    --warn: #d9a441;
+    --warn-tint: #362b12;
+    --state-closed: #8b93a3;
+    --state-closed-tint: #232a38;
+    --low-conf: #e08a5c;
+    --low-conf-tint: #362316;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    line-height: 1.45;
+  }
+
+  .wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 5rem;
+  }
+
+  header.top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .title-block .eyebrow {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.4rem;
+  }
+
+  h1 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    letter-spacing: -0.01em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    margin: 0.4rem 0 0;
+  }
+
+  .meta {
+    text-align: right;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    box-shadow: var(--shadow);
+  }
+
+  .stat .num {
+    font-family: "IBM Plex Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--accent-strong);
+    display: block;
+  }
+
+  .stat .label {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  .filter-row {
+    margin-bottom: 2rem;
+  }
+
+  #search {
+    width: 100%;
+    padding: 0.65rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.92rem;
+  }
+  #search:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+
+  section.block {
+    margin-bottom: 2.75rem;
+  }
+
+  h2 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  h2 .count {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    box-shadow: var(--shadow);
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-entidad {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--text-muted);
+    margin: 0 0 0.25rem;
+  }
+
+  .card-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+    padding: 0.22rem 0.55rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .pill.open { background: var(--good-tint); color: var(--good); }
+  .pill.eval { background: var(--warn-tint); color: var(--warn); }
+  .pill.closed { background: var(--state-closed-tint); color: var(--state-closed); }
+  .pill.lowconf { background: var(--low-conf-tint); color: var(--low-conf); }
+
+  .card-razon {
+    font-size: 0.86rem;
+    color: var(--text-muted);
+    margin: 0.5rem 0 0.75rem;
+  }
+
+  .card-foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.1rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.76rem;
+    color: var(--text-muted);
+    align-items: center;
+  }
+
+  .card-foot .valor { color: var(--text); font-variant-numeric: tabular-nums; }
+
+  a.link {
+    color: var(--accent-strong);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+  }
+  a.link:hover { color: var(--accent); }
+
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    min-width: 720px;
+  }
+
+  th {
+    text-align: left;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--text-muted);
+    padding: 0.7rem 0.9rem;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+  }
+
+  td {
+    padding: 0.75rem 0.9rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  td.valor { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.fecha { font-family: "IBM Plex Mono", monospace; color: var(--text-muted); white-space: nowrap; }
+
+  .empty {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    text-align: center;
+    background: var(--surface);
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+  }
+
+  footer.notes {
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+  }
+
+  footer.notes h3 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 0.85rem;
+    color: var(--text);
+    margin: 0 0 0.5rem;
+  }
+
+  footer.notes ul { margin: 0.4rem 0 1rem; padding-left: 1.2rem; }
+  footer.notes code {
+    font-family: "IBM Plex Mono", monospace;
+    background: var(--surface-2);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.78rem;
+  }
+
+  [hidden] { display: none !important; }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="title-block">
+      <p class="eyebrow">ARIA PSW · monitoreo diario</p>
+      <h1>Radar de licitaciones SECOP</h1>
+      <p class="subtitle">Procesos de SECOP II filtrados por el portafolio de ARIA (analítica, inteligencia de negocios, Tibco, Teradata, Liferay)</p>
+    </div>
+    <div class="meta">
+      última corrida<br>
+      <span id="last-run-display">21 ago 2026, 00:00 (COT)</span>
+    </div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="filter-row">
+    <input id="search" type="text" placeholder="Filtrar por entidad, objeto o UNSPSC…" autocomplete="off">
+  </div>
+
+  <section class="block">
+    <h2>Nuevas hoy <span class="count" id="nuevas-count"></span></h2>
+    <div class="cards" id="nuevas-cards"></div>
+  </section>
+
+  <section class="block">
+    <h2>En seguimiento <span class="count" id="activas-count"></span></h2>
+    <div class="table-wrap">
+      <table id="activas-table">
+        <thead>
+          <tr>
+            <th>Entidad</th>
+            <th>Objeto</th>
+            <th>Valor est.</th>
+            <th>Estado</th>
+            <th>Publicado</th>
+            <th>Detectado</th>
+            <th>Proceso</th>
+          </tr>
+        </thead>
+        <tbody id="activas-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="notes">
+    <h3>Metodología</h3>
+    <ul>
+      <li>Fuente: dataset abierto SECOP II (<code>p6dx-8zbt</code>, datos.gov.co), consultado diariamente.</li>
+      <li>Filtro 1 (automático): coincidencia de palabras clave en el objeto/nombre del proceso — analítica, inteligencia de negocios, business intelligence, Tibco, Teradata, Liferay, big data, data warehouse.</li>
+      <li>Filtro 2 (criterio): cada coincidencia se revisa para descartar falsos positivos (equipos de laboratorio, nombres de dependencias, contratos de personas individuales, cursos/diplomados, etc.).</li>
+      <li>Requisitos habilitantes (capacidad financiera, experiencia mínima, RUP) <strong>no están en el dataset abierto</strong> — SECOP los protege detrás de validación en el detalle del proceso. Esta revisión es superficial; el pliego completo debe revisarse manualmente en el enlace de cada proceso.</li>
+      <li>SECOP I no se monitorea activamente: el dataset histórico cubre casi exclusivamente contratos ya adjudicados (2011–2017), no procesos abiertos nuevos.</li>
+    </ul>
+  </footer>
+</div>
+
+<script>
+  /* DATA_BLOCK_START */
+  const DATA = {
+    last_run: "2026-08-21T00:00:00-05:00",
+    items: [
+      {
+        id: "CO1.REQ.10857217",
+        entidad: "Rama Judicial – Dirección Ejecutiva de Administración Judicial",
+        nombre: "Soporte y mantenimiento técnico especializado de los portales web institucionales (Liferay), incluyendo bolsa de horas para aplicaciones conexas",
+        fecha_publicacion: "2026-08-19",
+        valor_estimado: 0,
+        modalidad: "Solicitud de información a los Proveedores",
+        estado: "Publicado",
+        unspsc: "V1.81111500",
+        url_proceso: "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10732649",
+        confianza: "alta",
+        razon: "Match directo de producto: soporte especializado de portales Liferay, uno de los productos core de ARIA.",
+        primera_deteccion: "2026-08-21"
+      },
+      {
+        id: "CO1.REQ.10838750",
+        entidad: "Comando General de las Fuerzas Militares",
+        nombre: "Adquisición, renovación, actualización y soporte de licencias de software de Inteligencia de Negocios (BI) – visualización (Tableau)",
+        fecha_publicacion: "2026-08-12",
+        valor_estimado: 0,
+        modalidad: "Solicitud de información a los Proveedores",
+        estado: "Publicado",
+        unspsc: "V1.81112205",
+        url_proceso: "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10697853",
+        confianza: "alta",
+        razon: "Match directo de categoría: adquisición/soporte de licencias BI. El producto puntual es Tableau, no Teradata/Tibco, pero es el mismo tipo de proyecto donde ARIA podría ofertar como integrador.",
+        primera_deteccion: "2026-08-21"
+      },
+      {
+        id: "CO1.REQ.10802197",
+        entidad: "Comando General de las Fuerzas Militares",
+        nombre: "Herramienta analítica de medición y escucha para el Departamento de Comunicaciones Estratégicas (COMES)",
+        fecha_publicacion: "2026-08-05",
+        valor_estimado: 0,
+        modalidad: "Solicitud de información a los Proveedores",
+        estado: "Evaluación",
+        unspsc: "V1.81112205",
+        url_proceso: "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10655832",
+        confianza: "baja",
+        razon: "Podría ser una herramienta de 'social listening' / monitoreo de medios más que una plataforma de analítica de datos empresarial. Se deja visible para confirmar o descartar.",
+        primera_deteccion: "2026-08-21"
+      }
+    ]
+  };
+  /* DATA_BLOCK_END */
+
+  const money = (n) => n > 0
+    ? new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', maximumFractionDigits: 0 }).format(n)
+    : '— (no publicado)';
+
+  const dateFmt = (iso) => new Date(iso + 'T00:00:00').toLocaleDateString('es-CO', { day: '2-digit', month: 'short', year: 'numeric' });
+
+  function statePill(estado) {
+    const e = estado.toLowerCase();
+    if (e.includes('public') || e.includes('abiert')) return `<span class="pill open">${estado}</span>`;
+    if (e.includes('evalua')) return `<span class="pill eval">${estado}</span>`;
+    return `<span class="pill closed">${estado}</span>`;
+  }
+
+  function render(items) {
+    const today = DATA.last_run.slice(0, 10);
+    const nuevas = items.filter(i => i.primera_deteccion === today);
+    const stats = document.getElementById('stats');
+    stats.innerHTML = `
+      <div class="stat"><span class="num">${nuevas.length}</span><span class="label">Nuevas hoy</span></div>
+      <div class="stat"><span class="num">${items.length}</span><span class="label">En seguimiento</span></div>
+      <div class="stat"><span class="num">${items.filter(i => i.estado.toLowerCase().includes('public') || i.estado.toLowerCase().includes('abiert')).length}</span><span class="label">Abiertas a ofertar</span></div>
+      <div class="stat"><span class="num">${items.filter(i => i.confianza === 'baja').length}</span><span class="label">Confianza baja</span></div>
+    `;
+
+    document.getElementById('nuevas-count').textContent = `(${nuevas.length})`;
+    const nuevasWrap = document.getElementById('nuevas-cards');
+    if (nuevas.length === 0) {
+      nuevasWrap.innerHTML = `<div class="empty">No se detectaron licitaciones nuevas en esta corrida.</div>`;
+    } else {
+      nuevasWrap.innerHTML = nuevas.map(i => `
+        <div class="card" data-search="${(i.entidad + ' ' + i.nombre + ' ' + i.unspsc).toLowerCase()}">
+          <div class="card-head">
+            <div>
+              <p class="card-entidad">${i.entidad}</p>
+              <p class="card-title">${i.nombre}</p>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:0.3rem; align-items:flex-end;">
+              ${statePill(i.estado)}
+              ${i.confianza === 'baja' ? '<span class="pill lowconf">confianza baja</span>' : ''}
+            </div>
+          </div>
+          <p class="card-razon">${i.razon}</p>
+          <div class="card-foot">
+            <span class="valor">${money(i.valor_estimado)}</span>
+            <span>${i.modalidad}</span>
+            <span>UNSPSC ${i.unspsc}</span>
+            <span>publicado ${dateFmt(i.fecha_publicacion)}</span>
+            <a class="link" href="${i.url_proceso}" target="_blank" rel="noopener">Ver proceso ↗</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    document.getElementById('activas-count').textContent = `(${items.length})`;
+    const tbody = document.getElementById('activas-tbody');
+    const sorted = [...items].sort((a, b) => {
+      const rank = (e) => e.toLowerCase().includes('public') || e.toLowerCase().includes('abiert') ? 0 : e.toLowerCase().includes('evalua') ? 1 : 2;
+      return rank(a.estado) - rank(b.estado) || b.fecha_publicacion.localeCompare(a.fecha_publicacion);
+    });
+    tbody.innerHTML = sorted.map(i => `
+      <tr data-search="${(i.entidad + ' ' + i.nombre + ' ' + i.unspsc).toLowerCase()}">
+        <td>${i.entidad}</td>
+        <td>${i.nombre}${i.confianza === 'baja' ? ' <span class="pill lowconf">confianza baja</span>' : ''}</td>
+        <td class="valor">${money(i.valor_estimado)}</td>
+        <td>${statePill(i.estado)}</td>
+        <td class="fecha">${dateFmt(i.fecha_publicacion)}</td>
+        <td class="fecha">${dateFmt(i.primera_deteccion)}</td>
+        <td><a class="link" href="${i.url_proceso}" target="_blank" rel="noopener">Ver ↗</a></td>
+      </tr>
+    `).join('') || `<tr><td colspan="7"><div class="empty">Sin licitaciones activas en seguimiento.</div></td></tr>`;
+  }
+
+  render(DATA.items);
+
+  document.getElementById('search').addEventListener('input', (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    document.querySelectorAll('[data-search]').forEach(el => {
+      el.hidden = q.length > 0 && !el.dataset.search.includes(q);
+    });
+  });
+</script>

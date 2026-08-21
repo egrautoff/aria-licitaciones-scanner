@@ -1,0 +1,56 @@
+{
+  "last_run": "2026-08-21T00:00:00-05:00",
+  "items": {
+    "CO1.REQ.10857217": {
+      "entidad": "Rama Judicial – Dirección Ejecutiva de Administración Judicial",
+      "nombre": "Soporte y mantenimiento técnico especializado de los portales web institucionales (Liferay), incluyendo bolsa de horas para aplicaciones conexas",
+      "descripcion": "Solicitud de Cotización para contratar el servicio de soporte y mantenimiento técnico especializado de los portales web institucionales de la Rama Judicial (Liferay), incluyendo bolsa de horas para soporte de aplicaciones conexas",
+      "fecha_publicacion": "2026-08-19T00:00:00.000",
+      "valor_estimado": "0",
+      "modalidad": "Solicitud de información a los Proveedores",
+      "estado": "Publicado",
+      "unspsc": "V1.81111500",
+      "url_proceso": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10732649",
+      "relevante": true,
+      "confianza": "alta",
+      "razon": "Match directo de producto: soporte especializado de portales Liferay, uno de los productos core de ARIA.",
+      "requisitos_superficial": "No disponibles en datos abiertos (SECOP protege el detalle del proceso con validación). Revisar pliego directamente en el enlace.",
+      "primera_deteccion": "2026-08-21",
+      "ultima_actualizacion": "2026-08-21"
+    },
+    "CO1.REQ.10838750": {
+      "entidad": "Comando General de las Fuerzas Militares",
+      "nombre": "Adquisición, renovación, actualización y soporte de licencias de software de Inteligencia de Negocios (BI) – visualización (Tableau)",
+      "descripcion": "Requiere contratar la adquisición, renovación, actualización y soporte de los servicios de las licencias de software de Inteligencia de Negocios (BI) visualización (Tableau) para los departamentos conjuntos de operaciones",
+      "fecha_publicacion": "2026-08-12T00:00:00.000",
+      "valor_estimado": "0",
+      "modalidad": "Solicitud de información a los Proveedores",
+      "estado": "Publicado",
+      "unspsc": "V1.81112205",
+      "url_proceso": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10697853",
+      "relevante": true,
+      "confianza": "alta",
+      "razon": "Match directo de categoría: adquisición/soporte de licencias BI. El producto puntual es Tableau, no Teradata/Tibco, pero es exactamente el tipo de proyecto BI donde ARIA podría ofertar como integrador.",
+      "requisitos_superficial": "No disponibles en datos abiertos. Revisar pliego directamente en el enlace.",
+      "primera_deteccion": "2026-08-21",
+      "ultima_actualizacion": "2026-08-21"
+    },
+    "CO1.REQ.10802197": {
+      "entidad": "Comando General de las Fuerzas Militares",
+      "nombre": "Herramienta analítica de medición y escucha para el Departamento de Comunicaciones Estratégicas (COMES)",
+      "descripcion": "Requiere contratar la suscripción de la herramienta analítica de medición y escucha para el Departamento de Comunicaciones Estratégicas (COMES)",
+      "fecha_publicacion": "2026-08-05T00:00:00.000",
+      "valor_estimado": "0",
+      "modalidad": "Solicitud de información a los Proveedores",
+      "estado": "Evaluación",
+      "unspsc": "V1.81112205",
+      "url_proceso": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10655832",
+      "relevante": true,
+      "confianza": "baja",
+      "razon": "Podría ser una herramienta de 'social listening'/monitoreo de medios más que una plataforma de analítica de datos empresarial. Se deja visible para que alguien de ARIA lo descarte o confirme.",
+      "requisitos_superficial": "No disponibles en datos abiertos. Revisar pliego directamente en el enlace.",
+      "primera_deteccion": "2026-08-21",
+      "ultima_actualizacion": "2026-08-21"
+    }
+  }
+}
