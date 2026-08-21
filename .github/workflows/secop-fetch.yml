@@ -20,6 +20,7 @@ jobs:
 
       - name: Fetch SECOP II matches (last 3 days)
         run: |
+          mkdir -p data
           SINCE=$(date -u -d '-3 days' +%Y-%m-%dT00:00:00)
           node scripts/fetch-secop.mjs --since="$SINCE" --limit=1000 > data/latest.json
           cat data/latest.json
