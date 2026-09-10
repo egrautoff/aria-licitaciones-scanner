@@ -7,6 +7,35 @@ const WINDOW_DAYS = 15;
 // Umbral de "destacado": valor del contrato + que haya matcheado por una
 // palabra clave fuerte (no las genericas de soporte/mesa de ayuda, que dan ruido).
 const DESTACADO_VALOR_MIN = 1_000_000_000;
+// Candidatos "exploratorios": procesos que NO calzan con las palabras clave
+// estrictas (RULES) pero mencionan temas adyacentes al portafolio de ARIA.
+// Se dejan sin juzgar aqui (eso lo hace la rutina diaria con criterio); esto
+// solo acota el universo a un tamano razonable para esa revision.
+const EXPLORATORIO_VALOR_MIN = 30_000_000;
+const EXPLORATORIO_MAX_ITEMS = 40;
+const BROAD_TERMS = [
+  "inteligencia de negocios",
+  "business intelligence",
+  "tablero de control",
+  "reportes gerenciales",
+  "bodega de datos",
+  "data warehouse",
+  "gobierno de datos",
+  "calidad de datos",
+  "arquitectura de datos",
+  "big data",
+  "migracion a la nube",
+  "arquitectura empresarial",
+  "modernizacion tecnologica",
+  "modernizacion de aplicaciones",
+  "transformacion digital",
+  "gobierno digital",
+  "gestion documental",
+  "fabrica de aplicaciones",
+  "arquitectura de microservicios",
+  "consultoria tecnologica",
+  "consultoria ti",
+];
 
 const RULES = [
   { group: "Liferay / Portal", any: ["liferay"] },
@@ -79,13 +108,13 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // The dataset has ~5k new processes/day, so a plain date-window scan would need
 // tens of thousands of rows. Instead we run one $q full-text search per keyword
 // (which SECOP indexes) and merge the results — far fewer rows, same coverage,
-// since the exact-phrase / AND logic in matchRules() re-checks every candidate.
-async function fetchCandidateProcesses() {
+// since the exact-phrase / AND logic re-checks every candidate locally.
+async function fetchByTerms(terms) {
   const since = new Date(Date.now() - WINDOW_DAYS * 24 * 60 * 60 * 1000);
   const sinceStr = since.toISOString().slice(0, 19);
   const byId = new Map();
 
-  for (const term of uniqueSearchTerms()) {
+  for (const term of terms) {
     const params = new URLSearchParams({
       "$where": `fecha_de_publicacion_del >= '${sinceStr}'`,
       "$q": term,
@@ -105,7 +134,7 @@ async function fetchCandidateProcesses() {
     await sleep(250);
   }
 
-  return [...byId.values()];
+  return byId;
 }
 
 function toItem(row, matched) {
@@ -128,12 +157,33 @@ function toItem(row, matched) {
   };
 }
 
+function matchBroadTerms(text) {
+  const t = norm(text);
+  return BROAD_TERMS.filter((term) => hasPhrase(t, term));
+}
+
+function toExploratorioItem(row, broadKeywords) {
+  return {
+    id_proceso: row.id_del_proceso || row.referencia_del_proceso || null,
+    fuente: "SECOP II",
+    entidad: row.entidad || null,
+    unspsc: row.codigo_principal_de_categoria || null,
+    fecha_publicacion: row.fecha_de_publicacion_del || null,
+    descripcion: row.descripci_n_del_procedimiento || row.nombre_del_procedimiento || null,
+    valor: row.precio_base ? Number(row.precio_base) : null,
+    estado: row.estado_del_procedimiento || row.estado_resumen || null,
+    modalidad: row.modalidad_de_contratacion || null,
+    url: row.urlproceso && row.urlproceso.url ? row.urlproceso.url : null,
+    matched_broad_keywords: broadKeywords,
+  };
+}
+
 async function main() {
-  const rows = await fetchCandidateProcesses();
+  const coreById = await fetchByTerms(uniqueSearchTerms());
   const seen = new Set();
   const items = [];
 
-  for (const row of rows) {
+  for (const row of coreById.values()) {
     const id = row.id_del_proceso || row.referencia_del_proceso;
     if (!id || seen.has(id)) continue;
 
@@ -147,14 +197,39 @@ async function main() {
 
   items.sort((a, b) => (b.fecha_publicacion || "").localeCompare(a.fecha_publicacion || ""));
 
+  // Segunda red, mas amplia: procesos que NO calzaron con RULES pero tocan
+  // temas adyacentes al portafolio de ARIA (BI, datos, transformacion digital,
+  // arquitectura empresarial...). Sin juzgar todavia — eso lo hace la rutina
+  // diaria con criterio, aqui solo se acota el universo.
+  const broadById = await fetchByTerms(BROAD_TERMS);
+  const exploratorios = [];
+  const seenExploratorio = new Set();
+  for (const row of broadById.values()) {
+    const id = row.id_del_proceso || row.referencia_del_proceso;
+    if (!id || seen.has(id) || seenExploratorio.has(id)) continue;
+
+    const text = `${row.nombre_del_procedimiento || ""} ${row.descripci_n_del_procedimiento || ""}`;
+    const broadKeywords = matchBroadTerms(text);
+    if (broadKeywords.length === 0) continue;
+
+    const valor = row.precio_base ? Number(row.precio_base) : 0;
+    if (valor < EXPLORATORIO_VALOR_MIN) continue;
+
+    seenExploratorio.add(id);
+    exploratorios.push(toExploratorioItem(row, broadKeywords));
+  }
+  exploratorios.sort((a, b) => (b.valor || 0) - (a.valor || 0));
+  const candidatos_exploratorios = exploratorios.slice(0, EXPLORATORIO_MAX_ITEMS);
+
   const output = {
     generated_at: new Date().toISOString(),
     window_days: WINDOW_DAYS,
     source_dataset: "datos.gov.co / p6dx-8zbt (SECOP II)",
-    total_scanned: rows.length,
+    total_scanned: coreById.size + broadById.size,
     total_matched: items.length,
     total_destacados: items.filter((it) => it.destacado).length,
     items,
+    candidatos_exploratorios,
   };
 
   const fs = await import("node:fs/promises");
@@ -163,7 +238,9 @@ async function main() {
     new URL("../data/latest.json", import.meta.url),
     JSON.stringify(output, null, 2),
   );
-  console.log(`Escaneados: ${rows.length} | Coinciden: ${items.length}`);
+  console.log(
+    `Escaneados: ${output.total_scanned} | Coinciden: ${items.length} | Exploratorios: ${candidatos_exploratorios.length}`,
+  );
 }
 
 main().catch((err) => {
