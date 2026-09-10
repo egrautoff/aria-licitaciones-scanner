@@ -4,6 +4,9 @@
 
 const DATASET_URL = "https://www.datos.gov.co/resource/p6dx-8zbt.json";
 const WINDOW_DAYS = 15;
+// Umbral de "destacado": valor del contrato + que haya matcheado por una
+// palabra clave fuerte (no las genericas de soporte/mesa de ayuda, que dan ruido).
+const DESTACADO_VALOR_MIN = 1_000_000_000;
 
 const RULES = [
   { group: "Liferay / Portal", any: ["liferay"] },
@@ -17,7 +20,7 @@ const RULES = [
   { group: "Desarrollo / Fabrica", any: ["desarrollo de software a la medida"] },
   { group: "Desarrollo / Fabrica", any: ["mantenimiento evolutivo"] },
   { group: "Desarrollo / Fabrica", all: ["desarrollo", "implementacion", "soporte"] },
-  { group: "Desarrollo / Fabrica", any: ["mesa de ayuda", "soporte tecnico nivel 2", "soporte tecnico nivel 3"] },
+  { group: "Desarrollo / Fabrica", any: ["mesa de ayuda", "soporte tecnico nivel 2", "soporte tecnico nivel 3"], weak: true },
 
   { group: "IA / Agentes", all: ["inteligencia artificial", "agentes"] },
   { group: "IA / Agentes", any: ["automatizacion de procesos"] },
@@ -57,7 +60,7 @@ function matchRules(text) {
       : rule.all.every((p) => hasPhrase(t, p));
     if (hit) {
       const kw = rule.any ? rule.any.find((p) => hasPhrase(t, p)) : rule.all.join(" + ");
-      matched.push({ group: rule.group, keyword: kw });
+      matched.push({ group: rule.group, keyword: kw, weak: !!rule.weak });
     }
   }
   return matched;
@@ -106,6 +109,8 @@ async function fetchCandidateProcesses() {
 }
 
 function toItem(row, matched) {
+  const valor = row.precio_base ? Number(row.precio_base) : null;
+  const hasStrongMatch = matched.some((m) => !m.weak);
   return {
     id_proceso: row.id_del_proceso || row.referencia_del_proceso || null,
     fuente: "SECOP II",
@@ -113,12 +118,13 @@ function toItem(row, matched) {
     unspsc: row.codigo_principal_de_categoria || null,
     fecha_publicacion: row.fecha_de_publicacion_del || null,
     descripcion: row.descripci_n_del_procedimiento || row.nombre_del_procedimiento || null,
-    valor: row.precio_base ? Number(row.precio_base) : null,
+    valor,
     estado: row.estado_del_procedimiento || row.estado_resumen || null,
     modalidad: row.modalidad_de_contratacion || null,
     url: row.urlproceso && row.urlproceso.url ? row.urlproceso.url : null,
     matched_groups: [...new Set(matched.map((m) => m.group))],
     matched_keywords: matched.map((m) => m.keyword),
+    destacado: !!(valor && valor >= DESTACADO_VALOR_MIN && hasStrongMatch),
   };
 }
 
@@ -147,6 +153,7 @@ async function main() {
     source_dataset: "datos.gov.co / p6dx-8zbt (SECOP II)",
     total_scanned: rows.length,
     total_matched: items.length,
+    total_destacados: items.filter((it) => it.destacado).length,
     items,
   };
 
