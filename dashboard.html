@@ -157,64 +157,9 @@
   .stat.oportunidades { border-color: var(--explore); }
   .stat.oportunidades .n { color: var(--explore); }
 
-  .destacados-section { margin-bottom: 26px; }
-  .destacados-section h2 {
-    font-family: 'Spectral', Georgia, serif;
-    font-size: 17px;
-    font-weight: 600;
-    margin: 0 0 3px;
-    display: flex;
-    align-items: center;
-    gap: 7px;
-  }
-  .destacados-section h2 .dot {
-    width: 8px; height: 8px; border-radius: 50%;
-    background: var(--accent);
-    display: inline-block;
-  }
-  .destacados-section .sub {
-    color: var(--ink-muted);
-    font-size: 12.5px;
-    margin: 0 0 12px;
-  }
-  .destacados-empty {
-    border: 1px dashed var(--line);
-    border-radius: 10px;
-    padding: 14px 16px;
-    color: var(--ink-muted);
-    font-size: 13px;
-  }
   .card.destacado {
     border-color: var(--accent);
     box-shadow: 0 0 0 1px var(--accent), var(--shadow);
-  }
-
-  .oportunidades-section { margin-bottom: 26px; }
-  .oportunidades-section h2 {
-    font-family: 'Spectral', Georgia, serif;
-    font-size: 17px;
-    font-weight: 600;
-    margin: 0 0 3px;
-    display: flex;
-    align-items: center;
-    gap: 7px;
-  }
-  .oportunidades-section h2 .dot {
-    width: 8px; height: 8px; border-radius: 50%;
-    background: var(--explore);
-    display: inline-block;
-  }
-  .oportunidades-section .sub {
-    color: var(--ink-muted);
-    font-size: 12.5px;
-    margin: 0 0 12px;
-  }
-  .oportunidades-empty {
-    border: 1px dashed var(--line);
-    border-radius: 10px;
-    padding: 14px 16px;
-    color: var(--ink-muted);
-    font-size: 13px;
   }
   .card.oportunidad { border-style: dashed; border-color: var(--explore); }
   .razon {
@@ -267,10 +212,12 @@
     color: var(--bg);
     border-color: var(--ink);
   }
+  .chip[data-cat="Destacado"][aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
   .chip[data-cat="Liferay / Portal"][aria-pressed="true"] { background: var(--cat-portal); border-color: var(--cat-portal); color: #fff; }
   .chip[data-cat="Desarrollo / Fabrica"][aria-pressed="true"] { background: var(--cat-fabrica); border-color: var(--cat-fabrica); color: #fff; }
   .chip[data-cat="IA / Agentes"][aria-pressed="true"] { background: var(--cat-ia); border-color: var(--cat-ia); color: #fff; }
   .chip[data-cat="Integracion / BUS"][aria-pressed="true"] { background: var(--cat-integracion); border-color: var(--cat-integracion); color: #fff; }
+  .chip[data-cat="Otras oportunidades"][aria-pressed="true"] { background: var(--explore); border-color: var(--explore); color: #fff; }
 
   #count-line { color: var(--ink-muted); font-size: 12.5px; margin: 0 0 12px; }
 
@@ -386,18 +333,6 @@
 
   <div class="stats" id="stats"></div>
 
-  <section class="destacados-section">
-    <h2><span class="dot"></span>Destacados</h2>
-    <p class="sub">Valor del contrato ≥ $1.000 millones y coincidencia fuerte con el portafolio de ARIA (no solo soporte/mesa de ayuda genéricos).</p>
-    <div id="destacados-host"></div>
-  </section>
-
-  <section class="oportunidades-section">
-    <h2><span class="dot"></span>Oportunidades a explorar</h2>
-    <p class="sub">Procesos que no calzaron con las palabras clave exactas pero tocan temas adyacentes (datos, arquitectura empresarial, transformación digital…) — seleccionados con criterio, no solo por palabra clave. Vale la pena mirarlos, pero revisa el detalle antes de decidir.</p>
-    <div id="oportunidades-host"></div>
-  </section>
-
   <div class="controls">
     <input id="search" type="search" placeholder="Buscar por entidad, descripción, palabra clave o código UNSPSC…" />
     <div id="chips" style="display:flex; gap:8px; flex-wrap:wrap;"></div>
@@ -427,6 +362,19 @@ const CAT_STAT_CLASS = {
   "Integracion / BUS": "cat-integracion",
 };
 const CATS = ["Liferay / Portal", "Desarrollo / Fabrica", "IA / Agentes", "Integracion / BUS"];
+const FILTER_TAGS = ["Destacado", ...CATS, "Otras oportunidades"];
+
+const ALL_ITEMS = [
+  ...DATA.items.map((it) => ({
+    ...it,
+    tags: [...(it.matched_groups || []), ...(it.destacado ? ["Destacado"] : [])],
+  })),
+  ...(DATA.oportunidades || []).map((op) => ({
+    ...op,
+    tags: ["Otras oportunidades"],
+    matched_keywords: op.matched_broad_keywords || [],
+  })),
+].sort((a, b) => (b.fecha_publicacion || "").localeCompare(a.fecha_publicacion || ""));
 
 const state = { search: "", activeCats: new Set() };
 
@@ -475,7 +423,7 @@ function renderChips() {
   const el = document.getElementById("chips");
   el.innerHTML =
     `<button class="chip" id="chip-all" aria-pressed="true">Todas</button>` +
-    CATS.map((c) => `<button class="chip" data-cat="${c}" aria-pressed="false">${c}</button>`).join("");
+    FILTER_TAGS.map((c) => `<button class="chip" data-cat="${c}" aria-pressed="false">${c}</button>`).join("");
 
   el.querySelector("#chip-all").addEventListener("click", () => {
     state.activeCats.clear();
@@ -499,9 +447,11 @@ function syncChips() {
 }
 
 function matchesFilters(it) {
-  if (state.activeCats.size && !it.matched_groups.some((g) => state.activeCats.has(g))) return false;
+  if (state.activeCats.size && !it.tags.some((t) => state.activeCats.has(t))) return false;
   if (!state.search) return true;
-  const haystack = norm(`${it.entidad} ${it.descripcion} ${it.unspsc} ${it.matched_keywords.join(" ")}`);
+  const haystack = norm(
+    `${it.entidad} ${it.descripcion} ${it.unspsc} ${(it.matched_keywords || []).join(" ")} ${it.razon || ""}`,
+  );
   return haystack.includes(norm(state.search));
 }
 
@@ -532,30 +482,10 @@ function cardHtml(it) {
   </article>`;
 }
 
-function renderDestacados() {
-  const destacados = DATA.items.filter((it) => it.destacado);
-  const host = document.getElementById("destacados-host");
-  if (!destacados.length) {
-    host.innerHTML = `<div class="destacados-empty">Ningún proceso destacado en la ventana actual.</div>`;
-    return;
-  }
-  host.innerHTML = `<div class="cards">${destacados.map(cardHtml).join("")}</div>`;
-}
-
-function renderOportunidades() {
-  const oportunidades = DATA.oportunidades || [];
-  const host = document.getElementById("oportunidades-host");
-  if (!oportunidades.length) {
-    host.innerHTML = `<div class="oportunidades-empty">Ninguna oportunidad adicional identificada hoy.</div>`;
-    return;
-  }
-  host.innerHTML = `<div class="cards">${oportunidades.map(cardHtml).join("")}</div>`;
-}
-
 function renderCards() {
-  const items = DATA.items.filter(matchesFilters);
+  const items = ALL_ITEMS.filter(matchesFilters);
   document.getElementById("count-line").textContent =
-    `${items.length} de ${DATA.items.length} procesos`;
+    `${items.length} de ${ALL_ITEMS.length} procesos`;
 
   const host = document.getElementById("cards");
   if (!items.length) {
@@ -568,8 +498,6 @@ function renderCards() {
 
 renderMeta();
 renderStats();
-renderDestacados();
-renderOportunidades();
 renderChips();
 renderCards();
 document.getElementById("search").addEventListener("input", (e) => {
