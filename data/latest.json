@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-09-10T14:25:57.912Z",
+  "generated_at": "2026-09-11T13:11:40.237Z",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2252,
-  "total_matched": 35,
+  "total_scanned": 2212,
+  "total_matched": 28,
   "total_destacados": 0,
   "items": [
+    {
+      "id_proceso": "CO1.REQ.11006729",
+      "fuente": "SECOP II",
+      "entidad": "GOBERNACION DEL CASANARE",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE ASISTENCIA TÉCNICA Y APOYO OPERATIVO PARA EL DESARROLLO DE ACTIVIDADES ORIENTADAS A FORTALECER LA IMPLEMENTACIÓN DE LA POLÍTICA DE GOBIERNO DIGITAL EN EL DEPARTAMENTO DE CASANARE, MEDIANTE EL SOPORTE LOGÍSTICO AL EQUIPO SECTORIAL, LA ATENCIÓN DE REQUERIMIENTOS EN LA MESA DE AYUDA Y LA CONFIGURACIÓN DE LOS SERVICIOS DE CONECTIVIDAD DE LA ADMINISTRACIÓN DEPARTAMENTAL",
+      "valor": 10584000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864407",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte",
+        "mesa de ayuda"
+      ],
+      "destacado": false
+    },
     {
       "id_proceso": "CO1.REQ.11001782",
       "fuente": "SECOP II",
@@ -45,21 +65,21 @@
       "destacado": false
     },
     {
-      "id_proceso": "CO1.REQ.11000769",
+      "id_proceso": "CO1.REQ.11005689",
       "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD TECNOLÓGICA DE PEREIRA",
-      "unspsc": "V1.81111811",
-      "fecha_publicacion": "2026-09-07T00:00:00.000",
-      "descripcion": "Prestacion de servicios para la renovacion del servicio de soporte Chatbot Cloud SaaS para el registro de solicitudes de soporte de TI.",
-      "valor": 116166667,
+      "entidad": "CORPORACIÓN INTERUNIVERSITARIA DE SERVICIOS - CIS",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Prestación de servicios profesionales para el apoyo a los procesos virtuales y la mesa de ayuda de la Coordinación de Nuevas Tecnologías Educativas.",
+      "valor": 17333333,
       "estado": "Publicado",
       "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854785",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860206",
       "matched_groups": [
-        "IA / Agentes"
+        "Desarrollo / Fabrica"
       ],
       "matched_keywords": [
-        "chatbot"
+        "mesa de ayuda"
       ],
       "destacado": false
     },
@@ -79,6 +99,25 @@
       ],
       "matched_keywords": [
         "mesa de ayuda"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11000769",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD TECNOLÓGICA DE PEREIRA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Prestacion de servicios para la renovacion del servicio de soporte Chatbot Cloud SaaS para el registro de solicitudes de soporte de TI.",
+      "valor": 116166667,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854785",
+      "matched_groups": [
+        "IA / Agentes"
+      ],
+      "matched_keywords": [
+        "chatbot"
       ],
       "destacado": false
     },
@@ -226,25 +265,6 @@
       "estado": "Publicado",
       "modalidad": "Contratación régimen especial",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834255",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10982139",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE YOPAL...",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-09-03T00:00:00.000",
-      "descripcion": "PRESTAR SOPORTE JURIDICO PARA APOYAR LA IMPLEMENTACIÓN DE ESTRATEGIAS DE PREVENCIÓN DEL DAÑO ANTIJURÍDICO Y EL FORTALECIMIENTO DEL CICLO DE DEFENSA JURÍDICA, MEDIANTE EL DESARROLLO DE ACTIVIDADES DE GESTIÓN JURÍDICA, GESTIÓN DEL CONOCIMIENTO, SEGUIMIENTO Y APOYO A LA EJECUCIÓN DEL PROYECTO DE INVERSIÓN  IMPLEMENTACIÓN DE ESTRATEGIAS DE GESTIÓN DEL CICLO DE DEFENSA JURÍDICA Y DAÑO ANTIJURÍDICO EN EL MUNICIPIO DE YOPAL",
-      "valor": 11000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10835631",
       "matched_groups": [
         "Desarrollo / Fabrica"
       ],
@@ -518,158 +538,6 @@
         "portal web + desarrollo"
       ],
       "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10930839",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE ARMENIA QUINDIO",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "PRESTACIÓN DE SERVICIOS PROFESIONALES PARA APOYAR A LA SECRETARÍA DE TIC EN LA GESTIÓN Y SEGUIMIENTO DE LOS REQUERIMIENTOS RECIBIDO A TRAVÉS DE LA MESA DE AYUDA, ASÍ COMO EN LA PRESTACIÓN DE SOPORTE TÉCNICO A LAS DEPENDENCIAS DE LA ADMINISTRACIÓN MUNICIPAL, INCLUYENDO LA ATENCIÓN, TRAZABILIDAD Y EL ADECUADO ESCALAMIENTO DE LAS SOLICITUDES CUANDO SEA NECESARIO.",
-      "valor": 18016667,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10784818",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10930502",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DE ANTIOQUIA",
-      "unspsc": "V1.73152108",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "servicios tecnológicos especializados para la operación, soporte, mantenimiento, actualización, continuidad y fortalecimiento de los componentes que integran el Ecosistema Agro100, mediante el suministro de plataformas tecnológicas bajo modalidad Software como Servicio SaaS, servicios de inteligencia de negocios, analítica de datos, atención virtual mediante inteligencia artificial, comercialización digital, servicios financieros, extensión agropecuaria mediada por TIC y demás herramientas reque",
-      "valor": 242842205,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10784310",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "analitica de datos + inteligencia artificial"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10935592",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DEL CAUCA",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.",
-      "valor": 15346742,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789611",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10934871",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DEL CAUCA",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.",
-      "valor": 15346742,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789549",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10935698",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DEL CAUCA",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.",
-      "valor": 15346742,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789572",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10935035",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DEL CAUCA",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "Prestar servicios profesionales para la ejecución de las estrategias de acompañamiento y seguimiento a las trayectorias estudiantiles de los alumnos identificados en riesgo de deserción mediante el sistema de alertas tempranas, así como apoyar el diseño de intervenciones focalizadas en los componentes psicológico, académico y social, y la investigación institucional para el insumo de preguntas frecuentes del chatbot del Observatorio Académico Integrado, en el marco del Convenio Especial BID No.",
-      "valor": 15346742,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10787998",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10936124",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DEL CAUCA",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.",
-      "valor": 15346742,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789396",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10935150",
-      "fuente": "SECOP II",
-      "entidad": "ESE HOSPITAL EDUARDO SANTOS",
-      "unspsc": "V1.80141600",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "Prestación de servicios de apoyo a la gestión para la implementación y seguimiento del sistema automatizado de citas médicas (Chatbot) en la E.S.E. Hospital Eduardo Santos",
-      "valor": 15000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10788693",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false
     }
   ],
   "candidatos_exploratorios": [
@@ -795,33 +663,18 @@
       ]
     },
     {
-      "id_proceso": "CO1.REQ.10933242",
+      "id_proceso": "CO1.REQ.11002703",
       "fuente": "SECOP II",
-      "entidad": "GOBERNACION DEL VALLE DEL CAUCA - DEPARTAMENTO ADMINISTRATIVO DE PLANEACION",
-      "unspsc": "V1.81111500",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "Desarrollar e implementar el Plan de Acción de la plataforma EVAPLAN para el seguimiento y monitoreo de proyectos de inversión, optimizando su operatividad, asegurando su interoperabilidad con el sistema PIIP y estandarizando el Tablero de Control para medición de Eficacia, Eficiencia y Efectividad del Plan de Desarrollo, incluyendo un módulo de solicitud de cadena de valor con flujos de aprobación y su articulación presupuestal con SAP y el Sistema General de Regalías (SGR)",
-      "valor": 200000000,
+      "entidad": "HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUE TOLIMA - EMPRESA SOCIAL DEL ESTADO",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "CONTRATAR LA RENOVACIÓN DE LAS LICENCIAS DEL ANTIVIRUS PARA LOS SERVIDORES VIRTUALES, ESTACIONES DE TRABAJO, Y RENOVACIÓN DE LICENCIAS PARA LA SOLUCIÓN BUSINESS INTELLIGENCE EN EL HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUÉ ESE",
+      "valor": 124723900,
       "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10786768",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864119",
       "matched_broad_keywords": [
-        "tablero de control"
-      ]
-    },
-    {
-      "id_proceso": "CO1.REQ.10934029",
-      "fuente": "SECOP II",
-      "entidad": "ALCALDIA MUNICIPAL FUSAGASUGA",
-      "unspsc": "V1.80101500",
-      "fecha_publicacion": "2026-08-27T00:00:00.000",
-      "descripcion": "PRESTAR LOS SERVICIOS PARA INCORPORAR, DESARROLLAR E IMPLEMENTAR EL MODELO DE ARQUITECTURA EMPRESARIAL (MAE) EN LOS SIGUIENTES COMPONENTES, PROCESO DE ARQUITECTURA EMPRESARIAL, DOMINIO DE ARQUITECTURA INSTITUCIONAL Y DOMINIO DE ARQUITECTURA DE INFORMACIÓN, SIGUIENDO EL MARCO DE REFERENCIA DE ARQUITECTURA EMPRESARIAL (MRAE V3); ASÍ COMO IMPLEMENTAR UN AGENTE DE INTELIGENCIA ARTIFICIAL (IA), EN ARMONÍA CON LA GUÍA DE LINEAMIENTOS Y PRINCIPIOS ÉTICOS, DE SALVAGUARDA Y BUENAS PRÁCTICAS DEL MINISTERI",
-      "valor": 149945359,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10788791",
-      "matched_broad_keywords": [
-        "arquitectura empresarial"
+        "business intelligence"
       ]
     },
     {
@@ -868,6 +721,21 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10830628",
       "matched_broad_keywords": [
         "tablero de control"
+      ]
+    },
+    {
+      "id_proceso": "CO1.REQ.11006560",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Prestación de servicios como contratista independiente, sin vínculo laboral por su propia cuenta y riesgo para realizar la gestión de Especialista en Ingeniería de Software para la arquitectura de Datos y/o Gobernanza en ejecución del Contrato Interadministrativo No.4600108695 DE 2026, celebrado entre EL DISTRITO ESPECIAL DE CIENCIA TECNOLOGÍA E INNOVACIÓN DE MEDELLÍN,SECRETARÍA DE INNOVACION DIGITAL y el ITM",
+      "valor": 60266667,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860628",
+      "matched_broad_keywords": [
+        "arquitectura de datos"
       ]
     },
     {
@@ -973,6 +841,21 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10836177",
       "matched_broad_keywords": [
         "gestion documental"
+      ]
+    },
+    {
+      "id_proceso": "CO1.REQ.11005081",
+      "fuente": "SECOP II",
+      "entidad": "ESE HOSPITAL SANTA TERESA",
+      "unspsc": "V1.80161504",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES DE APOYO A LOS EQUIPOS BÁSICOS DE SALUD (EBS) DE LA E.S.E. HOSPITAL SANTA TERESA DEL MUNICIPIO DE TESALIA HUILA, PARA EL FORTALECIMIENTO DE LOS PROCESOS DE ATENCIÓN PRIMARIA EN SALUD (APS), MEDIANTE EL ACOMPAÑAMIENTO TÉCNICO EN LA PRESENTACIÓN DE INFORMES, GESTIÓN Y VALIDACIÓN DE INFORMACIÓN DEL COMPONENTE POBLACIONAL SI-APS, VERIFICACIÓN DE ESTÁNDARES DE CALIDAD DE DATOS, CAPACITACIÓN Y SEGUIMIENTO A LOS EBS, ELABORACIÓN Y VALIDACIÓN DE ARCHIVOS REQUERIDOS POR EL",
+      "valor": 30000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10859506",
+      "matched_broad_keywords": [
+        "calidad de datos"
       ]
     }
   ]
