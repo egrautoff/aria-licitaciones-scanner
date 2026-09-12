@@ -1,11 +1,49 @@
 {
-  "generated_at": "2026-09-11T13:11:40.237Z",
+  "generated_at": "2026-09-12T12:35:39.571Z",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2212,
-  "total_matched": 28,
+  "total_scanned": 2151,
+  "total_matched": 31,
   "total_destacados": 0,
   "items": [
+    {
+      "id_proceso": "CO1.REQ.10946276",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA SOCIAL DEL ESTADO GUAPI ESE",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "EL CONTRATISTA se compromete a brindar apoyo a la gestión\nmediante servicios profesionales, técnicos y tecnológicos en las\náreas administrativas y asistenciales de la E.S.E., a través de sus\nafiliados partícipes, orientados al apoyo en el mantenimiento,\nsoporte y asesoría técnica en el área de sistemas, al apoyo en el\ndesarrollo e implementación del Programa de Gestión Ambiental y\nManejo de Residuos (PGIRHS) y al apoyo técnico biomédico, así\ncomo a la ejecución de otras actividades conexas o\ncom",
+      "valor": 39600000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10872157",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11015809",
+      "fuente": "SECOP II",
+      "entidad": "CORPORACIÓN AUTÓNOMA DEL RÍO GRANDE DE LA MAGDALENA**",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "RENOVACION DEL HOSTING DEL SITIO WEB DE LA ENTIDAD Y ACTUALIZACION DEL GESTOR DE CONTENIDOS INCLUYE MEJORAS Y AFINAMIENTOS DEL PORTAL WEB DE ACUERDO A LOS LINEAMIENTOS DE GOBIERNO EN LINEA",
+      "valor": 96959000,
+      "estado": "Publicado",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869986",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "gestor de contenidos"
+      ],
+      "destacado": false
+    },
     {
       "id_proceso": "CO1.REQ.11006729",
       "fuente": "SECOP II",
@@ -22,6 +60,44 @@
       ],
       "matched_keywords": [
         "desarrollo + implementacion + soporte",
+        "mesa de ayuda"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11013764",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.",
+      "valor": 11000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11015735",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE TERUEL",
+      "unspsc": "V1.80111701",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS DE APOYO A LA GESTIÓN PARA\nREALIZAR ACOMPAÑAMIENTO EN EL MANEJO Y\nRELACIONAMIENTO CON LA MESA DE AYUDA DEL SECOP II",
+      "valor": 3000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10870033",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
         "mesa de ayuda"
       ],
       "destacado": false
@@ -217,25 +293,6 @@
       "destacado": false
     },
     {
-      "id_proceso": "CO1.REQ.10984937",
-      "fuente": "SECOP II",
-      "entidad": "INSTITUCIÓN UNIVERSITARIA COLEGIO MAYOR DE ANTIOQUIA",
-      "unspsc": "V1.86111503",
-      "fecha_publicacion": "2026-09-04T00:00:00.000",
-      "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo e implementación de los componentes virtuales, multimedia y tecnológicos requeridos para el cumplimiento del Contrato Interadministrativo No. ANSV-114 de 2025 suscrito con la Agencia Nacional de Seguridad Vial, incluyendo el diseño, producción, montaje, soporte y adaptación de un diplomado virtual asincrónico de noventa (90) horas, cursos tipo MOOC, contenidos audiovisuales e interactivos, la plataforma LMS Moodle, con criterios de acces",
-      "valor": 985000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10838908",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false
-    },
-    {
       "id_proceso": "CO1.REQ.10986975",
       "fuente": "SECOP II",
       "entidad": "INSTITUTO DE VIVIENDA DE INTERES SOCIAL Y REFORMA URBANA DEL MUNICIPIO DE BUCARAMANGA",
@@ -255,6 +312,25 @@
       "destacado": false
     },
     {
+      "id_proceso": "CO1.REQ.10984937",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA COLEGIO MAYOR DE ANTIOQUIA",
+      "unspsc": "V1.86111503",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo e implementación de los componentes virtuales, multimedia y tecnológicos requeridos para el cumplimiento del Contrato Interadministrativo No. ANSV-114 de 2025 suscrito con la Agencia Nacional de Seguridad Vial, incluyendo el diseño, producción, montaje, soporte y adaptación de un diplomado virtual asincrónico de noventa (90) horas, cursos tipo MOOC, contenidos audiovisuales e interactivos, la plataforma LMS Moodle, con criterios de acces",
+      "valor": 985000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10838908",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
       "id_proceso": "CO1.REQ.10980950",
       "fuente": "SECOP II",
       "entidad": "EMPRESAS MUNICIPALES DE CALI",
@@ -265,25 +341,6 @@
       "estado": "Publicado",
       "modalidad": "Contratación régimen especial",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834255",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10976091",
-      "fuente": "SECOP II",
-      "entidad": "INDEV",
-      "unspsc": "V1.80111607",
-      "fecha_publicacion": "2026-09-03T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS PROFESIONALES DE APOYO A LA SUBGERENCIA DE INFRAESTRUCTURA Y DESARROLLO URBANO, EN LA EJECUCIÓN DE LAS ACTIVIDADES DE ATENCIÓN A USUARIOS Y SOPORTE AL PROCESO DE ASIGNACIÓN DE SUBSIDIOS DE VIVIENDA FAMILIAR, EN EL MARCO DEL PROYECTO DE INVERSIÓN DENOMINADO FORTALECIMIENTO E IMPLEMENTACIÓN DE POLÍTICAS PARA LA DISMINUCIÓN DEL DÉFICIT DE VIVIENDA EN YOPAL",
-      "valor": 9434880,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10829932",
       "matched_groups": [
         "Desarrollo / Fabrica"
       ],
@@ -549,7 +606,7 @@
       "fecha_publicacion": "2026-09-01T00:00:00.000",
       "descripcion": "REALIZAR LA CONSULTORÍA ESPECIALIZADA PARA EL DIAGNÓSTICO Y LA DEFINICIÓN DE LA RUTA DE MODERNIZACIÓN DIGITAL Y TECNOLÓGICA DE LA CONTRALORÍA DE CUNDINAMARCA, QUE COMPRENDA EL DISEÑO DE LA ARQUITECTURA EMPRESARIAL INSTITUCIONAL, EL DIMENSIONAMIENTO DE LA INFRAESTRUCTURA TECNOLÓGICA REQUERIDA, LA IDENTIFICACIÓN Y PRIORIZACIÓN DE LOS PROCESOS SUSCEPTIBLES DE AUTOMATIZACIÓN, Y LA FORMULACIÓN DE LA POLÍTICA DE TRANSFORMACIÓN DIGITAL DE LA ENTIDAD",
       "valor": 855000000,
-      "estado": "Publicado",
+      "estado": "Abierto",
       "modalidad": "Concurso de méritos abierto",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10813558",
       "matched_broad_keywords": [
@@ -588,21 +645,6 @@
       ]
     },
     {
-      "id_proceso": "CO1.REQ.10943431",
-      "fuente": "SECOP II",
-      "entidad": "FONDO NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES - FNGRD",
-      "unspsc": "V1.80111604",
-      "fecha_publicacion": "2026-08-28T00:00:00.000",
-      "descripcion": "Adquirir la Renovación Integral del Portal Institucional\nde la Unidad Nacional para la Gestión del Riesgo De Desastres UNGRD Incluyendo el Diseño, Desarrollo,\nImplementación, Migración de Contenidos Integración con Sistemas Misionales y Administrativos, puesta en\nOperación y Soporte Técnico sobre una Plataforma Tecnológica Segura Accesible Interoperable y Escalable",
-      "valor": 500000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10796680",
-      "matched_broad_keywords": [
-        "business intelligence"
-      ]
-    },
-    {
       "id_proceso": "CO1.REQ.10976064",
       "fuente": "SECOP II",
       "entidad": "SECRETARÍA GENERAL DE LA ALCALDÍA MAYOR DE BOGOTÁ",
@@ -618,6 +660,21 @@
       ]
     },
     {
+      "id_proceso": "CO1.REQ.11012499",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE SEGOVIA",
+      "unspsc": "V1.43211500",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DE UN SERVIDOR DESTINADO A GARANTIZAR EL ADECUADO\nFUNCIONAMIENTO, DISPONIBILIDAD Y CONTINUIDAD OPERATIVA DEL SOFTWARE\nDEL SISTEMA DE GESTION DOCUMENTAL DE LA ALCALDIA DE SEGOVIA",
+      "valor": 345036667,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10866538",
+      "matched_broad_keywords": [
+        "gestion documental"
+      ]
+    },
+    {
       "id_proceso": "CO1.REQ.10951902",
       "fuente": "SECOP II",
       "entidad": "MUNICIPIO DE SEGOVIA",
@@ -625,7 +682,7 @@
       "fecha_publicacion": "2026-08-31T00:00:00.000",
       "descripcion": "ADQUISICIÓN DE UN SERVIDOR DESTINADO A GARANTIZAR EL ADECUADO\nFUNCIONAMIENTO, DISPONIBILIDAD Y CONTINUIDAD OPERATIVA DEL SOFTWARE\nDEL SISTEMA DE GESTION DOCUMENTAL DE LA ALCALDIA DE SEGOVIA",
       "valor": 345036667,
-      "estado": "Publicado",
+      "estado": "Evaluación",
       "modalidad": "Selección abreviada subasta inversa",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10805677",
       "matched_broad_keywords": [
@@ -766,6 +823,36 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818290",
       "matched_broad_keywords": [
         "transformacion digital"
+      ]
+    },
+    {
+      "id_proceso": "CO1.REQ.11009102",
+      "fuente": "SECOP II",
+      "entidad": "Región Metropolitana",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Desarrollar actividades profesionales orientadas al diseño, implementación y\nadministración de la arquitectura de datos de la Región Metropolitana Bogotá -\nCundinamarca, mediante el análisis, integración, automatización y\nprocesamiento de información proveniente de diferentes fuentes; el desarrollo\nde procesos ETL/ELT; la administración de bases de datos; y el fortalecimiento de\nla calidad, disponibilidad, seguridad y gobierno de los datos Institucionales y del\nObservatorio de Dinámicas Regional",
+      "valor": 42940000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873362",
+      "matched_broad_keywords": [
+        "arquitectura de datos"
+      ]
+    },
+    {
+      "id_proceso": "CO1.REQ.11015278",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESAS PUBLICAS DE MEDELLIN E.S.P.",
+      "unspsc": "V1.20121445",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Modulo acoplador profibus pa pepperl+fuchs kfd2-br-1.pa.1500 para sistema de control,Modulo fuente profibus pepperl+fuchs hd2-gtr-4pa para tablero de control",
+      "valor": 36837600,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869158",
+      "matched_broad_keywords": [
+        "tablero de control"
       ]
     },
     {
