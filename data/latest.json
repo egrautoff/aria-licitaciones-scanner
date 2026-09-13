@@ -1,11 +1,30 @@
 {
-  "generated_at": "2026-09-12T12:35:39.571Z",
+  "generated_at": "2026-09-13T13:36:08.730Z",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2151,
-  "total_matched": 31,
-  "total_destacados": 0,
+  "total_scanned": 2200,
+  "total_matched": 33,
+  "total_destacados": 1,
   "items": [
+    {
+      "id_proceso": "CO1.REQ.11009126",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO DE DESARROLLO URBANO",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "CONTRATAR LOS SERVICIOS ESPECIALIZADOS PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN Y ACTUALIZACIÓN DE UNA SOLUCIÓN INTEGRAL WEB DEL IDU, SEDE ELECTRÓNICA, MIGRACIÓN PORTAL Y ASISTENTE VIRTUAL",
+      "valor": 1687628250,
+      "estado": "Borrador",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884169",
+      "matched_groups": [
+        "IA / Agentes"
+      ],
+      "matched_keywords": [
+        "asistente virtual"
+      ],
+      "destacado": true
+    },
     {
       "id_proceso": "CO1.REQ.10946276",
       "fuente": "SECOP II",
@@ -17,6 +36,63 @@
       "estado": "Publicado",
       "modalidad": "Contratación régimen especial",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10872157",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11023112",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA LOCAL DE TUNJUELITO",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES PARA BRINDAR SOPORTE TÉCNICO Y ADMINISTRATIVO A LA GESTIÓN DEL REFERENTE DE SEGURIDAD Y CONVIVENCIA CIUDADANA DEL FONDO DE DESARROLLO LOCAL DE TUNJUELITO, MEDIANTE LA CONSOLIDACIÓN DE INFORMACIÓN, LA ELABORACIÓN DE INSUMOS TÉCNICOS Y EL ACOMPAÑAMIENTO A LA IMPLEMENTACIÓN, SEGUIMIENTO Y FORTALECIMIENTO DE LAS ACCIONES DEL COMPONENTE",
+      "valor": 21800000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10877704",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11017427",
+      "fuente": "SECOP II",
+      "entidad": "SENA REGIONAL SANTANDER Grupo de Apoyo Administrativo Mixto",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo de actividades de soporte técnico en sitio, administración, implementación y configuración de herramientas tecnológicas requeridas para la ejecución, seguimiento y gestión de la información de los proyectos de la Red Nacional de Cacao.",
+      "valor": 7543333,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873984",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11020649",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCION EDUCATIVA BERTHA GEDEON DE BALADI",
+      "unspsc": "V1.81112103",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "SERVICIOS TECNOLÓGICOS PARA EL DISEÑO, DESARROLLO, ALOJAMIENTO, IMPLEMENTACIÓN Y SOPORTE TÉCNICO DE LA PÁGINA WEB DE LA INSTITUCION EDUCATIVA BERTHA GEDEON DE BALADI",
+      "valor": 2520000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10874724",
       "matched_groups": [
         "Desarrollo / Fabrica"
       ],
@@ -45,6 +121,25 @@
       "destacado": false
     },
     {
+      "id_proceso": "CO1.REQ.11013764",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.",
+      "valor": 11000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false
+    },
+    {
       "id_proceso": "CO1.REQ.11006729",
       "fuente": "SECOP II",
       "entidad": "GOBERNACION DEL CASANARE",
@@ -60,25 +155,6 @@
       ],
       "matched_keywords": [
         "desarrollo + implementacion + soporte",
-        "mesa de ayuda"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11013764",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA",
-      "unspsc": "V1.81111811",
-      "fecha_publicacion": "2026-09-09T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.",
-      "valor": 11000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
         "mesa de ayuda"
       ],
       "destacado": false
@@ -110,7 +186,7 @@
       "fecha_publicacion": "2026-09-08T00:00:00.000",
       "descripcion": "TIC11 Prestar los servicios de administración técnica, soporte, mantenimiento, evolución, actualización tecnológica y desarrollo de nuevas funcionalidades del portal web de TRANSMILENIO S.A.",
       "valor": 334398360,
-      "estado": "Publicado",
+      "estado": "Abierto",
       "modalidad": "Selección Abreviada de Menor Cuantía",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10855451",
       "matched_groups": [
@@ -160,25 +236,6 @@
       "destacado": false
     },
     {
-      "id_proceso": "CO1.REQ.10995264",
-      "fuente": "SECOP II",
-      "entidad": "HOSPITAL VENANCIO DIAZ DIAZ",
-      "unspsc": "V1.43231501",
-      "fecha_publicacion": "2026-09-07T00:00:00.000",
-      "descripcion": "Prestación de servicios de soporte y mesa de ayuda para la infraestructura tecnológica de la ESE HOSPITAL VENANCIO DIAZ DIAZ del Municipio de Sabaneta.",
-      "valor": 6300000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10849379",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false
-    },
-    {
       "id_proceso": "CO1.REQ.11000769",
       "fuente": "SECOP II",
       "entidad": "UNIVERSIDAD TECNOLÓGICA DE PEREIRA",
@@ -194,6 +251,25 @@
       ],
       "matched_keywords": [
         "chatbot"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10995264",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL VENANCIO DIAZ DIAZ",
+      "unspsc": "V1.43231501",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Prestación de servicios de soporte y mesa de ayuda para la infraestructura tecnológica de la ESE HOSPITAL VENANCIO DIAZ DIAZ del Municipio de Sabaneta.",
+      "valor": 6300000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10849379",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
       ],
       "destacado": false
     },
@@ -289,44 +365,6 @@
       ],
       "matched_keywords": [
         "mantenimiento evolutivo"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10986975",
-      "fuente": "SECOP II",
-      "entidad": "INSTITUTO DE VIVIENDA DE INTERES SOCIAL Y REFORMA URBANA DEL MUNICIPIO DE BUCARAMANGA",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-09-04T00:00:00.000",
-      "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES COMO ABOGADO ESPECIALISTA PARA LIDERAR Y APOYAR EL COMPONENTE JURÌDICO DE LA OPERACIÒN URBANA ESTRATÈGICA SAN RAFAEL (OUE), MEDIANTE LA CONSOLIDACIÒN, VALIDACIÒN  Y GESTIÓN DE LOS INSTRUMENTOS NORMATIVOS, ADMINISTRATIVOS Y PREDIALES PRIORIZADOS, ASÍ COMO EL SOPORTE JURÍDICO A LOS INSTRUMENTOS URBANÍSTICOS, SOCIALES Y FINANCIEROS REQUERIDOS, EN DESARROLLO DEL PROYECTO APOYO TÉCNICO Y LEGAL PARA LA IMPLEMENTACIÓN DEL PROYECTO URBANO ESTRATÉGICO SAN RAFAEL EN B",
-      "valor": 15000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10840884",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10984937",
-      "fuente": "SECOP II",
-      "entidad": "INSTITUCIÓN UNIVERSITARIA COLEGIO MAYOR DE ANTIOQUIA",
-      "unspsc": "V1.86111503",
-      "fecha_publicacion": "2026-09-04T00:00:00.000",
-      "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo e implementación de los componentes virtuales, multimedia y tecnológicos requeridos para el cumplimiento del Contrato Interadministrativo No. ANSV-114 de 2025 suscrito con la Agencia Nacional de Seguridad Vial, incluyendo el diseño, producción, montaje, soporte y adaptación de un diplomado virtual asincrónico de noventa (90) horas, cursos tipo MOOC, contenidos audiovisuales e interactivos, la plataforma LMS Moodle, con criterios de acces",
-      "valor": 985000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10838908",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
       ],
       "destacado": false
     },
@@ -747,22 +785,6 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818086",
       "matched_broad_keywords": [
         "inteligencia de negocios"
-      ]
-    },
-    {
-      "id_proceso": "CO1.REQ.10946646",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DE CALDAS.",
-      "unspsc": "V1.94101608",
-      "fecha_publicacion": "2026-08-29T00:00:00.000",
-      "descripcion": "PRESTAR LOS SERVICIOS DE UN PROFESIONAL EN INGENIERÍA DE SISTEMAS PARA EL LEVANTAMIENTO DE REQUERIMIENTOS,\nINTEGRACIÓN, VALIDACIÓN, VISUALIZACIÓN Y APROVECHAMIENTO DE LOS DATOS INSTITUCIONALES DISPONIBLES EN EL ECOSISTEMA\nTECNOLÓGICO DE LA UNIVERSIDAD, MEDIANTE EL USO DE HERRAMIENTAS DE INTELIGENCIA DE NEGOCIOS, ASÍ COMO EL APOYO EN LA\nIMPLEMENTACIÓN DE SERVICIOS DE ACCESO A DATOS (ENDPOINTS) EN ORACLE CLOUD INFRASTRUCTURE, EN EL MARCO DE LOS\nLINEAMIENTOS DE ARQUITECTURA Y GOBIERNO DE DATOS INST",
-      "valor": 65212230,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10800610",
-      "matched_broad_keywords": [
-        "inteligencia de negocios",
-        "gobierno de datos"
       ]
     },
     {
