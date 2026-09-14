@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-13T13:36:08.730Z",
+  "generated_at": "2026-09-14T15:36:05.910Z",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2200,
-  "total_matched": 33,
-  "total_destacados": 1,
+  "total_scanned": 2256,
+  "total_matched": 35,
+  "total_destacados": 2,
   "items": [
     {
       "id_proceso": "CO1.REQ.11009126",
       "fuente": "SECOP II",
       "entidad": "INSTITUTO DE DESARROLLO URBANO",
-      "unspsc": "V1.81112200",
+      "unspsc": "V1.81111500",
       "fecha_publicacion": "2026-09-11T00:00:00.000",
       "descripcion": "CONTRATAR LOS SERVICIOS ESPECIALIZADOS PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN Y ACTUALIZACIÓN DE UNA SOLUCIÓN INTEGRAL WEB DEL IDU, SEDE ELECTRÓNICA, MIGRACIÓN PORTAL Y ASISTENTE VIRTUAL",
       "valor": 1687628250,
-      "estado": "Borrador",
+      "estado": "Publicado",
       "modalidad": "Selección Abreviada de Menor Cuantía",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884169",
       "matched_groups": [
@@ -24,6 +24,63 @@
         "asistente virtual"
       ],
       "destacado": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11030623",
+      "fuente": "SECOP II",
+      "entidad": "DEPARTAMENTO DE CUNDINAMARCA- SECRETARIA DE SALUD",
+      "unspsc": "V1.85101500",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Aunar esfuerzos administrativos, técnicos y financieros entre la Secretaría De Salud De Cundinamarca y la Empresa Social Del Estado Hospital De Girardot, con el propósito de fortalecer su capacidad operativa, contribuir al saneamiento de sus obligaciones financieras y garantizar la continuidad y adecuada ejecución de las funciones administrativas de soporte a la operación institucional y a la continuidad de la prestación de los servicios de salud en el marco de la implementación y desarrollo de",
+      "valor": 1847178000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10885058",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11027535",
+      "fuente": "SECOP II",
+      "entidad": "CONTRALORIA DEPARTAMENTAL DE BOLIVAR",
+      "unspsc": "V1.81161501",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS ESPECIALIZADOS PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN, PARAMETRIZACIÓN, PUESTA EN FUNCIONAMIENTO, CAPACITACIÓN, SOPORTE Y OPERACIÓN DE UNA PLATAFORMA TECNOLÓGICA TIPO SOFTWARE COMO SERVICIO (SaaS), MARCA BLANCA EL CUAL SE DENOMINARA AUDITA360, DESTINADA A LA GESTIÓN INTEGRAL DEL PROCESO DE RENDICIÓN ELECTRÓNICA DE CUENTAS DE LOS SUJETOS DE CONTROL DE LA CONTRALORÍA DEPARTAMENTAL DE BOLÍVAR, DE ACUERDO CON LA PROPUESTA Y LAS ESPECIFICACIONES TÉCNICAS",
+      "valor": 70000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10883604",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11017427",
+      "fuente": "SECOP II",
+      "entidad": "SENA REGIONAL SANTANDER Grupo de Apoyo Administrativo Mixto",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo de actividades de soporte técnico en sitio, administración, implementación y configuración de herramientas tecnológicas requeridas para la ejecución, seguimiento y gestión de la información de los proyectos de la Red Nacional de Cacao.",
+      "valor": 7543333,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873984",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
     },
     {
       "id_proceso": "CO1.REQ.10946276",
@@ -55,25 +112,6 @@
       "estado": "Seleccionado",
       "modalidad": "Contratación directa",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10877704",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11017427",
-      "fuente": "SECOP II",
-      "entidad": "SENA REGIONAL SANTANDER Grupo de Apoyo Administrativo Mixto",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-09-10T00:00:00.000",
-      "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo de actividades de soporte técnico en sitio, administración, implementación y configuración de herramientas tecnológicas requeridas para la ejecución, seguimiento y gestión de la información de los proyectos de la Red Nacional de Cacao.",
-      "valor": 7543333,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873984",
       "matched_groups": [
         "Desarrollo / Fabrica"
       ],
@@ -121,25 +159,6 @@
       "destacado": false
     },
     {
-      "id_proceso": "CO1.REQ.11013764",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA",
-      "unspsc": "V1.81111811",
-      "fecha_publicacion": "2026-09-09T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.",
-      "valor": 11000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false
-    },
-    {
       "id_proceso": "CO1.REQ.11006729",
       "fuente": "SECOP II",
       "entidad": "GOBERNACION DEL CASANARE",
@@ -155,6 +174,25 @@
       ],
       "matched_keywords": [
         "desarrollo + implementacion + soporte",
+        "mesa de ayuda"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11013764",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.",
+      "valor": 11000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
         "mesa de ayuda"
       ],
       "destacado": false
@@ -236,25 +274,6 @@
       "destacado": false
     },
     {
-      "id_proceso": "CO1.REQ.11000769",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD TECNOLÓGICA DE PEREIRA",
-      "unspsc": "V1.81111811",
-      "fecha_publicacion": "2026-09-07T00:00:00.000",
-      "descripcion": "Prestacion de servicios para la renovacion del servicio de soporte Chatbot Cloud SaaS para el registro de solicitudes de soporte de TI.",
-      "valor": 116166667,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854785",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false
-    },
-    {
       "id_proceso": "CO1.REQ.10995264",
       "fuente": "SECOP II",
       "entidad": "HOSPITAL VENANCIO DIAZ DIAZ",
@@ -308,6 +327,25 @@
       ],
       "matched_keywords": [
         "automatizacion de procesos"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11000769",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD TECNOLÓGICA DE PEREIRA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Prestacion de servicios para la renovacion del servicio de soporte Chatbot Cloud SaaS para el registro de solicitudes de soporte de TI.",
+      "valor": 116166667,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854785",
+      "matched_groups": [
+        "IA / Agentes"
+      ],
+      "matched_keywords": [
+        "chatbot"
       ],
       "destacado": false
     },
@@ -845,6 +883,21 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818290",
       "matched_broad_keywords": [
         "transformacion digital"
+      ]
+    },
+    {
+      "id_proceso": "CO1.REQ.11028361",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE PRADERA",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS PARA LA IMPLEMENTACIÓN, PUESTA EN FUNCIONAMIENTO Y OPERACIÓN DE UNA PLATAFORMA TECNOLÓGICA DE GESTIÓN DOCUMENTAL EN MODALIDAD SAAS (SOFTWARE AS A SERVICE), PARA EL FORTALECIMIENTO DE LA GESTIÓN DOCUMENTAL DE LA ALCALDÍA MUNICIPAL DE PRADERA, VALLE DEL CAUCA",
+      "valor": 50000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10882394",
+      "matched_broad_keywords": [
+        "gestion documental"
       ]
     },
     {
