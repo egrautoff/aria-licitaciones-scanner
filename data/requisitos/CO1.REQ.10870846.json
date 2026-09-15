@@ -14,5 +14,6 @@
   "texto": "• Corrección Lógica de Semaforización: El sistema debe ser ajustado en la validación entre SAP y el Sistema SIIF Nación, para\n que se reflejen las diferencias reales de los rubros presupuestales\n • Verificar sectorizar los campos por área información para mejorar usabilidad o agrupar los campos para que sean más\n pedagógicos y entendibles.\n 2. • Validación de botones funcionales: Revisión y puesta en funcionamiento los botones de Generar reserva y Anular Reservas\n se requiere manual o documentar y estandarizar funcionamiento de botones, socialización de procedimiento y actualización de\n plantillas.\n • Control de Columnas: Las columnas que en la actualidad no se le da uso ocultarla con la posibilidad que se dejen habilitar a\n futuro si se requieren como son: Modalidad de Contratación Realizada, Códigos UNSPSC, Duración del contrato, Responsable\n compromiso, ejecutivos de contrato, Programa de Financiamiento, Fecha Estimada de Compra, asimismo el ajuste de nombres\n de las columnas.",
   "unspsc_exigidos": [],
   "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": []
 }

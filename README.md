@@ -124,9 +124,23 @@ Dos detalles que cuestan una hora si no se saben:
 
 El apartado tiene tres partes: **lo que exige el pliego** (el texto tal cual, con enlace a los documentos), **cómo estamos** (cada código con ✓ o ✗ y los SMMLV acreditados) y una **conclusión** — "puede presentarse", "no puede presentarse" o "probablemente sí, hay que confirmarlo".
 
+### El check de monto
+
+No basta estar inscrito en el código: el pliego exige que los contratos **sumen** cierto valor en SMMLV. Se verifican las dos cosas.
+
+Leer la cifra del texto **no funciona**: la mayoría de las menciones de SMMLV en un pliego son del código penal (*"multa de doscientos (200) a mil (1000) salarios mínimos"*). Ese ruido se filtra por contexto (`multa`, `prisión`, `incurrirá`, `servidor público`).
+
+La vía que sí funciona es calcular el requisito desde el presupuesto, que viene en la API: los pliegos lo expresan como porcentaje del presupuesto oficial en SMMLV. El pliego tipo del IDU trae la tabla — 75% con 1-2 contratos, 100% con 3-5, hasta 200%.
+
+**El SMMLV vigente está en `config/parametros.json` (`smmlv.valor`) y hay que actualizarlo cada enero.** El de 2026 se derivó del pliego de IDARTES, que publica sus lotes en pesos y en SMMLV: $41.509.767 / 23,71 = **$1.750.905**. Validado al revés contra el IDU: $1.687.628.250 / 1.750.905 = 963,86, exactamente la cifra que el pliego declara.
+
+**ARIA no puede sumar sus 42 contratos.** Dos razones: los pliegos limitan cuántos admiten (`max_contratos`, presente en 40 de los analizados) y un contrato inscrito en cinco códigos no vale cinco veces. Por eso el documento `config/rup` guarda el detalle por contrato además del acumulado por código, y la suma toma los mayores que apliquen hasta el tope.
+
+**Hallazgo: el monto no es la limitación de ARIA.** De los 218, en 174 alcanza y en ninguno falla por plata — los 43 restantes fallan por códigos. El proceso más grande del radar equivale a 3.536 SMMLV y aun exigiendo el 200% serían 7.072; los tres mayores contratos de ARIA suman 32.763 SMMLV sin contar la unión temporal. La conclusión se sostiene aunque esa fila resulte inflada.
+
 **Lo que la conclusión NO verifica, y el tablero lo dice debajo:**
 
-- **El monto.** Los pliegos exigen que la sumatoria sea igual o superior a X SMMLV. Se muestran los acumulados de ARIA pero no se comparan contra ese mínimo. Un "cumple" de códigos no es un "cumple" de plata.
+- **El porcentaje exacto.** Se compara contra el 100% del presupuesto; el rango real va del 75% al 200% según cuántos contratos se presenten.
 - **Los lotes.** Si el proceso está dividido, cada lote suele exigir códigos distintos y los extraídos vienen mezclados. Se avisa en rojo cuando `lotes > 1`.
 - La lista de códigos sale de leer el pliego con una heurística, no de una lista oficial.
 

@@ -5573,8 +5573,8 @@
       ]
     },
     "requisitos": {
-      "_leeme": "Analisis de requisitos: solo se bajan documentos de procesos abiertos de la lista principal que superen este valor. Cada proceso se analiza una vez y queda en cache; se vuelve a mirar solo si le aparecieron documentos nuevos.",
-      "valor_min": 50000000,
+      "_leeme": "Analisis de requisitos: se baja el pliego de todos los procesos con documentos y se guarda para siempre. Cada proceso se analiza una vez; despues solo se revisa si le aparecieron documentos nuevos, y esa consulta no descarga nada.",
+      "valor_min": 0,
       "max_documentos": 2,
       "prioridad_documentos": [
         "pliego de condiciones definitivo",
@@ -5590,7 +5590,9 @@
         "invitacion publica",
         "invitacion",
         "anexo tecnico"
-      ]
+      ],
+      "solo_abiertos": false,
+      "max_caracteres_tablero": 1800
     },
     "reglas": [
       {
@@ -5904,7 +5906,12 @@
       "arquitectura de microservicios",
       "consultoria tecnologica",
       "consultoria ti"
-    ]
+    ],
+    "smmlv": {
+      "_leeme": "Salario minimo mensual legal vigente, para convertir presupuestos a SMMLV. Se deriva de los pliegos: IDARTES publica sus lotes en pesos y en SMMLV y la division da esta cifra. Actualizar cada enero.",
+      "anio": 2026,
+      "valor": 1750905
+    }
   },
   "requisitos": {
     "CO1.REQ.10838745": {
@@ -5928,6 +5935,7 @@
         "81111803"
       ],
       "minimo_codigos": 1,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -5941,6 +5949,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -5960,6 +5969,7 @@
       "texto": "• Corrección Lógica de Semaforización: El sistema debe ser ajustado en la validación entre SAP y el Sistema SIIF Nación, para\n que se reflejen las diferencias reales de los rubros presupuestales\n • Verificar sectorizar los campos por área información para mejorar usabilidad o agrupar los campos para que sean más\n pedagógicos y entendibles.\n 2. • Validación de botones funcionales: Revisión y puesta en funcionamiento los botones de Generar reserva y Anular Reservas\n se requiere manual o documentar y estandarizar funcionamiento de botones, socialización de procedimiento y actualización de\n plantillas.\n • Control de Columnas: Las columnas que en la actualidad no se le da uso ocultarla con la posibilidad que se dejen habilitar a\n futuro si se requieren como son: Modalidad de Contratación Realizada, Códigos UNSPSC, Duración del contrato, Responsable\n compromiso, ejecutivos de contrato, Programa de Financiamiento, Fecha Estimada de Compra, asimismo el ajuste de nombres\n de las columnas.",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -5996,6 +6006,7 @@
         "43232300"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6056,6 +6067,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -6078,6 +6090,7 @@
         "81112501"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6102,6 +6115,7 @@
       "texto": "Que la EMPRESA SOCIAL DEL ESTADO GUAPI ESE, requiere personal capacitado para\nbrindar mantenimiento, soporte técnico, acompañamiento, seguimiento orientación y\nprograma de gestión ambiental en el PGIRHS con el fin de garantizar la continuidad y\neficiencia en las áreas asistenciales y administrativas de la entidad para la prestación de los\nservicios de salud a la población del municipio de Guapi - Cauca, de forma integral con\ncalidad y oportunidad; el Hospital de la ESE GUAPI, no cuenta con el personal de planta\nsuficiente para garantizar la prestación de estos servicios de mantenimiento por lo cual se\nhace necesario contratar organización que cuente con el personal para brindar estos\nservicios de mantenimiento, que cuente con la idoneidad y experiencia, para que brinde los\nprocesos administrativos y asistencial que se requieren en la entidad.\n Guapi – Cauca: Carrera 2 #12-25 / Barrio San Francisco\n Teléfono: (0572) 840 1007 ext: 104\n eseguapicauca@yahoo.es - tesoreriaeseguapi2020@gmail.com\n\f ESTUDIOS PREVIO DE NECESIDADES.\n Nit. 900.146.012-0\n\nRevisando la planta de personal de la E.S.E GUAPI, y según el acuerdo 009 del 29 de julio\nde 2016, manual de funciones, actualmente la empresa no cuenta con el personal de planta\nsuficiente para desempeñar las actividades administrativas que requiere la entidad, debido a\nla gran demanda de servicios a cargo de la E.S.E, por lo cual requiere apoyo en el área de\nmantenimiento. soporte técnico y demás de la empresa, para llevar a cabo todas las\nactuaciones necesarias; en los procesos de sistemas y programa de gestión ambiental\nmanejo PGIRHS y demás procesos y actividades que requiere la E.S.E GUAPI, con el fin de\ngarantizar los fines de la entidad. debido a que dicha actividad no puede ser satisfecha por el\npersonal de nómina actual,\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6143,6 +6157,7 @@
         "43232100"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6181,6 +6196,7 @@
         "43233200"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6194,6 +6210,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6236,6 +6253,7 @@
         "81161500"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6282,6 +6300,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6295,6 +6314,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6336,6 +6356,7 @@
         "81112501"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [],
       "recortado": true
     },
@@ -6357,6 +6378,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6386,6 +6408,7 @@
         "80101600"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6416,6 +6439,7 @@
         "81112005"
       ],
       "minimo_codigos": null,
+      "max_contratos": 4,
       "smmlv": [
         "100",
         "6"
@@ -6432,6 +6456,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6456,6 +6481,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6482,6 +6508,7 @@
         "43231600"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6495,6 +6522,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6543,6 +6571,7 @@
         "39111500"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [
         "62.10",
         "2.99"
@@ -6576,6 +6605,7 @@
         "81112500"
       ],
       "minimo_codigos": 1,
+      "max_contratos": 3,
       "smmlv": [],
       "recortado": true
     },
@@ -6589,6 +6619,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6610,6 +6641,7 @@
         "81112500"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "313,36",
         "200"
@@ -6626,6 +6658,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6658,6 +6691,7 @@
         "81112400"
       ],
       "minimo_codigos": null,
+      "max_contratos": 5,
       "smmlv": [],
       "recortado": true
     },
@@ -6726,6 +6760,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6756,6 +6791,7 @@
         "43230000"
       ],
       "minimo_codigos": null,
+      "max_contratos": 4,
       "smmlv": [],
       "recortado": true
     },
@@ -6796,6 +6832,7 @@
         "43233500"
       ],
       "minimo_codigos": 1,
+      "max_contratos": 4,
       "smmlv": [],
       "recortado": true
     },
@@ -6820,6 +6857,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -6851,6 +6889,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "200"
       ],
@@ -6887,6 +6926,7 @@
         "81110000"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6911,6 +6951,7 @@
       "texto": "Que dentro del direccionamiento estratégico de la Entidad para el periodo 2024-2028, adoptado mediante la\nResolución 0 0412 del 10 de septiembre de 2024 \"Experiencia e innovación en el servicio de la justicia\", se\nestablece que entre 2024 y 2028, la Fiscalía General de la Nación emprende la construcción colectiva y la\npuesta en marcha de nuevos modelos de abordaje de la acción penal, mediante los cuales optimizará sus\nrecursos, experiencias y aprendizajes, con aporte de todos los servidores y servidoras en el propósito de\nconsolidar la misión constitucional, en donde, la esencia del cambio consiste, entonces, en una\ntransformación en las maneras de ser, ver, pensar, actuar y abordar la gestión de la conflictividad encargada\na la justicia penal, cuya puerta de entrada es la Fiscalía General de la Nación.\nLa Visión institucional proyecta que para el año 2028, establece que: “(...) la Fiscalía General de la Nación\npara el período 2024-2028, se compromete a garantizar el acceso efectivo a la justicia para las y los\ncolombianos, persiguiendo los fenómenos criminales más complejos y enfocándose en las personas. Esto se\nlogrará mediante la priorización de la investigación en las regiones, la atención integral a las víctimas, la\npromoción de la justicia premial y una gestión ágil y transparente basada en herramientas tecnológicas, la\ncapacitación de sus servidores (...)”\nEn el anterior contexto, la Fiscalía General de la Nación con fundamento en la Constitución Política y el\nDecreto Ley 016 de 2014 modificado por el Decreto Ley 898 de 2017, para el cumplimiento de los objetivos\ny funciones señalados en el ordenamiento jurídico, cuenta con una estructura misional y administrativa que\nactúa como un todo, conformado por distintos eslabones dentro de los cuales se encuentra la Dire\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -6958,6 +6999,7 @@
         "43232400"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -6996,6 +7038,7 @@
         "81111800"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "96,32"
       ],
@@ -7022,6 +7065,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7060,6 +7104,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -7117,6 +7162,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "119,12"
       ],
@@ -7132,6 +7178,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7188,6 +7235,7 @@
         "43232300"
       ],
       "minimo_codigos": null,
+      "max_contratos": 4,
       "smmlv": [
         "347,13",
         "1.750.905"
@@ -7246,6 +7294,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [
         "1.000",
         "280"
@@ -7284,6 +7333,7 @@
         "80111607"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -7312,6 +7362,7 @@
         "81111809"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -7340,6 +7391,7 @@
         "43233500"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [],
       "recortado": true
     },
@@ -7372,6 +7424,7 @@
         "43233415"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "110,53"
       ],
@@ -7420,6 +7473,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7448,6 +7502,7 @@
         "43230000"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [],
       "recortado": false
     },
@@ -7487,6 +7542,7 @@
         "43231500"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [],
       "recortado": true
     },
@@ -7506,6 +7562,7 @@
       "texto": "3. El contratista garantiza el mantenimiento regular de la plataforma y se compromete a\n realizar actualizaciones periódicas para garantizar la disponibilidad de contenido\n actualizado y relevante.\n 4. El contratista se compromete a brindar un soporte técnico oportuno y eficiente para\n solucionar cualquier problema técnico o inquietud relacionada con el acceso o uso del\n servicio, garantizando un tiempo de respuesta máximo de 2 días calendario a partir\n de la notificación del incidente por parte de la Institución.\n 5. El contratista ofrecerá un mínimo de una capacitación de dos horas por semestre\n dirigida a estudiantes y docentes, para asegurar un uso efectivo y óptimo de la\n plataforma, familiarizando a los usuarios con las funcionalidades y recursos\n disponibles.\n 6. El contratista se compromete a implementar medidas de seguridad adecuadas para\n proteger la privacidad y confidencialidad de los datos de los usuarios, así como para\n prevenir cualquier acceso no autorizado a la plataforma.\n 7. El contratista garantiza el cumplimiento de todas las leyes y regulaciones aplicables\n en relación con la prestación del servicio, incluyendo normativas de protección de\n datos y propiedad intelectual.\n 8. El contratista debe proporcionar subdominios personalizados para la universidad, que\n incluyan un buscador con el logotipo de la institución, para una experiencia de\n búsqueda más integrada y con la identidad visual de la institución.\n 9. El contratista se compromete a proporcionar estadísticas de uso de la plataforma que\n podrán ser solicitadas por la Institución en el momento que lo requiera.\n 10. Cuando para la ejecución del contrato se requiera subcontratar bienes, obras, o\n servicios dentro de la cadena de provisión, el contratista deberá propender por\n contratar personas n\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -7557,6 +7614,7 @@
         "43233700"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -7587,6 +7645,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7600,6 +7659,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7624,6 +7684,7 @@
       "texto": "El Municipio de Uribía, con fundamento en lo establecido en la Ley 80 de 1993, la Ley 1150 de\n2007, el Decreto 1082 de 2015 y demás normas reglamentarias, y en atención a que\nCOMERCIALIZADORA DE SOFTWARE, SERVICIOS Y SUMINISTROS S.A.S. es titular de los\nderechos de explotación económica sobre los sistemas de información SIIAFE – Sistema de\nInformación Integrado Administrativo y Financiero Estatal – y SWIT – Software Web de Impuestos\nTerritoriales –, conforme a la certificación expedida por el Jefe de la Oficina de Registro de la\nDirección Nacional de Derecho de Autor, Unidad Administrativa Especial del Ministerio del Interior\ny de Justicia, cuyo objeto es la gestión integral de tributos municipales y departamentales, así\ncomo del sistema de información administrativo y financiero estatal, se permite extender la\npresente invitación.\nEn consecuencia, desde esta Secretaría de Hacienda Municipal se le invita a presentar oferta\npara la ejecución de un contrato cuyo objeto es el ARRENDAMIENTO EN LA NUBE Y SERVICIOS\nTECNOLÓGICOS COMPLEMENTARIOS EN APOYO A LA GESTIÓN ADMINISTRATIVA,\nFINANCIERA Y TRIBUTARIA A TRAVÉS DE LA DISPOSICIÓN Y SOPORTE TÉCNICO DE LOS\nSISTEMAS DENOMINADO SIIAFE - SISTEMA DE INFORMACIÓN INTEGRADO\nADMINISTRATIVO Y FINANCIERO ESTATAL Y SWIT – SOFTWARE WEB DE IMPUESTOS\nTERRITORIALES EN SUS VERSIONES ESTÁNDAR, EL MÓDULO DE LIQUIDACIÓN DE\nNÓMINAS, 4 RENTAS DINÁMICAS (ESTAMPILLAS) ADICIONALES, MÓDULO DE CONTROL Y\nGESTIÓN DE PROYECTOS DE INVERSIÓN Y EL APLICATIVO MÓVIL GERENCIAL, BAJO LA\nMODALIDAD DE SOFTWARE COMO SERVICIO (SAAS), PARA LA VIGENCIA 2026\nEl contenido de la propuesta deberá fundamentarse en los estudios y documentos previos\nelaborados para este proceso, en los cuales se describen de manera detallada los aspectos\ntécnicos, económicos y jurídicos que \n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -7688,6 +7749,7 @@
         "49201600"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -7715,6 +7777,7 @@
         "43232300"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "388,41"
       ],
@@ -7757,6 +7820,7 @@
         "81112102"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7778,6 +7842,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7817,6 +7882,7 @@
         "43233200"
       ],
       "minimo_codigos": null,
+      "max_contratos": 4,
       "smmlv": [],
       "recortado": true
     },
@@ -7839,6 +7905,7 @@
         "85101700"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7852,6 +7919,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7876,6 +7944,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7904,6 +7973,7 @@
         "81112208"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "30.000"
       ],
@@ -7932,6 +8002,7 @@
         "81112205"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7945,6 +8016,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -7966,6 +8038,7 @@
         "81111500"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8017,6 +8090,7 @@
         "81111500"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8059,6 +8133,7 @@
         "81000000"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "95"
       ],
@@ -8085,6 +8160,7 @@
         "81112202"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8113,6 +8189,7 @@
         "81111800"
       ],
       "minimo_codigos": 1,
+      "max_contratos": 3,
       "smmlv": [],
       "recortado": false
     },
@@ -8155,6 +8232,7 @@
         "24072026"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "516,61",
         "200",
@@ -8183,6 +8261,7 @@
       "texto": "1. Presentar en cada requerimiento de EL BANCO una estimación del esfuerzo de desarrollo\n indicando el tiempo de dedicación de cada perfil.\n 2. EL CONTRATISTA deberá encargarse de (i) Los esquemas de la base de datos en el ambiente de\n desarrollo e integración, (ii) Los datos de dicha base, incluyendo su creación y mantenimiento,\n (iii) La configuración de las herramientas requeridas para el desarrollo del trabajo, y (iv) la\n configuración y respaldo de los equipos de computación personal utilizados en el ambiente de\n desarrollo, respetando los lineamientos de seguridad y configuración de EL BANCO.\n 3. Cumplir con la metodología DG-T-PN-15_Metodologia_de_Gerencia_de_Proyectos.\n 4. Obrar con lealtad y buena fe en las distintas etapas contractuales, aportando su experiencia,\n conocimiento técnico e infraestructura en la ejecución del objeto del contrato.\n 5. Ejecutar el contrato con todos los recursos técnicos necesarios para cumplir con el objeto\n contractual.\n 6. Constituir las pólizas de seguros identificadas en el contrato.\n 7. Responder ante EL BANCO por cualquier daño o perjuicio directo que sus empleados,\n contratistas y/o subcontratistas causen a empleados de EL BANCO, a bienes muebles o\n1 Se usa la expresión “el contratista” para referirse a la posible situación de suscribir un contrato, sin embargo para efectos\n de este documento las expresiones en singular “el oferente” y “el contratista”, hacen referencia a la misma persona.\n\nFormación Profesional en ingeniería en temas afines a tecnologías de información.\n • Más de 10 años en proyectos de bodegas de datos o inteligencia de\n negocios\n • Más de 3 años como arquitecto o líder de soluciones de Bl.\n • Más de 3 años de experiencia modelando Bodegas de Datos. Al\n menos 1 año en la tecnología del Banco (Teradata).\nEx\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "100",
         "440",
@@ -8213,6 +8292,7 @@
       "texto": "2.1.2.02.02.005.501 MANTENIMIENTO - SERVICIOS PLANTA FISICA\nValor establecido de conformidad con la consulta de precios y condiciones del mercado\nrealizada a travds de Precios de Referencia para los servicios objeto de la presente\ncontratacidn y teniendo en cuenta los costos directos e indirectos en que deber£ incurrir el\ncontratista.\n5. CRITERIO PARA SELECCION DE OFERTA.\nLos criterios que se utilizaron en la seleccidn de la oferta, cuando fuere del caso, seran los\nsiguientes:\n1. Calidad del servicio.\n2. Experiencia del servicio prestado.\n3. La propuesta econdmica presentada por el proponente.\n\n2.1. ETAPA CONTRACTUAL - Requisitos del contrato\nHOJA DE VIDA FUNClbN PUBLICA - Persona Juridica X I I\nCAMARA DE COMERCIO X____________________\nRUT (No inferior a un mes)_________________________ X\nFOTOCOPIA CEDULA AL 150% Del representante legal X_____________________\nDECLARACldN DE BIENES Y RENTAS ANO ANTERIOR X____________________\nCARNET DE VACUNAClpN COVID -19_________________ X____________________\nCERTIFICADO DE EXPERIENOA LABORAL______________ X____________________\nCERTIFICADO DE ANTECEDENTES FISCALES X\n(CONTRALORIA)__________________________________\nCERTIFICADO DE ANTECEDENTES JUDICIALES. (POLICIA) X\nCERTIFICADO NACIONAL DE MEDIDAS CORRECTIVAS\nCERTIFICADO DE ANTECEDENTES DISCIPLINARIOS X\n(PROCURADURIA)________________________________\nHOJA DE VIDA TRABAJADORES (Queacrediten idoneidad: X\nEstudios, Experiencia)_________________________________\nCERTIFICADO DE REGISTRO DE DEUDORES ALIMENTARIOS X\nMOROSOS - REDAM_______________________________\nCEERTIFICADO DE CONSULTA DE INHABILIDADES - LEY X\n1918 DE 2018.___________________________________\nCERTIFICADO DE CUENTA BANCARIA_________________ X\nCERTIFICADO DE AFILIAClON A SEGURIDAD SOCIAL X\n(SALUD, PENSIONESYARL)\n 3. ETAPA POS CONTRAC\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -8237,6 +8317,7 @@
         "81111707"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [
         "200"
       ],
@@ -8285,6 +8366,7 @@
         "43202206"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -8323,6 +8405,7 @@
         "43233400"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "243.02",
         "85.51",
@@ -8377,6 +8460,7 @@
         "81112000"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -8447,6 +8531,7 @@
         "43232501"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -8479,6 +8564,7 @@
         "43232000"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "46",
         "23,71",
@@ -8508,6 +8594,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8536,6 +8623,7 @@
         "43233500"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -8569,6 +8657,7 @@
         "43232402"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8596,6 +8685,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -8625,6 +8715,7 @@
         "43233500"
       ],
       "minimo_codigos": 1,
+      "max_contratos": 4,
       "smmlv": [],
       "recortado": true
     },
@@ -8638,6 +8729,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8666,6 +8758,7 @@
         "20260445"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -8698,6 +8791,7 @@
         "81112300"
       ],
       "minimo_codigos": null,
+      "max_contratos": 5,
       "smmlv": [
         "1.000.000"
       ],
@@ -8719,6 +8813,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8793,6 +8888,7 @@
         "43000000"
       ],
       "minimo_codigos": 1,
+      "max_contratos": null,
       "smmlv": [
         "3.024,7",
         "400"
@@ -8809,6 +8905,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8832,6 +8929,7 @@
         "81161700"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "1500"
       ],
@@ -8853,6 +8951,7 @@
       "texto": "MEDIO\n N obtener el capital\n ALTO\n prestación del para verificar DESDE LA HASTA LA evaluador que infirmes del\n10 que financie el 4 4 4 3 2 3 SI\n servicio capacidad financiera PLANEACIÓN LIQUIDACIÓN seleccione supervisor\n PÚBLICA PÚBLICA\n FINANCIER cumplimiento del\n asistencial a los del proponente a elegir correctamente técnico\n O objeto del contrato\n usuarios\n\n9. ANEXOS\nANEXO 1. HISTORIAL DE CAMBIOS\n Descripción de la Actualizado\n Fecha Revisado por Aprobado por\n Modificación por\n Grupo de\n Diciembre Damary Rueda Sánchez\n Emisión del documento estándares de\n de 2014 Líder del proceso Gestión del talento humano\n talento humano\n Cambio en el nombre del\n Instructivo (Instructivo de\n seguimiento para el\n cumplimiento de los Nicéforo Damary Rueda\n estándares de Gerencia del Grupo de Rincón García Sánchez\n Febrero Talento Humano del manual estándares de Líder del proceso Líder del proceso\n de 2015 de Acreditación ambulatorio y talento humano Gestión de Adquisición Gestión del talento\n Hospitalario), Se realizaron de Bienes y Servicios humano\n cambios en el ítem de\n priorización acciones de\n mejor para impactar la\n transformación cultural\n Ajustes en cada uno de los Nicéforo Damary Rueda\n ítems en cuanto a Grupo de Rincón García Sánchez\n Enero de periodicidad y entregables estándares de Líder del proceso Líder del proceso\n 2016 para dar cumplimiento al talento humano Gestión de Adquisición Gestión del talento\n manual de Acreditación de Bienes y Servicios humano\n Ambulatorio y Hospitalario\n Damary Rueda Sánchez\n Ajustes en cada uno de los Profesional\n Especializado Unidad Martha Rosa Amira\n ítems en cuanto a definir Grupo de Vega Blanco\n Diciembre requisitos habilitantes y Funcional de Talento\n estándares de Humano Subgerente\n de 2017 requisitos contractuales, talento humano A\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -8913,6 +9012,7 @@
         "81111800"
       ],
       "minimo_codigos": 2,
+      "max_contratos": 3,
       "smmlv": [],
       "recortado": true
     },
@@ -8932,6 +9032,7 @@
       "texto": "El suscrito (nombre del rep legal) , en calidad de representante legal de (nombre de la empresa), de acuerdo con las condiciones generales de la Invitación , respecto de la experiencia , inform o que la (EMPRESA) cuenta con la siguiente para tal fin aporto certificación :",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -8964,6 +9065,7 @@
         "80111600"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9006,6 +9108,7 @@
         "81141704"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9019,6 +9122,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -9045,6 +9149,7 @@
         "81131504"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "25"
       ],
@@ -9060,6 +9165,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -9105,6 +9211,7 @@
         "81110000"
       ],
       "minimo_codigos": null,
+      "max_contratos": 5,
       "smmlv": [
         "963,86",
         "2.000"
@@ -9136,6 +9243,7 @@
         "81111800"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9164,6 +9272,7 @@
         "81111820"
       ],
       "minimo_codigos": null,
+      "max_contratos": 4,
       "smmlv": [
         "594,76"
       ],
@@ -9185,6 +9294,7 @@
       "texto": "Que de acuerdo con circular de remuneración y equivalencias de los contratos de prestación de\nservicios profesionales CR-20250121 DEL 06/10/2025, se realizará la equivalencia a título de\nposgrado en la modalidad de maestría, por título de posgrado en la modalidad de especialización y\ncuatro años de experiencia especifica, requisitos con los que cuenta la profesional.\n\nÍtem Descripción\n Abogados TITULO DE POSGRADO DERECHO ADMINISTRATIVO O\nEstudios:\n CONTRATACIÓN ESTATAL\n Mínimo 5 Años de experiencia general y,\nExperiencia:\n Mínimo 5 Años de experiencia específica Contratación estatal y convenios\n\nEl proceso que se surtirá será el de contratación directa de conformidad con lo establecido en el\nnumeral 3 del artículo 32 de la Ley 80 de 1993, en el literal h) del numeral 4 del artículo 2 de la Ley\n1150 de 2007 y en el artículo 2.2.1.2.1.4.9 del Decreto 1082 de 2015, que hace referencia a contratos\nde prestación de servicios profesionales y de apoyo a la gestión, o para la ejecución de trabajos\nartísticos que solo pueden encomendarse a determinadas personas naturales, que a la letra dice: “Las\nentidades estatales pueden contratar bajo la modalidad de contratación directa la prestación de\nservicios profesionales y de apoyo a la gestión con la persona natural o jurídica que esté en capacidad\nde ejecutar el objeto del contrato, siempre y cuando la entidad estatal verifique la idoneidad o\nexperiencia requerida y relacionada con el área de que se trate. […]”\n\nexperiencia, así como de certificaciones de cargos ocupados y contratos anteriores ejecutados por el\nfuturo contratista.\n\nPara efectos de la verificación del cumplimiento de la experiencia e idoneidad del CONTRATISTA y\nsuscripción del futuro contrato será necesario que el proponente anexe los siguientes documentos:",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -9215,6 +9325,7 @@
       "texto": "14. Acreditar para cada uno de los pagos que se encuentra al día en el pago de aportes parafiscales relativos\nal sistema de seguridad social integral, así como los propios del SENA, ICBF y Cajas de Compensación familiar,\ncuando corresponda y allegar certificación expedida por el revisor fiscal o representante legal, según sea el\ncaso, de acuerdo con lo ordenado en el artículo 50 de la ley 789 del 27 de diciembre de 2002 y demás normas\nconcordantes.\n\nPor consiguiente, por ser aplicable la causal señalada en el numeral 3 del presente estudio previo, se podrá\ncontratar directamente con quien esté en capacidad de ejecutar el objeto del contrato, siempre y cuando se\nverifique que el futuro proveedor cumple con la idoneidad y experiencia solicitada por el área que requiere el\nservicio, y teniendo en cuenta los factores técnicos (calidad) y económicos (precio) establecidos por la\nSecretaría mediante el análisis del sector (artículo 2.2.1.1.1.6.1. del Decreto 1082 de 2015) y el estudio del\n\nEn cumplimiento de lo dispuesto en el numeral 3.1.2 de la Guía para el Ejercicio de las Funciones de\nSupervisión e Interventoría, se realizó el análisis sobre la necesidad de contar con interventoría para el contrato\ncuyo objeto es: \"Suscripción al soporte de las licencias del Software SPSS\". Como resultado del análisis\nefectuado, la Entidad determina que no se requiere la contratación de una interventoría externa, por cuanto las\nactividades objeto del contrato puede ser objeto de seguimiento, control y verificación permanente por parte de\nla Entidad a través del ejercicio de la supervisión. La Entidad cuenta con personal adscrito a la Dirección de\nInformática y Tecnología de la SHD, con los conocimientos, experiencia y competencias necesarias para\nverificar el cumplimiento de las obligacion\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9253,6 +9364,7 @@
         "43223300"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "854"
       ],
@@ -9289,6 +9401,7 @@
         "43233500"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -9312,6 +9425,7 @@
         "81111811"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9342,6 +9456,7 @@
         "81111800"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -9383,6 +9498,7 @@
       "texto": "#;ar:a°:d:i#;ae:!t:a:r:::q::£Cn::atu:±tji;#%I:::gel:afae;::r}:egct:uia:'iied£°3y::o:I::ed]:9ag:i'iaEa8:§|::it,i:\npara satisfacer la necesidad es la celebraci6n de un contrato de prestaci6n de servicios de apoyo\na la gesti6n con una persona natural con formaci6n tecnica o profesional en areas juridicas o\nadministrativas y experiencia comprobable minima de un (01 ) avee en entidades pdblicas o privadas,\nejerciendo actividades similares al objeto contractual nde en el presente proceso, cuya\nduraci6n, valor y forma de pago se estableceran en ?ouseascea::teet: pertinentes del presente estudio\nprevio, teniendo en cuenta para ello el Sgi CONTRATISTA.\n\nEn consecuencla, se requiere adelarl! un Dr®ee de contrataci6n directa de conformidad con lo\nestablecido en el articuld 32 Numers.^ 5\"d rs78ly 8o de 1 993V;ley 1 1 5o de 2oo7, Ley 1474 de 2011\ny el Decreto 1082 de 2015, para contra{€ brestacj6n dffiiservici¢s con la persona que acredite la\nidoneidad y experiencia requerida- gr8j¥jecutar del contrato,\n\nEn consonancia con las actividades a desarrollar, prima el intelecto y requiriendo personal con un\ngrado de conocimiento en la administraci6n de la plataforma de contrataci6n pilblica de Colombia\nCompra Eficiente, siendo insuficiente la planta de personal adoptada por el Municipio de Teruel,\nespecialmente en la SECRETARIA DE PLANEACION, la alternativa legal con que cuenta la\nentidad para suplir la necesidad temporal que tiene, es mediante la celebraci6n de un contrato de\nprestaci6n de servicios personales con una persona natural, que este en capacidad de ejecutar el\nobjeto del contrato y que demuestre la idoneidad y la experiencia directamente relacionada,\nconforme a las especificaciones que se indican en este documento, lo anterior conforme al articulo\n32 -numeral 3 de la Ley 80 de\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9411,6 +9527,7 @@
         "81112500"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "200"
       ],
@@ -9437,6 +9554,7 @@
       "texto": "1\n GCCON-F-086 V1\n\fGeneralidades:\n1) Este formato tiene como objetivo establecer la oportunidad y conveniencia técnica, jurídica y\n financiera de la necesidad identificada por la entidad, la cual se satisfará a través de la suscripción de\n un contrato de servicios profesionales o de apoyo a la gestión.\n2) El formato está asociado al Manual de Contratación (GCCON-M-001) y al Manual Supervisión e\n Interventoría (GCCON-M-002), así como a los procedimientos que rigen la gestión contractual de la\n entidad.\n3) El formato debe ser diligenciado por cada área estructuradora del proceso.\n4) Este instrumento permite agrupar varias necesidades que tengan el mismo objeto. Tal situación se\n debe relatar y justificar suficiente y ampliamente en los numerales que correspondan.\n5) El formato establecido en el numeral 13.2 del presente documento (Certificado de idoneidad y\n experiencia) se deberá cargar en el numeral 5 del contrato electrónico en la plataforma SECOP II.\n6) El formato es diligenciado cada vez que se presente la necesidad de tramitar un futuro contrato.\n7) Este formato no requiere ser impreso. Sin embargo, debe ser cargado en las plataformas\n administradas Colombia Compra Eficiente junto con sus anexos.\n8) El formato, una vez diligenciado, deberá archivarse de conformidad con lo establecido en las tablas\n de retención documental de la entidad.\n9) El contenido que se encuentra en color diferente a negro, entre paréntesis o con el signo “/” son\n orientaciones para el diligenciamiento del formato.\n10) El formato puede ser modificado en aquellos apartados en que así se indique.\n11) Las notas internas son situaciones o recomendaciones que se deben tener en cuenta al momento de\n elaborar el formato. No obstante, las mismas deben ser eliminadas previa impresión o suscripción del\n\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9472,6 +9590,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -9498,6 +9617,7 @@
         "81111500"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9522,6 +9642,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -9557,6 +9678,7 @@
         "43223300"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [],
       "recortado": true
     },
@@ -9583,6 +9705,7 @@
         "81112103"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "20"
       ],
@@ -9621,6 +9744,7 @@
         "81112202"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "243,05",
         "1.750.905"
@@ -9666,6 +9790,7 @@
         "43232800"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9687,6 +9812,7 @@
         "43232408"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9716,6 +9842,7 @@
         "81111800"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "280"
       ],
@@ -9753,6 +9880,7 @@
         "81112101"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -9788,6 +9916,7 @@
         "93131607"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "200"
       ],
@@ -9819,6 +9948,7 @@
         "43232600"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [
         "100",
         "6"
@@ -9864,6 +9994,7 @@
         "81161500"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9877,6 +10008,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -9901,6 +10033,7 @@
       "texto": "Formato No 1 Carta de presentación de la propuesta\n Formato No 2 Modelo documento de conformación de consorcio\n Formato No 3 Modelo documento de conformación de unión temporal\n Formato No 4 Formato de Propuesta económica\n Formato No 5 Certificación de cumplimiento artículo 50 ley 789 de 2002\n Formato No 6 Información tributaria y/o financiera del proponente o de cada uno de sus integrantes,\n si el mismo es un consorcio o una unión temporal.\n Formato No 7 A Declaración sobre multas y sanciones -Persona Natural-\n Formato No 7 B Declaración sobre multas y sanciones -Persona Jurídica-\n Formato No 8 Carta de compromiso de transparencia y anticorrupción\n Formato No 9 Certificado de acreditación de Experiencia General del proponente para cumplir con los\n requisitos habilitantes\n Formato No 9 B Certificado de acreditación de Experiencia especifica del proponente para cumplir con\n los requisitos habilitantes\n ANEXO C Ficha Técnica\n\nDe conformidad con lo establecido en el numeral 1 del artículo 5º de la Ley 1150 de 2007, la capacidad jurídica\ny las condiciones de experiencia, capacidad financiera y de organización de los proponentes serán objeto de\nverificación de cumplimiento como requisitos habilitantes para la participación en el proceso de selección y no\notorgarán puntaje, con excepción de lo previsto en el numeral 4 del precitado artículo.\n\nEs indispensable para la entidad establecer unas condiciones mínimas para los proponentes de tal manera que\nla Entidad Estatal sólo evalúe las ofertas de aquellos que están en condiciones de cumplir con el objeto del\nProceso de Contratación. En razón de esto la Entidad solicita experiencia adecuada y proporcional al presente\nobjeto contractual por lo cual es necesario la identificación de una experiencia general y especifica afín al\nprese\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "200"
       ],
@@ -9941,6 +10074,7 @@
         "81112213"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": true
     },
@@ -9985,6 +10119,7 @@
         "43231500"
       ],
       "minimo_codigos": null,
+      "max_contratos": 3,
       "smmlv": [
         "452"
       ],
@@ -10024,6 +10159,7 @@
         "39111500"
       ],
       "minimo_codigos": null,
+      "max_contratos": 2,
       "smmlv": [
         "62.10",
         "2.99"
@@ -10040,6 +10176,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "recortado": false
     },
@@ -10093,6 +10230,7 @@
         "81112200"
       ],
       "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [
         "200"
       ],
@@ -10114,6 +10252,7 @@
       "texto": "7.2. EXPERIENCIA. ANEXO 6.\nSe tendrá como experiencia mínima del Proponente, la acreditación de contratos celebrados con\nentidades públicas o privadas, a través de documentos tales como: i) CERTIFICACIONES, ii)\nACTAS DE TERMINACIÓN, iii) ACTAS DE LIQUIDACIÓN, iv) ACTAS DE RECIBO FINAL DE\nBIENES Y/O SERVICIOS de contratos ejecutados, que contengan mínimo la siguiente información:\n\n7.2.1. CARACTERÍSTICAS DE LOS CONTRATOS PRESENTADOS PARA ACREDITAR LA\nEXPERIENCIA EXIGIDA.\n\na. En virtud de dar cumplimiento al artículo 33 de la Ley 2069 de 2020 que promueven el acceso\n de las MIPYMES al mercado de compras públicas, la entidad permite facilitar la participación en\n el Proceso de Contratación, por lo que, las MIPYME que pretendan participar, podrán acreditar\n la experiencia exigida en el presente proceso de selección con un MÍNIMO DE UNA (1) Y UN\n MÁXIMO DE CINCO (5) certificaciones de experiencias de contratos ejecutados y terminados\n a satisfacción.\n\nb. Los Proponentes que no sean Mipymes podrán acreditar la experiencia con MÍNIMO UNO (1)\n Y MÁXIMO DE TRES (3) certificaciones de experiencias contratos ejecutados y terminados a\n satisfacción.\n Para establecer la aplicabilidad de este tipo de incentivo, se evaluará conforme a lo presentado\n en los Certificados de Existencia y Representación Legal.\n\ne. La sumatoria de las experiencias aportadas debe ser sea igual o superior al cien por ciento\n (100%) del valor del presupuesto oficial del presente proceso de selección expresado en\n SMMLV.\n\ng. Para los contratos que sean aportados por socios de empresas que no cuentan con más de tres\n (3) años de constituidas, deben adjuntar un documento suscrito por el representante legal y el\n revisor fiscal o contador público (según corresponda) donde se indique la conformación de la\n empresa.\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
+      "max_contratos": 5,
       "smmlv": [
         "200"
       ],

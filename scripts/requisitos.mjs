@@ -175,13 +175,29 @@ function minimoCodigos(texto) {
   return null;
 }
 
+// La mayoria de las menciones de SMMLV en un pliego son del codigo penal
+// ("multa de doscientos (200) a mil (1000) salarios minimos"), no requisitos.
+// Sin este filtro el tablero mostraba multas como si fueran el monto exigido.
+const CONTEXTO_PENAL = /multa|prision|incurrir[aá]|delito|servidor p[uú]blico|inhabilitaci[oó]n|penal/i;
+
 function smmlv(texto) {
   const hallazgos = new Set();
   for (const m of texto.matchAll(/([\d.,]{1,12})\s*(?:\(\s*[^)]{0,40}\)\s*)?smmlv/gi)) {
+    const alrededor = texto.slice(Math.max(0, m.index - 220), m.index + 120);
+    if (CONTEXTO_PENAL.test(alrededor)) continue;
     const v = m[1].replace(/[.,]$/, "").trim();
     if (/\d/.test(v)) hallazgos.add(v);
   }
   return [...hallazgos].slice(0, 12);
+}
+
+// Cuantos contratos deja presentar el pliego. Importa porque ARIA no puede
+// sumar los 42 del RUP: si el pliego admite maximo tres, solo cuentan los tres
+// mas grandes que apliquen.
+function maxContratos(texto) {
+  const n = norm(texto);
+  const m = n.match(/(?:m[aá]ximo|hasta)\s+(?:de\s+)?\w{0,10}\s*\((\d)\)\s*(?:certificaciones?[^.]{0,40})?contratos/);
+  return m ? Number(m[1]) : null;
 }
 
 async function main() {
@@ -326,6 +342,7 @@ async function main() {
       unspsc_exigidos: codigosUnspsc(textoTotal),
       // Cuantos de esos codigos hay que acreditar, si el pliego lo dice.
       minimo_codigos: minimoCodigos(textoTotal),
+      max_contratos: maxContratos(textoTotal),
       smmlv: smmlv(textoTotal),
     };
     writeFileSync(destino, JSON.stringify(salida, null, 2));
@@ -355,6 +372,10 @@ async function main() {
     };
   }
   datos.requisitos = requisitos;
+  // Los parametros se refrescan aqui tambien: este script corre despues del
+  // fetch y la configuracion pudo cambiar en medio. Sin esto, el tablero recibe
+  // la version que habia cuando corrio el fetch.
+  datos.parametros = CFG;
   writeFileSync(datosPath, JSON.stringify(datos, null, 2));
 
   console.log(

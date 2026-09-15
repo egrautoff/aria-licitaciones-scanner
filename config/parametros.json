@@ -353,5 +353,10 @@
     "arquitectura de microservicios",
     "consultoria tecnologica",
     "consultoria ti"
-  ]
+  ],
+  "smmlv": {
+    "_leeme": "Salario minimo mensual legal vigente, para convertir presupuestos a SMMLV. Se deriva de los pliegos: IDARTES publica sus lotes en pesos y en SMMLV y la division da esta cifra. Actualizar cada enero.",
+    "anio": 2026,
+    "valor": 1750905
+  }
 }
