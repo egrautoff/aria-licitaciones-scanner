@@ -329,6 +329,71 @@
   .chip[data-cat="Nube / Plataforma"][aria-pressed="true"] { background: var(--cat-nube); border-color: var(--cat-nube); color: #fff; }
   .chip[data-cat="Otras oportunidades"][aria-pressed="true"] { background: var(--explore); border-color: var(--explore); color: #fff; }
 
+  .chip.filtros {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .chip.filtros[aria-expanded="true"] { border-color: var(--accent); color: var(--ink); }
+  .chip.filtros .cuantos {
+    background: var(--accent);
+    color: var(--accent-ink);
+    border-radius: 999px;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 4px;
+    font-size: 10px;
+    font-weight: 600;
+    display: grid;
+    place-items: center;
+  }
+  .chip.filtros .flecha { font-size: 9px; opacity: .7; }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px 14px;
+    align-items: end;
+  }
+  .campo { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .campo label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .campo select {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 7px 9px;
+    color: var(--ink);
+    font-family: inherit;
+    font-size: 13px;
+    min-width: 0;
+  }
+  .campo select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  #limpiar {
+    background: none;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 7px 12px;
+    color: var(--ink-muted);
+    font-family: inherit;
+    font-size: 12.5px;
+    cursor: pointer;
+    justify-self: start;
+  }
+  #limpiar:hover { border-color: var(--accent); color: var(--ink); }
+
   #count-line { color: var(--ink-muted); font-size: 12.5px; margin: 0 0 12px; }
 
   .cards { display: flex; flex-direction: column; gap: 10px; }
@@ -457,6 +522,60 @@
   <div class="controls">
     <input id="search" type="search" placeholder="Buscar por entidad, descripción, palabra clave o código UNSPSC…" />
     <div id="chips" style="display:flex; gap:8px; flex-wrap:wrap;"></div>
+    <button class="chip filtros" id="btn-filtros" type="button" aria-expanded="false" aria-controls="panel-filtros">
+      Filtros<span class="cuantos" id="filtros-cuantos" hidden>0</span><span class="flecha" aria-hidden="true">&#9660;</span>
+    </button>
+  </div>
+
+  <div class="panel" id="panel-filtros" hidden>
+    <div class="campo">
+      <label for="f-valor-min">Valor desde</label>
+      <select id="f-valor-min">
+        <option value="0">Sin mínimo</option>
+        <option value="10000000">$10 millones</option>
+        <option value="50000000">$50 millones</option>
+        <option value="100000000">$100 millones</option>
+        <option value="500000000">$500 millones</option>
+        <option value="1000000000">$1.000 millones</option>
+      </select>
+    </div>
+    <div class="campo">
+      <label for="f-valor-max">Valor hasta</label>
+      <select id="f-valor-max">
+        <option value="0">Sin máximo</option>
+        <option value="50000000">$50 millones</option>
+        <option value="100000000">$100 millones</option>
+        <option value="500000000">$500 millones</option>
+        <option value="1000000000">$1.000 millones</option>
+      </select>
+    </div>
+    <div class="campo">
+      <label for="f-fecha">Publicado</label>
+      <select id="f-fecha">
+        <option value="0">Cualquier fecha</option>
+        <option value="3">Últimos 3 días</option>
+        <option value="7">Últimos 7 días</option>
+        <option value="10">Últimos 10 días</option>
+      </select>
+    </div>
+    <div class="campo">
+      <label for="f-estado">Estado</label>
+      <select id="f-estado">
+        <option value="">Todos</option>
+        <option value="abierto">Solo abiertos</option>
+        <option value="cerrado">Solo adjudicados o cerrados</option>
+      </select>
+    </div>
+    <div class="campo">
+      <label for="f-orden">Ordenar por</label>
+      <select id="f-orden">
+        <option value="fecha">Más reciente</option>
+        <option value="valor-desc">Mayor valor</option>
+        <option value="valor-asc">Menor valor</option>
+        <option value="entidad">Entidad (A-Z)</option>
+      </select>
+    </div>
+    <button type="button" id="limpiar">Limpiar filtros</button>
   </div>
 
   <p id="count-line"></p>
@@ -521,7 +640,8 @@ let dbListo = false;
 let conciliando = false;
 
 // Un solo filtro activo a la vez: volver a tocar el chip encendido regresa a "Todas".
-const state = { search: "", cat: null };
+// valorMin/valorMax/dias en 0 y estado vacio significan "sin restriccion".
+const state = { search: "", cat: null, valorMin: 0, valorMax: 0, dias: 0, estado: "", orden: "fecha" };
 
 function filtros() {
   return [
@@ -544,9 +664,17 @@ function itemsVisibles() {
     if (POR_ID.has(id)) continue;
     fuera.push({ ...doc, tags: ["En seguimiento"], fuera_de_ventana: true, matched_keywords: [] });
   }
-  return [...vivos, ...fuera].sort((a, b) =>
-    (b.fecha_publicacion || "").localeCompare(a.fecha_publicacion || ""),
-  );
+  return [...vivos, ...fuera];
+}
+
+function ordenar(items) {
+  const copia = [...items];
+  if (state.orden === "valor-desc") copia.sort((a, b) => (b.valor || 0) - (a.valor || 0));
+  else if (state.orden === "valor-asc") copia.sort((a, b) => (a.valor || 0) - (b.valor || 0));
+  else if (state.orden === "entidad")
+    copia.sort((a, b) => (a.entidad || "").localeCompare(b.entidad || "", "es"));
+  else copia.sort((a, b) => (b.fecha_publicacion || "").localeCompare(a.fecha_publicacion || ""));
+  return copia;
 }
 
 // ---------- utilidades ----------
@@ -691,6 +819,20 @@ function syncChips() {
 
 function matchesFilters(it) {
   if (state.cat && !it.tags.includes(state.cat)) return false;
+
+  // Un proceso sin valor no puede afirmar que cumple un minimo o un maximo.
+  if (state.valorMin && !(it.valor >= state.valorMin)) return false;
+  if (state.valorMax && !(it.valor > 0 && it.valor <= state.valorMax)) return false;
+
+  if (state.dias) {
+    const dia = (it.fecha_publicacion || "").slice(0, 10);
+    if (!dia) return false;
+    if (diasEntre(dia, diaBogota(new Date())) >= state.dias) return false;
+  }
+
+  if (state.estado === "abierto" && !isOpen(it.estado)) return false;
+  if (state.estado === "cerrado" && isOpen(it.estado)) return false;
+
   if (!state.search) return true;
   const haystack = norm(
     `${it.entidad} ${it.descripcion} ${it.unspsc} ${(it.matched_keywords || []).join(" ")} ${it.razon || ""}`,
@@ -788,12 +930,18 @@ function cardHtml(it) {
 
 function renderCards() {
   const todos = itemsVisibles();
-  const items = todos.filter(matchesFilters);
+  const items = ordenar(todos.filter(matchesFilters));
   document.getElementById("count-line").textContent = `${items.length} de ${todos.length} procesos`;
 
   const host = document.getElementById("cards");
   if (!items.length) {
-    host.innerHTML = `<div class="empty">Ningún proceso coincide con ese filtro.</div>`;
+    const hayFiltros =
+      state.valorMin || state.valorMax || state.dias || state.estado || state.cat || state.search;
+    host.innerHTML = `<div class="empty">${
+      hayFiltros
+        ? "Ningún proceso cumple los filtros. Pruebe ampliando el rango de valor o de fecha, o limpie los filtros."
+        : "No hay procesos para mostrar."
+    }</div>`;
     return;
   }
   host.innerHTML = items.map(cardHtml).join("");
@@ -803,6 +951,57 @@ function refrescar() {
   renderStats();
   renderChips();
   renderCards();
+}
+
+// El contador en el boton existe para que un filtro activo no quede invisible
+// con el panel cerrado, que es como se llega a "el tablero esta vacio y no se
+// por que".
+function renderContadorFiltros() {
+  const activos = [
+    state.valorMin > 0,
+    state.valorMax > 0,
+    state.dias > 0,
+    state.estado !== "",
+    state.orden !== "fecha",
+  ].filter(Boolean).length;
+  const el = document.getElementById("filtros-cuantos");
+  el.textContent = String(activos);
+  el.hidden = activos === 0;
+}
+
+function cablearFiltros() {
+  const boton = document.getElementById("btn-filtros");
+  const panel = document.getElementById("panel-filtros");
+  boton.addEventListener("click", () => {
+    const abierto = boton.getAttribute("aria-expanded") === "true";
+    boton.setAttribute("aria-expanded", String(!abierto));
+    panel.hidden = abierto;
+  });
+
+  const campos = [
+    ["f-valor-min", "valorMin", Number],
+    ["f-valor-max", "valorMax", Number],
+    ["f-fecha", "dias", Number],
+    ["f-estado", "estado", String],
+    ["f-orden", "orden", String],
+  ];
+  for (const [id, clave, tipo] of campos) {
+    document.getElementById(id).addEventListener("change", (e) => {
+      state[clave] = tipo(e.target.value);
+      renderContadorFiltros();
+      renderCards();
+    });
+  }
+
+  document.getElementById("limpiar").addEventListener("click", () => {
+    for (const [id, clave, tipo] of campos) {
+      const el = document.getElementById(id);
+      el.selectedIndex = 0;
+      state[clave] = tipo(el.value);
+    }
+    renderContadorFiltros();
+    renderCards();
+  });
 }
 
 // ---------- seguimiento ----------
@@ -919,6 +1118,7 @@ document.getElementById("search").addEventListener("input", (e) => {
   state.search = e.target.value;
   renderCards();
 });
+cablearFiltros();
 document.getElementById("cards").addEventListener("click", (e) => {
   const btn = e.target.closest(".marcar");
   if (btn) alternarSeguimiento(btn.dataset.id);
