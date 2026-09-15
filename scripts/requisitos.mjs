@@ -125,18 +125,54 @@ function recorte(texto, limite = 3500) {
   return salida.join("\n\n");
 }
 
+// Los pliegos escriben los codigos en tablas, y al extraer el texto quedan
+// separados: "43 23 21 00". Sin unirlos, TransMilenio daba CERO codigos cuando
+// su pliego trae una tabla entera --- un falso negativo silencioso.
+function unirCodigosPartidos(texto) {
+  return texto.replace(/\b(\d{2})[ \t]+(\d{2})[ \t]+(\d{2})[ \t]+(\d{2})\b/g, "$1$2$3$4");
+}
+
+// Las primeras menciones de UNSPSC suelen ser la TABLA DE CONTENIDO
+// ("1.4. CLASIFICADOR ... (UNSPSC) .... 6"), donde los numeros son paginas, no
+// codigos. Se reconocen por las corridas de puntos o por los campos que deja
+// Word al extraer el indice.
+function esIndice(trozo) {
+  return /\.{5,}/.test(trozo) || /PAGEREF|HYPERLINK|_heading=/.test(trozo);
+}
+
 // Codigos UNSPSC: solo los que aparecen cerca de la palabra que los nombra. Un
-// numero de ocho digitos suelto puede ser un NIT o un telefono.
+// numero de ocho digitos suelto puede ser un NIT, un telefono o una pagina.
 function codigosUnspsc(texto) {
-  const n = norm(texto);
+  const unido = unirCodigosPartidos(texto);
+  const n = norm(unido);
   const codigos = new Set();
   const marcas = /unspsc|clasificador|codigo[s]? de bienes/g;
   let m;
   while ((m = marcas.exec(n)) !== null) {
-    const ventana = texto.slice(Math.max(0, m.index - 400), m.index + 1200);
+    const ventana = unido.slice(Math.max(0, m.index - 400), m.index + 1200);
+    if (esIndice(ventana)) continue;
     for (const c of ventana.match(/\b\d{8}\b/g) || []) codigos.add(c);
   }
   return [...codigos].slice(0, 40);
+}
+
+// Cuantos de los codigos listados hay que acreditar. Casi ningun pliego exige
+// todos: piden "al menos uno" o "minimo dos". Sin esto, decir "cumple 5 de 6"
+// suena a que falta algo cuando en realidad ya califica.
+function minimoCodigos(texto) {
+  const n = norm(unirCodigosPartidos(texto));
+  const palabras = { uno: 1, una: 1, dos: 2, tres: 3, cuatro: 4, "1": 1, "2": 2, "3": 3, "4": 4 };
+  const patron =
+    /(?:al menos|como minimo|minimo(?: en)?|por lo menos)\s+(?:en\s+)?(uno|una|dos|tres|cuatro|\d)\s*(?:\(\d\)\s*)?(?:de\s+(?:los|las)\s+)?(?:codigos?|familias?|clases?)/g;
+  let m;
+  while ((m = patron.exec(n)) !== null) {
+    const ventana = n.slice(m.index, m.index + 260);
+    if (/unspsc|clasificador/.test(ventana)) {
+      const v = palabras[m[1]];
+      if (v) return v;
+    }
+  }
+  return null;
 }
 
 function smmlv(texto) {
@@ -162,22 +198,26 @@ async function main() {
     return dia >= datos.dia;
   };
 
+  // Por defecto se analizan todos: el costo real no es el numero de procesos
+  // sino cuantos son NUEVOS, porque el cache es permanente. La primera corrida
+  // es larga; las siguientes bajan solo lo que aparecio.
   const candidatos = datos.items.filter(
     (it) =>
       it.id_portafolio &&
-      esAbierto(it.estado) &&
-      aunSePuedePresentar(it) &&
-      (it.valor || 0) >= REQ.valor_min &&
-      !(it.matched_groups.length === 1 && it.matched_groups[0] === "Codigo UNSPSC"),
+      (it.valor || 0) >= (REQ.valor_min || 0) &&
+      (!REQ.solo_abiertos || (esAbierto(it.estado) && aunSePuedePresentar(it))),
   );
   console.log(
-    `Candidatos a analisis: ${candidatos.length} de ${datos.items.length} procesos ` +
-      `(abiertos, de la lista principal, >= $${REQ.valor_min.toLocaleString("es-CO")})`,
+    `Candidatos a analisis: ${candidatos.length} de ${datos.items.length} procesos` +
+      (REQ.valor_min ? ` (>= $${REQ.valor_min.toLocaleString("es-CO")})` : "") +
+      (REQ.solo_abiertos ? " (solo abiertos y en plazo)" : ""),
   );
 
   let analizados = 0, reusados = 0, sinDocumentos = 0;
 
+  let procesados = 0;
   for (const it of candidatos) {
+    if (++procesados % 25 === 0) console.log(`  ... ${procesados}/${candidatos.length}`);
     const destino = path.join(dirCache, `${it.id_proceso}.json`);
     const cache = existsSync(destino) ? JSON.parse(readFileSync(destino, "utf8")) : null;
 
@@ -284,12 +324,16 @@ async function main() {
       documentos: usados,
       texto: extracto,
       unspsc_exigidos: codigosUnspsc(textoTotal),
+      // Cuantos de esos codigos hay que acreditar, si el pliego lo dice.
+      minimo_codigos: minimoCodigos(textoTotal),
       smmlv: smmlv(textoTotal),
     };
     writeFileSync(destino, JSON.stringify(salida, null, 2));
     console.log(
       `  -> ${salida.estado_analisis} · ${extracto.length} caracteres · ` +
-        `UNSPSC ${salida.unspsc_exigidos.length} · SMMLV ${salida.smmlv.join(", ") || "-"}`,
+        `UNSPSC ${salida.unspsc_exigidos.length}` +
+        (salida.minimo_codigos ? ` (exige minimo ${salida.minimo_codigos})` : "") +
+        ` · SMMLV ${salida.smmlv.join(", ") || "-"}`,
     );
     analizados++;
     await new Promise((r) => setTimeout(r, 500));
@@ -300,7 +344,15 @@ async function main() {
   for (const archivo of readdirSync(dirCache)) {
     if (!archivo.endsWith(".json")) continue;
     const r = JSON.parse(readFileSync(path.join(dirCache, archivo), "utf8"));
-    if (datos.items.some((it) => it.id_proceso === r.id_proceso)) requisitos[r.id_proceso] = r;
+    if (!datos.items.some((it) => it.id_proceso === r.id_proceso)) continue;
+    const tope = REQ.max_caracteres_tablero || 1800;
+    requisitos[r.id_proceso] = {
+      ...r,
+      texto: (r.texto || "").length > tope ? r.texto.slice(0, tope) + "\n\n[...]" : r.texto,
+      // El texto completo se queda en data/requisitos/; al tablero solo viaja un
+      // recorte porque con 218 procesos la pagina se volveria de un megabyte.
+      recortado: (r.texto || "").length > tope,
+    };
   }
   datos.requisitos = requisitos;
   writeFileSync(datosPath, JSON.stringify(datos, null, 2));

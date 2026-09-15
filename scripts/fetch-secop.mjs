@@ -140,6 +140,9 @@ function toItem(row, matched) {
     id_portafolio: row.id_del_portafolio || null,
     // Fecha limite para presentar oferta.
     fecha_cierre: row.fecha_de_recepcion_de || null,
+    // Si el proceso esta dividido en lotes, cada lote suele exigir codigos
+    // distintos y compararlos en bloque no significa nada.
+    lotes: row.numero_de_lotes ? Number(row.numero_de_lotes) : 0,
     fecha_publicacion: row.fecha_de_publicacion_del || null,
     descripcion: row.descripci_n_del_procedimiento || row.nombre_del_procedimiento || null,
     valor,
@@ -168,6 +171,9 @@ function toExploratorioItem(row, broadKeywords) {
     id_portafolio: row.id_del_portafolio || null,
     // Fecha limite para presentar oferta.
     fecha_cierre: row.fecha_de_recepcion_de || null,
+    // Si el proceso esta dividido en lotes, cada lote suele exigir codigos
+    // distintos y compararlos en bloque no significa nada.
+    lotes: row.numero_de_lotes ? Number(row.numero_de_lotes) : 0,
     fecha_publicacion: row.fecha_de_publicacion_del || null,
     descripcion: row.descripci_n_del_procedimiento || row.nombre_del_procedimiento || null,
     valor: row.precio_base ? Number(row.precio_base) : null,

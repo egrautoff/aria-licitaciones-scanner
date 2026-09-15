@@ -1,0 +1,24 @@
+{
+  "id_proceso": "CO1.REQ.11005082",
+  "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+  "revisado_en": "2026-09-15",
+  "documentos_en_el_proceso": 18,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "04. Estudios Previos EP 41768.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=854753273&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "- Mayores de edad: La API recibirá la imagen, la procesará utilizando algoritmos de\nreconocimiento facial, y la comparará con las fotos de los usuarios registrados para verificar si la\nimagen ya está registrada o si puede proceder con la votación.\n- Menores de edad, mayores de 14 años: La API comparará la foto del documento de identidad\ndel menor con su rostro y no guardará la imagen, en procura de salvaguardar los derechos de los\nmenores.\n- Tiempo de Respuesta: La API debe garantizar tiempos de respuesta inferior a los 5 segundos\npara no afectar negativamente la experiencia del usuario.\n- Manejo de Resultados: La API enviará una respuesta al sistema web con el resultado de la\nvalidación:\n# Éxito: El rostro es verificado y el usuario puede proceder con la votación.\n# Error o coincidencia: Si el usuario ya ha sido registrado previamente, se bloqueará su intento\nde registro y enviará un mensaje de error al ciudadano.\n- Ofrecer herramientas o recomendaciones para guiar al usuario durante la captura de la\nimagen (por ejemplo, asegúrese de que esté enmarcado correctamente o en un entorno con buena\niluminación).\n- Almacenamiento seguro de datos biométricos: El contratista debe garantizar que los datos\nbiométricos recolectados sean almacenados de manera segura en la base de datos, siguiendo las\nnormativas de protección de datos.\n\nCriterio con enfoque social: El contratista se compromete a, entre 5 y 10% del personal destinado al\ncumplimiento contractual, la provisión de bienes, obras y servicios; que tenga formación y/o\nexperiencia relacionada con el desarrollo del objeto del contrato y estén en condición de:\n\nEsto será verificado mediante la entrega de certificación expedida por el representante legal y el\nrevisor fiscal o el contador público, donde se señale de manera detallada el número de personas\nque se encuentren en el grupo enunciado; el tipo y tiempo de vinculación; así mismo, con la entrega\nde certificado de Primer Empleo expedido por el Ministerio de Trabajo, Resolución 0846 de 2021 del\nMinisterio de trabajo.\n\nAsí mismo, de la verificación de los documentos aportados por el contratista se observa el\ncumplimento de la capacidad jurídica; con lo cual se verifica la idoneidad y experiencia del\ncontratista relacionado con el objeto del contrato, por parte del rol técnico del proceso, en\ncumplimiento de la dispuesto por el artículo 2.2.1.2.1.4.9. del Decreto 1082 de 2015.\n\nDe acuerdo con lo anterior el técnico conforme a los documentos allegados por el posible\ncontratista, pone en conocimiento del ordenador del gasto la validación de la idoneidad del\ncontratista de conformidad con el multicitado Decreto 1082 de 2015, de lo cual deja expresa\nconstancia que se verificó la capacidad, idoneidad y experiencia del Contratista para la ejecución\ndel objeto del Contrato.",
+  "unspsc_exigidos": [
+    "81111500",
+    "81112000",
+    "81161700"
+  ],
+  "minimo_codigos": null,
+  "smmlv": [
+    "1500"
+  ]
+}

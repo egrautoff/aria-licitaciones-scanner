@@ -103,6 +103,14 @@ La extracción la hace `scripts/requisitos.mjs` dentro del GitHub Action, porque
 
 Estados posibles del análisis: `ok`, `sin_documentos`, `sin_documentos_de_requisitos` (típico de contratación directa y régimen especial), `documentos_escaneados` (PDF sin capa de texto) y `sin_seccion_identificable`. El tablero explica cada uno en lugar de mostrar un vacío.
 
+### Lo que el doble chequeo encontró (2026-09-15)
+
+Se verificó la extracción contra el texto crudo de los pliegos y aparecieron tres defectos, dos de ellos silenciosos:
+
+1. **Códigos partidos en tablas.** Los pliegos los escriben como `43 23 21 00` y al extraer el texto quedan separados. La expresión buscaba ocho dígitos seguidos, así que TransMilenio daba **cero códigos teniendo una tabla completa**. Un falso negativo que se leía como "este pliego no pide códigos". Se unen antes de buscar.
+2. **Se leía la tabla de contenido.** Las primeras menciones de "UNSPSC" suelen ser el índice (`1.4. CLASIFICADOR ... (UNSPSC) ....... 6`), donde los números son páginas. Esas ventanas se descartan por las corridas de puntos o por los campos `PAGEREF`/`HYPERLINK` que deja Word.
+3. **El veredicto estaba mal planteado.** Decía "está inscrito en 5 de 6 códigos", que suena a carencia. Pero los pliegos piden acreditar **algunos** de los códigos listados, no todos: TransMilenio exige "como mínimo en dos (2)". Ahora se extrae ese mínimo (`minimo_codigos`) y, si no se puede leer pero ARIA cubre todos, la conclusión es igual afirmativa: cubrir todos cumple cualquiera sea el mínimo.
+
 ### Comparación contra el RUP de ARIA
 
 Debajo del requisito, el tablero dice en cuántos de los códigos detectados está ARIA inscrita, con los SMMLV acumulados en cada uno.
@@ -114,7 +122,13 @@ Dos detalles que cuestan una hora si no se saben:
 - **El RUP acredita a tercer nivel (6 dígitos) y SECOP publica ocho.** Comparar sin truncar no encuentra nunca una coincidencia. Además SECOP escribe `V1.81111500`, y quitar los no-dígitos sin quitar antes el prefijo deja el `1` pegado y produce `181111` en vez de `811115`.
 - **Un código terminado en `0000` no es de tercer nivel**: es la familia (`81110000`) o el segmento (`81000000`). Nadie se inscribe en esos. Los de familia se dan por cubiertos si ARIA tiene cualquier código adentro; los de segmento se descartan porque coinciden siempre y no informan nada.
 
-La lista de códigos sale de leer el pliego con una heurística, no de una lista oficial. Sirve para orientarse y el tablero lo advierte.
+El apartado tiene tres partes: **lo que exige el pliego** (el texto tal cual, con enlace a los documentos), **cómo estamos** (cada código con ✓ o ✗ y los SMMLV acreditados) y una **conclusión** — "puede presentarse", "no puede presentarse" o "probablemente sí, hay que confirmarlo".
+
+**Lo que la conclusión NO verifica, y el tablero lo dice debajo:**
+
+- **El monto.** Los pliegos exigen que la sumatoria sea igual o superior a X SMMLV. Se muestran los acumulados de ARIA pero no se comparan contra ese mínimo. Un "cumple" de códigos no es un "cumple" de plata.
+- **Los lotes.** Si el proceso está dividido, cada lote suele exigir códigos distintos y los extraídos vienen mezclados. Se avisa en rojo cuando `lotes > 1`.
+- La lista de códigos sale de leer el pliego con una heurística, no de una lista oficial.
 
 ## Cambiar las palabras clave
 

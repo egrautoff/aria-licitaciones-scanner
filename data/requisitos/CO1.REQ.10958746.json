@@ -1,0 +1,20 @@
+{
+  "id_proceso": "CO1.REQ.10958746",
+  "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+  "revisado_en": "2026-09-15",
+  "documentos_en_el_proceso": 11,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "1. Estudio Previo 41518..pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=851044077&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "HYG cuenta con 20 años de experiencia en el mercado implementando soluciones\ngeográficas en los sectores gobierno, infraestructura, energía y minería, y ha desarrollado\nmás de 200 proyectos; opera bajo la norma ISO 29110, un estándar internacional de\nmejora de procesos de ingeniería de software orientado a organizaciones pequeñas; es\npartner oficial de Esri (proveedor de la tecnología ArcGIS) y de Oracle, y ha desarrollado\nsoluciones también bajo Adobe Flex/Silverlight en versiones anteriores de la plataforma,\nademás de Java, .NET y HTML5 en las versiones actuales; la compañía trabaja con\naplicaciones en Java, .NET, Adobe Flex y Silverlight (tecnologías de versiones anteriores) y\nHTML5, configurables sobre plataformas ArcGIS Server, GeoServer, MapServer y MapGIS.\nLos modelos geográficos se elaboran sobre bases de datos Oracle, SQL Server y\nPostgreSQL (PostGIS).\nHYG Consultores promueve actualmente su apoyo a las entidades para la adopción del\nModelo Extendido LADM_COL-POT versión 2.0, conforme a la Resolución 58 de 2025 del\nMinisterio de Vivienda, Ciudad y Territorio, lo cual es consistente con el enfoque catastral\nde su módulo MapGIS LAND.\nLa compañía ofrece adicionalmente servicios de dirección y planificación de proyectos SIG,\ncaracterización ambiental, outsourcing empresarial en SIG, mantenimiento de bases de\ndatos y aplicaciones geográficas, capacitación empresarial en SIG, análisis geoestadísticos e\nhidrológicos, procesamiento de imágenes satelitales, fotogrametría digital y mediciones con\nGPS.\n\nLa plataforma ha evolucionado a lo largo de varias generaciones tecnológicas:\n# MapGIS5 (versión histórica): construida bajo el paradigma de Rich Internet\nApplications (RIA) sobre Java y Adobe Flex, minimizando las recargas continuas al servidor,\ncon soporte multimedia (video, sonido, imagen, animación) y funciones de navegación,\nbúsqueda por atributos, intersección de capas, simbología, edición web, impresión en\nmúltiples formatos, análisis de proximidad (buffers) y exportación a SHP, JPG, PNG, GIF,\nXLS y DBF.\n# MapGIS9: arquitectura basada en mapgis-front (aplicación Java empaquetada en .war,\ncon dependencias gestionadas por Maven) y mapgis-seg (gestión de sesión mediante\ncookies). El mapa actúa como componente central y obligatorio de la interfaz, limitando la\nexperiencia a un único mapa visible a la vez.\n# MapGIS10: evoluciona hacia mapgis-core (interfaz construida sobre Next.js, con el\nSDK 4.x de ESRI) y mapgis-seg-core (Java 17, con Gradle como sistema de construcción).\nTransforma el paradigma de interacción hacia un modelo por ventanas, permitiendo cargar\n\nTIPO REQUISITO DESCRIPCIÓN REQUERIDO\nREQUISITO\n SUSCRIBE EL\n CERTIFICADO\n DE PAGO DE\n LOS APORTES\n PARAFISCALES\nJURIDICA 0048 Certificado de la Junta Central de DEL\n Contadores CONTADOR\n QUE SUSCRIBE\n EL\n CERTIFICADO\n DE PAGO DE\n APORTES\n PARAFISCALES.\n CON FECHA DE\n EXPEDICIÓN NO\n SUPERIOR A\n TRES MESES.\nJURIDICA 0054 Registro de Deudores Alimentarios APORTAR\n Morosos (Redam) DOCUMENTO\n VIGENTE A LA\n FECHA DE\n PRESENTACIÓN\n DE LA\n PROPUESTA\nLOGISTICA 0031 Cert cuenta bancaria expedido X APORTAR\n Banco, original CERTIFICADO\n ORIGINAL CON\n VIGENCIA NO\n MAYOR A 30\n DÍAS\nTECNICA 0007 Propuesta económica ADJUNTAR\n PROPUESTA\n TÉCNICA Y\n ECONÓMICA\nTECNICA 0024 Certificados de experiencia DE\n CONFORMIDAD\n CON LO\n\nTIPO REQUISITO DESCRIPCIÓN REQUERIDO\nREQUISITO\n ESTABLECIDO\n EN LA\n INVITACIÓN.\nJURIDICA ADJUNTE\n FORMATO\n CERTIFICACIÓN\n DEL\n PROPONENTE\n EN SGSST",
+  "unspsc_exigidos": [
+    "81112200"
+  ],
+  "minimo_codigos": null,
+  "smmlv": []
+}

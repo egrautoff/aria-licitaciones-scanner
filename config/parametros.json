@@ -20,8 +20,8 @@
     ]
   },
   "requisitos": {
-    "_leeme": "Analisis de requisitos: solo se bajan documentos de procesos abiertos de la lista principal que superen este valor. Cada proceso se analiza una vez y queda en cache; se vuelve a mirar solo si le aparecieron documentos nuevos.",
-    "valor_min": 50000000,
+    "_leeme": "Analisis de requisitos: se baja el pliego de todos los procesos con documentos y se guarda para siempre. Cada proceso se analiza una vez; despues solo se revisa si le aparecieron documentos nuevos, y esa consulta no descarga nada.",
+    "valor_min": 0,
     "max_documentos": 2,
     "prioridad_documentos": [
       "pliego de condiciones definitivo",
@@ -37,7 +37,9 @@
       "invitacion publica",
       "invitacion",
       "anexo tecnico"
-    ]
+    ],
+    "solo_abiertos": false,
+    "max_caracteres_tablero": 1800
   },
   "reglas": [
     {
