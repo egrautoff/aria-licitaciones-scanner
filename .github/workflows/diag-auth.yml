@@ -22,7 +22,9 @@ jobs:
             cuerpo=$(head -c 160 /tmp/r.json | tr -d '\n')
             printf '%-46s HTTP %s  %s\n' "$nombre" "$c" "$cuerpo"
           }
-          echo "longitud del token: ${#T} | empieza con: $(printf %.4s "$T")..."
+          echo "crudo:   largo ${#T}  primeros4=[$(printf %.4s "$T")]"
+          T=$(printf '%s' "$T" | tr -d '[:space:]')
+          echo "limpio:  largo ${#T}  primeros4=[$(printf %.4s "$T")]"
           echo
           probar "bearer + beta oauth" \
             -H "Authorization: Bearer $T" -H "anthropic-beta: oauth-2025-04-20"
