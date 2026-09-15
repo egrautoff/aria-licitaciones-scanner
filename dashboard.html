@@ -618,6 +618,17 @@
     font-size: 12px;
     line-height: 1.55;
   }
+  .rup { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); }
+  .rup .veredicto { font-weight: 600; margin: 0 0 7px; }
+  .rup .veredicto.si { color: var(--good); }
+  .rup .veredicto.parcial { color: var(--accent); }
+  .rup .veredicto.no { color: var(--warn); }
+  .rup .fila { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 6px; align-items: center; }
+  .rup .fila > span:first-child { color: var(--ink-muted); font-size: 11.5px; min-width: 84px; }
+  .badge.tiene { background: var(--good-bg); color: var(--good); font-family: 'IBM Plex Mono', monospace; }
+  .badge.falta { background: var(--warn-bg); color: var(--warn); font-family: 'IBM Plex Mono', monospace; }
+  .rup .nota { font-size: 11px; color: var(--ink-muted); margin: 7px 0 0; line-height: 1.45; }
+
   .req .fuentes { margin-top: 8px; font-size: 11.5px; color: var(--ink-muted); }
   .req .fuentes a { color: var(--accent); }
   .req .aviso { color: var(--ink-muted); font-style: italic; }
@@ -1168,7 +1179,91 @@ const ESTADO_REQ = {
     "Se leyeron los documentos pero no se encontró una sección de requisitos reconocible. Vale la pena abrirlos directamente.",
 };
 
-function requisitosHtml(id) {
+// El RUP de ARIA vive en el almacen del tablero, que es interno de la
+// organizacion --- no en el repositorio, que es publico.
+let RUP = null;
+
+// SECOP publica los codigos como "V1.81111500". Quitar los no-digitos sin mas
+// dejaba el "1" del prefijo pegado y producia 181111 en vez de 811115.
+function aOchoDigitos(c) {
+  const limpio = String(c || "").replace(/^v\d+\./i, "").replace(/\D/g, "");
+  return limpio.length >= 8 ? limpio.slice(0, 8) : limpio;
+}
+
+// El RUP acredita a tercer nivel (6 digitos) y SECOP publica ocho.
+const aTercerNivel = (c) => aOchoDigitos(c).slice(0, 6);
+
+// Un codigo terminado en 0000 no es un codigo de tercer nivel: es la familia
+// (81110000) o el segmento (81000000). Nadie se inscribe en esos, asi que se
+// cubren si ARIA tiene cualquier codigo adentro.
+function cobertura(codigo8) {
+  if (!RUP || !RUP.codigos) return null;
+  const seis = codigo8.slice(0, 6);
+  if (RUP.codigos[seis]) return { ...RUP.codigos[seis], exacto: true };
+
+  const esAgregado = /0000$/.test(codigo8);
+  if (!esAgregado) return null;
+  const prefijo = /000000$/.test(codigo8) ? codigo8.slice(0, 2) : codigo8.slice(0, 4);
+  const dentro = Object.entries(RUP.codigos).filter(([k]) => k.startsWith(prefijo));
+  if (!dentro.length) return null;
+  return {
+    smmlv: dentro.reduce((a, [, v]) => a + v.smmlv, 0),
+    contratos: dentro.length,
+    exacto: false,
+    familia: prefijo,
+  };
+}
+
+function comparacionRupHtml(r, it) {
+  if (!RUP || !RUP.codigos) return "";
+  const exigidos = new Set();
+  for (const c of r.unspsc_exigidos || []) {
+    const t = aOchoDigitos(c);
+    // Un codigo de segmento (81000000) solo dice "servicios de TI": coincide
+    // siempre y no informa nada, asi que se deja fuera de la comparacion.
+    if (t.length === 8 && !/000000$/.test(t)) exigidos.add(t);
+  }
+  // El codigo con el que la entidad clasifico el proceso tambien cuenta.
+  const propio = aOchoDigitos(it.unspsc);
+  if (propio.length === 8) exigidos.add(propio);
+  if (!exigidos.size) return "";
+
+  const tiene = [], falta = [];
+  for (const c of [...exigidos].sort()) (cobertura(c) ? tiene : falta).push(c);
+
+  const clase = !falta.length ? "si" : tiene.length ? "parcial" : "no";
+  const veredicto = !falta.length
+    ? `Está inscrito en los ${tiene.length} código${tiene.length === 1 ? "" : "s"} detectados.`
+    : tiene.length
+      ? `Está inscrito en ${tiene.length} de ${exigidos.size} códigos detectados.`
+      : `No está inscrito en ninguno de los ${exigidos.size} códigos detectados.`;
+
+  const chip = (c, cls) => {
+    const d = cobertura(c);
+    const titulo = d
+      ? (d.exacto
+          ? `${d.contratos} contrato${d.contratos === 1 ? "" : "s"} inscritos en ${c.slice(0, 6)}`
+          : `Es un código de familia: ARIA tiene ${d.contratos} códigos dentro de ${d.familia}`) +
+        ` · ${Math.round(d.smmlv).toLocaleString("es-CO")} SMMLV`
+      : "sin contratos inscritos en este código";
+    return `<span class="badge ${cls}" title="${esc(titulo)}">${esc(c.slice(0, 6))}${
+      d ? `${d.exacto ? "" : "·fam"} · ${Math.round(d.smmlv).toLocaleString("es-CO")} SMMLV` : ""
+    }</span>`;
+  };
+
+  return (
+    `<div class="rup">` +
+    `<p class="veredicto ${clase}">${esc(veredicto)}</p>` +
+    (tiene.length ? `<div class="fila"><span>Sí tenemos</span>${tiene.map((c) => chip(c, "tiene")).join("")}</div>` : "") +
+    (falta.length ? `<div class="fila"><span>No tenemos</span>${falta.map((c) => chip(c, "falta")).join("")}</div>` : "") +
+    `<p class="nota">Los códigos se detectaron leyendo el pliego, no son una lista oficial: ` +
+    `sirven para orientarse, no reemplazan leer el documento. Los SMMLV son los acumulados ` +
+    `del RUP de ARIA en cada código.</p>` +
+    `</div>`
+  );
+}
+
+function requisitosHtml(id, it) {
   const r = (DATA.requisitos || {})[id];
   if (!r) return "";
   const aviso = ESTADO_REQ[r.estado_analisis];
@@ -1189,6 +1284,7 @@ function requisitosHtml(id) {
     (aviso ? `<p class="aviso" style="margin:0">${esc(aviso)}</p>` : "") +
     (r.texto ? `<div class="texto">${esc(r.texto)}</div>` : "") +
     (fuentes ? `<p class="fuentes">Tomado de: ${fuentes}</p>` : "") +
+    comparacionRupHtml(r, it) +
     `</div>`
   );
 }
@@ -1230,7 +1326,7 @@ function cardHtml(it) {
         (DATA.requisitos || {})[it.id_proceso]
           ? `<button class="btn-req" type="button" data-req="${esc(it.id_proceso)}" ` +
             `aria-expanded="false" aria-controls="req-${esc(it.id_proceso)}">Análisis de requisitos</button>` +
-            requisitosHtml(it.id_proceso)
+            requisitosHtml(it.id_proceso, it)
           : ""
       }
       ${
@@ -1533,8 +1629,19 @@ async function iniciarParametros() {
 
   renderParams();
 
-  // Si alguien del equipo ya dejo cambios guardados, se muestran esos.
   if (!db) return;
+
+  try {
+    const rup = await db.doc("config/rup").get();
+    if (rup.exists) {
+      RUP = rup.data();
+      refrescar();
+    }
+  } catch (e) {
+    console.warn("No se pudo leer el RUP", e);
+  }
+
+  // Si alguien del equipo ya dejo cambios guardados, se muestran esos.
   try {
     const snap = await db.doc("config/parametros").get();
     if (snap.exists) {

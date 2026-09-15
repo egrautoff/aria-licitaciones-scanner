@@ -103,6 +103,19 @@ La extracción la hace `scripts/requisitos.mjs` dentro del GitHub Action, porque
 
 Estados posibles del análisis: `ok`, `sin_documentos`, `sin_documentos_de_requisitos` (típico de contratación directa y régimen especial), `documentos_escaneados` (PDF sin capa de texto) y `sin_seccion_identificable`. El tablero explica cada uno en lugar de mostrar un vacío.
 
+### Comparación contra el RUP de ARIA
+
+Debajo del requisito, el tablero dice en cuántos de los códigos detectados está ARIA inscrita, con los SMMLV acumulados en cada uno.
+
+**El RUP no está en este repositorio.** Vive en el documento `config/rup` del almacén del artifact, que es interno de la organización. El repo es público y publicar ahí la posición acreditada de la empresa la volvería trivialmente indexable. Se carga con la herramienta `ArtifactData`; la fuente es `Contratos incluidos en el RUP.xlsx` (OneDrive, `05. GESTION COMERCIAL / 5.11 RUP ARIAPSW`), 42 contratos y 28 códigos.
+
+Dos detalles que cuestan una hora si no se saben:
+
+- **El RUP acredita a tercer nivel (6 dígitos) y SECOP publica ocho.** Comparar sin truncar no encuentra nunca una coincidencia. Además SECOP escribe `V1.81111500`, y quitar los no-dígitos sin quitar antes el prefijo deja el `1` pegado y produce `181111` en vez de `811115`.
+- **Un código terminado en `0000` no es de tercer nivel**: es la familia (`81110000`) o el segmento (`81000000`). Nadie se inscribe en esos. Los de familia se dan por cubiertos si ARIA tiene cualquier código adentro; los de segmento se descartan porque coinciden siempre y no informan nada.
+
+La lista de códigos sale de leer el pliego con una heurística, no de una lista oficial. Sirve para orientarse y el tablero lo advierte.
+
 ## Cambiar las palabras clave
 
 Los parámetros viven en `config/parametros.json`, no en el código. Hay dos formas de cambiarlos:
