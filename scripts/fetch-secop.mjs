@@ -3,120 +3,27 @@
 // filtra por las palabras clave del portafolio de ARIA y guarda data/latest.json.
 
 const DATASET_URL = "https://www.datos.gov.co/resource/p6dx-8zbt.json";
-const WINDOW_DAYS = 15;
-// Umbral de "destacado": valor del contrato + que haya matcheado por una
-// palabra clave fuerte (no las genericas de soporte/mesa de ayuda, que dan ruido).
-const DESTACADO_VALOR_MIN = 1_000_000_000;
-// Candidatos "exploratorios": procesos que NO calzan con las palabras clave
-// estrictas (RULES) pero mencionan temas adyacentes al portafolio de ARIA.
-// Se dejan sin juzgar aqui (eso lo hace la rutina diaria con criterio); esto
-// solo acota el universo a un tamano razonable para esa revision.
-const EXPLORATORIO_VALOR_MIN = 30_000_000;
-const EXPLORATORIO_MAX_ITEMS = 40;
-// Red de seguridad estructural: el codigo UNSPSC no depende de como la entidad
-// redacto el objeto, asi que atrapa lo que las palabras clave dejan pasar por
-// diferencias de lenguaje. Solo dos familias sirven: medido contra la ventana
-// real de 15 dias (64.960 procesos), 81.11 trae 734 y 43.23 trae 362, mientras
-// que 80.11 (recursos humanos) trae 33.763 --- la mitad de todo SECOP, porque es
-// el codigo que las entidades usan para cualquier contrato de prestacion de
-// servicios. Con piso de $100M las dos familias utiles dan ~185 por ventana.
-const UNSPSC_FAMILIAS = [
-  { prefijo: "V1.8111", nombre: "81.11 servicios informaticos" },
-  { prefijo: "V1.4323", nombre: "43.23 software" },
-];
-const UNSPSC_VALOR_MIN = 100_000_000;
-// data/seen.json guarda, por proceso, unicamente dos fechas: cuando se vio por
-// primera vez y cuando por ultima. No es un historial de los procesos --- eso
-// solo se guarda para los que alguien marca como de interes, y vive en el
-// tablero. Este registro existe para una sola cosa: poder decir "nuevo" con
-// certeza, porque comparar contra la corrida anterior falla apenas se salte un dia.
-const SEEN_RETENTION_DAYS = 180;
-const BROAD_TERMS = [
-  "tablero de control",
-  "reportes gerenciales",
-  "gobierno de datos",
-  "calidad de datos",
-  "arquitectura de datos",
-  "big data",
-  "migracion a la nube",
-  "arquitectura empresarial",
-  "modernizacion tecnologica",
-  "modernizacion de aplicaciones",
-  "transformacion digital",
-  "gobierno digital",
-  "gestion documental",
-  "fabrica de aplicaciones",
-  "arquitectura de microservicios",
-  "consultoria tecnologica",
-  "consultoria ti",
-];
+// Los parametros de busqueda ya no viven aqui: viven en config/parametros.json,
+// que se edita desde el tablero sin tocar codigo. Este script solo los lee.
+// Nada se perdio en la mudanza --- son exactamente las mismas reglas.
+import { readFileSync } from "node:fs";
+const CFG = JSON.parse(readFileSync(new URL("../config/parametros.json", import.meta.url), "utf8"));
 
-const RULES = [
-  // --- Liferay / Portal ---
-  { group: "Liferay / Portal", any: ["liferay"] },
-  { group: "Liferay / Portal", any: ["experiencia digital", "dxp"] },
-  { group: "Liferay / Portal", all: ["portal web", "desarrollo"] },
-  { group: "Liferay / Portal", all: ["portal web", "implementacion"] },
-  { group: "Liferay / Portal", all: ["portal web", "migracion"] },
-  { group: "Liferay / Portal", all: ["portal web", "suscripcion"] },
-  { group: "Liferay / Portal", all: ["portal web", "licenciamiento"] },
-  { group: "Liferay / Portal", all: ["portal web", "rediseno"] },
-  { group: "Liferay / Portal", any: ["gestor de contenidos", "gestor de contenido web"] },
-  { group: "Liferay / Portal", any: ["portal transaccional"] },
-  { group: "Liferay / Portal", any: ["intranet corporativa"] },
-  { group: "Liferay / Portal", any: ["rediseno de portal"] },
-  { group: "Liferay / Portal", any: ["web master", "webmaster"] },
-  { group: "Liferay / Portal", any: ["sede electronica"] },
+const WINDOW_DAYS = CFG.ventana_dias;
+const DESTACADO_VALOR_MIN = CFG.destacado_valor_min;
+const EXPLORATORIO_VALOR_MIN = CFG.exploratorio_valor_min;
+const EXPLORATORIO_MAX_ITEMS = CFG.exploratorio_max_items;
+const UNSPSC_FAMILIAS = CFG.unspsc.familias;
+const UNSPSC_VALOR_MIN = CFG.unspsc.valor_min;
+const SEEN_RETENTION_DAYS = CFG.retencion_registro_dias;
+const BROAD_TERMS = CFG.terminos_amplios;
 
-  // --- Desarrollo / Fabrica ---
-  { group: "Desarrollo / Fabrica", any: ["fabrica de software", "fabrica de aplicaciones"] },
-  { group: "Desarrollo / Fabrica", any: ["desarrollo de software a la medida"] },
-  { group: "Desarrollo / Fabrica", any: ["mantenimiento evolutivo", "mantenimiento adaptativo", "mantenimiento de aplicaciones"] },
-  { group: "Desarrollo / Fabrica", any: ["ingenieria por demanda"] },
-  { group: "Desarrollo / Fabrica", any: ["staffing"] },
-  { group: "Desarrollo / Fabrica", all: ["desarrollo", "implementacion", "soporte"] },
-  { group: "Desarrollo / Fabrica", any: ["mesa de ayuda", "soporte tecnico nivel 2", "soporte tecnico nivel 3"], weak: true },
-
-  // --- IA / Agentes ---
-  { group: "IA / Agentes", all: ["inteligencia artificial", "agentes"] },
-  { group: "IA / Agentes", any: ["automatizacion de procesos"] },
-  { group: "IA / Agentes", any: ["chatbot", "asistente virtual"] },
-  { group: "IA / Agentes", all: ["analitica de datos", "inteligencia artificial"] },
-  { group: "IA / Agentes", any: ["modelos de lenguaje", "llm"] },
-  { group: "IA / Agentes", any: ["optimizacion seo"] },
-  { group: "IA / Agentes", any: ["posicionamiento web"] },
-  { group: "IA / Agentes", any: ["auditoria de contenido digital"] },
-
-  // --- Integracion / BUS ---
-  // El nombre del producto es la senal de mayor precision que existe: un proceso
-  // que dice "TIBCO" es de ARIA casi con certeza. La regla anterior exigia la
-  // frase "integracion tibco", que no aparece en ningun contrato real, y dejaba
-  // ciego al radar frente a la linea de negocio mas grande de la empresa.
-  { group: "Integracion / BUS", any: ["tibco"] },
-  // En singular: los pliegos dicen "bus de servicios empresarial", no "empresariales".
-  { group: "Integracion / BUS", any: ["bus de servicios", "esb"] },
-  { group: "Integracion / BUS", any: ["integracion de sistemas"] },
-  { group: "Integracion / BUS", any: ["interoperabilidad"], weak: true },
-  // Sin la abreviatura "soa": con 3 letras engancha texto cualquiera (pesco
-  // compra de mobiliario y gestion humana). Solo la frase completa.
-  { group: "Integracion / BUS", any: ["arquitectura orientada a servicios"] },
-  // Sin "mdm" por lo mismo: pesco suministro de material de laboratorio.
-  { group: "Integracion / BUS", any: ["datos maestros", "gestion de datos maestros"] },
-
-  // --- Nube / Plataforma ---
-  { group: "Nube / Plataforma", any: ["azure"] },
-  { group: "Nube / Plataforma", any: ["nube publica"] },
-
-  // --- Analitica / BI ---
-  // Categoria nueva. Era el hueco mas grande: el nucleo del portafolio de ARIA
-  // (Teradata, Spotfire, bodegas de datos, BI) no tenia ni una regla.
-  { group: "Analitica / BI", any: ["teradata"] },
-  { group: "Analitica / BI", any: ["spotfire"] },
-  { group: "Analitica / BI", any: ["jaspersoft"] },
-  { group: "Analitica / BI", any: ["bodega de datos", "data warehouse"] },
-  { group: "Analitica / BI", any: ["inteligencia de negocios", "business intelligence"] },
-  { group: "Analitica / BI", any: ["analitica avanzada"] },
-];
+// El archivo usa nombres en espanol porque lo edita gente, no solo el script.
+const RULES = CFG.reglas.map((r) => ({
+  group: r.grupo,
+  ...(r.cualquiera ? { any: r.cualquiera } : { all: r.todas }),
+  ...(r.debil ? { weak: true } : {}),
+}));
 
 function norm(s) {
   return (s || "")
@@ -398,6 +305,7 @@ async function main() {
     total_nuevos,
     items,
     candidatos_exploratorios,
+    parametros: CFG,
   };
 
   await fs.writeFile(new URL("latest.json", dataDir), JSON.stringify(output, null, 2));

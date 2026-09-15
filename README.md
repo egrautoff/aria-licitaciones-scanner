@@ -6,6 +6,7 @@ Escanea a diario el dataset público de SECOP II (datos.gov.co, `p6dx-8zbt`) y f
 - `.github/workflows/secop-fetch.yml` — corre el script todos los días y hace commit del resultado.
 - `data/latest.json` — última corrida; la lee una rutina de Claude que publica el dashboard.
 - `data/seen.json` — registro de cuándo se vio por primera vez cada proceso.
+- `config/parametros.json` — **las palabras clave y códigos que rigen la búsqueda**. Este archivo manda; el script solo lo lee.
 - `dashboard.html` — copia de referencia del tablero publicado.
 
 ## Horarios
@@ -78,6 +79,24 @@ Reglas marcadas `weak: true` (no alcanzan a ser "destacado" por si solas): mesa 
 `"portal web"` suelto no sirve: trae 21 procesos y la mayoria son contratos de una persona (comunicadora, difusion de prensa, hasta licencias de obras musicales). Se exige acompanado de un verbo de proyecto: desarrollo, implementacion, migracion, suscripcion, licenciamiento o rediseno.
 
 **Lo que las palabras clave no pueden resolver:** un contrato como "Prestacion de servicios de soporte, operacion, mantenimiento" (Colpensiones, $544M) no menciona producto ni dominio. Solo se identifica por el cliente. Eso requiere una lista de entidades conocidas, que por ser informacion comercial iria como **secreto de GitHub** (no es publico) leido por el script como variable de entorno --- pendiente.
+
+## Cambiar las palabras clave
+
+Los parámetros viven en `config/parametros.json`, no en el código. Hay dos formas de cambiarlos:
+
+**Desde el tablero** (botón "Parámetros de búsqueda", arriba a la derecha): muestra todas las reglas agrupadas, los códigos UNSPSC y los umbrales, y deja editarlos. Los cambios quedan guardados en el almacén del artifact y visibles para el equipo. El último paso es manual: la página no puede escribir en el repositorio porque el navegador bloquea las peticiones a otros dominios, así que el panel entrega el JSON listo y un enlace para pegarlo en este archivo. La recolección de la madrugada siguiente ya usa lo que quedó ahí.
+
+**Editando el archivo** directamente, que es lo mismo sin el intermediario.
+
+Sintaxis de una regla, igual a como se ven las etiquetas en las tarjetas:
+
+```
+liferay, dxp              basta con que aparezca cualquiera de las dos
+portal web + desarrollo   tienen que aparecer todas
+interoperabilidad [debil] cuenta, pero no alcanza para marcar "destacado"
+```
+
+Agregar un grupo nuevo exige además tocar `dashboard.html` (tokens `--cat-*` en los tres bloques de tema, `CAT_CLASS`, `CAT_STAT_CLASS`, `CATS`, la regla del chip y la del badge).
 
 ## Ajustes
 

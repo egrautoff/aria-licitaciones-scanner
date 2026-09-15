@@ -1,0 +1,335 @@
+{
+  "_leeme": "Parametros de busqueda del radar SECOP. Este archivo manda: scripts/fetch-secop.mjs solo los lee. Se edita desde el boton Parametros de busqueda del tablero, o aqui directamente.",
+  "version": "2026-09-15",
+  "ventana_dias": 15,
+  "destacado_valor_min": 1000000000,
+  "exploratorio_valor_min": 30000000,
+  "exploratorio_max_items": 40,
+  "retencion_registro_dias": 180,
+  "unspsc": {
+    "valor_min": 100000000,
+    "familias": [
+      {
+        "prefijo": "V1.8111",
+        "nombre": "81.11 servicios informaticos"
+      },
+      {
+        "prefijo": "V1.4323",
+        "nombre": "43.23 software"
+      }
+    ]
+  },
+  "reglas": [
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "liferay"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "experiencia digital",
+        "dxp"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "portal web",
+        "desarrollo"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "portal web",
+        "implementacion"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "portal web",
+        "migracion"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "portal web",
+        "suscripcion"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "portal web",
+        "licenciamiento"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "portal web",
+        "rediseno"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "gestor de contenidos",
+        "gestor de contenido web"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "portal transaccional"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "intranet corporativa"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "rediseno de portal"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "web master",
+        "webmaster"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "cualquiera": [
+        "sede electronica"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "fabrica de software",
+        "fabrica de aplicaciones"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "desarrollo de software a la medida"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "mantenimiento evolutivo",
+        "mantenimiento adaptativo",
+        "mantenimiento de aplicaciones"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "ingenieria por demanda"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "staffing"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "todas": [
+        "desarrollo",
+        "implementacion",
+        "soporte"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "mesa de ayuda",
+        "soporte tecnico nivel 2",
+        "soporte tecnico nivel 3"
+      ],
+      "debil": true
+    },
+    {
+      "grupo": "IA / Agentes",
+      "todas": [
+        "inteligencia artificial",
+        "agentes"
+      ]
+    },
+    {
+      "grupo": "IA / Agentes",
+      "cualquiera": [
+        "automatizacion de procesos"
+      ]
+    },
+    {
+      "grupo": "IA / Agentes",
+      "cualquiera": [
+        "chatbot",
+        "asistente virtual"
+      ]
+    },
+    {
+      "grupo": "IA / Agentes",
+      "todas": [
+        "analitica de datos",
+        "inteligencia artificial"
+      ]
+    },
+    {
+      "grupo": "IA / Agentes",
+      "cualquiera": [
+        "modelos de lenguaje",
+        "llm"
+      ]
+    },
+    {
+      "grupo": "IA / Agentes",
+      "cualquiera": [
+        "optimizacion seo",
+        "estrategia seo"
+      ]
+    },
+    {
+      "grupo": "IA / Agentes",
+      "cualquiera": [
+        "posicionamiento web"
+      ]
+    },
+    {
+      "grupo": "IA / Agentes",
+      "cualquiera": [
+        "auditoria de contenido digital"
+      ]
+    },
+    {
+      "grupo": "Integracion / BUS",
+      "cualquiera": [
+        "tibco"
+      ]
+    },
+    {
+      "grupo": "Integracion / BUS",
+      "cualquiera": [
+        "bus de servicios",
+        "esb"
+      ]
+    },
+    {
+      "grupo": "Integracion / BUS",
+      "cualquiera": [
+        "integracion de sistemas"
+      ]
+    },
+    {
+      "grupo": "Integracion / BUS",
+      "cualquiera": [
+        "interoperabilidad"
+      ],
+      "debil": true
+    },
+    {
+      "grupo": "Integracion / BUS",
+      "cualquiera": [
+        "arquitectura orientada a servicios",
+        "arquitectura orientada por servicios"
+      ]
+    },
+    {
+      "grupo": "Integracion / BUS",
+      "cualquiera": [
+        "datos maestros",
+        "gestion de datos maestros"
+      ]
+    },
+    {
+      "grupo": "Integracion / BUS",
+      "cualquiera": [
+        "motor de reglas"
+      ]
+    },
+    {
+      "grupo": "Nube / Plataforma",
+      "cualquiera": [
+        "azure"
+      ]
+    },
+    {
+      "grupo": "Nube / Plataforma",
+      "cualquiera": [
+        "nube publica"
+      ]
+    },
+    {
+      "grupo": "Analitica / BI",
+      "cualquiera": [
+        "teradata"
+      ]
+    },
+    {
+      "grupo": "Analitica / BI",
+      "cualquiera": [
+        "spotfire"
+      ]
+    },
+    {
+      "grupo": "Analitica / BI",
+      "cualquiera": [
+        "jaspersoft"
+      ]
+    },
+    {
+      "grupo": "Analitica / BI",
+      "cualquiera": [
+        "bodega de datos",
+        "data warehouse"
+      ]
+    },
+    {
+      "grupo": "Analitica / BI",
+      "cualquiera": [
+        "inteligencia de negocios",
+        "business intelligence"
+      ]
+    },
+    {
+      "grupo": "Analitica / BI",
+      "cualquiera": [
+        "analitica avanzada"
+      ]
+    }
+  ],
+  "terminos_amplios": [
+    "tablero de control",
+    "reportes gerenciales",
+    "gobierno de datos",
+    "calidad de datos",
+    "arquitectura de datos",
+    "big data",
+    "migracion a la nube",
+    "arquitectura empresarial",
+    "modernizacion tecnologica",
+    "modernizacion de aplicaciones",
+    "transformacion digital",
+    "gobierno digital",
+    "gestion documental",
+    "fabrica de aplicaciones",
+    "arquitectura de microservicios",
+    "consultoria tecnologica",
+    "consultoria ti"
+  ]
+}
