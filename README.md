@@ -8,13 +8,36 @@ Escanea a diario el dataset público de SECOP II (datos.gov.co, `p6dx-8zbt`) y f
 - `data/seen.json` — registro de cuándo se vio por primera vez cada proceso.
 - `dashboard.html` — copia de referencia del tablero publicado.
 
-## Horarios
+## Horarios y disparo
 
-El Action corre a las **06:23 UTC (01:23 hora Colombia)** y la rutina de Claude publica a las **14:00 UTC (09:00 hora Colombia)**.
+El Action corre a las **06:23 UTC (01:23 hora Colombia)**. Al terminar de commitear, dispara la rutina de Claude que publica el tablero. La rutina además tiene su propio cron a las **14:00 UTC (09:00 hora Colombia)** como red de seguridad, por si el disparo falla.
 
-El minuto no redondo del cron es deliberado. Con `0 9` — hora en punto, la franja más congestionada de GitHub — el arranque real se corría entre 3h30 y 6h35 respecto de lo programado, así que la rutina siempre alcanzaba a leer el archivo del día anterior y republicaba datos viejos sin que nada lo advirtiera. De ahí las dos defensas: el margen amplio entre ambos horarios, y el aviso de dato atrasado que el propio tablero calcula a partir de `dia`.
+El minuto no redondo del cron es deliberado. Con `0 9` — hora en punto, la franja más congestionada de GitHub — el arranque real se corría entre 3h30 y 6h35 respecto de lo programado, así que la rutina siempre alcanzaba a leer el archivo del día anterior y republicaba datos viejos sin que nada lo advirtiera. Importante: **ese retraso solo afecta a `schedule`**; un `workflow_dispatch` arranca de inmediato.
 
-El arreglo de fondo es que el push del Action dispare la rutina en vez del reloj. Requiere conectar la cuenta de GitHub en claude.ai; hecho eso, se crea con un `create_webhook_trigger` (`hook_type: app`, `source: github`, `events: ["push"]`).
+### Por qué el Action llama a la rutina y no al revés
+
+Se probaron los tres caminos (2026-09-15, desde rutinas desechables en el sandbox de Claude):
+
+| Camino | Resultado |
+|---|---|
+| Rutina → `datos.gov.co` | bloqueado por el proxy: `connect_rejected (organization policy)` |
+| Rutina → `raw.githubusercontent.com` | HTTP 200 |
+| Rutina → `api.github.com` y `github.com` | HTTP 403 de GitHub (el proxy no lo bloquea: `recentRelayFailures: []`) |
+
+O sea que la rutina no puede traer los datos ella misma ni disparar el workflow. El runner de GitHub, en cambio, tiene internet abierto y puede llamar a `POST https://api.anthropic.com/v1/code/triggers/{id}/run`. Esa es la única dirección libre y por eso el disparo va en ese sentido.
+
+El camino nativo (`create_webhook_trigger` con `hook_type: app`, que engancharía el evento `push` de GitHub a la rutina) está descartado: exige conectar la cuenta de GitHub en claude.ai y la política de la organización no lo permite.
+
+### Activar el disparo
+
+El paso se salta solo mientras no exista el secreto, así que el repositorio funciona igual sin él. Para activarlo:
+
+```
+claude setup-token
+gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo egrautoff/aria-licitaciones-scanner
+```
+
+El token no debe quedar en ningún archivo del repositorio ni en un historial de comandos: se pega solo en el prompt de `gh secret set`.
 
 ## Novedades y seguimiento
 
