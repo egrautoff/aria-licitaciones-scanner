@@ -491,7 +491,8 @@ let db = null;
 let dbListo = false;
 let conciliando = false;
 
-const state = { search: "", activeCats: new Set() };
+// Un solo filtro activo a la vez: volver a tocar el chip encendido regresa a "Todas".
+const state = { search: "", cat: null };
 
 function filtros() {
   return [
@@ -630,7 +631,7 @@ function renderStats() {
 function renderChips() {
   const disponibles = filtros();
   // Un filtro activo cuyo chip desaparecio dejaria la lista vacia sin explicacion.
-  for (const c of [...state.activeCats]) if (!disponibles.includes(c)) state.activeCats.delete(c);
+  if (state.cat && !disponibles.includes(state.cat)) state.cat = null;
 
   const el = document.getElementById("chips");
   el.innerHTML =
@@ -638,14 +639,14 @@ function renderChips() {
     disponibles.map((c) => `<button class="chip" data-cat="${esc(c)}" aria-pressed="false">${esc(c)}</button>`).join("");
 
   el.querySelector("#chip-all").addEventListener("click", () => {
-    state.activeCats.clear();
+    state.cat = null;
     syncChips();
     renderCards();
   });
   el.querySelectorAll("[data-cat]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const c = btn.dataset.cat;
-      state.activeCats.has(c) ? state.activeCats.delete(c) : state.activeCats.add(c);
+      state.cat = state.cat === c ? null : c;
       syncChips();
       renderCards();
     });
@@ -653,14 +654,14 @@ function renderChips() {
   syncChips();
 }
 function syncChips() {
-  document.getElementById("chip-all").setAttribute("aria-pressed", String(state.activeCats.size === 0));
+  document.getElementById("chip-all").setAttribute("aria-pressed", String(state.cat === null));
   document.querySelectorAll("[data-cat]").forEach((btn) => {
-    btn.setAttribute("aria-pressed", String(state.activeCats.has(btn.dataset.cat)));
+    btn.setAttribute("aria-pressed", String(state.cat === btn.dataset.cat));
   });
 }
 
 function matchesFilters(it) {
-  if (state.activeCats.size && !it.tags.some((t) => state.activeCats.has(t))) return false;
+  if (state.cat && !it.tags.includes(state.cat)) return false;
   if (!state.search) return true;
   const haystack = norm(
     `${it.entidad} ${it.descripcion} ${it.unspsc} ${(it.matched_keywords || []).join(" ")} ${it.razon || ""}`,
