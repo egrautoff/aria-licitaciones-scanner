@@ -20,12 +20,8 @@ const EXPLORATORIO_MAX_ITEMS = 40;
 // certeza, porque comparar contra la corrida anterior falla apenas se salte un dia.
 const SEEN_RETENTION_DAYS = 180;
 const BROAD_TERMS = [
-  "inteligencia de negocios",
-  "business intelligence",
   "tablero de control",
   "reportes gerenciales",
-  "bodega de datos",
-  "data warehouse",
   "gobierno de datos",
   "calidad de datos",
   "arquitectura de datos",
@@ -44,19 +40,32 @@ const BROAD_TERMS = [
 ];
 
 const RULES = [
+  // --- Liferay / Portal ---
   { group: "Liferay / Portal", any: ["liferay"] },
+  { group: "Liferay / Portal", any: ["experiencia digital", "dxp"] },
   { group: "Liferay / Portal", all: ["portal web", "desarrollo"] },
-  { group: "Liferay / Portal", any: ["gestor de contenidos"] },
+  { group: "Liferay / Portal", all: ["portal web", "implementacion"] },
+  { group: "Liferay / Portal", all: ["portal web", "migracion"] },
+  { group: "Liferay / Portal", all: ["portal web", "suscripcion"] },
+  { group: "Liferay / Portal", all: ["portal web", "licenciamiento"] },
+  { group: "Liferay / Portal", all: ["portal web", "rediseno"] },
+  { group: "Liferay / Portal", any: ["gestor de contenidos", "gestor de contenido web"] },
   { group: "Liferay / Portal", any: ["portal transaccional"] },
   { group: "Liferay / Portal", any: ["intranet corporativa"] },
   { group: "Liferay / Portal", any: ["rediseno de portal"] },
+  { group: "Liferay / Portal", any: ["web master", "webmaster"] },
+  { group: "Liferay / Portal", any: ["sede electronica"] },
 
-  { group: "Desarrollo / Fabrica", any: ["fabrica de software"] },
+  // --- Desarrollo / Fabrica ---
+  { group: "Desarrollo / Fabrica", any: ["fabrica de software", "fabrica de aplicaciones"] },
   { group: "Desarrollo / Fabrica", any: ["desarrollo de software a la medida"] },
-  { group: "Desarrollo / Fabrica", any: ["mantenimiento evolutivo"] },
+  { group: "Desarrollo / Fabrica", any: ["mantenimiento evolutivo", "mantenimiento adaptativo", "mantenimiento de aplicaciones"] },
+  { group: "Desarrollo / Fabrica", any: ["ingenieria por demanda"] },
+  { group: "Desarrollo / Fabrica", any: ["staffing"] },
   { group: "Desarrollo / Fabrica", all: ["desarrollo", "implementacion", "soporte"] },
   { group: "Desarrollo / Fabrica", any: ["mesa de ayuda", "soporte tecnico nivel 2", "soporte tecnico nivel 3"], weak: true },
 
+  // --- IA / Agentes ---
   { group: "IA / Agentes", all: ["inteligencia artificial", "agentes"] },
   { group: "IA / Agentes", any: ["automatizacion de procesos"] },
   { group: "IA / Agentes", any: ["chatbot", "asistente virtual"] },
@@ -66,9 +75,35 @@ const RULES = [
   { group: "IA / Agentes", any: ["posicionamiento web"] },
   { group: "IA / Agentes", any: ["auditoria de contenido digital"] },
 
-  { group: "Integracion / BUS", any: ["bus de servicios empresariales", "esb"] },
-  { group: "Integracion / BUS", any: ["integracion tibco"] },
+  // --- Integracion / BUS ---
+  // El nombre del producto es la senal de mayor precision que existe: un proceso
+  // que dice "TIBCO" es de ARIA casi con certeza. La regla anterior exigia la
+  // frase "integracion tibco", que no aparece en ningun contrato real, y dejaba
+  // ciego al radar frente a la linea de negocio mas grande de la empresa.
+  { group: "Integracion / BUS", any: ["tibco"] },
+  // En singular: los pliegos dicen "bus de servicios empresarial", no "empresariales".
+  { group: "Integracion / BUS", any: ["bus de servicios", "esb"] },
   { group: "Integracion / BUS", any: ["integracion de sistemas"] },
+  { group: "Integracion / BUS", any: ["interoperabilidad"], weak: true },
+  // Sin la abreviatura "soa": con 3 letras engancha texto cualquiera (pesco
+  // compra de mobiliario y gestion humana). Solo la frase completa.
+  { group: "Integracion / BUS", any: ["arquitectura orientada a servicios"] },
+  // Sin "mdm" por lo mismo: pesco suministro de material de laboratorio.
+  { group: "Integracion / BUS", any: ["datos maestros", "gestion de datos maestros"] },
+
+  // --- Nube / Plataforma ---
+  { group: "Nube / Plataforma", any: ["azure"] },
+  { group: "Nube / Plataforma", any: ["nube publica"] },
+
+  // --- Analitica / BI ---
+  // Categoria nueva. Era el hueco mas grande: el nucleo del portafolio de ARIA
+  // (Teradata, Spotfire, bodegas de datos, BI) no tenia ni una regla.
+  { group: "Analitica / BI", any: ["teradata"] },
+  { group: "Analitica / BI", any: ["spotfire"] },
+  { group: "Analitica / BI", any: ["jaspersoft"] },
+  { group: "Analitica / BI", any: ["bodega de datos", "data warehouse"] },
+  { group: "Analitica / BI", any: ["inteligencia de negocios", "business intelligence"] },
+  { group: "Analitica / BI", any: ["analitica avanzada"] },
 ];
 
 function norm(s) {

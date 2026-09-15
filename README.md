@@ -55,10 +55,36 @@ La lista es compartida por toda la organización: no hay capacidad `user` dispon
 
 Se puede inspeccionar desde Claude Code con la herramienta `ArtifactData` sobre la colección `seguimiento`.
 
+## Las reglas salieron del historico de ARIA
+
+Las palabras clave no se inventaron: se derivaron de los **34 contratos que ARIA ha ganado**, tomados de `Administracion_Contratos.xlsx` (OneDrive de la organizacion, `ARIAPSW S.A.S - Archivo Oficial/00. CONTRATOS CLIENTES/`).
+
+El metodo fue correr las reglas vigentes contra el objeto contractual de cada contrato ganado y ver cuales no pescaba. El resultado del primer diagnostico (2026-09-15):
+
+| | Antes | Despues |
+|---|---|---|
+| Contratos propios que el radar veria | 16 de 34 | 33 de 34 |
+| Valor invisible | $80.534M (71%) | $544M (0,5%) |
+| Coincidencias por ventana de 15 dias | 33 | 62 |
+
+La causa era concreta: la unica regla de TIBCO exigia la frase `"integracion tibco"`, que no aparece en ningun contrato real — los objetos dicen "plataforma TIBCO", "licenciamiento TIBCO", "productos de software TIBCO". El radar era ciego a la linea de negocio mas grande de la empresa. Tambien faltaban por completo Teradata, Spotfire, bodega de datos e inteligencia de negocios, y `"bus de servicios empresariales"` estaba en plural cuando los pliegos dicen singular.
+
+**El corpus no esta en este repositorio y no debe estarlo.** El repo es publico (unica forma en que la rutina alcanza los datos), asi que subir el historico de contratos publicaria informacion comercial de ARIA. Lo unico que se versiona es la lista de terminos derivada, que no es sensible. Para repetir el analisis, leer el Excel con el conector de Microsoft 365 y correr la comparacion en local.
+
+**El nombre del producto es la senal de mayor precision.** Un proceso que menciona TIBCO, Teradata, Spotfire, Liferay o Jaspersoft es de ARIA casi con certeza. Las abreviaturas cortas, en cambio, son peligrosas: con 3 letras la comparacion usa limite de palabra y engancha texto cualquiera — `soa` pesco compra de mobiliario y `mdm` suministro de material de laboratorio. Se eliminaron; solo quedan las frases completas.
+
+Reglas marcadas `weak: true` (no alcanzan a ser "destacado" por si solas): mesa de ayuda, soporte tecnico nivel 2-3 e interoperabilidad. La ultima da senal real pero la mitad es ruido — pesco un abogado para el marco legal de interoperabilidad y un servicio de telefonia Webex.
+
+`"portal web"` suelto no sirve: trae 21 procesos y la mayoria son contratos de una persona (comunicadora, difusion de prensa, hasta licencias de obras musicales). Se exige acompanado de un verbo de proyecto: desarrollo, implementacion, migracion, suscripcion, licenciamiento o rediseno.
+
+**Lo que las palabras clave no pueden resolver:** un contrato como "Prestacion de servicios de soporte, operacion, mantenimiento" (Colpensiones, $544M) no menciona producto ni dominio. Solo se identifica por el cliente. Eso requiere una lista de entidades conocidas, que por ser informacion comercial iria como **secreto de GitHub** (no es publico) leido por el script como variable de entorno --- pendiente.
+
 ## Ajustes
 
-Para cambiar las palabras clave, edita el arreglo `RULES` en `scripts/fetch-secop.mjs`. Los procesos con valor ≥ $1.000 millones que coincidan con una palabra clave "fuerte" (no solo mesa de ayuda/soporte genérico) se marcan `destacado: true` — ajustable con `DESTACADO_VALOR_MIN` y el flag `weak` de cada regla.
+Para cambiar las palabras clave, edita el arreglo `RULES` en `scripts/fetch-secop.mjs`. Los procesos con valor >= $1.000 millones que coincidan con una palabra clave "fuerte" se marcan `destacado: true` --- ajustable con `DESTACADO_VALOR_MIN` y el flag `weak` de cada regla.
 
-La rutina republica el tablero **sin** pasar `capabilities`, lo cual conserva la declaración guardada. Si alguna vez llegara a pasarlas, revocaría la capacidad `db` y el equipo perdería su lista de seguimiento; el prompt de la rutina lo advierte de forma explícita.
+Al agregar una categoria nueva hay que sumarla tambien en `dashboard.html`: los tokens de color (`--cat-*` en los tres bloques de tema), `CAT_CLASS`, `CAT_STAT_CLASS`, `CATS`, la regla del chip y la del badge.
 
-Al cambiar la forma de los datos hay que actualizar también el prompt de la rutina (`RemoteTrigger action:update`, trigger `trig_01TYWswpG56dfVXbizXAckku`), que describe el JSON que espera el tablero.
+La rutina republica el tablero **sin** pasar `capabilities`, lo cual conserva la declaracion guardada. Si alguna vez llegara a pasarlas, revocaria la capacidad `db` y el equipo perderia su lista de seguimiento; el prompt de la rutina lo advierte de forma explicita.
+
+Al cambiar la forma de los datos hay que actualizar tambien el prompt de las dos rutinas (`RemoteTrigger action:update`), que describen el JSON que espera el tablero.

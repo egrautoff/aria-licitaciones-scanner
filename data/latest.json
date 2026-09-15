@@ -1,13 +1,36 @@
 {
-  "generated_at": "2026-09-15T16:54:05.377Z",
+  "generated_at": "2026-09-15T17:25:47.642Z",
   "dia": "2026-09-15",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2182,
-  "total_matched": 33,
+  "total_scanned": 2373,
+  "total_matched": 62,
   "total_destacados": 2,
   "total_nuevos": 0,
   "items": [
+    {
+      "id_proceso": "CO1.REQ.11033146",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN EDUCATIVA COLEGIO DE SAN SIMON",
+      "unspsc": "V1.81112105",
+      "fecha_publicacion": "2026-09-13T00:00:00.000",
+      "descripcion": "CONTRATAR LA PRESTACIÓN DE SERVICIOS TECNOLÓGICOS PARA LA ACTUALIZACIÓN, CONVERSIÓN, MIGRACIÓN, REDISEÑO Y PUESTA EN FUNCIONAMIENTO DEL PORTAL WEB INSTITUCIONAL DEL COLEGIO DE SAN SIMÓN, INCLUYENDO EL SERVICIO DE ALOJAMIENTO WEB HOSTING, SOPORTE Y GESTIÓN DEL DOMINIO INSTITUCIONAL, CERTIFICADO SSL, SEGURIDAD INFORMÁTICA, SOPORTE TÉCNICO Y DEMÁS SERVICIOS NECESARIOS PARA GARANTIZAR SU DISPONIBILIDAD, FUNCIONAMIENTO Y ADMINISTRACIÓN",
+      "valor": 2200000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10886690",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "portal web + migracion",
+        "portal web + rediseno"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
     {
       "id_proceso": "CO1.REQ.11009126",
       "fuente": "SECOP II",
@@ -20,9 +43,11 @@
       "modalidad": "Selección Abreviada de Menor Cuantía",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884169",
       "matched_groups": [
+        "Liferay / Portal",
         "IA / Agentes"
       ],
       "matched_keywords": [
+        "sede electronica",
         "asistente virtual"
       ],
       "destacado": true,
@@ -163,6 +188,29 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11008237",
+      "fuente": "SECOP II",
+      "entidad": "CORPORACIÓN INTERUNIVERSITARIA DE SERVICIOS - CIS",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Prestación de servicios profesionales para el apoyo, operación y seguridad de la información del Portal Web (Web Master), soporte, implementación y mantenimiento del Sistema de Gestión de Calidad del proceso de comunicación institucional y el procesamiento institucional de datos (ETL) en el portal de datos abiertos.",
+      "valor": 19000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10863120",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "portal web + implementacion",
+        "web master"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.11015809",
       "fuente": "SECOP II",
       "entidad": "CORPORACIÓN AUTÓNOMA DEL RÍO GRANDE DE LA MAGDALENA**",
@@ -252,6 +300,72 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11011688",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE RENOVACION Y DESARROLLO URBANO DE BOGOTA D.C",
+      "unspsc": "V1.80161504",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Prestar servicios Personales para gestionar la infraestructura tecnológica, fortalecer la seguridad perimetral e interoperabilidad, y desarrollar el sistema de administración y seguridad digital de la Empresa.",
+      "valor": 34440000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10867117",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11009673",
+      "fuente": "SECOP II",
+      "entidad": "DIRECCION GENERAL MARITIMA - SUBDIRECCION ADMINISTRATIVA Y FINANCIERA - SUBAFIN",
+      "unspsc": "V1.80121700",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE LOS SERVICIOS PROFESIONALES COMO ABOGADO (A) PARA DESARROLLAR ACTIVIDADES EN EL MARCO LEGAL DE INTEROPERABILIDAD DE LOS PROYECTOS PETI, LA GESTIÓN DE CONTRATOS Y CONVENIOS PARA LA SUBDIRECCIÓN ADMINISTRATIVA Y FINANCIERA DE LA DIRECCIÓN GENERAL MARÍTIMA - DIMAR",
+      "valor": 27888000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10867428",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11002703",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUE TOLIMA - EMPRESA SOCIAL DEL ESTADO",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "CONTRATAR LA RENOVACIÓN DE LAS LICENCIAS DEL ANTIVIRUS PARA LOS SERVIDORES VIRTUALES, ESTACIONES DE TRABAJO, Y RENOVACIÓN DE LICENCIAS PARA LA SOLUCIÓN BUSINESS INTELLIGENCE EN EL HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUÉ ESE",
+      "valor": 124723900,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864119",
+      "matched_groups": [
+        "Analitica / BI"
+      ],
+      "matched_keywords": [
+        "business intelligence"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.11001782",
       "fuente": "SECOP II",
       "entidad": "TRANSMILENIO S.A.",
@@ -311,6 +425,94 @@
       ],
       "matched_keywords": [
         "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11002800",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA MUNICIPAL LA VIRGINIA RISARALDA",
+      "unspsc": "V1.80111701",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES ESPECIALIZADOS A LA DIRECCIÓN TÉCNICA DE TIC EN LA GESTIÓN, INTEROPERABILIDAD, ADMINISTRACIÓN Y PUESTA EN MARCHA DE LOS SISTEMAS DE INFORMACIÓN FINANCIERA DEL MUNICIPIO DE LA VIRGINIA, RISARALDA, ASÍ COMO EN LA ESTRUCTURACIÓN, Y ARTICULACIÓN OPERATIVA DE LAS BASES DE DATOS INSTITUCIONALES DE LA ENTIDAD.",
+      "valor": 14000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857978",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11006705",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Prestación de servicios como contratista independiente, sin vínculo laboral por su propia cuenta y riesgo para realizar la gestión de Profesional de apoyo para la Arquitectura Azure en ejecución del Contrato Interadministrativo No.4600108695 DE 2026, celebrado entre EL DISTRITO ESPECIAL DE CIENCIA TECNOLOGÍA E INNOVACIÓN DE MEDELLÍN,SECRETARÍA DE INNOVACION DIGITAL y el ITM",
+      "valor": 41433333,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860614",
+      "matched_groups": [
+        "Nube / Plataforma"
+      ],
+      "matched_keywords": [
+        "azure"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11003603",
+      "fuente": "SECOP II",
+      "entidad": "SECRETARIA DISTRITAL DE AMBIENTE",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "PRESTAR LOS SERVICIOS PROFESIONALES PARA REALIZAR EL DESARROLLO E IMPLEMENTACIÓN DE SOLUCIONES DE ANALÍTICA DE DATOS E INTELIGENCIA DE NEGOCIOS, ORIENTADAS AL SEGUIMIENTO DE LA GESTIÓN Y LA GENERACIÓN DE INFORMACIÓN PARA EL FORTALECIMIENTO DE LA PLANEACIÓN ESTRATÉGICA DE LA SECRETARÍA DISTRITAL DE AMBIENTE",
+      "valor": 34544000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857436",
+      "matched_groups": [
+        "Analitica / BI"
+      ],
+      "matched_keywords": [
+        "inteligencia de negocios"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11005671",
+      "fuente": "SECOP II",
+      "entidad": "CORPORACION PARA EL DESARROLLO Y LA PRODUCTIVIDAD BOGOTA REGION",
+      "unspsc": "V1.43233419",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Adquisición de una plataforma especializada de inteligencia de negocios y monitoreo del ecosistema emprendedor global, con el objetivo de identificar tendencias de inversión, levantamiento de capital y expansión empresarial en startups y compañías de base tecnológica a nivel mundial",
+      "valor": 1828680,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860238",
+      "matched_groups": [
+        "Analitica / BI"
+      ],
+      "matched_keywords": [
+        "inteligencia de negocios"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -406,6 +608,94 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.10997157",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE YOPAL...",
+      "unspsc": "V1.80101604",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "BRINDAR ASISTENCIAS TECNICA  PARA LA ARTICULACIÓN, INTEROPERABILIDAD DE DATOS Y CONSOLIDACIÓN DE LA INFORMACIÓN DEL  SEGUIMIENTO Y CONTROL DEL TERRITORIO, COMO ESTRATEGIA PARA EL DESARROLLO DEL PROYECTO:  FORTALECIMIENTO DE INSTRUMENTOS, HERRAMIENTAS Y PROCESOS DE PLANIFICACIÓN Y GESTIÓN TERRITORIAL DEL MUNICIPIO DE YOPAL .",
+      "valor": 26666666,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10850952",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10997511",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE YOPAL...",
+      "unspsc": "V1.80101604",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "BRINDAR ASISTENCIAS TECNICA  PARA LA ARTICULACIÓN, INTEROPERABILIDAD DE DATOS Y CONSOLIDACIÓN DE LA INFORMACIÓN DEL  SEGUIMIENTO Y CONTROL DEL TERRITORIO, COMO ESTRATEGIA PARA EL DESARROLLO DEL PROYECTO:  FORTALECIMIENTO DE INSTRUMENTOS, HERRAMIENTAS Y PROCESOS DE PLANIFICACIÓN Y GESTIÓN TERRITORIAL DEL MUNICIPIO DE YOPAL .",
+      "valor": 26666666,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10851129",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10996680",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Prestación de servicios como contratista independiente, sin vínculo laboral por su propia cuenta y riesgo para realizar la gestion de Profesional de apoyo para la organización, estructuración y generación de visualizaciones de inteligencia de negocios requeridos por la Subdirección de Prospectiva, información y Evaluación Estratégica En ejecución del Contrato Interadministrativo No. 4600108379 de 2026, celebrado  entre el Distrito Especial de Ciencia, Tecnología e Innovación de Medellín , el Dep",
+      "valor": 27417000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10850450",
+      "matched_groups": [
+        "Analitica / BI"
+      ],
+      "matched_keywords": [
+        "inteligencia de negocios"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989584",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA MUNICIPIO DE MANI 1",
+      "unspsc": "V1.80111701",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES EN TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES (TIC), PARA APOYAR LA IMPLEMENTACIÓN Y SEGUIMIENTO DE LOS SERVICIOS DIGITALES, SISTEMAS DE INFORMACIÓN Y PORTAL WEB INSTITUCIONAL DE LA ALCALDÍA MUNICIPAL DE MANÍ- CASANARE.",
+      "valor": 12353333,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843568",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "portal web + implementacion"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.10987837",
       "fuente": "SECOP II",
       "entidad": "MUNICIPIO DE SOACHA..",
@@ -420,7 +710,8 @@
         "Liferay / Portal"
       ],
       "matched_keywords": [
-        "portal web + desarrollo"
+        "portal web + desarrollo",
+        "webmaster"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -465,6 +756,72 @@
       ],
       "matched_keywords": [
         "mantenimiento evolutivo"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10988770",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE RENOVACION Y DESARROLLO URBANO DE BOGOTA D.C",
+      "unspsc": "V1.80161504",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Prestar servicios personales en la administración de infraestructura y operaciones backend, abarcando el despliegue automatizado, la configuración de servidores, el mantenimiento de aplicaciones y la optimización de servicios del lado del servidor para asegurar la continuidad y eficiencia del negocio.",
+      "valor": 19333333,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10842835",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mantenimiento de aplicaciones"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10987570",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "V1.80101706",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES PARA ASISTIR LA SUPERVISION ADMINISTRATIVA DEL CONTRATO DE NUBE PUBLICA DE LA SECCION DE INFRAESTRUCTURA Y GESTION DE SERVICIOS TI DE LA UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "valor": 20000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10841364",
+      "matched_groups": [
+        "Nube / Plataforma"
+      ],
+      "matched_keywords": [
+        "nube publica"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10982219",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Prestar servicios profesionales para apoyar la actualización de la arquitectura de información, implementación y puesta en funcionamiento del portal web de la Facultad de Artes.",
+      "valor": 13000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10835426",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "portal web + implementacion"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -582,6 +939,116 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.10979414",
+      "fuente": "SECOP II",
+      "entidad": "PROCURADURIA GENERAL DE LA NACION",
+      "unspsc": "V1.80111601",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES ESPECIALIZADOS PARA FORMULAR Y APLICAR LAS ACTIVIDADES DE CONSOLIDACIÓN Y OPTIMIZACIÓN DE ESTRATEGIAS, MODELOS DE ATENCIÓN AL CIUDADANO Y MECANISMOS DE GOBERNANZA, PROMOVIENDO LA MODERNIZACIÓN, LA INTEROPERABILIDAD Y LA ACCESIBILIDAD DE LOS SERVICIOS INSTITUCIONALES EN EL MARCO DEL PROGRAMA DE TRANSFORMACIÓN DIGITAL DE LA PROCURADURÍA GENERAL DE LA NACIÓN",
+      "valor": 70200000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832657",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10980080",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL SAN RAFAEL EMPRESA SOCIAL DEL ESTADO",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "PRESTAR LOS SERVICIOS DE WEB SERVICES PARA INTEROPERAR ENTRE SQLHOSPIVISUAL Y EL MINISTERIO DE SALUD Y PROTECCION SOCIAL (IHCE), RESUMEN DIGITAL DE ATENCIÓN EN SALUD (RDA) EN EL MARCO DE LA INTEROPERABILIDAD DE LA HISTORIA CLÍNICA ELECTRÓNICA (IHCE) DE LA RESOLUCION 1888 DE 2025",
+      "valor": 19337500,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833477",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10950411",
+      "fuente": "SECOP II",
+      "entidad": "INVIAS",
+      "unspsc": "V1.81102200",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "SOLICITUD DE INFORMACIÓN A PROVEEDORES PARA LA ELABORACIÓN DEL MANUAL DE INTEROPERABILIDAD FÉRREA",
+      "valor": 0,
+      "estado": "Publicado",
+      "modalidad": "Solicitud de información a los Proveedores",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833592",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10975849",
+      "fuente": "SECOP II",
+      "entidad": "ASOCIACIÓN COLOMBIANA DE PORCICULTORES",
+      "unspsc": "V1.81112003",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "El objeto de la presente orden es contratar el servicio de configuración, implementación y puesta en marcha de la plataforma Microsoft Azure (Cloud Computing), que comprende la planeación, configuración e implementación de los recursos en la nube, la ejecución de pruebas de funcionamiento, la elaboración de la documentación técnica correspondiente y el soporte posterior a la implementación, con el propósito de fortalecer, optimizar y garantizar la adecuada operación de la infraestructura",
+      "valor": 4371400,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10829052",
+      "matched_groups": [
+        "Nube / Plataforma"
+      ],
+      "matched_keywords": [
+        "azure"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10967900",
+      "fuente": "SECOP II",
+      "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL JUNTA CENTRAL DE CONTADORES",
+      "unspsc": "V1.43232300",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Contratar la renovación del licenciamiento de Sitefinity DXP y ESET Protect Entry Cloud, incluido el soporte técnico durante la vigencia del licenciamiento, así como una bolsa de horas para el desarrollo y mejora de los portales implementados en Sitefinity, de conformidad con las especificaciones técnicas definidas por la UAE Junta Central de Contadores.",
+      "valor": 68805870,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10824019",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "dxp"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.10969654",
       "fuente": "SECOP II",
       "entidad": "TRANSMILENIO S.A.",
@@ -641,6 +1108,140 @@
       ],
       "matched_keywords": [
         "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10967502",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA COLOMBIANA DE PETROLEOS",
+      "unspsc": "V1.43232600",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "SERVICIO DE COLABORACIÓN WEBEX CON FUNCIONALIDADES DE TELEFONÍA, BRIDGE COUNTRY CALL ME/CALL ME BACK, GLOBAL CALL ME/CALL ME BACK, VIDEO Y CONFERENCIA WEB, CON INTEROPERABILIDAD DE VIDEO PARA ECOPETROL S.A",
+      "valor": 1,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10821509",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10969757",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS COMO CONTRATISTA INDEPENDIENTE SIN VÍNCULO LABORAL POR SU CUENTA Y RIESGO, PARA EL APOYO A LA GESTIÓN DE LOS LABORATORIOS DE TELECOMUNICACIONES (CONMUTACIÓN, RADIO PROPAGACIÓN, INTEROPERABILIDAD, SISTEMAS DE COMUNICACIONES) Y PRESTAR APOYO CUANDO SE LE SOLICITE O SEA REQUERIDO A LOS LABORATORIOS DE CIRCUITOS DEL CAMPUS FRATERNIDAD DEL ITM",
+      "valor": 11290140,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10823624",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10971790",
+      "fuente": "SECOP II",
+      "entidad": "ESE HOSPITAL PILOTO JAMUNDI",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "PRESTAR EL SERVICIO DE SOPORTE Y ACTUALIZACIÓN EN LAS HERRAMIENTAS DE INTELIGENCIA DE NEGOCIOS OFERTADAS POR LA PLATAFORMA SUITE SOPPORT UPDATE.",
+      "valor": 21000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10825491",
+      "matched_groups": [
+        "Analitica / BI"
+      ],
+      "matched_keywords": [
+        "inteligencia de negocios"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10964873",
+      "fuente": "SECOP II",
+      "entidad": "E.S.E. HOSPITAL SAN ANTONIO DE GIGANTE",
+      "unspsc": "V1.81112205",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "EL CONTRATISTA se obliga para con EL CONTRATANTE a realizar el licenciamiento, desarrollo evolutivo, implementación, parametrización, integración, puesta en funcionamiento y soporte del módulo de Interoperabilidad de Historia Clínica Electrónica - IHCE y visor de historias clínicas interoperadas, como extensión funcional del sistema de información SIIGHOS PLUS, en cumplimiento de la Resolución 1888 de 2025 del Ministerio de Salud y Protección Social..",
+      "valor": 19040000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818273",
+      "matched_groups": [
+        "Desarrollo / Fabrica",
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte",
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10958000",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO MUNICIPAL DE CULTURA Y TURISMO DE CAJICA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES COMO WEB MASTER DEL INSTITUTO MUNICIPAL DE CULTURA Y TURISMO DE CAJICÁ",
+      "valor": 16000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10812315",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "web master"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10932385",
+      "fuente": "SECOP II",
+      "entidad": "Institución Universitaria Pascual Bravo COMPRADOR",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "Prestación de servicios por su cuenta y riesgo, sin vínculo laboral para el apoyo en la unidad de comunicaciones y virtualidad como Webmaster y administrador de las plataformas del Programa de Innovación, Transferencia y Servicios y de Educación Continua como proyecto estratégico de la Dirección de vinculación y transformación social.",
+      "valor": 10315448,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10812588",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "webmaster"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -729,6 +1330,50 @@
       ],
       "matched_keywords": [
         "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10954026",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE ZARZAL",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "PRESTACION DE LOS SERVICIOS PROFESIONALES EN EL SOPORTE TECNICO, ADMINISTRACION, MANTENIMIENTO ACOMPAÑAMIENTO FUNCIONAL, CAPACITACION Y APOYO OPERATIVO DE LA PLATAFORMA WEB INSTITICIONAL  IMPUESTOS/ZARZAL  Y DE LOS SISTEMAS DE INFORMACION ASOCIADOS, ASI MISMO LA IMPLEMENTACION DE UN MODULO PARA REL RECAUDO DE OTRAS RENTAS, LOGRANDO GARANTIZAR SU ADECUADO FUNCIONAMIENTO, DISPONIBILIDAD, SEGURIDAD, CONTINUIDAD OPERATIVA E INTEROPERABILIDAD, EN APOYO A LA GESTION DEL DEPARTAMENTO ADMINISTRATIVO DE",
+      "valor": 38000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10814072",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10953993",
+      "fuente": "SECOP II",
+      "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES",
+      "unspsc": "V1.81112208",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "REQUIERE CONTRATAR LA ADQUISICIÓN, RENOVACIÓN, ACTUALIZACIÓN Y SOPORTE DE LOS SERVICIO DE LAS LICENCIAS DE SOFTWARE DE INTELIGENCIA DE NEGOCIOS (BI) VISUALIZACIÓN (TABLEAU) PARA LOS DEPARTAMENTOS CONJUNTOS DE OPERACIONES DEL COMANDO GENERAL DE LAS FUERZAS MILITARES, DE ACUERDO CON EL ANEXO DE ESPECIFICACIONES TECNICAS.",
+      "valor": 79750080,
+      "estado": "Abierto",
+      "modalidad": "Mínima cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818086",
+      "matched_groups": [
+        "Analitica / BI"
+      ],
+      "matched_keywords": [
+        "inteligencia de negocios"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -841,42 +1486,6 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10830424",
       "matched_broad_keywords": [
         "transformacion digital"
-      ],
-      "primera_vez_visto": "2026-09-15",
-      "dias_en_radar": 1,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11002703",
-      "fuente": "SECOP II",
-      "entidad": "HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUE TOLIMA - EMPRESA SOCIAL DEL ESTADO",
-      "unspsc": "V1.43231500",
-      "fecha_publicacion": "2026-09-09T00:00:00.000",
-      "descripcion": "CONTRATAR LA RENOVACIÓN DE LAS LICENCIAS DEL ANTIVIRUS PARA LOS SERVIDORES VIRTUALES, ESTACIONES DE TRABAJO, Y RENOVACIÓN DE LICENCIAS PARA LA SOLUCIÓN BUSINESS INTELLIGENCE EN EL HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUÉ ESE",
-      "valor": 124723900,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864119",
-      "matched_broad_keywords": [
-        "business intelligence"
-      ],
-      "primera_vez_visto": "2026-09-15",
-      "dias_en_radar": 1,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10953993",
-      "fuente": "SECOP II",
-      "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES",
-      "unspsc": "V1.81112208",
-      "fecha_publicacion": "2026-09-01T00:00:00.000",
-      "descripcion": "REQUIERE CONTRATAR LA ADQUISICIÓN, RENOVACIÓN, ACTUALIZACIÓN Y SOPORTE DE LOS SERVICIO DE LAS LICENCIAS DE SOFTWARE DE INTELIGENCIA DE NEGOCIOS (BI) VISUALIZACIÓN (TABLEAU) PARA LOS DEPARTAMENTOS CONJUNTOS DE OPERACIONES DEL COMANDO GENERAL DE LAS FUERZAS MILITARES, DE ACUERDO CON EL ANEXO DE ESPECIFICACIONES TECNICAS.",
-      "valor": 79750080,
-      "estado": "Abierto",
-      "modalidad": "Mínima cuantía",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818086",
-      "matched_broad_keywords": [
-        "inteligencia de negocios"
       ],
       "primera_vez_visto": "2026-09-15",
       "dias_en_radar": 1,
@@ -1003,24 +1612,6 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869158",
       "matched_broad_keywords": [
         "tablero de control"
-      ],
-      "primera_vez_visto": "2026-09-15",
-      "dias_en_radar": 1,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11003603",
-      "fuente": "SECOP II",
-      "entidad": "SECRETARIA DISTRITAL DE AMBIENTE",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-09-08T00:00:00.000",
-      "descripcion": "PRESTAR LOS SERVICIOS PROFESIONALES PARA REALIZAR EL DESARROLLO E IMPLEMENTACIÓN DE SOLUCIONES DE ANALÍTICA DE DATOS E INTELIGENCIA DE NEGOCIOS, ORIENTADAS AL SEGUIMIENTO DE LA GESTIÓN Y LA GENERACIÓN DE INFORMACIÓN PARA EL FORTALECIMIENTO DE LA PLANEACIÓN ESTRATÉGICA DE LA SECRETARÍA DISTRITAL DE AMBIENTE",
-      "valor": 34544000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857436",
-      "matched_broad_keywords": [
-        "inteligencia de negocios"
       ],
       "primera_vez_visto": "2026-09-15",
       "dias_en_radar": 1,
