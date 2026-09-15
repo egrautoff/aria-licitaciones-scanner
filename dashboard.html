@@ -746,6 +746,7 @@
         <label>Piso UNSPSC ($)<input type="number" id="p-unspsc-min" step="1000000"></label>
         <label>Explorar desde ($)<input type="number" id="p-explora" step="1000000"></label>
         <label>Ventana (días)<input type="number" id="p-ventana" min="1" max="90"></label>
+        <label>Analizar pliegos desde ($)<input type="number" id="p-requisitos" step="1000000"></label>
       </div>
     </fieldset>
 
@@ -1263,9 +1264,56 @@ function comparacionRupHtml(r, it) {
   );
 }
 
+// Por que este proceso no tiene analisis. Se deduce del mismo dato, sin
+// descargar nada: es el mismo filtro que aplica el script de extraccion.
+function motivoSinAnalisis(it) {
+  const piso = DATA.parametros?.requisitos?.valor_min;
+  if (SOLO_UNSPSC(it)) {
+    return (
+      "Este proceso está en la reserva por código UNSPSC: lo encontramos por su clasificación, " +
+      "no porque coincidiera con una palabra clave. La reserva es un barrido de exploración y no " +
+      "se analiza automáticamente, para no bajar cientos de pliegos al día."
+    );
+  }
+  if (!isOpen(it.estado)) {
+    return (
+      `El proceso figura en SECOP como «${esc(it.estado || "cerrado")}». No hay nada que ` +
+      `presentar, así que no se bajó el pliego.`
+    );
+  }
+  const dia = (it.fecha_cierre || "").slice(0, 10);
+  if (dia && dia < (DATA.dia || "")) {
+    return (
+      `El plazo para presentar oferta cerró el ${esc(fmtDia(dia))}. En SECOP el proceso sigue ` +
+      `figurando abierto porque está en evaluación, pero ya no se puede participar.`
+    );
+  }
+  if (piso && (it.valor || 0) < piso) {
+    return (
+      `Vale ${esc(fmtCOP(it.valor))}, por debajo del piso de ${esc(fmtCOP(piso))} que está configurado ` +
+      `para analizar pliegos. El piso se cambia en los parámetros de búsqueda.`
+    );
+  }
+  return (
+    "Todavía no se ha analizado. Cumple los criterios, así que la recolección de mañana en la " +
+    "madrugada debería traer su pliego."
+  );
+}
+
 function requisitosHtml(id, it) {
   const r = (DATA.requisitos || {})[id];
-  if (!r) return "";
+  if (!r) {
+    return (
+      `<div class="req" id="req-${esc(id)}" hidden>` +
+      `<h4>Requisitos de experiencia</h4>` +
+      `<p class="aviso" style="margin:0">${motivoSinAnalisis(it)}</p>` +
+      (it.url
+        ? `<p class="fuentes">Los documentos están en ` +
+          `<a href="${esc(it.url)}" target="_blank" rel="noopener">el proceso en SECOP</a>.</p>`
+        : "") +
+      `</div>`
+    );
+  }
   const aviso = ESTADO_REQ[r.estado_analisis];
   const fuentes = (r.documentos || [])
     .map((d) => `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.nombre)}</a>`)
@@ -1323,7 +1371,7 @@ function cardHtml(it) {
       ${it.razon ? `<div class="razon"><b>Por qué podría interesar:</b> ${esc(it.razon)}</div>` : ""}
       ${sigue ? cambiosHtml(doc) : ""}
       ${
-        (DATA.requisitos || {})[it.id_proceso]
+        it.id_proceso
           ? `<button class="btn-req" type="button" data-req="${esc(it.id_proceso)}" ` +
             `aria-expanded="false" aria-controls="req-${esc(it.id_proceso)}">Análisis de requisitos</button>` +
             requisitosHtml(it.id_proceso, it)
@@ -1499,6 +1547,7 @@ function renderParams() {
   document.getElementById("p-unspsc-min").value = paramsEditados.unspsc.valor_min;
   document.getElementById("p-explora").value = paramsEditados.exploratorio_valor_min;
   document.getElementById("p-ventana").value = paramsEditados.ventana_dias;
+  document.getElementById("p-requisitos").value = paramsEditados.requisitos?.valor_min ?? "";
   compararParams();
 }
 
@@ -1530,6 +1579,7 @@ function leerParams() {
   p.unspsc.valor_min = num("p-unspsc-min", 0);
   p.exploratorio_valor_min = num("p-explora", 0);
   p.ventana_dias = num("p-ventana", 1);
+  if (p.requisitos) p.requisitos.valor_min = num("p-requisitos", 0);
   return p;
 }
 
@@ -1567,6 +1617,11 @@ async function guardarParams() {
   if (p.unspsc.valor_min === null) {
     el.className = "error";
     el.textContent = 'Revise el campo "Piso UNSPSC": tiene que ser un número.';
+    return;
+  }
+  if (p.requisitos && p.requisitos.valor_min === null) {
+    el.className = "error";
+    el.textContent = 'Revise el campo "Analizar pliegos desde": tiene que ser un número.';
     return;
   }
   if (!p.reglas.length) {
