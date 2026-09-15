@@ -2,7 +2,11 @@ name: SECOP fetch
 
 on:
   schedule:
-    - cron: "0 9 * * *" # 04:00 America/Bogota (UTC-5)
+    # 06:23 UTC = 01:23 America/Bogota. El minuto no redondo es deliberado:
+    # GitHub encola las tareas programadas de la hora en punto y con "0 9"
+    # el arranque real se corria entre 3h30 y 6h35, dejando al dashboard
+    # leyendo siempre el archivo del dia anterior.
+    - cron: "23 6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -25,6 +29,6 @@ jobs:
         run: |
           git config user.name "secop-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/latest.json
-          git diff --cached --quiet || git commit -m "chore: actualizar licitaciones SECOP $(date -u +%Y-%m-%d)"
+          git add data
+          git diff --cached --quiet || git commit -m "chore: actualizar licitaciones SECOP $(TZ=America/Bogota date +%Y-%m-%d)"
           git push

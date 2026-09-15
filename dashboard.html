@@ -25,6 +25,11 @@
     --cat-integracion-bg: #F5E4E8;
     --explore: #2E6E8E;
     --explore-bg: #E4EEF3;
+    --seguimiento: #6B4E9E;
+    --seguimiento-bg: #EDE7F7;
+    --warn: #A3302B;
+    --warn-bg: #FBE7E5;
+    --warn-line: #E8B4AF;
     --shadow: 0 1px 2px rgba(26,34,51,0.06), 0 6px 20px -12px rgba(26,34,51,0.18);
   }
 
@@ -52,7 +57,12 @@
       --cat-integracion-bg: #372028;
       --explore: #6BAFD1;
       --explore-bg: #1B2E38;
-      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 6px 20px -12px rgba(0,0,0,0.5);
+      --seguimiento: #B49AE0;
+    --seguimiento-bg: #272038;
+    --warn: #F2938B;
+    --warn-bg: #3A1D1B;
+    --warn-line: #5C2A27;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 6px 20px -12px rgba(0,0,0,0.5);
     }
   }
   :root[data-theme="dark"] {
@@ -78,6 +88,11 @@
     --cat-integracion-bg: #372028;
     --explore: #6BAFD1;
     --explore-bg: #1B2E38;
+    --seguimiento: #B49AE0;
+    --seguimiento-bg: #272038;
+    --warn: #F2938B;
+    --warn-bg: #3A1D1B;
+    --warn-line: #5C2A27;
     --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 6px 20px -12px rgba(0,0,0,0.5);
   }
 
@@ -125,6 +140,35 @@
   }
   .meta strong { color: var(--ink); font-weight: 500; }
 
+  .frescura {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: var(--warn-bg);
+    color: var(--warn);
+    border: 1px solid var(--warn-line);
+    border-radius: 10px;
+    padding: 11px 14px;
+    margin-bottom: 18px;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .frescura::before {
+    content: "!";
+    flex: none;
+    width: 18px;
+    height: 18px;
+    margin-top: 1px;
+    border-radius: 50%;
+    background: var(--warn);
+    color: var(--warn-bg);
+    font-weight: 600;
+    font-size: 12px;
+    display: grid;
+    place-items: center;
+  }
+  .frescura strong { font-weight: 600; }
+
   .stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -152,10 +196,60 @@
   .stat.cat-fabrica .n { color: var(--cat-fabrica); }
   .stat.cat-ia .n { color: var(--cat-ia); }
   .stat.cat-integracion .n { color: var(--cat-integracion); }
+  .stat.nuevos { border-color: var(--ink); }
   .stat.destacados { border-color: var(--accent); }
   .stat.destacados .n { color: var(--accent); }
   .stat.oportunidades { border-color: var(--explore); }
   .stat.oportunidades .n { color: var(--explore); }
+
+  .side-top { display: flex; align-items: center; gap: 8px; }
+  .marcar {
+    border: none;
+    background: none;
+    padding: 0 2px;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 1;
+    color: var(--ink-muted);
+    transition: color .15s, transform .12s;
+  }
+  .marcar:hover { color: var(--seguimiento); transform: scale(1.12); }
+  .marcar[aria-pressed="true"] { color: var(--seguimiento); }
+  .marcar:focus-visible { outline: 2px solid var(--seguimiento); outline-offset: 2px; border-radius: 4px; }
+
+  .card.seguida { border-left: 3px solid var(--seguimiento); }
+  .card.fuera { background: var(--surface-2); }
+
+  .cambios {
+    background: var(--seguimiento-bg);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 1.45;
+  }
+  .cambios b { color: var(--seguimiento); font-weight: 600; }
+  .cambios ul { margin: 5px 0 0; padding-left: 16px; }
+  .cambios li { margin-top: 2px; }
+  .cambios .campo { font-weight: 500; }
+  .cambios .cuando {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-muted);
+  }
+  .sin-cambios { color: var(--ink-muted); font-style: italic; }
+
+  .fuera-nota {
+    font-size: 12px;
+    color: var(--ink-muted);
+    margin-top: 8px;
+    padding-left: 10px;
+    border-left: 2px solid var(--line);
+  }
+
+  .chip[data-cat="En seguimiento"][aria-pressed="true"] { background: var(--seguimiento); border-color: var(--seguimiento); color: #fff; }
+  .stat.seguimiento { border-color: var(--seguimiento); }
+  .stat.seguimiento .n { color: var(--seguimiento); }
 
   .card.destacado {
     border-color: var(--accent);
@@ -256,6 +350,13 @@
   .badge.g-fabrica { background: var(--cat-fabrica-bg); color: var(--cat-fabrica); }
   .badge.g-ia { background: var(--cat-ia-bg); color: var(--cat-ia); }
   .badge.g-integracion { background: var(--cat-integracion-bg); color: var(--cat-integracion); }
+  .badge.nuevo {
+    background: var(--ink);
+    color: var(--bg);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 10px;
+  }
   .badge.kw {
     background: var(--surface-2);
     color: var(--ink-muted);
@@ -331,6 +432,8 @@
     <div class="meta" id="meta"></div>
   </header>
 
+  <div class="frescura" id="frescura" hidden></div>
+
   <div class="stats" id="stats"></div>
 
   <div class="controls">
@@ -346,7 +449,7 @@
 
 <script>
 /* DATA_BLOCK_START */
-const DATA = {"generated_at": "2026-09-10T14:25:57.912Z", "window_days": 15, "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)", "total_scanned": 2252, "total_matched": 35, "total_destacados": 0, "items": [{"id_proceso": "CO1.REQ.11001782", "fuente": "SECOP II", "entidad": "TRANSMILENIO S.A.", "unspsc": "UNSPECIFIED", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "TIC11 Prestar los servicios de administración técnica, soporte, mantenimiento, evolución, actualización tecnológica y desarrollo de nuevas funcionalidades del portal web de TRANSMILENIO S.A.", "valor": 334398360, "estado": "Publicado", "modalidad": "Selección Abreviada de Menor Cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10855451", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["portal web + desarrollo"], "destacado": false}, {"id_proceso": "CO1.REQ.11002893", "fuente": "SECOP II", "entidad": "INSTITUCION EDUCATIVA ANTONIO NARIÑO BUGALAGRANDE", "unspsc": "V1.81112200", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "Servicio continuidad de soporte remoto (telefónico e internet-mesa de ayuda) y actualizaciones genéricas en arrendamiento del Software Financiero SARie, Versión Web 2026.", "valor": 2640000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857160", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.11000769", "fuente": "SECOP II", "entidad": "UNIVERSIDAD TECNOLÓGICA DE PEREIRA", "unspsc": "V1.81111811", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "Prestacion de servicios para la renovacion del servicio de soporte Chatbot Cloud SaaS para el registro de solicitudes de soporte de TI.", "valor": 116166667, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854785", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10995264", "fuente": "SECOP II", "entidad": "HOSPITAL VENANCIO DIAZ DIAZ", "unspsc": "V1.43231501", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "Prestación de servicios de soporte y mesa de ayuda para la infraestructura tecnológica de la ESE HOSPITAL VENANCIO DIAZ DIAZ del Municipio de Sabaneta.", "valor": 6300000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10849379", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10998436", "fuente": "SECOP II", "entidad": "E.S.E HOSPITAL SANTA MARGARITA DE COPACABANA", "unspsc": "V1.80161504", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "PRESTAR EL SERVICIO INTEGRAL DE IMPRESIÓN MONOCROMÁTICA Y LA PRESTACIÓN DEL SERVICIO DE MESA DE AYUDA TÉCNICA INTEGRAL PARA LOS SISTEMAS DEL HOSPITAL SANTA MARGARITA DE COPACABANA", "valor": 23000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10852532", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10999316", "fuente": "SECOP II", "entidad": "IDARTES", "unspsc": "V1.43232600", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "Renovación y adquisición de licencias de software especializado para arquitectura, diseño, creación de contenidos interactivos, producción audiovisual, desarrollo de software, gestión de proyectos e inteligencia artificial, incluyendo herramientas para generación de contenido, análisis de código, automatización de procesos, modelado 3d y desarrollo de experiencias digitales, o sus equivalentes, con el fin de fortalecer los procesos institucionales, garantizar la continuidad operativa (...)", "valor": 153938592, "estado": "Publicado", "modalidad": "Selección abreviada subasta inversa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854554", "matched_groups": ["IA / Agentes"], "matched_keywords": ["automatizacion de procesos"], "destacado": false}, {"id_proceso": "CO1.REQ.10987837", "fuente": "SECOP II", "entidad": "MUNICIPIO DE SOACHA..", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO Y GESTION WEB (WEBMASTER) DEL PORTAL WEB DE LA ALCALDIA DE SOACHA EN CUMPLIMIENTO DE LOS LINEAMIENTOS DE GOBIERNO DIGITAL.SG_82", "valor": 14742733, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10841689", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["portal web + desarrollo"], "destacado": false}, {"id_proceso": "CO1.REQ.10987814", "fuente": "SECOP II", "entidad": "MUNICIPIO DE VALPARAISO**", "unspsc": "V1.85101700", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "FINANCIAR LOS GASTOS DE LA ADQUISICIÓN DE BIENES (INSUMOS) PARA EL SERVICIO DE LABORATORIO Y LA ACTUALIZACIÓN, SOPORTE TÉCNICO, MANTENIMIENTO EVOLUTIVO Y FORTALECIMIENTO DEL SISTEMA DE INFORMACIÓN SX ADVANCE DE LA ESE HOSPITAL SAN JUAN DE DIOS DEL MUNICIPIO DE VALPARAÍSO, ANTIOQUIA AÑO 2026", "valor": 68307342, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10841487", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mantenimiento evolutivo"], "destacado": false}, {"id_proceso": "CO1.REQ.10984517", "fuente": "SECOP II", "entidad": "UAECD", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "Prestar servicios profesionales especializados para apoyar la operación, continuidad y mantenimiento evolutivo de las aplicaciones misionales, incluyendo el desarrollo de los componentes requeridos para los sistemas asignados, asegurando la calidad, consistencia e integración de los datos, aplicando los lineamientos institucionales.", "valor": 42781667, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10838599", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mantenimiento evolutivo"], "destacado": false}, {"id_proceso": "CO1.REQ.10984937", "fuente": "SECOP II", "entidad": "INSTITUCIÓN UNIVERSITARIA COLEGIO MAYOR DE ANTIOQUIA", "unspsc": "V1.86111503", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo e implementación de los componentes virtuales, multimedia y tecnológicos requeridos para el cumplimiento del Contrato Interadministrativo No. ANSV-114 de 2025 suscrito con la Agencia Nacional de Seguridad Vial, incluyendo el diseño, producción, montaje, soporte y adaptación de un diplomado virtual asincrónico de noventa (90) horas, cursos tipo MOOC, contenidos audiovisuales e interactivos, la plataforma LMS Moodle, con criterios de acces", "valor": 985000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10838908", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false}, {"id_proceso": "CO1.REQ.10986975", "fuente": "SECOP II", "entidad": "INSTITUTO DE VIVIENDA DE INTERES SOCIAL Y REFORMA URBANA DEL MUNICIPIO DE BUCARAMANGA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES COMO ABOGADO ESPECIALISTA PARA LIDERAR Y APOYAR EL COMPONENTE JURÌDICO DE LA OPERACIÒN URBANA ESTRATÈGICA SAN RAFAEL (OUE), MEDIANTE LA CONSOLIDACIÒN, VALIDACIÒN  Y GESTIÓN DE LOS INSTRUMENTOS NORMATIVOS, ADMINISTRATIVOS Y PREDIALES PRIORIZADOS, ASÍ COMO EL SOPORTE JURÍDICO A LOS INSTRUMENTOS URBANÍSTICOS, SOCIALES Y FINANCIEROS REQUERIDOS, EN DESARROLLO DEL PROYECTO APOYO TÉCNICO Y LEGAL PARA LA IMPLEMENTACIÓN DEL PROYECTO URBANO ESTRATÉGICO SAN RAFAEL EN B", "valor": 15000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10840884", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false}, {"id_proceso": "CO1.REQ.10980950", "fuente": "SECOP II", "entidad": "EMPRESAS MUNICIPALES DE CALI", "unspsc": "V1.80111701", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTAR SERVICIOS PROFESIONALES ESPECIALIZADOS COMO INGENIERO SISTEMAS EN EL DISEÑO, IMPLEMENTACION, SOPORTE, EVALUACION, CORRECCION Y DETECCION DE FALLAS EN LOS SERVICIOS EMPRESARIALES, SECTOR GOBIERNO Y NUEVOS PROYECTOS Y LAS ACTIVIDADES QUE SEAN REQUERIDAS PARA EL BUEN DESARROLLO Y DESEMPEÑO DE LA UNIDAD DE INSTALACIONES Y CONFIGURACION DE LA UENTIC.", "valor": 10600000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834255", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false}, {"id_proceso": "CO1.REQ.10982139", "fuente": "SECOP II", "entidad": "MUNICIPIO DE YOPAL...", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTAR SOPORTE JURIDICO PARA APOYAR LA IMPLEMENTACIÓN DE ESTRATEGIAS DE PREVENCIÓN DEL DAÑO ANTIJURÍDICO Y EL FORTALECIMIENTO DEL CICLO DE DEFENSA JURÍDICA, MEDIANTE EL DESARROLLO DE ACTIVIDADES DE GESTIÓN JURÍDICA, GESTIÓN DEL CONOCIMIENTO, SEGUIMIENTO Y APOYO A LA EJECUCIÓN DEL PROYECTO DE INVERSIÓN  IMPLEMENTACIÓN DE ESTRATEGIAS DE GESTIÓN DEL CICLO DE DEFENSA JURÍDICA Y DAÑO ANTIJURÍDICO EN EL MUNICIPIO DE YOPAL", "valor": 11000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10835631", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false}, {"id_proceso": "CO1.REQ.10976091", "fuente": "SECOP II", "entidad": "INDEV", "unspsc": "V1.80111607", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTAR SERVICIOS PROFESIONALES DE APOYO A LA SUBGERENCIA DE INFRAESTRUCTURA Y DESARROLLO URBANO, EN LA EJECUCIÓN DE LAS ACTIVIDADES DE ATENCIÓN A USUARIOS Y SOPORTE AL PROCESO DE ASIGNACIÓN DE SUBSIDIOS DE VIVIENDA FAMILIAR, EN EL MARCO DEL PROYECTO DE INVERSIÓN DENOMINADO FORTALECIMIENTO E IMPLEMENTACIÓN DE POLÍTICAS PARA LA DISMINUCIÓN DEL DÉFICIT DE VIVIENDA EN YOPAL", "valor": 9434880, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10829932", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false}, {"id_proceso": "CO1.REQ.10905707", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Prestar los servicios profesionales de manera autónoma, independiente y coordinada en el Doctorado en Ingeniería, orientados al diseño, desarrollo, implementación y puesta en funcionamiento de soluciones y agentes basados en inteligencia artificial para la automatización, optimización y fortalecimiento de los procesos administrativos, académicos, curriculares del programa. En el marco del proyecto de Inversión 8213", "valor": 24236588, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10829451", "matched_groups": ["IA / Agentes"], "matched_keywords": ["inteligencia artificial + agentes"], "destacado": false}, {"id_proceso": "CO1.REQ.10978918", "fuente": "SECOP II", "entidad": "EMPRESAS MUNICIPALES DE CALI", "unspsc": "V1.80111701", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS PARA BRINDAR APOYO AL PROCESO DE DESARROLLO DE APLICACIONES PARA PROVEER NUEVOS SERVICIOS DE APLICACIONES A LA MEDIDA Y AUTOMATIZACION DE PROCESOS OPERATIVOS PARA EL NEGOCIO, CLIENTES EL SEGMENTO COMERCIAL, OFICIAL E INDUSTRIAL DE EMCALI EICE ESP.", "valor": 9000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832419", "matched_groups": ["IA / Agentes"], "matched_keywords": ["automatizacion de procesos"], "destacado": false}, {"id_proceso": "CO1.REQ.10978433", "fuente": "SECOP II", "entidad": "EMPRESAS MUNICIPALES DE CALI", "unspsc": "V1.80111701", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS PARA BRINDAR APOYO AL PROCESO DE DESARROLLO DE APLICACIONES PARA PROVEER NUEVOS SERVICIOS DE APLICACIONES A LA MEDIDA Y AUTOMATIZACION DE PROCESOS OPERATIVOS PARA EL NEGOCIO, CLIENTES EL SEGMENTO COMERCIAL, OFICIAL E INDUSTRIAL DE EMCALI EICE ESP.", "valor": 9000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832155", "matched_groups": ["IA / Agentes"], "matched_keywords": ["automatizacion de procesos"], "destacado": false}, {"id_proceso": "CO1.REQ.10980278", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Prestar servicios profesionales para la ejecución de las estrategias de acompañamiento y seguimiento a las trayectorias estudiantiles de los alumnos identificados en riesgo de deserción mediante el sistema de alertas tempranas, así como apoyar el diseño de intervenciones focalizadas en los componentes psicológico, académico y social, y la investigación institucional para el insumo de preguntas frecuentes del chatbot del Observatorio Académico Integrado, en el marco del Convenio Especial BID No.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833688", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10979971", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Prestar servicios profesionales para la ejecución de las estrategias de acompañamiento y seguimiento a las trayectorias estudiantiles de los alumnos identificados en riesgo de deserción mediante el sistema de alertas tempranas, así como apoyar el diseño de intervenciones focalizadas en los componentes psicológico, académico y social, y la investigación institucional para el insumo de preguntas frecuentes del chatbot del Observatorio Académico Integrado, en el marco del Convenio Especial BID No.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833646", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10969654", "fuente": "SECOP II", "entidad": "TRANSMILENIO S.A.", "unspsc": "V1.43232100", "fecha_publicacion": "2026-09-02T00:00:00.000", "descripcion": "TIC11 Prestar los servicios de administración técnica, soporte, mantenimiento, evolución, actualización tecnológica y desarrollo de nuevas funcionalidades del portal web de TRANSMILENIO S.A.", "valor": 334398360, "estado": "Evaluación", "modalidad": "Selección Abreviada de Menor Cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10824730", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["portal web + desarrollo"], "destacado": false}, {"id_proceso": "CO1.REQ.10970755", "fuente": "SECOP II", "entidad": "FISCALÍA GENERAL DE LA NACIÓN NIVEL CENTRAL.", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-02T00:00:00.000", "descripcion": "PRESTAR SERVICIOS PROFESIONALES COMO DESARROLLADOR, PARA APOYAR EL ANÁLISIS, DISEÑO, DESARROLLO, IMPLEMENTACIÓN, MANTENIMIENTO EVOLUTIVO Y CORRECTIVO, PRUEBAS, DOCUMENTACIÓN TÉCNICA E INTEGRACIÓN TECNOLÓGICA DEL\nSISTEMA DE INFORMACIÓN SIDPA 3.0, CONTRIBUYENDO AL FORTALECIMIENTO Y MODERNIZACIÓN DE LOS PROCESOS GESTIONADOS POR LA DIRECCIÓN DE PROTECCIÓN Y ASISTENCIA DE LA FISCALÍA GENERAL DE LA NACIÓN", "valor": 23097405, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10826271", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mantenimiento evolutivo"], "destacado": false}, {"id_proceso": "CO1.REQ.10973895", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-02T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar la atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el análisis y desarrollo del sistema de información SICAU y la sistematización de los demás procesos misionales y de apoyo de la entidad a través de herramientas de software y bases de datos que consignen toda la información institucional ingresada, procesada y almacenada, dejando la respectiva documentación de los procesos mejorados y sistem", "valor": 12490478, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10827390", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10947031", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar la atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el análisis y desarrollo del sistema de información SICAU y la sistematización de los demás procesos misionales y de apoyo de la entidad a través de herramientas de software y bases de datos que consignen toda la información institucional ingresada, procesada y almacenada, dejando la respectiva documentación de los procesos mejorados y sistem", "valor": 12595440, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820329", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10941058", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar la atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el análisis y desarrollo del sistema de información SICAU y la sistematización de los demás procesos misionales y de apoyo de la entidad a través de herramientas de software y bases de datos que consignen toda la información institucional ingresada, procesada y almacenada, dejando la respectiva documentación de los procesos mejorados y sistem", "valor": 12595440, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820534", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10966370", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar\nla atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el\nanálisis y desarrollo del sistema de información SICAU y la sistematización de\nlos demás procesos misionales y de apoyo de la entidad a través de\nherramientas de software y bases de datos que consignen toda la información\ninstitucional ingresada, procesada y almacenada, dejando la respectiva\ndocumentación de los procesos mejorados y siste", "valor": 18892756, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820337", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10932790", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar\nla atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el\nanálisis y desarrollo del sistema de información SICAU y la sistematización del\nproceso de Gestión Talento Humano, el Plan Institucional de Capacitación,\ncontratación personal profesoral y administrativo y demás situaciones\nadministrativas del personal, a través de herramientas de software y bases de\ndatos que consignen toda la informació", "valor": 18892756, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10817511", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10948983", "fuente": "SECOP II", "entidad": "MEGABÚS S.A.", "unspsc": "V1.81112501", "fecha_publicacion": "2026-08-31T00:00:00.000", "descripcion": "ADQUISICIÓN DE INFRAESTRUCTURA DE ALOJAMIENTO (HOSTING CON CERTIFICADO SSL)  Y PRESTACIÓN DE SERVICIOS PARA EL DESARROLLO E IMPLEMENTACIÓN DE LA NUEVA VERSIÓN DEL PORTAL WEB DE MEGABÚS S.A., ARTICULADO E INTEROPERABLE CON LOS SISTEMAS INSTITUCIONALES DE CORREO ELECTRÓNICO, LICENCIAMIENTO DE OFIMÁTICA Y LA PLATAFORMA DE GESTIÓN DOCUMENTAL PARA LA ATENCIÓN DE PQRSDF", "valor": 34000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10802875", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["portal web + desarrollo"], "destacado": false}, {"id_proceso": "CO1.REQ.10930839", "fuente": "SECOP II", "entidad": "MUNICIPIO DE ARMENIA QUINDIO", "unspsc": "V1.80111600", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS PROFESIONALES PARA APOYAR A LA SECRETARÍA DE TIC EN LA GESTIÓN Y SEGUIMIENTO DE LOS REQUERIMIENTOS RECIBIDO A TRAVÉS DE LA MESA DE AYUDA, ASÍ COMO EN LA PRESTACIÓN DE SOPORTE TÉCNICO A LAS DEPENDENCIAS DE LA ADMINISTRACIÓN MUNICIPAL, INCLUYENDO LA ATENCIÓN, TRAZABILIDAD Y EL ADECUADO ESCALAMIENTO DE LAS SOLICITUDES CUANDO SEA NECESARIO.", "valor": 18016667, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10784818", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false}, {"id_proceso": "CO1.REQ.10930502", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DE ANTIOQUIA", "unspsc": "V1.73152108", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "servicios tecnológicos especializados para la operación, soporte, mantenimiento, actualización, continuidad y fortalecimiento de los componentes que integran el Ecosistema Agro100, mediante el suministro de plataformas tecnológicas bajo modalidad Software como Servicio SaaS, servicios de inteligencia de negocios, analítica de datos, atención virtual mediante inteligencia artificial, comercialización digital, servicios financieros, extensión agropecuaria mediada por TIC y demás herramientas reque", "valor": 242842205, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10784310", "matched_groups": ["IA / Agentes"], "matched_keywords": ["analitica de datos + inteligencia artificial"], "destacado": false}, {"id_proceso": "CO1.REQ.10935592", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789611", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10934871", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789549", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10935698", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789572", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10935035", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Prestar servicios profesionales para la ejecución de las estrategias de acompañamiento y seguimiento a las trayectorias estudiantiles de los alumnos identificados en riesgo de deserción mediante el sistema de alertas tempranas, así como apoyar el diseño de intervenciones focalizadas en los componentes psicológico, académico y social, y la investigación institucional para el insumo de preguntas frecuentes del chatbot del Observatorio Académico Integrado, en el marco del Convenio Especial BID No.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10787998", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10936124", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Prestar servicios profesionales para el diseño y ejecución de la estrategias de acompañamiento y seguimiento a las trayectorias académicas de los estudiantes PTIES y los identificados en riesgo alto y medio de deserción mediante el sistema de alertas tempranas, además del diseño de una campaña de divulgación del observatorio y de las preguntas para los módulos de preguntas frecuentes y del chatbot, en el marco del Convenio Especial BID No. CO1.PCCNTR.9533503 de 2026.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10789396", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}, {"id_proceso": "CO1.REQ.10935150", "fuente": "SECOP II", "entidad": "ESE HOSPITAL EDUARDO SANTOS", "unspsc": "V1.80141600", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Prestación de servicios de apoyo a la gestión para la implementación y seguimiento del sistema automatizado de citas médicas (Chatbot) en la E.S.E. Hospital Eduardo Santos", "valor": 15000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10788693", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false}], "candidatos_exploratorios": [{"id_proceso": "CO1.REQ.10959068", "fuente": "SECOP II", "entidad": "CONTRALORIA DE CUNDINAMARCA", "unspsc": "V1.81111500", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "REALIZAR LA CONSULTORÍA ESPECIALIZADA PARA EL DIAGNÓSTICO Y LA DEFINICIÓN DE LA RUTA DE MODERNIZACIÓN DIGITAL Y TECNOLÓGICA DE LA CONTRALORÍA DE CUNDINAMARCA, QUE COMPRENDA EL DISEÑO DE LA ARQUITECTURA EMPRESARIAL INSTITUCIONAL, EL DIMENSIONAMIENTO DE LA INFRAESTRUCTURA TECNOLÓGICA REQUERIDA, LA IDENTIFICACIÓN Y PRIORIZACIÓN DE LOS PROCESOS SUSCEPTIBLES DE AUTOMATIZACIÓN, Y LA FORMULACIÓN DE LA POLÍTICA DE TRANSFORMACIÓN DIGITAL DE LA ENTIDAD", "valor": 855000000, "estado": "Publicado", "modalidad": "Concurso de méritos abierto", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10813558", "matched_broad_keywords": ["arquitectura empresarial", "transformacion digital"]}, {"id_proceso": "CO1.REQ.10990699", "fuente": "SECOP II", "entidad": "HOSPITAL RAUL OREJUELA BUENO", "unspsc": "V1.94101806", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "PRESTACION DE SERVICIOS DE CARÁCTER COLECTIVO SINDICAL, PARA EL APOYO A LA GESTION DE LAS ACTIVIDADES QUE REQUIERA LA SUBGERENCIA ADMINISTRATIVA, SUBGERENCIA FINANCIERA, OFICINA ASESORA JURIDICA, OFICINA DE TALENTO HUMANO, OFICINA DE GESTION DOCUMENTAL, OFICINA DE GESTION DE CALIDAD, OFICINA ASESORA DE PLANEACION, OFICINA DE CONTROL INTERNO Y DEMAS PROCESOS INHERENTES A SU CARGO, PARA EL CUMPLIMIENTO DE LA MISION INSTITUCIONAL DEL HOSPITAL RAUL OREJUELA BUENO ESE, EN LA ZONA DE INFLUENCIA DEL MU", "valor": 685000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10844893", "matched_broad_keywords": ["gestion documental"]}, {"id_proceso": "CO1.REQ.10962421", "fuente": "SECOP II", "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS**", "unspsc": "V1.80131502", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Contratar el arrendamiento de un inmueble ubicado en la ciudad de Bogotá, completamente dotado con mobiliario general y de archivo, planotecas, cintotecas, infraestructura tecnológica, instalaciones eléctricas y demás elementos conexos, destinado al almacenamiento, organización, gestión documental y consulta de expedientes de la Unidad Administrativa Especial de Gestión de Restitución de Tierras Despojadas.", "valor": 520000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10819464", "matched_broad_keywords": ["gestion documental"]}, {"id_proceso": "CO1.REQ.10943431", "fuente": "SECOP II", "entidad": "FONDO NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES - FNGRD", "unspsc": "V1.80111604", "fecha_publicacion": "2026-08-28T00:00:00.000", "descripcion": "Adquirir la Renovación Integral del Portal Institucional\nde la Unidad Nacional para la Gestión del Riesgo De Desastres UNGRD Incluyendo el Diseño, Desarrollo,\nImplementación, Migración de Contenidos Integración con Sistemas Misionales y Administrativos, puesta en\nOperación y Soporte Técnico sobre una Plataforma Tecnológica Segura Accesible Interoperable y Escalable", "valor": 500000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10796680", "matched_broad_keywords": ["business intelligence"]}, {"id_proceso": "CO1.REQ.10976064", "fuente": "SECOP II", "entidad": "SECRETARÍA GENERAL DE LA ALCALDÍA MAYOR DE BOGOTÁ", "unspsc": "V1.81111500", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Desarrollar e implementar el modelo operativo de gobierno de datos en la Secretaría General de la Alcaldía Mayor de Bogotá D.C., conforme a los marcos de referencia y a los lineamientos distritales y nacionales aplicables", "valor": 492110316, "estado": "Seleccionado", "modalidad": "Contratación Directa (con ofertas)", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834978", "matched_broad_keywords": ["gobierno de datos"]}, {"id_proceso": "CO1.REQ.10951902", "fuente": "SECOP II", "entidad": "MUNICIPIO DE SEGOVIA", "unspsc": "V1.43211500", "fecha_publicacion": "2026-08-31T00:00:00.000", "descripcion": "ADQUISICIÓN DE UN SERVIDOR DESTINADO A GARANTIZAR EL ADECUADO\nFUNCIONAMIENTO, DISPONIBILIDAD Y CONTINUIDAD OPERATIVA DEL SOFTWARE\nDEL SISTEMA DE GESTION DOCUMENTAL DE LA ALCALDIA DE SEGOVIA", "valor": 345036667, "estado": "Publicado", "modalidad": "Selección abreviada subasta inversa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10805677", "matched_broad_keywords": ["gestion documental"]}, {"id_proceso": "CO1.REQ.10951732", "fuente": "SECOP II", "entidad": "HOSPITAL UNIVERSITARIO DEPARTAMENTAL DE NARIÑO", "unspsc": "V1.80101500", "fecha_publicacion": "2026-08-31T00:00:00.000", "descripcion": "Contratar la consultoría para el diseño, desarrollo e implementación de modelos de datos, construcción de informes estratégicos y operativos en las áreas de contabilidad, facturación, estadística, productividad, servicio farmacéutico y presupuesto de Hospital Universitario Departamental de Nariño ESE. a través de su plataforma de Inteligencia de Negocios.", "valor": 270000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10807131", "matched_broad_keywords": ["inteligencia de negocios"]}, {"id_proceso": "CO1.REQ.10975773", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DE CORDOBA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTACION DE SERVICIOS PARA TRANSFERENCIA DE  CONOCIMIENTO, ACOMPAÑAMIENTO TECNICO, FORMACION Y CAPACITACION NO FORMAL ,MEDIANTE EL DISEÑO, ESTRUCTURACIÓN Y DESARROLLO DE APRENDIZAJE EXPERIENCIAL EN LA COMUNIDAD DE VALENCIA ESPAÑA, ORIENTADO AL FORTALECIMIENTO DE CAPACIDADES EN CIENCIA, TECNOLOGIA E INNOVACION  (CTI), TRANSFORMACION DIGITAL E INDUSTRIAS 4.0 A TRAVES DE ACTIVIDADES ACADEMICAS ESTRUCTURADAS, ENCUENTROS INSTITUCIONALES , ANALISIS APLICADO Y PROCESOS DE APROPIACION DE CONOCIMIENTO", "valor": 228068272, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10830424", "matched_broad_keywords": ["transformacion digital"]}, {"id_proceso": "CO1.REQ.10933242", "fuente": "SECOP II", "entidad": "GOBERNACION DEL VALLE DEL CAUCA - DEPARTAMENTO ADMINISTRATIVO DE PLANEACION", "unspsc": "V1.81111500", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Desarrollar e implementar el Plan de Acción de la plataforma EVAPLAN para el seguimiento y monitoreo de proyectos de inversión, optimizando su operatividad, asegurando su interoperabilidad con el sistema PIIP y estandarizando el Tablero de Control para medición de Eficacia, Eficiencia y Efectividad del Plan de Desarrollo, incluyendo un módulo de solicitud de cadena de valor con flujos de aprobación y su articulación presupuestal con SAP y el Sistema General de Regalías (SGR)", "valor": 200000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10786768", "matched_broad_keywords": ["tablero de control"]}, {"id_proceso": "CO1.REQ.10934029", "fuente": "SECOP II", "entidad": "ALCALDIA MUNICIPAL FUSAGASUGA", "unspsc": "V1.80101500", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "PRESTAR LOS SERVICIOS PARA INCORPORAR, DESARROLLAR E IMPLEMENTAR EL MODELO DE ARQUITECTURA EMPRESARIAL (MAE) EN LOS SIGUIENTES COMPONENTES, PROCESO DE ARQUITECTURA EMPRESARIAL, DOMINIO DE ARQUITECTURA INSTITUCIONAL Y DOMINIO DE ARQUITECTURA DE INFORMACIÓN, SIGUIENDO EL MARCO DE REFERENCIA DE ARQUITECTURA EMPRESARIAL (MRAE V3); ASÍ COMO IMPLEMENTAR UN AGENTE DE INTELIGENCIA ARTIFICIAL (IA), EN ARMONÍA CON LA GUÍA DE LINEAMIENTOS Y PRINCIPIOS ÉTICOS, DE SALVAGUARDA Y BUENAS PRÁCTICAS DEL MINISTERI", "valor": 149945359, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10788791", "matched_broad_keywords": ["arquitectura empresarial"]}, {"id_proceso": "CO1.REQ.10953993", "fuente": "SECOP II", "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES", "unspsc": "V1.81112208", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "REQUIERE CONTRATAR LA ADQUISICIÓN, RENOVACIÓN, ACTUALIZACIÓN Y SOPORTE DE LOS SERVICIO DE LAS LICENCIAS DE SOFTWARE DE INTELIGENCIA DE NEGOCIOS (BI) VISUALIZACIÓN (TABLEAU) PARA LOS DEPARTAMENTOS CONJUNTOS DE OPERACIONES DEL COMANDO GENERAL DE LAS FUERZAS MILITARES, DE ACUERDO CON EL ANEXO DE ESPECIFICACIONES TECNICAS.", "valor": 79750080, "estado": "Abierto", "modalidad": "Mínima cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818086", "matched_broad_keywords": ["inteligencia de negocios"]}, {"id_proceso": "CO1.REQ.10946646", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DE CALDAS.", "unspsc": "V1.94101608", "fecha_publicacion": "2026-08-29T00:00:00.000", "descripcion": "PRESTAR LOS SERVICIOS DE UN PROFESIONAL EN INGENIERÍA DE SISTEMAS PARA EL LEVANTAMIENTO DE REQUERIMIENTOS,\nINTEGRACIÓN, VALIDACIÓN, VISUALIZACIÓN Y APROVECHAMIENTO DE LOS DATOS INSTITUCIONALES DISPONIBLES EN EL ECOSISTEMA\nTECNOLÓGICO DE LA UNIVERSIDAD, MEDIANTE EL USO DE HERRAMIENTAS DE INTELIGENCIA DE NEGOCIOS, ASÍ COMO EL APOYO EN LA\nIMPLEMENTACIÓN DE SERVICIOS DE ACCESO A DATOS (ENDPOINTS) EN ORACLE CLOUD INFRASTRUCTURE, EN EL MARCO DE LOS\nLINEAMIENTOS DE ARQUITECTURA Y GOBIERNO DE DATOS INST", "valor": 65212230, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10800610", "matched_broad_keywords": ["inteligencia de negocios", "gobierno de datos"]}, {"id_proceso": "CO1.REQ.10977102", "fuente": "SECOP II", "entidad": "EMPRESA DE ACUEDUCTO, ALCANTARILLADO Y ASEO DE EL ROSAL S.A E.S.P", "unspsc": "V1.70171704", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "SUMINISTRO DE EQUIPO DE BOMBEO Y TABLERO DE CONTROL PARA RESERVORIO DE LA PTAP A CARGO DE LA EMPRESA DE ACUEDUCTO ALCANTARILLADO Y ASEO DE EL ROSAL SAS ESP.", "valor": 62372898, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10830628", "matched_broad_keywords": ["tablero de control"]}, {"id_proceso": "CO1.REQ.10999193", "fuente": "SECOP II", "entidad": "MUNICIPIO DE OTANCHE", "unspsc": "V1.80111500", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL FORTALECIMIENTO INTEGRAL DE LA GESTION DOCUMENTAL DEL ARCHIVO MUNICIPAL DE CONFORMIDAD CON LA NORMATIVIDAD VIGENTE.", "valor": 60000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10853057", "matched_broad_keywords": ["gestion documental"]}, {"id_proceso": "CO1.REQ.10964864", "fuente": "SECOP II", "entidad": "ALCALDÍA MUNICIPAL DE SOPO", "unspsc": "V1.60106200", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES PARA BRINDAR ACOMPAÑAMIENTO EN EL DISENO E IMPLEMENTACION DE UNA ESTRATEGIA PARA LA TRANSFORMACION DIGITAL DEL SECTOR PRODUCTIVO DEL MUNICIPIO DE SOPO EN EL MARCO DEL PROGRAMA DE ACOMPAÑAMIENTO TECNICO Y FINANCIERO PARA INCORPORAR LA CTEI EN EL SECTOR PRODUCTIVO", "valor": 50667980, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818290", "matched_broad_keywords": ["transformacion digital"]}, {"id_proceso": "CO1.REQ.11003603", "fuente": "SECOP II", "entidad": "SECRETARIA DISTRITAL DE AMBIENTE", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "PRESTAR LOS SERVICIOS PROFESIONALES PARA REALIZAR EL DESARROLLO E IMPLEMENTACIÓN DE SOLUCIONES DE ANALÍTICA DE DATOS E INTELIGENCIA DE NEGOCIOS, ORIENTADAS AL SEGUIMIENTO DE LA GESTIÓN Y LA GENERACIÓN DE INFORMACIÓN PARA EL FORTALECIMIENTO DE LA PLANEACIÓN ESTRATÉGICA DE LA SECRETARÍA DISTRITAL DE AMBIENTE", "valor": 34544000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857436", "matched_broad_keywords": ["inteligencia de negocios"]}, {"id_proceso": "CO1.REQ.10988360", "fuente": "SECOP II", "entidad": "EMPRESA DE RENOVACION Y DESARROLLO URBANO DE BOGOTA D.C", "unspsc": "V1.80161504", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "Prestar servicios personales para realizar el diagnostico, consolidación y documentación técnica de \nlos procesos asociados a la arquitectura empresarial y su integración con los diferentes componentes \ndentro del Sistema Misional.", "valor": 32000000, "estado": "Seleccionado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10842846", "matched_broad_keywords": ["arquitectura empresarial"]}, {"id_proceso": "CO1.REQ.10949152", "fuente": "SECOP II", "entidad": "EMPRESA DE RENOVACION Y DESARROLLO URBANO DE BOGOTA D.C", "unspsc": "V1.80161504", "fecha_publicacion": "2026-08-31T00:00:00.000", "descripcion": "Prestar servicios personales para realizar el diagnostico, consolidación y documentación técnica de los procesos asociados a la arquitectura empresarial y su integración con los diferentes componentes dentro del Sistema Misional.", "valor": 32000000, "estado": "Seleccionado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10802781", "matched_broad_keywords": ["arquitectura empresarial"]}, {"id_proceso": "CO1.REQ.10958699", "fuente": "SECOP II", "entidad": "(Secretaría Distrital de Integración Social)", "unspsc": "V1.80111500", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTION EN EL PROCESO DE GESTION DOCUMENTAL Y ADMINISTRACION DE ARCHIVO DE LOS CONVENIOS SUSCRITOS POR LA SECRETARIA DISTRITAL DE INTEGRACION SOCIAL EN EL MARCO DEL PROYECTO 7953 GENERACION DEL BIEN-ESTAR ALIMENTARIO Y NUTRICIONAL EN BOGOTA D.C. PARA LA OPERACION DEL SERVICIO COMEDORES COMUNITARIOS", "valor": 31104240, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10812979", "matched_broad_keywords": ["gestion documental"]}, {"id_proceso": "CO1.REQ.10982497", "fuente": "SECOP II", "entidad": "HOSMI", "unspsc": "V1.44122001", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "CONTRATAR EL SUMINISTRO DE PAPELERIA Y ELEMENTOS DE GESTION DOCUMENTAL PARA EL DESARROLLO DE LAS ACTIVIDADES DE LOS EQUIPOS BASICOS EN SALUD SEGÚN LA ESTRATEGIA DE ATENCION PRIMARIA EN SALUD PARA EL HOSPITAL MARIA INMACULADA ESE DE RIOBLANCO", "valor": 30093000, "estado": "Seleccionado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10836177", "matched_broad_keywords": ["gestion documental"]}], "oportunidades": [{"id_proceso": "CO1.REQ.10959068", "fuente": "SECOP II", "entidad": "CONTRALORIA DE CUNDINAMARCA", "unspsc": "V1.81111500", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "REALIZAR LA CONSULTORÍA ESPECIALIZADA PARA EL DIAGNÓSTICO Y LA DEFINICIÓN DE LA RUTA DE MODERNIZACIÓN DIGITAL Y TECNOLÓGICA DE LA CONTRALORÍA DE CUNDINAMARCA, QUE COMPRENDA EL DISEÑO DE LA ARQUITECTURA EMPRESARIAL INSTITUCIONAL, EL DIMENSIONAMIENTO DE LA INFRAESTRUCTURA TECNOLÓGICA REQUERIDA, LA IDENTIFICACIÓN Y PRIORIZACIÓN DE LOS PROCESOS SUSCEPTIBLES DE AUTOMATIZACIÓN, Y LA FORMULACIÓN DE LA POLÍTICA DE TRANSFORMACIÓN DIGITAL DE LA ENTIDAD", "valor": 855000000, "estado": "Publicado", "modalidad": "Concurso de méritos abierto", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10813558", "matched_broad_keywords": ["arquitectura empresarial", "transformacion digital"], "razon": "Consultoría de modernización digital y arquitectura empresarial — exactamente el tipo de diagnóstico estratégico que ARIA ofrece antes de un proyecto de implementación."}, {"id_proceso": "CO1.REQ.10943431", "fuente": "SECOP II", "entidad": "FONDO NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES - FNGRD", "unspsc": "V1.80111604", "fecha_publicacion": "2026-08-28T00:00:00.000", "descripcion": "Adquirir la Renovación Integral del Portal Institucional\nde la Unidad Nacional para la Gestión del Riesgo De Desastres UNGRD Incluyendo el Diseño, Desarrollo,\nImplementación, Migración de Contenidos Integración con Sistemas Misionales y Administrativos, puesta en\nOperación y Soporte Técnico sobre una Plataforma Tecnológica Segura Accesible Interoperable y Escalable", "valor": 500000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10796680", "matched_broad_keywords": ["business intelligence"], "razon": "Renovación integral de un portal institucional (diseño, desarrollo, implementación, migración de contenidos) — encaja directo con la línea de portales/Liferay de ARIA, aunque el proceso no mencionó Liferay."}, {"id_proceso": "CO1.REQ.10976064", "fuente": "SECOP II", "entidad": "SECRETARÍA GENERAL DE LA ALCALDÍA MAYOR DE BOGOTÁ", "unspsc": "V1.81111500", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Desarrollar e implementar el modelo operativo de gobierno de datos en la Secretaría General de la Alcaldía Mayor de Bogotá D.C., conforme a los marcos de referencia y a los lineamientos distritales y nacionales aplicables", "valor": 492110316, "estado": "Seleccionado", "modalidad": "Contratación Directa (con ofertas)", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834978", "matched_broad_keywords": ["gobierno de datos"], "razon": "Modelo operativo de gobierno de datos para una alcaldía — cercano a la práctica de datos/BI de ARIA aunque no usó las palabras \"inteligencia de negocios\"."}, {"id_proceso": "CO1.REQ.10951732", "fuente": "SECOP II", "entidad": "HOSPITAL UNIVERSITARIO DEPARTAMENTAL DE NARIÑO", "unspsc": "V1.80101500", "fecha_publicacion": "2026-08-31T00:00:00.000", "descripcion": "Contratar la consultoría para el diseño, desarrollo e implementación de modelos de datos, construcción de informes estratégicos y operativos en las áreas de contabilidad, facturación, estadística, productividad, servicio farmacéutico y presupuesto de Hospital Universitario Departamental de Nariño ESE. a través de su plataforma de Inteligencia de Negocios.", "valor": 270000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10807131", "matched_broad_keywords": ["inteligencia de negocios"], "razon": "Consultoría para diseñar modelos de datos y construir informes estratégicos y operativos — es inteligencia de negocios pura, aunque el texto no usa ese término."}, {"id_proceso": "CO1.REQ.10933242", "fuente": "SECOP II", "entidad": "GOBERNACION DEL VALLE DEL CAUCA - DEPARTAMENTO ADMINISTRATIVO DE PLANEACION", "unspsc": "V1.81111500", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "Desarrollar e implementar el Plan de Acción de la plataforma EVAPLAN para el seguimiento y monitoreo de proyectos de inversión, optimizando su operatividad, asegurando su interoperabilidad con el sistema PIIP y estandarizando el Tablero de Control para medición de Eficacia, Eficiencia y Efectividad del Plan de Desarrollo, incluyendo un módulo de solicitud de cadena de valor con flujos de aprobación y su articulación presupuestal con SAP y el Sistema General de Regalías (SGR)", "valor": 200000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10786768", "matched_broad_keywords": ["tablero de control"], "razon": "Tablero de control e interoperabilidad de sistemas para seguimiento de inversión pública — encaja con BI/integración de sistemas."}, {"id_proceso": "CO1.REQ.10934029", "fuente": "SECOP II", "entidad": "ALCALDIA MUNICIPAL FUSAGASUGA", "unspsc": "V1.80101500", "fecha_publicacion": "2026-08-27T00:00:00.000", "descripcion": "PRESTAR LOS SERVICIOS PARA INCORPORAR, DESARROLLAR E IMPLEMENTAR EL MODELO DE ARQUITECTURA EMPRESARIAL (MAE) EN LOS SIGUIENTES COMPONENTES, PROCESO DE ARQUITECTURA EMPRESARIAL, DOMINIO DE ARQUITECTURA INSTITUCIONAL Y DOMINIO DE ARQUITECTURA DE INFORMACIÓN, SIGUIENDO EL MARCO DE REFERENCIA DE ARQUITECTURA EMPRESARIAL (MRAE V3); ASÍ COMO IMPLEMENTAR UN AGENTE DE INTELIGENCIA ARTIFICIAL (IA), EN ARMONÍA CON LA GUÍA DE LINEAMIENTOS Y PRINCIPIOS ÉTICOS, DE SALVAGUARDA Y BUENAS PRÁCTICAS DEL MINISTERI", "valor": 149945359, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10788791", "matched_broad_keywords": ["arquitectura empresarial"], "razon": "Implementación de un modelo de arquitectura empresarial municipal — línea de consultoría que ARIA podría ofrecer junto con la implementación posterior."}, {"id_proceso": "CO1.REQ.10953993", "fuente": "SECOP II", "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES", "unspsc": "V1.81112208", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "REQUIERE CONTRATAR LA ADQUISICIÓN, RENOVACIÓN, ACTUALIZACIÓN Y SOPORTE DE LOS SERVICIO DE LAS LICENCIAS DE SOFTWARE DE INTELIGENCIA DE NEGOCIOS (BI) VISUALIZACIÓN (TABLEAU) PARA LOS DEPARTAMENTOS CONJUNTOS DE OPERACIONES DEL COMANDO GENERAL DE LAS FUERZAS MILITARES, DE ACUERDO CON EL ANEXO DE ESPECIFICACIONES TECNICAS.", "valor": 79750080, "estado": "Abierto", "modalidad": "Mínima cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818086", "matched_broad_keywords": ["inteligencia de negocios"], "razon": "Renovación y soporte de licencias de inteligencia de negocios (Tableau) para las Fuerzas Militares — mercado BI directo, aunque de menor valor."}, {"id_proceso": "CO1.REQ.10946646", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DE CALDAS.", "unspsc": "V1.94101608", "fecha_publicacion": "2026-08-29T00:00:00.000", "descripcion": "PRESTAR LOS SERVICIOS DE UN PROFESIONAL EN INGENIERÍA DE SISTEMAS PARA EL LEVANTAMIENTO DE REQUERIMIENTOS,\nINTEGRACIÓN, VALIDACIÓN, VISUALIZACIÓN Y APROVECHAMIENTO DE LOS DATOS INSTITUCIONALES DISPONIBLES EN EL ECOSISTEMA\nTECNOLÓGICO DE LA UNIVERSIDAD, MEDIANTE EL USO DE HERRAMIENTAS DE INTELIGENCIA DE NEGOCIOS, ASÍ COMO EL APOYO EN LA\nIMPLEMENTACIÓN DE SERVICIOS DE ACCESO A DATOS (ENDPOINTS) EN ORACLE CLOUD INFRASTRUCTURE, EN EL MARCO DE LOS\nLINEAMIENTOS DE ARQUITECTURA Y GOBIERNO DE DATOS INST", "valor": 65212230, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10800610", "matched_broad_keywords": ["inteligencia de negocios", "gobierno de datos"], "razon": "Integración y visualización de datos institucionales con herramientas de inteligencia de negocios — perfil típico de un proyecto de analítica de ARIA."}, {"id_proceso": "CO1.REQ.11003603", "fuente": "SECOP II", "entidad": "SECRETARIA DISTRITAL DE AMBIENTE", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "PRESTAR LOS SERVICIOS PROFESIONALES PARA REALIZAR EL DESARROLLO E IMPLEMENTACIÓN DE SOLUCIONES DE ANALÍTICA DE DATOS E INTELIGENCIA DE NEGOCIOS, ORIENTADAS AL SEGUIMIENTO DE LA GESTIÓN Y LA GENERACIÓN DE INFORMACIÓN PARA EL FORTALECIMIENTO DE LA PLANEACIÓN ESTRATÉGICA DE LA SECRETARÍA DISTRITAL DE AMBIENTE", "valor": 34544000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857436", "matched_broad_keywords": ["inteligencia de negocios"], "razon": "Desarrollo e implementación de soluciones de analítica de datos e inteligencia de negocios para seguimiento de gestión — coincide en esencia aunque el proceso es de menor valor."}]};
+const DATA = {"generated_at": "2026-09-15T16:16:13.752Z", "dia": "2026-09-15", "window_days": 15, "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)", "total_scanned": 2182, "total_matched": 33, "total_destacados": 2, "total_nuevos": 0, "items": [{"id_proceso": "CO1.REQ.11009126", "fuente": "SECOP II", "entidad": "INSTITUTO DE DESARROLLO URBANO", "unspsc": "V1.81111500", "fecha_publicacion": "2026-09-11T00:00:00.000", "descripcion": "CONTRATAR LOS SERVICIOS ESPECIALIZADOS PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN Y ACTUALIZACIÓN DE UNA SOLUCIÓN INTEGRAL WEB DEL IDU, SEDE ELECTRÓNICA, MIGRACIÓN PORTAL Y ASISTENTE VIRTUAL", "valor": 1687628250, "estado": "Publicado", "modalidad": "Selección Abreviada de Menor Cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884169", "matched_groups": ["IA / Agentes"], "matched_keywords": ["asistente virtual"], "destacado": true, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11027535", "fuente": "SECOP II", "entidad": "CONTRALORIA DEPARTAMENTAL DE BOLIVAR", "unspsc": "V1.81161501", "fecha_publicacion": "2026-09-11T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS ESPECIALIZADOS PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN, PARAMETRIZACIÓN, PUESTA EN FUNCIONAMIENTO, CAPACITACIÓN, SOPORTE Y OPERACIÓN DE UNA PLATAFORMA TECNOLÓGICA TIPO SOFTWARE COMO SERVICIO (SaaS), MARCA BLANCA EL CUAL SE DENOMINARA AUDITA360, DESTINADA A LA GESTIÓN INTEGRAL DEL PROCESO DE RENDICIÓN ELECTRÓNICA DE CUENTAS DE LOS SUJETOS DE CONTROL DE LA CONTRALORÍA DEPARTAMENTAL DE BOLÍVAR, DE ACUERDO CON LA PROPUESTA Y LAS ESPECIFICACIONES TÉCNICAS", "valor": 70000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10883604", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11030623", "fuente": "SECOP II", "entidad": "DEPARTAMENTO DE CUNDINAMARCA- SECRETARIA DE SALUD", "unspsc": "V1.85101500", "fecha_publicacion": "2026-09-11T00:00:00.000", "descripcion": "Aunar esfuerzos administrativos, técnicos y financieros entre la Secretaría De Salud De Cundinamarca y la Empresa Social Del Estado Hospital De Girardot, con el propósito de fortalecer su capacidad operativa, contribuir al saneamiento de sus obligaciones financieras y garantizar la continuidad y adecuada ejecución de las funciones administrativas de soporte a la operación institucional y a la continuidad de la prestación de los servicios de salud en el marco de la implementación y desarrollo de", "valor": 1847178000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10885058", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": true, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11023112", "fuente": "SECOP II", "entidad": "ALCALDIA LOCAL DE TUNJUELITO", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-10T00:00:00.000", "descripcion": "PRESTAR SERVICIOS PROFESIONALES PARA BRINDAR SOPORTE TÉCNICO Y ADMINISTRATIVO A LA GESTIÓN DEL REFERENTE DE SEGURIDAD Y CONVIVENCIA CIUDADANA DEL FONDO DE DESARROLLO LOCAL DE TUNJUELITO, MEDIANTE LA CONSOLIDACIÓN DE INFORMACIÓN, LA ELABORACIÓN DE INSUMOS TÉCNICOS Y EL ACOMPAÑAMIENTO A LA IMPLEMENTACIÓN, SEGUIMIENTO Y FORTALECIMIENTO DE LAS ACCIONES DEL COMPONENTE", "valor": 21800000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10877704", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11017427", "fuente": "SECOP II", "entidad": "SENA REGIONAL SANTANDER Grupo de Apoyo Administrativo Mixto", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-10T00:00:00.000", "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo de actividades de soporte técnico en sitio, administración, implementación y configuración de herramientas tecnológicas requeridas para la ejecución, seguimiento y gestión de la información de los proyectos de la Red Nacional de Cacao.", "valor": 7543333, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873984", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11020649", "fuente": "SECOP II", "entidad": "INSTITUCION EDUCATIVA BERTHA GEDEON DE BALADI", "unspsc": "V1.81112103", "fecha_publicacion": "2026-09-10T00:00:00.000", "descripcion": "SERVICIOS TECNOLÓGICOS PARA EL DISEÑO, DESARROLLO, ALOJAMIENTO, IMPLEMENTACIÓN Y SOPORTE TÉCNICO DE LA PÁGINA WEB DE LA INSTITUCION EDUCATIVA BERTHA GEDEON DE BALADI", "valor": 2520000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10874724", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10946276", "fuente": "SECOP II", "entidad": "EMPRESA SOCIAL DEL ESTADO GUAPI ESE", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-10T00:00:00.000", "descripcion": "EL CONTRATISTA se compromete a brindar apoyo a la gestión\nmediante servicios profesionales, técnicos y tecnológicos en las\náreas administrativas y asistenciales de la E.S.E., a través de sus\nafiliados partícipes, orientados al apoyo en el mantenimiento,\nsoporte y asesoría técnica en el área de sistemas, al apoyo en el\ndesarrollo e implementación del Programa de Gestión Ambiental y\nManejo de Residuos (PGIRHS) y al apoyo técnico biomédico, así\ncomo a la ejecución de otras actividades conexas o\ncom", "valor": 39600000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10872157", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11015809", "fuente": "SECOP II", "entidad": "CORPORACIÓN AUTÓNOMA DEL RÍO GRANDE DE LA MAGDALENA**", "unspsc": "V1.81112200", "fecha_publicacion": "2026-09-09T00:00:00.000", "descripcion": "RENOVACION DEL HOSTING DEL SITIO WEB DE LA ENTIDAD Y ACTUALIZACION DEL GESTOR DE CONTENIDOS INCLUYE MEJORAS Y AFINAMIENTOS DEL PORTAL WEB DE ACUERDO A LOS LINEAMIENTOS DE GOBIERNO EN LINEA", "valor": 96959000, "estado": "Publicado", "modalidad": "Selección Abreviada de Menor Cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869986", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["gestor de contenidos"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11013764", "fuente": "SECOP II", "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA", "unspsc": "V1.81111811", "fecha_publicacion": "2026-09-09T00:00:00.000", "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.", "valor": 11000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11006729", "fuente": "SECOP II", "entidad": "GOBERNACION DEL CASANARE", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-09T00:00:00.000", "descripcion": "PRESTAR SERVICIOS DE ASISTENCIA TÉCNICA Y APOYO OPERATIVO PARA EL DESARROLLO DE ACTIVIDADES ORIENTADAS A FORTALECER LA IMPLEMENTACIÓN DE LA POLÍTICA DE GOBIERNO DIGITAL EN EL DEPARTAMENTO DE CASANARE, MEDIANTE EL SOPORTE LOGÍSTICO AL EQUIPO SECTORIAL, LA ATENCIÓN DE REQUERIMIENTOS EN LA MESA DE AYUDA Y LA CONFIGURACIÓN DE LOS SERVICIOS DE CONECTIVIDAD DE LA ADMINISTRACIÓN DEPARTAMENTAL", "valor": 10584000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864407", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["desarrollo + implementacion + soporte", "mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11015735", "fuente": "SECOP II", "entidad": "MUNICIPIO DE TERUEL", "unspsc": "V1.80111701", "fecha_publicacion": "2026-09-09T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS DE APOYO A LA GESTIÓN PARA\nREALIZAR ACOMPAÑAMIENTO EN EL MANEJO Y\nRELACIONAMIENTO CON LA MESA DE AYUDA DEL SECOP II", "valor": 3000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10870033", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11001782", "fuente": "SECOP II", "entidad": "TRANSMILENIO S.A.", "unspsc": "UNSPECIFIED", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "TIC11 Prestar los servicios de administración técnica, soporte, mantenimiento, evolución, actualización tecnológica y desarrollo de nuevas funcionalidades del portal web de TRANSMILENIO S.A.", "valor": 334398360, "estado": "Abierto", "modalidad": "Selección Abreviada de Menor Cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10855451", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["portal web + desarrollo"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11002893", "fuente": "SECOP II", "entidad": "INSTITUCION EDUCATIVA ANTONIO NARIÑO BUGALAGRANDE", "unspsc": "V1.81112200", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "Servicio continuidad de soporte remoto (telefónico e internet-mesa de ayuda) y actualizaciones genéricas en arrendamiento del Software Financiero SARie, Versión Web 2026.", "valor": 2640000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857160", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11005689", "fuente": "SECOP II", "entidad": "CORPORACIÓN INTERUNIVERSITARIA DE SERVICIOS - CIS", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "Prestación de servicios profesionales para el apoyo a los procesos virtuales y la mesa de ayuda de la Coordinación de Nuevas Tecnologías Educativas.", "valor": 17333333, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860206", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10995264", "fuente": "SECOP II", "entidad": "HOSPITAL VENANCIO DIAZ DIAZ", "unspsc": "V1.43231501", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "Prestación de servicios de soporte y mesa de ayuda para la infraestructura tecnológica de la ESE HOSPITAL VENANCIO DIAZ DIAZ del Municipio de Sabaneta.", "valor": 6300000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10849379", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10998436", "fuente": "SECOP II", "entidad": "E.S.E HOSPITAL SANTA MARGARITA DE COPACABANA", "unspsc": "V1.80161504", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "PRESTAR EL SERVICIO INTEGRAL DE IMPRESIÓN MONOCROMÁTICA Y LA PRESTACIÓN DEL SERVICIO DE MESA DE AYUDA TÉCNICA INTEGRAL PARA LOS SISTEMAS DEL HOSPITAL SANTA MARGARITA DE COPACABANA", "valor": 23000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10852532", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10999316", "fuente": "SECOP II", "entidad": "IDARTES", "unspsc": "V1.43232600", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "Renovación y adquisición de licencias de software especializado para arquitectura, diseño, creación de contenidos interactivos, producción audiovisual, desarrollo de software, gestión de proyectos e inteligencia artificial, incluyendo herramientas para generación de contenido, análisis de código, automatización de procesos, modelado 3d y desarrollo de experiencias digitales, o sus equivalentes, con el fin de fortalecer los procesos institucionales, garantizar la continuidad operativa (...)", "valor": 153938592, "estado": "Publicado", "modalidad": "Selección abreviada subasta inversa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854554", "matched_groups": ["IA / Agentes"], "matched_keywords": ["automatizacion de procesos"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.11000769", "fuente": "SECOP II", "entidad": "UNIVERSIDAD TECNOLÓGICA DE PEREIRA", "unspsc": "V1.81111811", "fecha_publicacion": "2026-09-07T00:00:00.000", "descripcion": "Prestacion de servicios para la renovacion del servicio de soporte Chatbot Cloud SaaS para el registro de solicitudes de soporte de TI.", "valor": 116166667, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854785", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10987837", "fuente": "SECOP II", "entidad": "MUNICIPIO DE SOACHA..", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES PARA EL DESARROLLO Y GESTION WEB (WEBMASTER) DEL PORTAL WEB DE LA ALCALDIA DE SOACHA EN CUMPLIMIENTO DE LOS LINEAMIENTOS DE GOBIERNO DIGITAL.SG_82", "valor": 14742733, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10841689", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["portal web + desarrollo"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10987814", "fuente": "SECOP II", "entidad": "MUNICIPIO DE VALPARAISO**", "unspsc": "V1.85101700", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "FINANCIAR LOS GASTOS DE LA ADQUISICIÓN DE BIENES (INSUMOS) PARA EL SERVICIO DE LABORATORIO Y LA ACTUALIZACIÓN, SOPORTE TÉCNICO, MANTENIMIENTO EVOLUTIVO Y FORTALECIMIENTO DEL SISTEMA DE INFORMACIÓN SX ADVANCE DE LA ESE HOSPITAL SAN JUAN DE DIOS DEL MUNICIPIO DE VALPARAÍSO, ANTIOQUIA AÑO 2026", "valor": 68307342, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10841487", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mantenimiento evolutivo"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10984517", "fuente": "SECOP II", "entidad": "UAECD", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "Prestar servicios profesionales especializados para apoyar la operación, continuidad y mantenimiento evolutivo de las aplicaciones misionales, incluyendo el desarrollo de los componentes requeridos para los sistemas asignados, asegurando la calidad, consistencia e integración de los datos, aplicando los lineamientos institucionales.", "valor": 42781667, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10838599", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mantenimiento evolutivo"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10905707", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Prestar los servicios profesionales de manera autónoma, independiente y coordinada en el Doctorado en Ingeniería, orientados al diseño, desarrollo, implementación y puesta en funcionamiento de soluciones y agentes basados en inteligencia artificial para la automatización, optimización y fortalecimiento de los procesos administrativos, académicos, curriculares del programa. En el marco del proyecto de Inversión 8213", "valor": 24236588, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10829451", "matched_groups": ["IA / Agentes"], "matched_keywords": ["inteligencia artificial + agentes"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10978918", "fuente": "SECOP II", "entidad": "EMPRESAS MUNICIPALES DE CALI", "unspsc": "V1.80111701", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS PARA BRINDAR APOYO AL PROCESO DE DESARROLLO DE APLICACIONES PARA PROVEER NUEVOS SERVICIOS DE APLICACIONES A LA MEDIDA Y AUTOMATIZACION DE PROCESOS OPERATIVOS PARA EL NEGOCIO, CLIENTES EL SEGMENTO COMERCIAL, OFICIAL E INDUSTRIAL DE EMCALI EICE ESP.", "valor": 9000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832419", "matched_groups": ["IA / Agentes"], "matched_keywords": ["automatizacion de procesos"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10978433", "fuente": "SECOP II", "entidad": "EMPRESAS MUNICIPALES DE CALI", "unspsc": "V1.80111701", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS PARA BRINDAR APOYO AL PROCESO DE DESARROLLO DE APLICACIONES PARA PROVEER NUEVOS SERVICIOS DE APLICACIONES A LA MEDIDA Y AUTOMATIZACION DE PROCESOS OPERATIVOS PARA EL NEGOCIO, CLIENTES EL SEGMENTO COMERCIAL, OFICIAL E INDUSTRIAL DE EMCALI EICE ESP.", "valor": 9000000, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832155", "matched_groups": ["IA / Agentes"], "matched_keywords": ["automatizacion de procesos"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10980278", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Prestar servicios profesionales para la ejecución de las estrategias de acompañamiento y seguimiento a las trayectorias estudiantiles de los alumnos identificados en riesgo de deserción mediante el sistema de alertas tempranas, así como apoyar el diseño de intervenciones focalizadas en los componentes psicológico, académico y social, y la investigación institucional para el insumo de preguntas frecuentes del chatbot del Observatorio Académico Integrado, en el marco del Convenio Especial BID No.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833688", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10979971", "fuente": "SECOP II", "entidad": "UNIVERSIDAD DEL CAUCA", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Prestar servicios profesionales para la ejecución de las estrategias de acompañamiento y seguimiento a las trayectorias estudiantiles de los alumnos identificados en riesgo de deserción mediante el sistema de alertas tempranas, así como apoyar el diseño de intervenciones focalizadas en los componentes psicológico, académico y social, y la investigación institucional para el insumo de preguntas frecuentes del chatbot del Observatorio Académico Integrado, en el marco del Convenio Especial BID No.", "valor": 15346742, "estado": "Publicado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833646", "matched_groups": ["IA / Agentes"], "matched_keywords": ["chatbot"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10969654", "fuente": "SECOP II", "entidad": "TRANSMILENIO S.A.", "unspsc": "V1.43232100", "fecha_publicacion": "2026-09-02T00:00:00.000", "descripcion": "TIC11 Prestar los servicios de administración técnica, soporte, mantenimiento, evolución, actualización tecnológica y desarrollo de nuevas funcionalidades del portal web de TRANSMILENIO S.A.", "valor": 334398360, "estado": "Evaluación", "modalidad": "Selección Abreviada de Menor Cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10824730", "matched_groups": ["Liferay / Portal"], "matched_keywords": ["portal web + desarrollo"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10970755", "fuente": "SECOP II", "entidad": "FISCALÍA GENERAL DE LA NACIÓN NIVEL CENTRAL.", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-02T00:00:00.000", "descripcion": "PRESTAR SERVICIOS PROFESIONALES COMO DESARROLLADOR, PARA APOYAR EL ANÁLISIS, DISEÑO, DESARROLLO, IMPLEMENTACIÓN, MANTENIMIENTO EVOLUTIVO Y CORRECTIVO, PRUEBAS, DOCUMENTACIÓN TÉCNICA E INTEGRACIÓN TECNOLÓGICA DEL\nSISTEMA DE INFORMACIÓN SIDPA 3.0, CONTRIBUYENDO AL FORTALECIMIENTO Y MODERNIZACIÓN DE LOS PROCESOS GESTIONADOS POR LA DIRECCIÓN DE PROTECCIÓN Y ASISTENCIA DE LA FISCALÍA GENERAL DE LA NACIÓN", "valor": 23097405, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10826271", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mantenimiento evolutivo"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10973895", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-02T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar la atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el análisis y desarrollo del sistema de información SICAU y la sistematización de los demás procesos misionales y de apoyo de la entidad a través de herramientas de software y bases de datos que consignen toda la información institucional ingresada, procesada y almacenada, dejando la respectiva documentación de los procesos mejorados y sistem", "valor": 12490478, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10827390", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10947031", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar la atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el análisis y desarrollo del sistema de información SICAU y la sistematización de los demás procesos misionales y de apoyo de la entidad a través de herramientas de software y bases de datos que consignen toda la información institucional ingresada, procesada y almacenada, dejando la respectiva documentación de los procesos mejorados y sistem", "valor": 12595440, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820329", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10941058", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar la atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el análisis y desarrollo del sistema de información SICAU y la sistematización de los demás procesos misionales y de apoyo de la entidad a través de herramientas de software y bases de datos que consignen toda la información institucional ingresada, procesada y almacenada, dejando la respectiva documentación de los procesos mejorados y sistem", "valor": 12595440, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820534", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10966370", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar\nla atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el\nanálisis y desarrollo del sistema de información SICAU y la sistematización de\nlos demás procesos misionales y de apoyo de la entidad a través de\nherramientas de software y bases de datos que consignen toda la información\ninstitucional ingresada, procesada y almacenada, dejando la respectiva\ndocumentación de los procesos mejorados y siste", "valor": 18892756, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820337", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}, {"id_proceso": "CO1.REQ.10932790", "fuente": "SECOP II", "entidad": "Institución Universitaria Pascual Bravo COMPRADOR", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "Prestación de servicios por su cuenta y riesgo sin vínculo laboral para apoyar\nla atención de primer nivel a la mesa de ayuda, levantamiento de requisitos, el\nanálisis y desarrollo del sistema de información SICAU y la sistematización del\nproceso de Gestión Talento Humano, el Plan Institucional de Capacitación,\ncontratación personal profesoral y administrativo y demás situaciones\nadministrativas del personal, a través de herramientas de software y bases de\ndatos que consignen toda la informació", "valor": 18892756, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10817511", "matched_groups": ["Desarrollo / Fabrica"], "matched_keywords": ["mesa de ayuda"], "destacado": false, "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false}], "oportunidades": [{"id_proceso": "CO1.REQ.10959068", "fuente": "SECOP II", "entidad": "CONTRALORIA DE CUNDINAMARCA", "unspsc": "V1.81111500", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "REALIZAR LA CONSULTORÍA ESPECIALIZADA PARA EL DIAGNÓSTICO Y LA DEFINICIÓN DE LA RUTA DE MODERNIZACIÓN DIGITAL Y TECNOLÓGICA DE LA CONTRALORÍA DE CUNDINAMARCA, QUE COMPRENDA EL DISEÑO DE LA ARQUITECTURA EMPRESARIAL INSTITUCIONAL, EL DIMENSIONAMIENTO DE LA INFRAESTRUCTURA TECNOLÓGICA REQUERIDA, LA IDENTIFICACIÓN Y PRIORIZACIÓN DE LOS PROCESOS SUSCEPTIBLES DE AUTOMATIZACIÓN, Y LA FORMULACIÓN DE LA POLÍTICA DE TRANSFORMACIÓN DIGITAL DE LA ENTIDAD", "valor": 855000000, "estado": "Abierto", "modalidad": "Concurso de méritos abierto", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10813558", "matched_broad_keywords": ["arquitectura empresarial", "transformacion digital"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Consultoria para trazar la ruta de modernizacion digital de la entidad: incluye el diseno de la arquitectura empresarial, el dimensionamiento de la infraestructura y la priorizacion de procesos a automatizar. Es el diagnostico que suele anteceder a los proyectos de implementacion que vende ARIA."}, {"id_proceso": "CO1.REQ.10976064", "fuente": "SECOP II", "entidad": "SECRETARÍA GENERAL DE LA ALCALDÍA MAYOR DE BOGOTÁ", "unspsc": "V1.81111500", "fecha_publicacion": "2026-09-03T00:00:00.000", "descripcion": "Desarrollar e implementar el modelo operativo de gobierno de datos en la Secretaría General de la Alcaldía Mayor de Bogotá D.C., conforme a los marcos de referencia y a los lineamientos distritales y nacionales aplicables", "valor": 492110316, "estado": "Seleccionado", "modalidad": "Contratación Directa (con ofertas)", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834978", "matched_broad_keywords": ["gobierno de datos"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Desarrollo e implementacion del modelo operativo de gobierno de datos de la Secretaria General, alineado con los lineamientos distritales y nacionales: encaja de lleno en la practica de gobierno y calidad de datos."}, {"id_proceso": "CO1.REQ.11002703", "fuente": "SECOP II", "entidad": "HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUE TOLIMA - EMPRESA SOCIAL DEL ESTADO", "unspsc": "V1.43231500", "fecha_publicacion": "2026-09-09T00:00:00.000", "descripcion": "CONTRATAR LA RENOVACIÓN DE LAS LICENCIAS DEL ANTIVIRUS PARA LOS SERVIDORES VIRTUALES, ESTACIONES DE TRABAJO, Y RENOVACIÓN DE LICENCIAS PARA LA SOLUCIÓN BUSINESS INTELLIGENCE EN EL HOSPITAL FEDERICO LLERAS ACOSTA DE IBAGUÉ ESE", "valor": 124723900, "estado": "Seleccionado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864119", "matched_broad_keywords": ["business intelligence"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Renovacion de licencias de una solucion de Business Intelligence ya instalada, empaquetada junto con el antivirus: oportunidad de reventa y soporte de licenciamiento BI en un hospital que ya opera la plataforma."}, {"id_proceso": "CO1.REQ.10953993", "fuente": "SECOP II", "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES", "unspsc": "V1.81112208", "fecha_publicacion": "2026-09-01T00:00:00.000", "descripcion": "REQUIERE CONTRATAR LA ADQUISICIÓN, RENOVACIÓN, ACTUALIZACIÓN Y SOPORTE DE LOS SERVICIO DE LAS LICENCIAS DE SOFTWARE DE INTELIGENCIA DE NEGOCIOS (BI) VISUALIZACIÓN (TABLEAU) PARA LOS DEPARTAMENTOS CONJUNTOS DE OPERACIONES DEL COMANDO GENERAL DE LAS FUERZAS MILITARES, DE ACUERDO CON EL ANEXO DE ESPECIFICACIONES TECNICAS.", "valor": 79750080, "estado": "Abierto", "modalidad": "Mínima cuantía", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818086", "matched_broad_keywords": ["inteligencia de negocios"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Adquisicion, renovacion y soporte de licencias Tableau para los departamentos conjuntos de operaciones del Comando General. Proceso abierto y de portafolio BI directo."}, {"id_proceso": "CO1.REQ.11006560", "fuente": "SECOP II", "entidad": "INSTITUCIÓN UNIVERSITARIA ITM", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "Prestación de servicios como contratista independiente, sin vínculo laboral por su propia cuenta y riesgo para realizar la gestión de Especialista en Ingeniería de Software para la arquitectura de Datos y/o Gobernanza en ejecución del Contrato Interadministrativo No.4600108695 DE 2026, celebrado entre EL DISTRITO ESPECIAL DE CIENCIA TECNOLOGÍA E INNOVACIÓN DE MEDELLÍN,SECRETARÍA DE INNOVACION DIGITAL y el ITM", "valor": 60266667, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860628", "matched_broad_keywords": ["arquitectura de datos"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Especialista en ingenieria de software para arquitectura de datos y gobernanza, dentro del contrato interadministrativo con la Secretaria de Innovacion Digital de Medellin."}, {"id_proceso": "CO1.REQ.11028361", "fuente": "SECOP II", "entidad": "MUNICIPIO DE PRADERA", "unspsc": "V1.43231500", "fecha_publicacion": "2026-09-11T00:00:00.000", "descripcion": "PRESTACIÓN DE SERVICIOS PARA LA IMPLEMENTACIÓN, PUESTA EN FUNCIONAMIENTO Y OPERACIÓN DE UNA PLATAFORMA TECNOLÓGICA DE GESTIÓN DOCUMENTAL EN MODALIDAD SAAS (SOFTWARE AS A SERVICE), PARA EL FORTALECIMIENTO DE LA GESTIÓN DOCUMENTAL DE LA ALCALDÍA MUNICIPAL DE PRADERA, VALLE DEL CAUCA", "valor": 50000000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10882394", "matched_broad_keywords": ["gestion documental"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Implementacion y operacion de una plataforma SaaS de gestion documental: es un proyecto de software, no de archivo fisico como la mayoria de procesos que menciona esa palabra clave."}, {"id_proceso": "CO1.REQ.11009102", "fuente": "SECOP II", "entidad": "Región Metropolitana", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-10T00:00:00.000", "descripcion": "Desarrollar actividades profesionales orientadas al diseño, implementación y\nadministración de la arquitectura de datos de la Región Metropolitana Bogotá -\nCundinamarca, mediante el análisis, integración, automatización y\nprocesamiento de información proveniente de diferentes fuentes; el desarrollo\nde procesos ETL/ELT; la administración de bases de datos; y el fortalecimiento de\nla calidad, disponibilidad, seguridad y gobierno de los datos Institucionales y del\nObservatorio de Dinámicas Regional", "valor": 42940000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873362", "matched_broad_keywords": ["arquitectura de datos"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Diseno, implementacion y administracion de la arquitectura de datos de la region Bogota-Cundinamarca, con procesos ETL/ELT y fortalecimiento del gobierno de datos: encaje directo con las capacidades de integracion."}, {"id_proceso": "CO1.REQ.11003603", "fuente": "SECOP II", "entidad": "SECRETARIA DISTRITAL DE AMBIENTE", "unspsc": "V1.80111600", "fecha_publicacion": "2026-09-08T00:00:00.000", "descripcion": "PRESTAR LOS SERVICIOS PROFESIONALES PARA REALIZAR EL DESARROLLO E IMPLEMENTACIÓN DE SOLUCIONES DE ANALÍTICA DE DATOS E INTELIGENCIA DE NEGOCIOS, ORIENTADAS AL SEGUIMIENTO DE LA GESTIÓN Y LA GENERACIÓN DE INFORMACIÓN PARA EL FORTALECIMIENTO DE LA PLANEACIÓN ESTRATÉGICA DE LA SECRETARÍA DISTRITAL DE AMBIENTE", "valor": 34544000, "estado": "Seleccionado", "modalidad": "Contratación directa", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857436", "matched_broad_keywords": ["inteligencia de negocios"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Desarrollo e implementacion de soluciones de analitica de datos e inteligencia de negocios para el seguimiento de la gestion y la planeacion estrategica de la entidad."}, {"id_proceso": "CO1.REQ.10988360", "fuente": "SECOP II", "entidad": "EMPRESA DE RENOVACION Y DESARROLLO URBANO DE BOGOTA D.C", "unspsc": "V1.80161504", "fecha_publicacion": "2026-09-04T00:00:00.000", "descripcion": "Prestar servicios personales para realizar el diagnostico, consolidación y documentación técnica de \nlos procesos asociados a la arquitectura empresarial y su integración con los diferentes componentes \ndentro del Sistema Misional.", "valor": 32000000, "estado": "Seleccionado", "modalidad": "Contratación régimen especial", "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10842846", "matched_broad_keywords": ["arquitectura empresarial"], "primera_vez_visto": "2026-09-15", "dias_en_radar": 1, "es_nuevo": false, "razon": "Diagnostico, consolidacion y documentacion tecnica de los procesos de arquitectura empresarial y su integracion con el Sistema Misional de la entidad."}]};
 /* DATA_BLOCK_END */
 
 const CAT_CLASS = {
@@ -362,9 +465,8 @@ const CAT_STAT_CLASS = {
   "Integracion / BUS": "cat-integracion",
 };
 const CATS = ["Liferay / Portal", "Desarrollo / Fabrica", "IA / Agentes", "Integracion / BUS"];
-const FILTER_TAGS = ["Destacado", ...CATS, "Otras oportunidades"];
-
-const ALL_ITEMS = [
+// ---------- lo que trae el dato del dia ----------
+const ITEMS_DEL_DIA = [
   ...DATA.items.map((it) => ({
     ...it,
     tags: [...(it.matched_groups || []), ...(it.destacado ? ["Destacado"] : [])],
@@ -374,10 +476,57 @@ const ALL_ITEMS = [
     tags: ["Otras oportunidades"],
     matched_keywords: op.matched_broad_keywords || [],
   })),
-].sort((a, b) => (b.fecha_publicacion || "").localeCompare(a.fecha_publicacion || ""));
+].map((it) => (it.es_nuevo ? { ...it, tags: ["Nuevos", ...it.tags] } : it));
+
+const POR_ID = new Map(ITEMS_DEL_DIA.map((it) => [it.id_proceso, it]));
+// El registro de novedades se sembro el 2026-09-15; datos anteriores no traen
+// es_nuevo. Cuando falta, el filtro de novedades simplemente no se ofrece.
+const HAY_HISTORIAL = ITEMS_DEL_DIA.some((it) => "es_nuevo" in it);
+
+// Seguimiento: lo unico que se conserva de un dia para otro. Vive fuera de la
+// pagina (capacidad db) porque la rutina reescribe el bloque DATA cada manana.
+// Es compartido: lo que marca una persona lo ven todos en ARIA.
+const SEGUIMIENTO = new Map();
+let db = null;
+let dbListo = false;
+let conciliando = false;
 
 const state = { search: "", activeCats: new Set() };
 
+function filtros() {
+  return [
+    ...(SEGUIMIENTO.size ? ["En seguimiento"] : []),
+    ...(HAY_HISTORIAL ? ["Nuevos"] : []),
+    "Destacado",
+    ...CATS,
+    "Otras oportunidades",
+  ];
+}
+
+function itemsVisibles() {
+  const vivos = ITEMS_DEL_DIA.map((it) =>
+    SEGUIMIENTO.has(it.id_proceso) ? { ...it, tags: ["En seguimiento", ...it.tags] } : it,
+  );
+  // Un proceso seguido que ya salio de la ventana de 15 dias se sigue mostrando,
+  // reconstruido desde lo ultimo que se supo de el.
+  const fuera = [];
+  for (const [id, doc] of SEGUIMIENTO) {
+    if (POR_ID.has(id)) continue;
+    fuera.push({ ...doc, tags: ["En seguimiento"], fuera_de_ventana: true, matched_keywords: [] });
+  }
+  return [...vivos, ...fuera].sort((a, b) =>
+    (b.fecha_publicacion || "").localeCompare(a.fecha_publicacion || ""),
+  );
+}
+
+// ---------- utilidades ----------
+// El seguimiento es texto que escribieron otros visores: nunca se inyecta crudo.
+function esc(s) {
+  return String(s === null || s === undefined ? "" : s).replace(
+    /[&<>"']/g,
+    (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c],
+  );
+}
 function fmtCOP(n) {
   if (n === null || n === undefined || isNaN(n)) return "—";
   return new Intl.NumberFormat("es-CO", { style: "currency", currency: "COP", maximumFractionDigits: 0 }).format(n);
@@ -388,19 +537,75 @@ function fmtDate(s) {
   if (isNaN(d)) return s;
   return d.toLocaleDateString("es-CO", { day: "2-digit", month: "short", year: "numeric" });
 }
+// Un dia calendario ("2026-09-15") no es un instante: se formatea fijando el
+// mediodia UTC para que no se corra un dia al renderizarse en otro huso.
+function fmtDia(dia) {
+  if (!dia) return "—";
+  const d = new Date(`${String(dia).slice(0, 10)}T12:00:00Z`);
+  if (isNaN(d)) return String(dia);
+  return d.toLocaleDateString("es-CO", { day: "2-digit", month: "short", year: "numeric", timeZone: "UTC" });
+}
+function fmtDiaCorto(dia) {
+  if (!dia) return "—";
+  const d = new Date(`${String(dia).slice(0, 10)}T12:00:00Z`);
+  if (isNaN(d)) return String(dia);
+  return d.toLocaleDateString("es-CO", { day: "2-digit", month: "short", timeZone: "UTC" });
+}
+function diaBogota(date) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Bogota",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+}
+function diasEntre(desde, hasta) {
+  const a = Date.parse(`${desde}T00:00:00Z`);
+  const b = Date.parse(`${hasta}T00:00:00Z`);
+  if (!Number.isFinite(a) || !Number.isFinite(b)) return 0;
+  return Math.round((b - a) / 86400000);
+}
 function isOpen(estado) {
   return /public|present|abiert|convocad|borrador/i.test(estado || "");
 }
 function norm(s) {
   return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
+function idDoc(id) {
+  return String(id).replace(/[^A-Za-z0-9_\-.~:@+]/g, "_").slice(0, 200);
+}
 
+// ---------- encabezado y aviso de frescura ----------
 function renderMeta() {
   const g = new Date(DATA.generated_at);
   document.getElementById("meta").innerHTML =
-    `<strong>${g.toLocaleString("es-CO", { dateStyle: "medium", timeStyle: "short" })}</strong><br>última actualización · ventana de ${DATA.window_days} días`;
+    `<strong>${esc(g.toLocaleString("es-CO", { dateStyle: "medium", timeStyle: "short" }))}</strong><br>última actualización · ventana de ${esc(DATA.window_days)} días`;
   document.getElementById("footer").textContent =
     `Fuente: ${DATA.source_dataset}. Se actualiza automáticamente una vez al día. Requisitos habilitantes (capacidad financiera, experiencia, RUP) no están en el dataset abierto — revisar en el enlace de cada proceso.`;
+  renderFrescura();
+}
+
+// El fallo que esto hace visible: la rutina puede republicar sin novedad el
+// archivo del dia anterior y, hasta ahora, el tablero se veia igual de normal.
+function renderFrescura() {
+  const el = document.getElementById("frescura");
+  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  if (!gen || isNaN(gen)) {
+    el.hidden = true;
+    return;
+  }
+  const diaDato = DATA.dia || diaBogota(gen);
+  const atraso = diasEntre(diaDato, diaBogota(new Date()));
+  if (atraso < 1) {
+    el.hidden = true;
+    return;
+  }
+  const cuando = atraso === 1 ? "ayer" : `hace ${atraso} días`;
+  el.innerHTML =
+    `<span><strong>El radar no se ha actualizado hoy.</strong> Lo que ve son los datos del ` +
+    `${esc(fmtDia(diaDato))}, recolectados ${esc(cuando)}. Los procesos publicados después de esa ` +
+    `fecha todavía no aparecen.</span>`;
+  el.hidden = false;
 }
 
 function renderStats() {
@@ -408,22 +613,29 @@ function renderStats() {
   for (const it of DATA.items) for (const g of it.matched_groups) if (counts[g] !== undefined) counts[g]++;
   const destacados = DATA.items.filter((it) => it.destacado).length;
   const oportunidades = (DATA.oportunidades || []).length;
+  const nuevos = ITEMS_DEL_DIA.filter((it) => it.es_nuevo).length;
   const tiles = [
     { n: DATA.items.length, l: "Total encontradas", cls: "" },
+    ...(HAY_HISTORIAL ? [{ n: nuevos, l: "Nuevos hoy", cls: nuevos > 0 ? "nuevos" : "" }] : []),
+    ...(SEGUIMIENTO.size ? [{ n: SEGUIMIENTO.size, l: "En seguimiento", cls: "seguimiento" }] : []),
     { n: destacados, l: "Destacados", cls: "destacados" },
     { n: oportunidades, l: "A explorar", cls: "oportunidades" },
     ...CATS.map((c) => ({ n: counts[c], l: c, cls: CAT_STAT_CLASS[c] })),
   ];
   document.getElementById("stats").innerHTML = tiles
-    .map((t) => `<div class="stat ${t.cls}"><div class="n">${t.n}</div><div class="l">${t.l}</div></div>`)
+    .map((t) => `<div class="stat ${t.cls}"><div class="n">${t.n}</div><div class="l">${esc(t.l)}</div></div>`)
     .join("");
 }
 
 function renderChips() {
+  const disponibles = filtros();
+  // Un filtro activo cuyo chip desaparecio dejaria la lista vacia sin explicacion.
+  for (const c of [...state.activeCats]) if (!disponibles.includes(c)) state.activeCats.delete(c);
+
   const el = document.getElementById("chips");
   el.innerHTML =
     `<button class="chip" id="chip-all" aria-pressed="true">Todas</button>` +
-    FILTER_TAGS.map((c) => `<button class="chip" data-cat="${c}" aria-pressed="false">${c}</button>`).join("");
+    disponibles.map((c) => `<button class="chip" data-cat="${esc(c)}" aria-pressed="false">${esc(c)}</button>`).join("");
 
   el.querySelector("#chip-all").addEventListener("click", () => {
     state.activeCats.clear();
@@ -438,6 +650,7 @@ function renderChips() {
       renderCards();
     });
   });
+  syncChips();
 }
 function syncChips() {
   document.getElementById("chip-all").setAttribute("aria-pressed", String(state.activeCats.size === 0));
@@ -455,53 +668,232 @@ function matchesFilters(it) {
   return haystack.includes(norm(state.search));
 }
 
+// ---------- tarjetas ----------
+const ETIQUETA_CAMPO = { estado: "Estado", valor: "Valor", modalidad: "Modalidad" };
+function valorCampo(campo, v) {
+  if (campo === "valor") return fmtCOP(v);
+  return v === null || v === undefined || v === "" ? "sin dato" : v;
+}
+
+function cambiosHtml(doc) {
+  if (!doc) return "";
+  const lista = doc.cambios || [];
+  if (!lista.length) {
+    const desde = doc.marcado_en ? String(doc.marcado_en).slice(0, 10) : doc.visto_en;
+    return `<div class="cambios"><b>En seguimiento</b> <span class="sin-cambios">· sin cambios desde el ${esc(fmtDia(desde))}</span></div>`;
+  }
+  const filas = lista
+    .slice()
+    .reverse()
+    .slice(0, 8)
+    .map((c) => {
+      // Si nadie abrio el tablero por varios dias solo se sabe que cambio en ese
+      // intervalo, no el dia exacto: se dice asi en vez de inventar una fecha.
+      const cuando =
+        c.desde && c.desde !== c.hasta
+          ? `entre el ${fmtDiaCorto(c.desde)} y el ${fmtDiaCorto(c.hasta)}`
+          : `el ${fmtDiaCorto(c.hasta)}`;
+      return (
+        `<li><span class="campo">${esc(ETIQUETA_CAMPO[c.campo] || c.campo)}</span>: ` +
+        `${esc(valorCampo(c.campo, c.de))} → ${esc(valorCampo(c.campo, c.a))} ` +
+        `<span class="cuando">${esc(cuando)}</span></li>`
+      );
+    })
+    .join("");
+  return `<div class="cambios"><b>Cambios desde que lo sigue</b><ul>${filas}</ul></div>`;
+}
+
 function cardHtml(it) {
+  const sigue = SEGUIMIENTO.has(it.id_proceso);
+  const doc = SEGUIMIENTO.get(it.id_proceso);
   const badges = [
-    ...(it.matched_groups || []).map((g) => `<span class="badge ${CAT_CLASS[g] || ""}">${g}</span>`),
-    ...(it.matched_keywords || []).map((k) => `<span class="badge kw">${k}</span>`),
-    ...(it.matched_broad_keywords || []).map((k) => `<span class="badge kw">${k}</span>`),
+    it.es_nuevo ? `<span class="badge nuevo">Nuevo</span>` : "",
+    ...(it.matched_groups || []).map((g) => `<span class="badge ${CAT_CLASS[g] || ""}">${esc(g)}</span>`),
+    ...(it.matched_keywords || []).map((k) => `<span class="badge kw">${esc(k)}</span>`),
+    ...(it.matched_broad_keywords || []).map((k) => `<span class="badge kw">${esc(k)}</span>`),
   ].join("");
   const statusCls = isOpen(it.estado) ? "open" : "closed";
-  const cls = ["card", it.destacado ? "destacado" : "", it.razon ? "oportunidad" : ""].filter(Boolean).join(" ");
+  const cls = [
+    "card",
+    it.destacado ? "destacado" : "",
+    it.razon ? "oportunidad" : "",
+    sigue ? "seguida" : "",
+    it.fuera_de_ventana ? "fuera" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const estrella = dbListo
+    ? `<button class="marcar" type="button" data-id="${esc(it.id_proceso)}" aria-pressed="${sigue}" ` +
+      `title="${sigue ? "Dejar de seguir este proceso" : "Seguir este proceso"}" ` +
+      `aria-label="${sigue ? "Dejar de seguir" : "Seguir"}">${sigue ? "★" : "☆"}</button>`
+    : "";
   return `
   <article class="${cls}">
     <div class="card-main">
-      <p class="entidad">${it.entidad || "Entidad no especificada"}</p>
-      <p class="descripcion">${it.descripcion || "Sin descripción disponible."}</p>
+      <p class="entidad">${esc(it.entidad || "Entidad no especificada")}</p>
+      <p class="descripcion">${esc(it.descripcion || "Sin descripción disponible.")}</p>
       <div class="badges">${badges}</div>
-      ${it.razon ? `<div class="razon"><b>Por qué podría interesar:</b> ${it.razon}</div>` : ""}
+      ${it.razon ? `<div class="razon"><b>Por qué podría interesar:</b> ${esc(it.razon)}</div>` : ""}
+      ${sigue ? cambiosHtml(doc) : ""}
+      ${
+        it.fuera_de_ventana
+          ? `<div class="fuera-nota">Ya no aparece en la ventana de ${esc(DATA.window_days)} días. Lo último que se supo de este proceso es del ${esc(fmtDia(doc && doc.visto_en))}.</div>`
+          : ""
+      }
     </div>
     <div class="card-side">
-      <span class="pill ${statusCls}">${it.estado || "Sin estado"}</span>
+      <div class="side-top">
+        ${estrella}
+        <span class="pill ${statusCls}">${esc(it.estado || "Sin estado")}</span>
+      </div>
       <span class="valor">${fmtCOP(it.valor)}</span>
-      <span>${fmtDate(it.fecha_publicacion)}</span>
-      <span class="id-line">${it.id_proceso || "—"}</span>
-      <span class="id-line">UNSPSC ${it.unspsc && it.unspsc !== "UNSPECIFIED" ? it.unspsc : "—"}</span>
-      ${it.url ? `<a class="go" href="${it.url}" target="_blank" rel="noopener">Ver proceso ↗</a>` : ""}
+      <span>${esc(fmtDate(it.fecha_publicacion))}</span>
+      <span class="id-line">${esc(it.id_proceso || "—")}</span>
+      <span class="id-line">UNSPSC ${esc(it.unspsc && it.unspsc !== "UNSPECIFIED" ? it.unspsc : "—")}</span>
+      ${it.dias_en_radar > 1 ? `<span class="id-line">${esc(it.dias_en_radar)} días en el radar</span>` : ""}
+      ${it.url ? `<a class="go" href="${esc(it.url)}" target="_blank" rel="noopener">Ver proceso ↗</a>` : ""}
     </div>
   </article>`;
 }
 
 function renderCards() {
-  const items = ALL_ITEMS.filter(matchesFilters);
-  document.getElementById("count-line").textContent =
-    `${items.length} de ${ALL_ITEMS.length} procesos`;
+  const todos = itemsVisibles();
+  const items = todos.filter(matchesFilters);
+  document.getElementById("count-line").textContent = `${items.length} de ${todos.length} procesos`;
 
   const host = document.getElementById("cards");
   if (!items.length) {
     host.innerHTML = `<div class="empty">Ningún proceso coincide con ese filtro.</div>`;
     return;
   }
-
   host.innerHTML = items.map(cardHtml).join("");
 }
 
+function refrescar() {
+  renderStats();
+  renderChips();
+  renderCards();
+}
+
+// ---------- seguimiento ----------
+async function alternarSeguimiento(id) {
+  if (!db) return;
+  const ref = db.doc("seguimiento/" + idDoc(id));
+  try {
+    if (SEGUIMIENTO.has(id)) {
+      await ref.delete();
+      return;
+    }
+    const it = POR_ID.get(id);
+    if (!it) return;
+    await ref.set({
+      id_proceso: id,
+      entidad: it.entidad || null,
+      descripcion: it.descripcion || null,
+      url: it.url || null,
+      unspsc: it.unspsc || null,
+      modalidad: it.modalidad || null,
+      estado: it.estado || null,
+      valor: it.valor === undefined ? null : it.valor,
+      fecha_publicacion: it.fecha_publicacion || null,
+      matched_groups: it.matched_groups || [],
+      razon: it.razon || null,
+      marcado_en: new Date().toISOString(),
+      visto_en: DATA.dia || null,
+      cambios: [],
+    });
+  } catch (e) {
+    console.warn("No se pudo guardar el seguimiento", e);
+  }
+}
+
+// SECOP puede reemitir el mismo valor con otra tilde, otro espaciado u otra
+// caja. Eso no es un cambio del proceso y avisarlo seria una falsa alarma, asi
+// que el texto se compara normalizado --- pero se guarda tal como vino.
+function mismoValor(a, b) {
+  if (typeof a === "string" || typeof b === "string") {
+    const limpiar = (v) => norm(String(v === null || v === undefined ? "" : v)).replace(/\s+/g, " ").trim();
+    return limpiar(a) === limpiar(b);
+  }
+  return a === b;
+}
+
+// Compara cada proceso seguido contra el dato de hoy y anota lo que cambio.
+// Solo escribe cuando el dia del dato es distinto al ya comparado, asi que la
+// reescritura que dispara el propio snapshot termina siendo un no-op.
+async function conciliar() {
+  if (!db || conciliando || !DATA.dia) return;
+  conciliando = true;
+  try {
+    for (const [id, doc] of [...SEGUIMIENTO]) {
+      const hoy = POR_ID.get(id);
+      if (!hoy || doc.visto_en === DATA.dia) continue;
+      const cambios = [];
+      for (const campo of ["estado", "valor", "modalidad"]) {
+        const antes = doc[campo] === undefined ? null : doc[campo];
+        const ahora = hoy[campo] === undefined ? null : hoy[campo];
+        if (!mismoValor(antes, ahora)) {
+          cambios.push({ campo, de: antes, a: ahora, desde: doc.visto_en || null, hasta: DATA.dia });
+        }
+      }
+      await db.doc("seguimiento/" + idDoc(id)).update({
+        entidad: hoy.entidad || null,
+        descripcion: hoy.descripcion || null,
+        url: hoy.url || null,
+        unspsc: hoy.unspsc || null,
+        modalidad: hoy.modalidad || null,
+        estado: hoy.estado || null,
+        valor: hoy.valor === undefined ? null : hoy.valor,
+        fecha_publicacion: hoy.fecha_publicacion || null,
+        visto_en: DATA.dia,
+        cambios: [...(doc.cambios || []), ...cambios].slice(-50),
+      });
+    }
+  } catch (e) {
+    console.warn("No se pudo conciliar el seguimiento", e);
+  } finally {
+    conciliando = false;
+  }
+}
+
+async function iniciarSeguimiento() {
+  if (!window.claude || typeof window.claude.use !== "function") return;
+  try {
+    db = await window.claude.use("db");
+  } catch (e) {
+    db = null;
+  }
+  if (!db) return;
+  dbListo = true;
+  db.collection("seguimiento").onSnapshot(
+    (snap) => {
+      SEGUIMIENTO.clear();
+      for (const d of snap.docs) {
+        const body = d.data();
+        if (body && body.id_proceso) SEGUIMIENTO.set(body.id_proceso, body);
+      }
+      refrescar();
+      conciliar();
+    },
+    () => {
+      dbListo = false;
+      refrescar();
+    },
+  );
+  refrescar();
+}
+
 renderMeta();
-renderStats();
-renderChips();
-renderCards();
+refrescar();
 document.getElementById("search").addEventListener("input", (e) => {
   state.search = e.target.value;
   renderCards();
 });
+document.getElementById("cards").addEventListener("click", (e) => {
+  const btn = e.target.closest(".marcar");
+  if (btn) alternarSeguimiento(btn.dataset.id);
+});
+iniciarSeguimiento();
 </script>
+
+</body></html>

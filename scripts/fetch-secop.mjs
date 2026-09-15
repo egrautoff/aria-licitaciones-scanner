@@ -13,6 +13,12 @@ const DESTACADO_VALOR_MIN = 1_000_000_000;
 // solo acota el universo a un tamano razonable para esa revision.
 const EXPLORATORIO_VALOR_MIN = 30_000_000;
 const EXPLORATORIO_MAX_ITEMS = 40;
+// data/seen.json guarda, por proceso, unicamente dos fechas: cuando se vio por
+// primera vez y cuando por ultima. No es un historial de los procesos --- eso
+// solo se guarda para los que alguien marca como de interes, y vive en el
+// tablero. Este registro existe para una sola cosa: poder decir "nuevo" con
+// certeza, porque comparar contra la corrida anterior falla apenas se salte un dia.
+const SEEN_RETENTION_DAYS = 180;
 const BROAD_TERMS = [
   "inteligencia de negocios",
   "business intelligence",
@@ -178,6 +184,69 @@ function toExploratorioItem(row, broadKeywords) {
   };
 }
 
+// Las fechas se etiquetan en hora de Bogota, no UTC: quien consulta el radar
+// esta en Colombia y "nuevos hoy" debe coincidir con su dia calendario.
+function bogotaDay(date = new Date()) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Bogota",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(date);
+}
+
+function diasEntre(desdeDia, hastaDia) {
+  const ms = Date.parse(`${hastaDia}T00:00:00Z`) - Date.parse(`${desdeDia}T00:00:00Z`);
+  if (!Number.isFinite(ms)) return 1;
+  return Math.max(1, Math.round(ms / 86400000) + 1);
+}
+
+async function leerJson(fs, url) {
+  try {
+    return JSON.parse(await fs.readFile(url, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+// La primera corrida no tiene registro. En vez de marcar como nuevos los ~45
+// procesos ya vigentes, se siembra el registro con el latest.json anterior.
+async function cargarRegistro(fs, dataDir, hoy) {
+  const registro = await leerJson(fs, new URL("seen.json", dataDir));
+  if (registro && registro.procesos) return registro;
+
+  const previo = await leerJson(fs, new URL("latest.json", dataDir));
+  const procesos = {};
+  if (previo) {
+    const dia = previo.generated_at ? bogotaDay(new Date(previo.generated_at)) : hoy;
+    for (const it of [...(previo.items || []), ...(previo.candidatos_exploratorios || [])]) {
+      if (it.id_proceso) procesos[it.id_proceso] = { primera_vez: dia, ultima_vez: dia, sembrado: true };
+    }
+  }
+  return { actualizado: null, procesos };
+}
+
+function aplicarHistorial(lista, registro, hoy) {
+  let nuevos = 0;
+  for (const it of lista) {
+    if (!it.id_proceso) continue;
+    const previo = registro.procesos[it.id_proceso];
+    const primera = previo ? previo.primera_vez : hoy;
+    // Un proceso sembrado al crear el registro ya estaba en el radar antes de
+    // que existiera el historial: no se puede declarar nuevo aunque su
+    // primera_vez coincida con hoy.
+    const sembrado = !!(previo && previo.sembrado);
+    registro.procesos[it.id_proceso] = sembrado
+      ? { primera_vez: primera, ultima_vez: hoy, sembrado: true }
+      : { primera_vez: primera, ultima_vez: hoy };
+    it.primera_vez_visto = primera;
+    it.dias_en_radar = diasEntre(primera, hoy);
+    it.es_nuevo = primera === hoy && !sembrado;
+    if (it.es_nuevo) nuevos++;
+  }
+  return nuevos;
+}
+
 async function main() {
   const coreById = await fetchByTerms(uniqueSearchTerms());
   const seen = new Set();
@@ -221,25 +290,43 @@ async function main() {
   exploratorios.sort((a, b) => (b.valor || 0) - (a.valor || 0));
   const candidatos_exploratorios = exploratorios.slice(0, EXPLORATORIO_MAX_ITEMS);
 
+  const fs = await import("node:fs/promises");
+  const dataDir = new URL("../data/", import.meta.url);
+  await fs.mkdir(dataDir, { recursive: true });
+
+  const hoy = bogotaDay();
+  const registro = await cargarRegistro(fs, dataDir, hoy);
+  const total_nuevos = aplicarHistorial(items, registro, hoy);
+  aplicarHistorial(candidatos_exploratorios, registro, hoy);
+
   const output = {
     generated_at: new Date().toISOString(),
+    dia: hoy,
     window_days: WINDOW_DAYS,
     source_dataset: "datos.gov.co / p6dx-8zbt (SECOP II)",
     total_scanned: coreById.size + broadById.size,
     total_matched: items.length,
     total_destacados: items.filter((it) => it.destacado).length,
+    total_nuevos,
     items,
     candidatos_exploratorios,
   };
 
-  const fs = await import("node:fs/promises");
-  await fs.mkdir(new URL("../data/", import.meta.url), { recursive: true });
-  await fs.writeFile(
-    new URL("../data/latest.json", import.meta.url),
-    JSON.stringify(output, null, 2),
+  await fs.writeFile(new URL("latest.json", dataDir), JSON.stringify(output, null, 2));
+
+  // El registro solo conserva procesos vistos dentro de la ventana de retencion,
+  // asi seen.json no crece sin limite.
+  const limiteRegistro = Date.parse(`${hoy}T00:00:00Z`) - SEEN_RETENTION_DAYS * 86400000;
+  registro.procesos = Object.fromEntries(
+    Object.entries(registro.procesos).filter(
+      ([, v]) => Date.parse(`${v.ultima_vez}T00:00:00Z`) >= limiteRegistro,
+    ),
   );
+  registro.actualizado = output.generated_at;
+  await fs.writeFile(new URL("seen.json", dataDir), JSON.stringify(registro, null, 2));
+
   console.log(
-    `Escaneados: ${output.total_scanned} | Coinciden: ${items.length} | Exploratorios: ${candidatos_exploratorios.length}`,
+    `Escaneados: ${output.total_scanned} | Coinciden: ${items.length} (${total_nuevos} nuevos) | Exploratorios: ${candidatos_exploratorios.length}`,
   );
 }
 
