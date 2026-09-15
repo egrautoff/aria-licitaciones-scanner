@@ -252,7 +252,7 @@
   .cambios b { color: var(--seguimiento); font-weight: 600; }
   .cambios ul { margin: 5px 0 0; padding-left: 16px; }
   .cambios li { margin-top: 2px; }
-  .cambios .campo { font-weight: 500; }
+  .cambios .campo-nombre { font-weight: 500; }
   .cambios .cuando {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11px;
@@ -548,6 +548,19 @@
   .badge.g-bi { background: var(--cat-bi-bg); color: var(--cat-bi); }
   .badge.g-nube { background: var(--cat-nube-bg); color: var(--cat-nube); }
   .badge.g-unspsc { background: var(--cat-unspsc-bg); color: var(--cat-unspsc); }
+  .badge.cambio {
+    background: var(--seguimiento);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 10px;
+  }
+  .cambios li.hoy { font-weight: 500; }
+  .cambios li.hoy .cuando { color: var(--seguimiento); font-weight: 600; }
+  .stat.cambios { border-color: var(--seguimiento); }
+  .stat.cambios .n { color: var(--seguimiento); }
+  .chip[data-cat="Cambios hoy"][aria-pressed="true"] { background: var(--seguimiento); border-color: var(--seguimiento); color: #fff; }
+
   .badge.nuevo {
     background: var(--ink);
     color: var(--bg);
@@ -816,6 +829,7 @@ const state = { search: "", cat: null, valorMin: 0, valorMax: 0, dias: 0, estado
 
 function filtros() {
   return [
+    ...(CON_CAMBIO_HOY().length ? ["Cambios hoy"] : []),
     ...(SEGUIMIENTO.size ? ["En seguimiento"] : []),
     ...(HAY_HISTORIAL ? ["Nuevos"] : []),
     "Destacado",
@@ -823,6 +837,13 @@ function filtros() {
     "Otras oportunidades",
   ];
 }
+
+function cambiosDeHoy(id) {
+  const doc = SEGUIMIENTO.get(id);
+  if (!doc || !DATA.dia) return [];
+  return (doc.cambios || []).filter((c) => c.hasta === DATA.dia);
+}
+const CON_CAMBIO_HOY = () => [...SEGUIMIENTO.keys()].filter((id) => cambiosDeHoy(id).length);
 
 const SOLO_UNSPSC = (it) =>
   it.matched_groups && it.matched_groups.length === 1 && it.matched_groups[0] === "Codigo UNSPSC";
@@ -834,15 +855,23 @@ function itemsVisibles() {
   const enReserva = (it) =>
     SOLO_UNSPSC(it) && state.cat !== "Codigo UNSPSC" && !SEGUIMIENTO.has(it.id_proceso);
 
-  const vivos = ITEMS_DEL_DIA.filter((it) => !enReserva(it)).map((it) =>
-    SEGUIMIENTO.has(it.id_proceso) ? { ...it, tags: ["En seguimiento", ...it.tags] } : it,
-  );
+  const etiquetar = (it) => {
+    if (!SEGUIMIENTO.has(it.id_proceso)) return it;
+    const extra = cambiosDeHoy(it.id_proceso).length ? ["Cambios hoy", "En seguimiento"] : ["En seguimiento"];
+    return { ...it, tags: [...extra, ...it.tags] };
+  };
+  const vivos = ITEMS_DEL_DIA.filter((it) => !enReserva(it)).map(etiquetar);
   // Un proceso seguido que ya salio de la ventana de 15 dias se sigue mostrando,
   // reconstruido desde lo ultimo que se supo de el.
   const fuera = [];
   for (const [id, doc] of SEGUIMIENTO) {
     if (POR_ID.has(id)) continue;
-    fuera.push({ ...doc, tags: ["En seguimiento"], fuera_de_ventana: true, matched_keywords: [] });
+    fuera.push({
+      ...doc,
+      tags: cambiosDeHoy(id).length ? ["Cambios hoy", "En seguimiento"] : ["En seguimiento"],
+      fuera_de_ventana: true,
+      matched_keywords: [],
+    });
   }
   return [...vivos, ...fuera];
 }
@@ -955,6 +984,9 @@ function renderStats() {
   const tiles = [
     { n: DATA.items.filter((it) => !SOLO_UNSPSC(it)).length, l: "Total encontradas", cls: "" },
     ...(HAY_HISTORIAL ? [{ n: nuevos, l: "Nuevos hoy", cls: nuevos > 0 ? "nuevos" : "" }] : []),
+    ...(CON_CAMBIO_HOY().length
+      ? [{ n: CON_CAMBIO_HOY().length, l: "Cambiaron hoy", cls: "cambios" }]
+      : []),
     ...(SEGUIMIENTO.size ? [{ n: SEGUIMIENTO.size, l: "En seguimiento", cls: "seguimiento" }] : []),
     { n: destacados, l: "Destacados", cls: "destacados" },
     { n: oportunidades, l: "A explorar", cls: "oportunidades" },
@@ -1042,26 +1074,33 @@ function cambiosHtml(doc) {
     .reverse()
     .slice(0, 8)
     .map((c) => {
-      // Si nadie abrio el tablero por varios dias solo se sabe que cambio en ese
-      // intervalo, no el dia exacto: se dice asi en vez de inventar una fecha.
+      // Con la rutina comparando a diario, "desde" es siempre la vispera y la
+      // fecha es exacta. El intervalo solo se menciona si de verdad hubo un
+      // hueco de mas de un dia, en vez de inventar una fecha que no se sabe.
+      const hueco = c.desde ? diasEntre(c.desde, c.hasta) : 1;
       const cuando =
-        c.desde && c.desde !== c.hasta
+        hueco > 1
           ? `entre el ${fmtDiaCorto(c.desde)} y el ${fmtDiaCorto(c.hasta)}`
           : `el ${fmtDiaCorto(c.hasta)}`;
       return (
-        `<li><span class="campo">${esc(ETIQUETA_CAMPO[c.campo] || c.campo)}</span>: ` +
+        `<li class="${c.hasta === DATA.dia ? "hoy" : ""}"><span class="campo-nombre">${esc(ETIQUETA_CAMPO[c.campo] || c.campo)}</span>: ` +
         `${esc(valorCampo(c.campo, c.de))} → ${esc(valorCampo(c.campo, c.a))} ` +
         `<span class="cuando">${esc(cuando)}</span></li>`
       );
     })
     .join("");
-  return `<div class="cambios"><b>Cambios desde que lo sigue</b><ul>${filas}</ul></div>`;
+  const hoy = lista.filter((c) => c.hasta === DATA.dia).length;
+  const titulo = hoy
+    ? `Cambió hoy · ${hoy} ${hoy === 1 ? "novedad" : "novedades"}`
+    : "Cambios desde que lo sigue";
+  return `<div class="cambios"><b>${esc(titulo)}</b><ul>${filas}</ul></div>`;
 }
 
 function cardHtml(it) {
   const sigue = SEGUIMIENTO.has(it.id_proceso);
   const doc = SEGUIMIENTO.get(it.id_proceso);
   const badges = [
+    sigue && cambiosDeHoy(it.id_proceso).length ? `<span class="badge cambio">Cambió hoy</span>` : "",
     it.es_nuevo ? `<span class="badge nuevo">Nuevo</span>` : "",
     ...(it.matched_groups || []).map((g) => `<span class="badge ${CAT_CLASS[g] || ""}">${esc(g)}</span>`),
     ...(it.matched_keywords || []).map((k) => `<span class="badge kw">${esc(k)}</span>`),

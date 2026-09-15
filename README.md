@@ -50,7 +50,11 @@ Hay dos cosas distintas y conviene no confundirlas.
 
 **El seguimiento** es otra cosa: el repositorio no guarda historial de los procesos. Solo se conserva la trayectoria de los que alguien marca con la estrella en el tablero, y esa información no vive aquí sino en el almacén del propio artifact (capacidad `db` de claude.ai), porque la rutina reescribe el bloque de datos del tablero cada mañana.
 
-Cada proceso seguido guarda un documento en la colección `seguimiento` con lo último que se supo de él y una lista de cambios en `estado`, `valor` y `modalidad`. El tablero compara contra el dato del día al abrirse y anota lo que cambió. Si nadie lo abre en varios días, el cambio se registra como un intervalo ("entre el 15 y el 18 de sept") en vez de inventar una fecha exacta. Un proceso seguido que sale de la ventana de 15 días se sigue mostrando, reconstruido desde lo último que se supo.
+Cada proceso seguido guarda un documento en la colección `seguimiento` con lo último que se supo de él y una lista de cambios en `estado`, `valor` y `modalidad`.
+
+**La comparación la hace la rutina diaria**, con `scripts/cambios-seguimiento.mjs`: lee los documentos del almacén, los compara contra el dato del día y escribe de vuelta lo que cambió, con fecha exacta. El tablero conserva la misma lógica como respaldo por si un día la rutina no corre; ambas son idempotentes, así que la que llegue segunda no hace nada.
+
+Cuando algo cambia, el tablero lo muestra: badge "Cambió hoy" en la tarjeta, chip de filtro "Cambios hoy", una casilla con el conteo y las novedades del día resaltadas dentro de la lista de cambios. Un proceso seguido que sale de la ventana de 15 días se sigue mostrando, reconstruido desde lo último que se supo.
 
 La lista es compartida por toda la organización: no hay capacidad `user` disponible en la cuenta, así que no existen listas privadas por persona.
 
