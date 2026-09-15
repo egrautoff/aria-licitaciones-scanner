@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T15:36:05.910Z",
+  "generated_at": "2026-09-15T14:06:48.146Z",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2256,
-  "total_matched": 35,
+  "total_scanned": 2182,
+  "total_matched": 33,
   "total_destacados": 2,
   "items": [
     {
@@ -26,6 +26,25 @@
       "destacado": true
     },
     {
+      "id_proceso": "CO1.REQ.11027535",
+      "fuente": "SECOP II",
+      "entidad": "CONTRALORIA DEPARTAMENTAL DE BOLIVAR",
+      "unspsc": "V1.81161501",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS ESPECIALIZADOS PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN, PARAMETRIZACIÓN, PUESTA EN FUNCIONAMIENTO, CAPACITACIÓN, SOPORTE Y OPERACIÓN DE UNA PLATAFORMA TECNOLÓGICA TIPO SOFTWARE COMO SERVICIO (SaaS), MARCA BLANCA EL CUAL SE DENOMINARA AUDITA360, DESTINADA A LA GESTIÓN INTEGRAL DEL PROCESO DE RENDICIÓN ELECTRÓNICA DE CUENTAS DE LOS SUJETOS DE CONTROL DE LA CONTRALORÍA DEPARTAMENTAL DE BOLÍVAR, DE ACUERDO CON LA PROPUESTA Y LAS ESPECIFICACIONES TÉCNICAS",
+      "valor": 70000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10883604",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
       "id_proceso": "CO1.REQ.11030623",
       "fuente": "SECOP II",
       "entidad": "DEPARTAMENTO DE CUNDINAMARCA- SECRETARIA DE SALUD",
@@ -45,16 +64,16 @@
       "destacado": true
     },
     {
-      "id_proceso": "CO1.REQ.11027535",
+      "id_proceso": "CO1.REQ.11023112",
       "fuente": "SECOP II",
-      "entidad": "CONTRALORIA DEPARTAMENTAL DE BOLIVAR",
-      "unspsc": "V1.81161501",
-      "fecha_publicacion": "2026-09-11T00:00:00.000",
-      "descripcion": "PRESTACIÓN DE SERVICIOS ESPECIALIZADOS PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN, PARAMETRIZACIÓN, PUESTA EN FUNCIONAMIENTO, CAPACITACIÓN, SOPORTE Y OPERACIÓN DE UNA PLATAFORMA TECNOLÓGICA TIPO SOFTWARE COMO SERVICIO (SaaS), MARCA BLANCA EL CUAL SE DENOMINARA AUDITA360, DESTINADA A LA GESTIÓN INTEGRAL DEL PROCESO DE RENDICIÓN ELECTRÓNICA DE CUENTAS DE LOS SUJETOS DE CONTROL DE LA CONTRALORÍA DEPARTAMENTAL DE BOLÍVAR, DE ACUERDO CON LA PROPUESTA Y LAS ESPECIFICACIONES TÉCNICAS",
-      "valor": 70000000,
+      "entidad": "ALCALDIA LOCAL DE TUNJUELITO",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES PARA BRINDAR SOPORTE TÉCNICO Y ADMINISTRATIVO A LA GESTIÓN DEL REFERENTE DE SEGURIDAD Y CONVIVENCIA CIUDADANA DEL FONDO DE DESARROLLO LOCAL DE TUNJUELITO, MEDIANTE LA CONSOLIDACIÓN DE INFORMACIÓN, LA ELABORACIÓN DE INSUMOS TÉCNICOS Y EL ACOMPAÑAMIENTO A LA IMPLEMENTACIÓN, SEGUIMIENTO Y FORTALECIMIENTO DE LAS ACCIONES DEL COMPONENTE",
+      "valor": 21800000,
       "estado": "Seleccionado",
       "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10883604",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10877704",
       "matched_groups": [
         "Desarrollo / Fabrica"
       ],
@@ -83,44 +102,6 @@
       "destacado": false
     },
     {
-      "id_proceso": "CO1.REQ.10946276",
-      "fuente": "SECOP II",
-      "entidad": "EMPRESA SOCIAL DEL ESTADO GUAPI ESE",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-09-10T00:00:00.000",
-      "descripcion": "EL CONTRATISTA se compromete a brindar apoyo a la gestión\nmediante servicios profesionales, técnicos y tecnológicos en las\náreas administrativas y asistenciales de la E.S.E., a través de sus\nafiliados partícipes, orientados al apoyo en el mantenimiento,\nsoporte y asesoría técnica en el área de sistemas, al apoyo en el\ndesarrollo e implementación del Programa de Gestión Ambiental y\nManejo de Residuos (PGIRHS) y al apoyo técnico biomédico, así\ncomo a la ejecución de otras actividades conexas o\ncom",
-      "valor": 39600000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10872157",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11023112",
-      "fuente": "SECOP II",
-      "entidad": "ALCALDIA LOCAL DE TUNJUELITO",
-      "unspsc": "V1.80111600",
-      "fecha_publicacion": "2026-09-10T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS PROFESIONALES PARA BRINDAR SOPORTE TÉCNICO Y ADMINISTRATIVO A LA GESTIÓN DEL REFERENTE DE SEGURIDAD Y CONVIVENCIA CIUDADANA DEL FONDO DE DESARROLLO LOCAL DE TUNJUELITO, MEDIANTE LA CONSOLIDACIÓN DE INFORMACIÓN, LA ELABORACIÓN DE INSUMOS TÉCNICOS Y EL ACOMPAÑAMIENTO A LA IMPLEMENTACIÓN, SEGUIMIENTO Y FORTALECIMIENTO DE LAS ACCIONES DEL COMPONENTE",
-      "valor": 21800000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10877704",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false
-    },
-    {
       "id_proceso": "CO1.REQ.11020649",
       "fuente": "SECOP II",
       "entidad": "INSTITUCION EDUCATIVA BERTHA GEDEON DE BALADI",
@@ -131,6 +112,25 @@
       "estado": "Publicado",
       "modalidad": "Contratación régimen especial",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10874724",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10946276",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA SOCIAL DEL ESTADO GUAPI ESE",
+      "unspsc": "V1.80111600",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "EL CONTRATISTA se compromete a brindar apoyo a la gestión\nmediante servicios profesionales, técnicos y tecnológicos en las\náreas administrativas y asistenciales de la E.S.E., a través de sus\nafiliados partícipes, orientados al apoyo en el mantenimiento,\nsoporte y asesoría técnica en el área de sistemas, al apoyo en el\ndesarrollo e implementación del Programa de Gestión Ambiental y\nManejo de Residuos (PGIRHS) y al apoyo técnico biomédico, así\ncomo a la ejecución de otras actividades conexas o\ncom",
+      "valor": 39600000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10872157",
       "matched_groups": [
         "Desarrollo / Fabrica"
       ],
@@ -159,6 +159,25 @@
       "destacado": false
     },
     {
+      "id_proceso": "CO1.REQ.11013764",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.",
+      "valor": 11000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false
+    },
+    {
       "id_proceso": "CO1.REQ.11006729",
       "fuente": "SECOP II",
       "entidad": "GOBERNACION DEL CASANARE",
@@ -174,25 +193,6 @@
       ],
       "matched_keywords": [
         "desarrollo + implementacion + soporte",
-        "mesa de ayuda"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11013764",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE LA CALERA CUNDINAMARCA",
-      "unspsc": "V1.81111811",
-      "fecha_publicacion": "2026-09-09T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN A LA OFICINA DE SISTEMAS PARA LA EJECUCIÓN DEL MANTENIMIENTO DEL PARQUE INFORMÁTICO, ATENCIÓN DE LA MESA DE AYUDA Y SOPORTE A LA CONECTIVIDAD DE RED LOCAL DE LA ALCALDÍA MUNICIPAL DE LA CALERA.",
-      "valor": 11000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868115",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
         "mesa de ayuda"
       ],
       "destacado": false
@@ -403,25 +403,6 @@
       ],
       "matched_keywords": [
         "mantenimiento evolutivo"
-      ],
-      "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10980950",
-      "fuente": "SECOP II",
-      "entidad": "EMPRESAS MUNICIPALES DE CALI",
-      "unspsc": "V1.80111701",
-      "fecha_publicacion": "2026-09-03T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS PROFESIONALES ESPECIALIZADOS COMO INGENIERO SISTEMAS EN EL DISEÑO, IMPLEMENTACION, SOPORTE, EVALUACION, CORRECCION Y DETECCION DE FALLAS EN LOS SERVICIOS EMPRESARIALES, SECTOR GOBIERNO Y NUEVOS PROYECTOS Y LAS ACTIVIDADES QUE SEAN REQUERIDAS PARA EL BUEN DESARROLLO Y DESEMPEÑO DE LA UNIDAD DE INSTALACIONES Y CONFIGURACION DE LA UENTIC.",
-      "valor": 10600000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834255",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
       ],
       "destacado": false
     },
@@ -652,25 +633,6 @@
         "mesa de ayuda"
       ],
       "destacado": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10948983",
-      "fuente": "SECOP II",
-      "entidad": "MEGABÚS S.A.",
-      "unspsc": "V1.81112501",
-      "fecha_publicacion": "2026-08-31T00:00:00.000",
-      "descripcion": "ADQUISICIÓN DE INFRAESTRUCTURA DE ALOJAMIENTO (HOSTING CON CERTIFICADO SSL)  Y PRESTACIÓN DE SERVICIOS PARA EL DESARROLLO E IMPLEMENTACIÓN DE LA NUEVA VERSIÓN DEL PORTAL WEB DE MEGABÚS S.A., ARTICULADO E INTEROPERABLE CON LOS SISTEMAS INSTITUCIONALES DE CORREO ELECTRÓNICO, LICENCIAMIENTO DE OFIMÁTICA Y LA PLATAFORMA DE GESTIÓN DOCUMENTAL PARA LA ATENCIÓN DE PQRSDF",
-      "valor": 34000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10802875",
-      "matched_groups": [
-        "Liferay / Portal"
-      ],
-      "matched_keywords": [
-        "portal web + desarrollo"
-      ],
-      "destacado": false
     }
   ],
   "candidatos_exploratorios": [
@@ -748,36 +710,6 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10866538",
       "matched_broad_keywords": [
         "gestion documental"
-      ]
-    },
-    {
-      "id_proceso": "CO1.REQ.10951902",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE SEGOVIA",
-      "unspsc": "V1.43211500",
-      "fecha_publicacion": "2026-08-31T00:00:00.000",
-      "descripcion": "ADQUISICIÓN DE UN SERVIDOR DESTINADO A GARANTIZAR EL ADECUADO\nFUNCIONAMIENTO, DISPONIBILIDAD Y CONTINUIDAD OPERATIVA DEL SOFTWARE\nDEL SISTEMA DE GESTION DOCUMENTAL DE LA ALCALDIA DE SEGOVIA",
-      "valor": 345036667,
-      "estado": "Evaluación",
-      "modalidad": "Selección abreviada subasta inversa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10805677",
-      "matched_broad_keywords": [
-        "gestion documental"
-      ]
-    },
-    {
-      "id_proceso": "CO1.REQ.10951732",
-      "fuente": "SECOP II",
-      "entidad": "HOSPITAL UNIVERSITARIO DEPARTAMENTAL DE NARIÑO",
-      "unspsc": "V1.80101500",
-      "fecha_publicacion": "2026-08-31T00:00:00.000",
-      "descripcion": "Contratar la consultoría para el diseño, desarrollo e implementación de modelos de datos, construcción de informes estratégicos y operativos en las áreas de contabilidad, facturación, estadística, productividad, servicio farmacéutico y presupuesto de Hospital Universitario Departamental de Nariño ESE. a través de su plataforma de Inteligencia de Negocios.",
-      "valor": 270000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10807131",
-      "matched_broad_keywords": [
-        "inteligencia de negocios"
       ]
     },
     {
@@ -956,21 +888,6 @@
       "estado": "Seleccionado",
       "modalidad": "Contratación régimen especial",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10842846",
-      "matched_broad_keywords": [
-        "arquitectura empresarial"
-      ]
-    },
-    {
-      "id_proceso": "CO1.REQ.10949152",
-      "fuente": "SECOP II",
-      "entidad": "EMPRESA DE RENOVACION Y DESARROLLO URBANO DE BOGOTA D.C",
-      "unspsc": "V1.80161504",
-      "fecha_publicacion": "2026-08-31T00:00:00.000",
-      "descripcion": "Prestar servicios personales para realizar el diagnostico, consolidación y documentación técnica de los procesos asociados a la arquitectura empresarial y su integración con los diferentes componentes dentro del Sistema Misional.",
-      "valor": 32000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10802781",
       "matched_broad_keywords": [
         "arquitectura empresarial"
       ]
