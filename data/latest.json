@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-15T17:25:47.642Z",
+  "generated_at": "2026-09-15T20:05:17.434Z",
   "dia": "2026-09-15",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2373,
-  "total_matched": 62,
+  "total_scanned": 2534,
+  "total_matched": 218,
   "total_destacados": 2,
   "total_nuevos": 0,
   "items": [
@@ -100,6 +100,424 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11029541",
+      "fuente": "SECOP II",
+      "entidad": "FONDO NACIONAL DE GARANTIAS S.A. - FNG",
+      "unspsc": "V1.81112501",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Renovar el soporte, mantenimiento y licenciamiento de las plataformas de seguridad FORTINET instaladas en el FNG.",
+      "valor": 2488321655,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10883136",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11012544",
+      "fuente": "SECOP II",
+      "entidad": "AGENCIA REGIONAL DE MOVILIDAD",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Adquirir la infraestructura tecnológica para garantizar la disponibilidad, seguridad y continuidad de los servicios tecnologicos de la Agencia Regional de Movilidad.",
+      "valor": 1495212498,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884937",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11025632",
+      "fuente": "SECOP II",
+      "entidad": "GOBERNACIÓN DEPARTAMENTO DEL PUTUMAYO",
+      "unspsc": "V1.81112100",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "DOTACION DEL SERVICIO DE INTERNET A SEDES EDUCATIVAS VIGENCIA 2026, EN EL MARCO DEL PROYECTO DE CONECTIVIDAD ESCOLAR CONEXIÓN TOTAL. MEN EN EL DEPARTAMENTL DEL PUTUMAYO",
+      "valor": 1177000007,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884704",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11028836",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE TRANSPORTE MASIVO DEL VALLE DE ABURRA LTDA",
+      "unspsc": "V1.81112204",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Contratar el Servicio de Soporte al sistema de Gestión de Energía (SGE) y Centro de Control de Infraestructura Física (CCIF) de la Empresa.",
+      "valor": 899680016,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10882803",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11018523",
+      "fuente": "SECOP II",
+      "entidad": "DIRECCION GENERAL MARITIMA - SUBDIRECCION ADMINISTRATIVA Y FINANCIERA - SUBAFIN",
+      "unspsc": "V1.81112307",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "SERVICIO DE MANTENIMIENTO CONSISTENTE EN ACTUALIZACIÓN E INTEGRACIÓN DEL SOFTWARE NAVI HARBOUR, DE SUS SUBSISTEMAS Y DE TODOS LOS COMPONENTES ESTRUCTURALES, ELECTRÓNICOS, DE COMUNICACIONES PARA EL SISTEMA INTEGRADO DE CONTROL DE TRÁFICO Y VIGILANCIA MARÍTIMA DE LAS ESTACIONES DE CONTROL Y ESTACIONES REMOTAS DE LA DIRECCIÓN GENERAL MARÍTIMA.",
+      "valor": 725049400,
+      "estado": "Publicado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10882567",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11009435",
+      "fuente": "SECOP II",
+      "entidad": "CAJA DE RETIRO DE LAS FUERZAS MILITARES",
+      "unspsc": "V1.81112103",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "CONTRATAR LA OLA1 CORRESPONDIENTE AL DISEÑO, DESARROLLO, IMPLEMENTACIÓN, PUESTA EN PRODUCCIÓN Y ESTABILIZACIÓN DE LA NUEVA PÁGINA WEB INSTITUCIONAL DE LA CAJA DE RETIRO DE LAS FUERZAS MILITARES (CREMIL).",
+      "valor": 551162500,
+      "estado": "Publicado",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10878469",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11020811",
+      "fuente": "SECOP II",
+      "entidad": "SUPERINTENDENCIA FINANCIERA DE COLOMBIA**",
+      "unspsc": "V1.81112204",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Adquirir la Actualización de las licencias, incluido soporte técnico, de los productos VMware y Red Hat en uso de la Superintendencia Financiera de Colombia.",
+      "valor": 531930102,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10881493",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11030701",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESAS MUNICIPALES DE CALI",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Prestar los servicios de soporte técnico, actualización y mantenimiento de la Plataforma AAA (AUTENTICATION- AUTORIZATION- ACCOUNTING) ALEPO",
+      "valor": 478430000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884347",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11027093",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE TRANSPORTE MASIVO DEL VALLE DE ABURRA LTDA",
+      "unspsc": "V1.81111803",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Prestación de servicio de soporte para la Red de datos LAN Corporativas, Operativas y de Recaudo (incluido CIVICA)",
+      "valor": 462208029,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10881217",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11023646",
+      "fuente": "SECOP II",
+      "entidad": "DILOF",
+      "unspsc": "V1.81112300",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS ESPECIALIZADOS BAJO ESQUEMA DE SUSCRIPCIÓN PARA SOPORTE Y RENOVACIÓN DE LICENCIAMIENTO DE EQUIPOS HSM",
+      "valor": 300000000,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10878614",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11030646",
+      "fuente": "SECOP II",
+      "entidad": "IDRD - ENTIDAD OFICIAL.",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "RENOVAR EL LICENCIAMIENTO ENTERPRISE, EL SOPORTE TÉCNICO ESPECIALIZADO Y EL MANTENIMIENTO DE LA INFRAESTRUCTURA DE COMUNICACIONES CISCO MERAKI QUE POSEE EL INSTITUTO, ASÍ COMO EL SUMINISTRO E INSTALACIÓN DE SENSORES DE TEMPERATURA Y HUMEDAD.",
+      "valor": 110296297,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10885229",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11021303",
+      "fuente": "SECOP II",
+      "entidad": "CENTRAL ADMINISTRATIVA Y CONTABLE TELEMATICA",
+      "unspsc": "V1.43233200",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "RENOVACIÓN DEL LICENCIAMIENTO PARA DARKTRACE DE LA UNIDAD DE CIBERDEFENSA DEL EJÉRCITO NACIONAL, PARA LA VIGENCIA 2026",
+      "valor": 3617221353,
+      "estado": "Publicado",
+      "modalidad": "Licitación pública",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884530",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11029078",
+      "fuente": "SECOP II",
+      "entidad": "DEFENSORÍA DEL PUEBLO",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Renovar el soporte y mantenimiento de la plataforma Aranda, con bolsa de horas para normalización y optimización de la plataforma ITSM.",
+      "valor": 792133022,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10884901",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10985559",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE ENERGIA DE PEREIRA SA ESP",
+      "unspsc": "V1.43231512",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "PRESTAR EL SERVICIO DE MANTENIMIENTO PREVENTIVO, CORRECTIVO Y DE SOPORTE CON DISPONIBILIDAD 24/7 PARA EL SOFTWARE SPECTRUM POWER 5 DEL SISTEMA SCADA EN LA CIUDAD DE PEREIRA Y EL MUNICIPIO DE CARTAGO.",
+      "valor": 537086524,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10879145",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11028356",
+      "fuente": "SECOP II",
+      "entidad": "FUERZA AEROESPACIAL COLOMBIANA",
+      "unspsc": "V1.43232605",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "No definido",
+      "valor": 266901500,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10882258",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10944984",
+      "fuente": "SECOP II",
+      "entidad": "CAJA DE RETIRO DE LAS FUERZAS MILITARES",
+      "unspsc": "V1.43231512",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Contratar la renovación de las licencias del software de Automatización Robótica de Procesos (RPA - Robotic Process Automation) del fabricante Automation Anywhere, incluyendo soporte técnico, mantenimiento, actualizaciones y acompañamiento especializado, con el fin de garantizar la continuidad operativa y el correcto funcionamiento de los procesos automatizados actualmente implementados en la Caja de Retiro de las Fuerzas Militares - CREMIL",
+      "valor": 122556300,
+      "estado": "Publicado",
+      "modalidad": "Mínima cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10881706",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11029301",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDÍA LOCAL DE BARRIOS UNIDOS",
+      "unspsc": "V1.43232100",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DE EQUIPOS TECNOLÓGICOS, LICENCIAS DE SOFTWARE, ELEMENTOS DE CONECTIVIDAD, HERRAMIENTAS ESPECIALIZADAS, MOBILIARIO E INSUMOS PARA FORTALECER EL CENTRO DE ACCESO COMUNITARIO - CENTRO DE EXPERIENCIAS TIC DEL FONDO DE DESARROLLO LOCAL DE BARRIOS UNIDOS, DE CONFORMIDAD CON LAS ESPECIFICACIONES TÉCNICAS ESTABLECIDAS.",
+      "valor": 113970634,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10883274",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11023454",
+      "fuente": "SECOP II",
+      "entidad": "ESCUELA TECNOLÓGICA INSTITUTO TÉCNICO CENTRAL",
+      "unspsc": "V1.43233200",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "CONTRATACIÓN DEL SERVICIO DE CENTRO DE OPERACIONES DE SEGURIDAD (SOC) PARA LA MONITORIZACIÓN CONTINUA, ANÁLISIS, CORRELACIÓN, GESTIÓN Y RESPUESTA ANTE EVENTOS E INCIDENTES DE SEGURIDAD DE LA INFORMACIÓN DE LA ETITC",
+      "valor": 110614980,
+      "estado": "Publicado",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10879375",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11029435",
+      "fuente": "SECOP II",
+      "entidad": "UNIQUINDIO",
+      "unspsc": "V1.43232500",
+      "fecha_publicacion": "2026-09-11T00:00:00.000",
+      "descripcion": "Adquisición de licencias del examen de certificación de ingles APTIS, para fortalecer los ejes temáticos de la política de internacionalización de la Universidad del Quindío.",
+      "valor": 105600000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10882936",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.11023112",
       "fuente": "SECOP II",
       "entidad": "ALCALDIA LOCAL DE TUNJUELITO",
@@ -181,6 +599,380 @@
       ],
       "matched_keywords": [
         "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11019694",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE TRANSPORTE MASIVO DEL VALLE DE ABURRA LTDA",
+      "unspsc": "V1.81111508",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Contratar la prestación de servicios para la creación de aplicaciones y soporte en la plataforma Neptune",
+      "valor": 1200822693,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873831",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11020299",
+      "fuente": "SECOP II",
+      "entidad": "SECRETARIA DE TRANSFORMACIÓN DIGITAL - GOBERNACIÓN DE CUNDINAMARCA",
+      "unspsc": "V1.81112000",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Realizar la interventoría jurídica, técnica, administrativa, contable y financiera del convenio interadministrativo STD-CD-CVI-070-2025 que tiene por objeto  Aunar esfuerzos administrativos, logísticos, operativos, técnicos y financieros para abordar de manera integral la ejecución del convenio celebrado entre el MINTIC y la Gobernación de Cundinamarca, para la  IMPLEMENTACIÓN DE INFRAESTRUCTURA TECNOLÓGICA PARA EL FORTALECIMIENTO DE LA CONECTIVIDAD, SERVICIOS TIC Y CIERRE DE BRECHAS DIGITALES E",
+      "valor": 861835280,
+      "estado": "Publicado",
+      "modalidad": "Concurso de méritos abierto",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10874927",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11019501",
+      "fuente": "SECOP II",
+      "entidad": "CORPOCESAR",
+      "unspsc": "V1.81111507",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "DISEÑO, CONSTRUCCIÓN, PERSONALIZACIÓN, PRUEBAS, AJUSTES Y PUESTA EN PRODUCCIÓN DE UN SISTEMA DE INFORMACIÓN QUE PERMITA LA ADMINISTRACIÓN Y GESTIÓN INTEGRAL DE LA TASA COMPENSATORIA POR APROVECHAMIENTO FORESTAL \nMADERABLE INICIANDO DESDE EL REGISTRO, LA AUTODECLARACIÓN HASTA LA LIQUIDACIÓN DEL MONTO A PAGAR POR EL RECURSO NATURAL, DE ACUERDO CON LAS POLÍTICAS Y PROCEDIMIENTOS DEFINIDOS POR CORPOCESAR",
+      "valor": 420000000,
+      "estado": "Publicado",
+      "modalidad": "Concurso de méritos abierto",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10876522",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10979619",
+      "fuente": "SECOP II",
+      "entidad": "AGENCIA ITRC",
+      "unspsc": "V1.81111809",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Adquirir una solución integral de infraestructura de red LAN/SD-LAN, equipos de conmutación (núcleo, distribución y acceso), conectividad inalámbrica y componentes ópticos para la Agencia del Inspector General de Tributos, Rentas y Contribuciones Parafiscales - ITRC",
+      "valor": 352459548,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10876451",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11011964",
+      "fuente": "SECOP II",
+      "entidad": "SECRETARIA DISTRITAL DE HACIENDA",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Suscripción al soporte de las licencias del Software SPSS",
+      "valor": 309761046,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10871224",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11021496",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO DE HIDROLOGIA, METEOROLOGÍA Y ESTUDIOS AMBIENTALES",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "(INFO-048) RENOVACIÓN DE EXTENSIÓN DE GARANTÍA Y SOPORTE PARA EQUIPOS DE SEGURIDAD PERIMETRAL Y RED INALÁMBRICA",
+      "valor": 238968694,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10876945",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11006062",
+      "fuente": "SECOP II",
+      "entidad": "ESO RIONEGRO S.A.S.",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS DE MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LA RED INFRAESTRUCTURA TECNOLÓGICA A CARGO DE LA ESO RIONEGRO S.A.S.",
+      "valor": 219673569,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10874576",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11021927",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO DE INVESTIGACION DE RECURSOS BIOLOGICOS ALEXANDER VON HUMBOLDT",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Contratar la renovación de licencias del software en la nube Planview AdaptiveWork y la prestación del soporte integral requerido, bajo el modelo de software como servicio (SaaS), para la gestión de proyectos del Instituto de Investigación de Recursos Biológicos Alexander von Humboldt",
+      "valor": 164794184,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10875730",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11021283",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DE CALDAS.",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DE DOTACIÓN TECNOLÓGICA EN EL MARCO DEL EJERCICIO DE LA CONTRAPRESTACIÓN, CONFORME CON EL ALCANCE\nOBLIGACIONAL QUE SE DESPRENDE DE LOS CONVENIOS DOCENTE ASISTENCIALES: 2010-092 CELEBRADO CON LA ORDEN HOSPITALARIA\nSAN JUAN DE DIOS; Y 2012-016 CELEBRADO CON LA CLÍNICA DE LA PRESENTACIÓN, FACULTAD DE CIENCIAS PARA LA SALUD.",
+      "valor": 129948000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10875333",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11020270",
+      "fuente": "SECOP II",
+      "entidad": "UNIQUINDIO",
+      "unspsc": "V1.81111806",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "SUSCRIPCIÓN ANUAL A LA BASE DE DATOS SCOPUS, QUE PERMITA EL ACCESO A LITERATURA CIENTIFICA INDEXADA Y A HERRAMIENTAS DE ANALISIS BIBLIOMETRICO PARA FORTALECER LOS PROCESOS DE INVESTIGACION, EVALUACION CIENTIFICA Y VISIBILIDAD INSTITUCIONAL DE LA UNIVERSIDAD DEL QUINDIO.",
+      "valor": 125580000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10874226",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11022350",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA MUNICIPAL DE TELECOMUNICACIONES DE IPIALES S.A.E",
+      "unspsc": "V1.81112101",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS DE CONECTIVIDAD E INTERNET A LA ALCALDIA MUNICIPAL DE PASTO, SEGUN CONTRATO CORPORATIVO 001 DEL 2026, SUSCRITO ENTREUNIMOS EMPRESA MUNICIPAL DE TELECOMUNICACIONES DE IPIALES Y LA ALCALDIA DE PASTO - NARIÑO.",
+      "valor": 114320000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10876348",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10965233",
+      "fuente": "SECOP II",
+      "entidad": "MINISTERIO DE EDUCACION NACIONAL (MEN)",
+      "unspsc": "V1.43231511",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DE SOPORTE, Y SERVICIOS DE SUSCRIPCIÓN (BIZAGI PaaS y Servicios Conexos) PARA LA GESTIÓN DE LOS SISTEMAS DE INFORMACIÓN NUEVO SACES, GESTIÓN DE PARES Y CONVALIDA DEL MINISTERIO DE EDUCACIÓN NACIONAL.",
+      "valor": 2889085912,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10871121",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11022693",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDÍA  MUNICIPIO DE SIACHOQUE",
+      "unspsc": "V1.43232400",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "AUNAR ESFUERZOS ARTÍSTICOS, TECNICOS, HUMANOS, ADMINISTRATIVOS, LOGÍSTICOS Y FINANCIEROS QUE PERMITA LLEVAR A BUEN TERMINO EL DESARROLLO DE LA AGENDA DE ACTIVIDADES CULTURALES, DEPORTIVAS, TURÍSTICAS Y SOCIALES EN EL MARCO DE LAS FERIAS Y FIESTAS PATRONALES DEL MUNICIPIO DE SIACHOQUE BOYACA AÑO 2026.",
+      "valor": 396330000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10877098",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11022817",
+      "fuente": "SECOP II",
+      "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL - DEPARTAMENTO ADMINISTRATIVO DE HACIENDA",
+      "unspsc": "V1.43232604",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Adquisición e instalación de licencias AutoCAD, para gestionar la información geográfica y alfanumérica de la base de datos catastral del Distrito de Santiago de Cali, en el marco de los subprocesos de Actualización y Conservación Catastral.",
+      "valor": 270040430,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10876905",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11019131",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DE CORDOBA",
+      "unspsc": "V1.43231512",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "ADQUIRIR SOPORTE DE RESPALDO, ALOJAMIENTO, CON REPUESTO Y ASISTENCIA EN SITIO DE LOS SERVIDORES HP MSL DL380 DONDE SE ENCUENTRAN ALOJADOS LOS DATOS DE LOS SERVICIOS TECNOLOGICOS QUE SE UTILIZAN PARA LAS ACTIVIDADES DE LOS PROCESOS INSTITUCIONALES EN LOS LUGARES DE DESARROLLO DE LORICA, BERASTEGUI, SAHAGUN Y MONTERIA, CUZ DE PLANETA RICA, MONTELIBANO Y LUGARES DONDE OPERA LA UNIVERSIDAD DE CORDOBA.",
+      "valor": 138268598,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10876588",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11018091",
+      "fuente": "SECOP II",
+      "entidad": "TERMINAL DE TRANSPORTE S.A",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Servicio  de soporte y mantenimiento a la solución tecnológica de comunicaciones unificadas del proceso de atención a preguntas frecuentes en todos los canales utilizados en la Terminal",
+      "valor": 110000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10873802",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11021416",
+      "fuente": "SECOP II",
+      "entidad": "ALCADIA MUNICIPAL DE COPACABANA",
+      "unspsc": "V1.43232408",
+      "fecha_publicacion": "2026-09-10T00:00:00.000",
+      "descripcion": "Prestar servicios de actualización, mantenimiento, y asistencia técnica de la plataforma -Connector Forms- con el fin de fortalecer los procesos de gestión de la salud pública relacionados con las actividades de ivc en salud ambiental, atención primaria en salud y la vigilancia epidemiológica en cumplimiento de lo establecido en el plan de acción de la Secretaría de Salud.",
+      "valor": 100000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10875831",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -366,6 +1158,314 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11015123",
+      "fuente": "SECOP II",
+      "entidad": "GEB S.A. E.S.P 1",
+      "unspsc": "V1.81112500",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "ADQUISICIÓN INTEGRAL SOLUCIÓN DE INTELIGENCIA ARTIFICIAL VECTRA PARA LA DETECCIÓN Y RESPUESTA EN RED (NETWORK DETECTION AND RESPONSE - NDR).",
+      "valor": 2559349268,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869320",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11014017",
+      "fuente": "SECOP II",
+      "entidad": "CONTRALORIA DE CUNDINAMARCA",
+      "unspsc": "V1.81111704",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "CONTRATAR LA FASE 1 DEL DESARROLLO, LA IMPLEMENTACIÓN Y LA PUESTA EN MARCHA DEL EXPEDIENTE DIGITAL PARA LOS PROCESOS MISIONALES PARA LA CONTRALORÍA DE CUNDINAMARCA",
+      "valor": 1200000000,
+      "estado": "Publicado",
+      "modalidad": "Licitación pública",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868625",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10994863",
+      "fuente": "SECOP II",
+      "entidad": "FONDO ROTATORIO DE LA REGISTRADURIA",
+      "unspsc": "V1.81112306",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Prestar el servicio de mantenimientos preventivos y correctivos de equipos tecnológicos, periféricos y UPS de la Registraduría Nacional del Estado Civil, incluido bolsa de repuestos.",
+      "valor": 904528502,
+      "estado": "Publicado",
+      "modalidad": "Licitación pública",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868936",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10996453",
+      "fuente": "SECOP II",
+      "entidad": "SUPERINTENDENCIA FINANCIERA DE COLOMBIA**",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Adquirir los derechos de actualización, soporte, mantenimiento preventivo y los correctivos necesarios para garantizar la operación TI de la plataforma Hewlett Packard y la actualización y soporte del software de backup Data Protector que hace parte de la Superintendencia Financiera de Colombia.",
+      "valor": 719012325,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869548",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11005082",
+      "fuente": "SECOP II",
+      "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+      "unspsc": "V1.81112000",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Prestación de servicios de apoyo a la gestión para la validación biométrica como mecanismo de prevención de fraude de la priorización virtual de PL y PP 2026.",
+      "valor": 614859000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864164",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11005923",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO DE CULTURA Y PATRIMONIO  DE ANTIOQUIA",
+      "unspsc": "V1.81112501",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Suministro, implementación, parametrización y puesta en funcionamiento de una solución tecnológica para la gestión de recaudo de tarifas de ingreso al Palacio de la Cultura Rafael Uribe Uribe, mediante diferentes medios de pago, incluyendo el soporte tecnológico necesario para su adecuada ejecución",
+      "valor": 249900000,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10864375",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11012369",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DE CUNDINAMARCA",
+      "unspsc": "V1.81111700",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "CONTRATAR EL SERVICIO DE BIBLIOTECA DIGITAL EN\nLÍNEA MULTIDISCIPLINARIA DE ODILO, PARA APOYAR LOS\nPROGRAMAS ACADÉMICOS QUE OFERTA LA UNIVERSIDAD DE CUNDINAMARCA EN SU SEDE, SECCIONALES Y EXTENSIONES, INCLUYENDO ACCESO A CONTENIDOS AUDIOVISUALES (PELÍCULAS)",
+      "valor": 244800000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10866514",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11006765",
+      "fuente": "SECOP II",
+      "entidad": "METRO DE BOGOTA SA",
+      "unspsc": "V1.81112002",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Prestación de servicios profesionales para apoyar el observatorio de ocupación y valor del suelo (OOVS) en la gestión de bases de datos espaciales del programa PM_SE_09 de la PLMB, para el acopio, procesamiento y análisis de información que sirva de seguimiento del entorno del sistema metro",
+      "valor": 173714760,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10867399",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11013056",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA MUNICIPAL DE FACATATIVA",
+      "unspsc": "V1.81111801",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "CONTRATAR LOS SERVICIOS DE CONECTIVIDAD E INTERNET Y LA ADMINISTRACIÓN DEL SERVICIO DE CONECTIVIDAD PARA TODAS LAS AULAS DE LAS INSTITUCIONES EDUCATIVAS MUNICIPALES POR MEDIO DE CONEXIÓN WIFI Y/O DE RED",
+      "valor": 126206241,
+      "estado": "Evaluación",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868212",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11004296",
+      "fuente": "SECOP II",
+      "entidad": "FONDO FINANCIERO DISTRITAL DE SALUD..",
+      "unspsc": "V1.43232300",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Adquirir una solución integral de ciberseguridad incluyendo la instalación, configuración, soporte y garantía de soluciones avanzadas de ciberseguridad para fortalecer la infraestructura digital de la Secretaría Distrital de Salud",
+      "valor": 5295953476,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869274",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11009447",
+      "fuente": "SECOP II",
+      "entidad": "SECRETARÍA DISTRITAL DE MOVILIDAD",
+      "unspsc": "V1.43232313",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "CONTRATAR EL PROVEEDOR PARA LA OPERACIÓN DEL SISTEMA DE CONTROL Y VIGILANCIA ESTABLECIDO POR LA SUPERINTENDENCIA DE TRANSPORTE PARA DICTAR CURSOS PEDAGÓGICOS POR INFRACCIONES A LAS NORMAS DE TRÁNSITO",
+      "valor": 1041383391,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10869554",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11014403",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DE CUNDINAMARCA",
+      "unspsc": "V1.43232300",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "CONTRATAR EL SERVICIO DE BIBLIOTECA DIGITAL EN LÍNEA MULTIDISCIPLINARIA DE EDICIONES DE LA U, PARA LOS PROGRAMAS ACADÉMICOS QUE OFERTA LA UNIVERSIDAD DE CUNDINAMARCA EN SU SEDE, SECCIONALES Y EXTENSIONES PARA LA VIGENCIA 2026.",
+      "valor": 460000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10868810",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10994067",
+      "fuente": "SECOP II",
+      "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE SERVICIOS PÚBLICOS..",
+      "unspsc": "V1.43232600",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "TIC-025 Adquisición de licenciamiento de la solución FIREWALL y servicios relacionados, para control de la seguridad informática perimetral y administración de la seguridad informática en los dispositivos de usuario final de la Unidad Administrativa Especial de Servicios Públicos -UAESP.",
+      "valor": 296517297,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10870361",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10984418",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCION UNIVERSITARIA DE ENVIGADO",
+      "unspsc": "V1.43232304",
+      "fecha_publicacion": "2026-09-09T00:00:00.000",
+      "descripcion": "Renovar la suscripción al servicio de acceso a las bases de datos JSTOR, APA PsycNet, y ASM Technical Books, para el fortalecimiento de los recursos bibliográficos que requiere la comunidad académica y administrativa de la Institución Universitaria de Envigado.",
+      "valor": 178800000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10867111",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.11001782",
       "fuente": "SECOP II",
       "entidad": "TRANSMILENIO S.A.",
@@ -513,6 +1613,380 @@
       ],
       "matched_keywords": [
         "inteligencia de negocios"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11008085",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL SAN VICENTE DE ARAUCA ESE",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "RENOVACION DE TECNOLOGIA BIOMEDICA PARA EL SERVICO DE IMAGENOLOGIA DE LA E.S.E HOSPITAL SAN VICENTE DE ARAUCA, DEL DEPARTAMENTO DE ARAUCA",
+      "valor": 5350717333,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10863005",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11003069",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE TRANSPORTE MASIVO DEL VALLE DE ABURRA LTDA",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Prestación del servicio de soporte técnico especializado para atención de actualizaciones, fallas e incidentes en los sistemas SAP con un nivel de atención 7x24.",
+      "valor": 362426400,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857162",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11007309",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DE PAMPLONA",
+      "unspsc": "V1.81112000",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "CONTRATAR LA PRESTACIÓN DE SERVICIO INTEGRAL PARA LA\nAPLICACIÓN DE ENCUESTAS EN CONOCIMIENTOS, ACTITUDES Y PRÁCTICAS (CAP) DE ACUERDO AL MUESTREO SUMINISTRADO POR EL PERSONAL TÉCNICO Y CIENTÍFICO DEL PROGRAMA, EN LA PREVENCIÓN DE ARBOVIRUS EN LOS MUNICIPIOS DE OCAÑA Y PLAYA DE BELÉN, DEL CONTRATO # 1104 DEL 2024 DENOMINADO DESARROLLO DE UN PROGRAMA PARA EL FORTALECIMIENTO DE LA GESTIÓN INTEGRAL DE UN SISTEMA DE VIGILANCIA EPIDEMIOLÓGICO QUE PERMITA LA PREVENCIÓN Y CONTROL DE LAS ARBOVIROSIS",
+      "valor": 295000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860774",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10986458",
+      "fuente": "SECOP II",
+      "entidad": "CANAL CAPITAL",
+      "unspsc": "V1.81112102",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "620SAT-Adquirir licencias de buzones de correo electrónico y herramientas de colaboración sobre la plataforma Google Workspace para Canal Capital.",
+      "valor": 200000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10855710",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11001868",
+      "fuente": "SECOP II",
+      "entidad": "CONTRALORIA DEPARTAMENTAL DEL VALLE DEL CAUCA",
+      "unspsc": "V1.81112105",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "CONTRATAR LA PRESTACIÓN DEL SERVICIO DE SOFTWARE COMO SERVICIO (SaaS) DE UNA SOLUCIÓN INTEGRAL TIPO ERP, BAJO ARQUITECTURA WEB Y EN LA NUBE, PARA LA GESTIÓN DE LOS PROCESOS DE CONTABILIDAD, TESORERÍA, CONTROL PRESUPUESTAL, ALMACÉN E INVENTARIOS, NÓMINA, AUTOGESTIÓN Y VENTANILLA ÚNICA DE LA CONTRALORÍA DEPARTAMENTAL DEL VALLE DEL CAUCA, INCLUYENDO LA MIGRACIÓN DE LA INFORMACIÓN DEL SISTEMA ACTUAL, CONFIGURACIÓN, IMPLEMENTACIÓN, PUESTA EN OPERACIÓN, SOPORTE TÉCNICO, MANTENIMIENTO Y ACTUALIZACIÓN",
+      "valor": 178500000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10856030",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11006210",
+      "fuente": "SECOP II",
+      "entidad": "ELECTRIFICADORA DE SANTANDER SA ESP",
+      "unspsc": "V1.81112501",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "ADQUISICIÓN SERVIDORES TIPO RACK PARA CONTROLADORES  DE DOMINIO, NAS BACKUP Y PLATAFORMA DE RESPALDOS",
+      "valor": 168261134,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10859968",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11005370",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE ACUEDUCTO Y ALCANTARILLADO DE BOGOTÁ - E.S.P.",
+      "unspsc": "V1.81111900",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "ACTUALIZACIÓN DE PROTOCOLO DE COMUNICACIONES DE IEC-104 A OPC-UA DE LAS ESTACIONES DE BOMBEO Y TANQUES DE ALMACENAMIENTO",
+      "valor": 166676500,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10859535",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11004700",
+      "fuente": "SECOP II",
+      "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES",
+      "unspsc": "V1.81112220",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "REQUIERE CONTRATAR EL SERVICIO DE SOPORTE PREMIER DE MICROSOFT, DE ACUERDO CON LAS ESPECIFICACIONES TÉCNICAS DEL ANEXO",
+      "valor": 160000000,
+      "estado": "Evaluación",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10858991",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11005225",
+      "fuente": "SECOP II",
+      "entidad": "E.S.E HOSPITAL UNIVERSITARIO DE SANTANDER",
+      "unspsc": "V1.81112501",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "COMPRAVENTA DE LICENCIAMIENTO ANUAL DE LA PLATAFORMA ANALÍTICA INSTITUCIONAL EN LA NUBE BAJO EL ESQUEMA DE SUSCRIPCIÓN PREMIUM CON CAPACIDAD DE 50 GB DE PROCESAMIENTO DE DATOS, PARA GARANTIZAR LA CONTINUIDAD DE LOS PROCESOS DE INTEGRACIÓN, ANÁLISIS, VISUALIZACIÓN Y APROVECHAMIENTO DE LA INFORMACIÓN INSTITUCIONAL DE LA ESE HOSPITAL UNIVERSITARIO DE SANTANDER",
+      "valor": 156090000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860973",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11002048",
+      "fuente": "SECOP II",
+      "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Adquirir, actualizar e implementar componentes de infraestructura tecnológica para el fortalecimiento de las capacidades de almacenamiento de información en el Distrito de Medellín",
+      "valor": 2634969505,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860473",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11001415",
+      "fuente": "SECOP II",
+      "entidad": "UPME",
+      "unspsc": "V1.43232402",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Contratar el servicio de plataforma como servicios PaaS de la herramienta Bizagi.",
+      "valor": 932602740,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10856890",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10922197",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE SABANETA",
+      "unspsc": "V1.43232500",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "CONTRATO INTERADMINISTRATIVO DE IMPLEMENTACIÓN DE PROCESOS Y SOLUCIONES\nDIGITALES PARA EL FORTALECIMIENTO DE LAS CAPACIDADES EN EL MARCO DEL\nDESARROLLO INSTITUCIONAL Y GOBERNANZA",
+      "valor": 610336482,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10858927",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10985869",
+      "fuente": "SECOP II",
+      "entidad": "INDER ENVIGADO1",
+      "unspsc": "V1.43232000",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Compra de implementación deportiva, recreativa y de actividad física utilizadas en la práctica de entrenamientos, participación en competencias y participación en actividades deportivas, recreativas y lúdicas.",
+      "valor": 479509081,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10861198",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989413",
+      "fuente": "SECOP II",
+      "entidad": "Universidad del Atlántico",
+      "unspsc": "V1.43231507",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "CONTRATAR LOS SERVICIOS PARA EL SUMINISTRO, IMPLEMENTACIÓN Y PUESTA EN FUNCIONAMIENTO DE LA SOLUCIÓN TECNOLÓGICA ADVISER RH PERMANENCIA V.11, MEDIANTE EL OTORGAMIENTO DE UNA LICENCIA DE USO VITALICIO, QUE INCLUYE LOS MÓDULOS DE ALERTAS TEMPRANAS CON APRENDIZAJE AUTOMÁTICO, SEGUIMIENTO, REMISIONES, EVALUACIÓN Y ACTIVIDADES DE BIENESTAR, ASÍ COMO LOS SERVICIOS DE CAPACITACIÓN, SOPORTE TÉCNICO, SOPORTE FUNCIONAL Y ACOMPAÑAMIENTO, PARA EL FORTALECIMIENTO DE LOS PROCESOS DE BIENESTAR UNIVERSITARIO Y",
+      "valor": 358293560,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10857648",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11007222",
+      "fuente": "SECOP II",
+      "entidad": "POLICIA METROPOLITANA DE PEREIRA",
+      "unspsc": "V1.43232103",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DE COMPUTADORES, LICENCIAS DE SOFTWARE MICROSOFT OFFICE HOME & BUSINESS Y ADOBE CREATIVE CLOUD PARA LA POLICÍA METROPOLITANA DE PEREIRA, REGIÓN DE POLICÍA NUMERO 3 Y UNIDADES ADSCRITAS A LA EJECUCIÓN PRESUPUESTAL",
+      "valor": 319202495,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860795",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11001532",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "RENOVACIÓN DE SOFTWARE DE ACCESO REMOTO PARA EL INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES TEAMVIWER",
+      "valor": 276955367,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10860892",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11002032",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA DIGITAL DE ANTIOQUIA",
+      "unspsc": "V1.43232100",
+      "fecha_publicacion": "2026-09-08T00:00:00.000",
+      "descripcion": "Contratar el arrendamiento del licenciamiento de software de las soluciones Adobe Creative Cloud y Adobe Acrobat Pro, bajo el modelo de suscripción académica por un periodo de doce (12) meses, incluyendo la entrega, activación, administración de consolas institucionales en la nube, soporte técnico especializado y actualización tecnológica, con destino a la Institución Universitaria Digital de Antioquia - IU Digital",
+      "valor": 230849967,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10859555",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -674,6 +2148,336 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.10995232",
+      "fuente": "SECOP II",
+      "entidad": "BANCO DE LA REPUBLICA",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Servicios de ingeniería y consultoría especializados para la plataforma de datos con la que cuenta el Banco",
+      "valor": 6191541424,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10849254",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10995486",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DEL TOLIMA",
+      "unspsc": "V1.81112500",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Prestación de servicios de soporte y mantenimiento del sistema de información ALE-ERP de la Universidad del Tolima",
+      "valor": 675803303,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10849760",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10995382",
+      "fuente": "SECOP II",
+      "entidad": "DEPARTAMENTO DEL ATLANTICO**",
+      "unspsc": "V1.81111707",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "AUNAR ESFUERZOS TÉCNICOS, ADMINISTRATIVOS Y FINANCIEROS PARA IMPLEMENTAR UNA ESTRATEGIA DE FORMACIÓN Y SENSIBILIZACIÓN EN CIBERSEGURIDAD, CIUDADANÍA DIGITAL Y PREVENCIÓN DE RIESGOS Y VIOLENCIAS DIGITALES, DIRIGIDA A NIÑOS, NIÑAS Y ADOLESCENTES DEL DEPARTAMENTO DEL ATLÁNTICO",
+      "valor": 528571429,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10850116",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10997376",
+      "fuente": "SECOP II",
+      "entidad": "CORMACARENA",
+      "unspsc": "V1.81112000",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "PRESTACION DE SERVICIOS DE DIGITALIZACIÓN E INDEXACIÓN DE LOS TIPOS DOCUMENTALES PRODUCIDOS POR CORMACARENA DURANTE LA VIGENCIA 2020 - 2026",
+      "valor": 180000000,
+      "estado": "Evaluación",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10851276",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10997507",
+      "fuente": "SECOP II",
+      "entidad": "HOCOL S.A",
+      "unspsc": "V1.81112500",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "CONTRATAR LA SUSCRIPCIÓN A UNA HERRAMIENTA DE PRODUCTIVIDAD AVANZADA PARA POWERPOINT Y EXCEL ENFOCADA PRINCIPALMENTE EN PRESENTACIÓN, ACTUALIZACIÓN DE DATOS EN TIEMPO REAL Y ANÁLISIS NUMÉRICO DE ALCANCE EMPRESARIAL, CON RENOVACIÓN ANUAL PARA UN NÚMERO DE SUSCRIPCIONES ESPECIFICO A USUARIOS DE HOCOL POR 3 AÑOS",
+      "valor": 155700000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10851091",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10999328",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
+      "unspsc": "V1.81112500",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "ADQUISICION DE EQUIPOS LICENCIA DE SOFTWARE Y EQUIPOS DE IMPRESION PARA EL FORTALECIMIENTO DE LAS ACTIVIDADES ACADEMICAS Y ADMINISTRATIVAS DEL PROGRAMA DE DERECHO DE LA UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
+      "valor": 150151820,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10852783",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10996145",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DEL TOLIMA",
+      "unspsc": "V1.81112500",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Arrendamiento del Software LabStation para la Facultad de Ciencias de la Salud de la Universidad del Tolima",
+      "valor": 138182800,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10849881",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10997473",
+      "fuente": "SECOP II",
+      "entidad": "GEB S.A. E.S.P 1",
+      "unspsc": "V1.81112501",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Licenciamiento y soporte de la plataforma de security Awareness.",
+      "valor": 113036860,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10851188",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11000048",
+      "fuente": "SECOP II",
+      "entidad": "DILOF",
+      "unspsc": "V1.43232300",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "PLATAFORMA DE INTELIGENCIA EMPRESARIAL PARA EL ANÁLISIS Y VISUALIZACIÓN DE DATOS DE LA POLICÍA NACIONAL",
+      "valor": 2544566917,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854395",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989146",
+      "fuente": "SECOP II",
+      "entidad": "DIRECCION DE IMPUESTOS Y ADUANAS NACIONALES*",
+      "unspsc": "V1.43232302",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Renovar la suscripción de la plataforma de balanceo de servicios de aplicaciones F5 existente, mediante la adquisición de la solución ELA Enterprise Licensing Agreement (SW - HW) para los centros de cómputo Sitio 1 y Sitio 2 y en los servicios nube de la UAE-DIAN.",
+      "valor": 2515068798,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10848993",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10995880",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE LA ESTRELLA",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "RENOVACION Y ADQUISICION DE LAS LICENCIAS SOFTWARE CORPORATIVAS PARA LA OPERACIÓN, FUNCIONAMIENTO Y SEGUIMIENTO A LOS PROCEDIMIENTOS EN MATERIA DE TI DE LA ALCALDIA DE LA ESTRELLA, VIGENCIA 2026",
+      "valor": 640272572,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10851772",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10994705",
+      "fuente": "SECOP II",
+      "entidad": "SERVICIO AEREO A TERRITORIOS NACIONALES S.A.",
+      "unspsc": "V1.43231513",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Contratar la adquisición de suscripciones al licenciamiento de software Microsoft, mediante la categoría Open Value - CSP, con el fin de garantizar la continuidad operativa de las herramientas tecnológicas que soportan los procesos misionales, administrativos y operativos de SATENA.",
+      "valor": 351842292,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10848705",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11000336",
+      "fuente": "SECOP II",
+      "entidad": "GOBERNACIÓN DEPARTAMENTO DEL PUTUMAYO",
+      "unspsc": "V1.43232600",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "CONTRATO DE COMPRAVENTA PARA LA ADQUISICIÓN DE SOFTWARE PARA EL DESARROLLO DE LOS PROCESOS DE TRÁMITE DE FACTURACIÓN MEDIANTE LA IMPLEMENTACIÓN DEL APLICATIVO SIGESSD EN LA SECRETARIA DE SALUD DEL DEPARTAMENTO DEL PUTUMAYO",
+      "valor": 327000000,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10854062",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10998909",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD MILITAR NUEVA GRANADA**",
+      "unspsc": "V1.43232501",
+      "fecha_publicacion": "2026-09-07T00:00:00.000",
+      "descripcion": "Adquirir las licencias digitales Connectivity Students eBook para los cursos de inglés en\nmodalidad a distancia de la Universidad Militar Nueva Granada.",
+      "valor": 221130000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10852619",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.9382732",
+      "fuente": "SECOP II",
+      "entidad": "HOCOL S.A",
+      "unspsc": "V1.43231600",
+      "fecha_publicacion": "2026-09-06T00:00:00.000",
+      "descripcion": "SERVICIO DE REIMPLEMENTACIÓN DE LA FACTURACIÓN ELECTRÓNICA INTEGRAL DE HOCOL S.A. QUE PERMITA OPERAR DIRECTAMENTE CON LA PLATAFORMA TECNOLÓGICA DE LA DIAN Y EL SISTEMA INTEGRAL DE FACTURACIÓN ELECTRÓNICA.",
+      "valor": 132968609,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10848404",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.10989584",
       "fuente": "SECOP II",
       "entidad": "ALCALDIA MUNICIPIO DE MANI 1",
@@ -800,6 +2604,490 @@
       ],
       "matched_keywords": [
         "nube publica"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10973403",
+      "fuente": "SECOP II",
+      "entidad": "DIRECCIÓN DE INVESTIGACIÓN CRIMINAL E INTERPOL",
+      "unspsc": "V1.81112300",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "MANTENIMIENTO Y SOPORTE PREMIUM PLATAFORMA TECNOLÓGICA HITACHI",
+      "valor": 995342000,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10845448",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10987600",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "unspsc": "V1.81111900",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "RENOVACIÓN DEL LICENCIAMIENTO DEL SOFTWARE BITDEFENDER, ARCSERVE Y EXAGRID PARA LA INSTITUCIÓN UNIVERSITARIA ITM DE CONFORMIDAD CON LAS ESPECIFICACIONES TÉCNICAS.",
+      "valor": 391057789,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10842894",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10985705",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA IBAGUEREÑA DE ACUEDUCTO Y ALCANTARILLADO SA ESP OFICIAL IBAL SA ESP OFICIAL",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "CONTRATAR LA ADQUISICIÓN DE LICENCIAS DE ANTIVIRUS PARA LA PROTECCIÓN DE LOS EQUIPOS DE CÓMPUTO DEL IBAL S.A. E.S.P. OFICIAL, PLATAFORMA DE PROTECCIÓN AVANZADA PARA ENDPOINTS, ADMINISTRACIÓN CENTRALIZADA, MONITOREO DE ACTIVOS TECNOLÓGICOS, DETECCIÓN Y RESPUESTA ANTE INCIDENTES DE SEGURIDAD, SOPORTE ESPECIALIZADO, CAPACITACIÓN Y SERVICIOS DE ACOMPAÑAMIENTO TÉCNICO, CON EL PROPÓSITO DE FORTALECER LA SEGURIDAD DE LA INFORMACIÓN.",
+      "valor": 348398840,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10839821",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10987135",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO NACIONAL PENITENCIARIO Y CARCELARIO INPEC+",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "CONTRATAR LA PRESTACIÓN DEL SERVICIO DE SOPORTE TÉCNICO EXTENDIDO, MANTENIMIENTO Y ACTUALIZACIÓN DE LOS MÓDULOS DEL SOFTWARE SIGEP, EN EL INSTITUTO NACIONAL PENITENCIARIO Y CARCELARIO INPEC",
+      "valor": 300000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843159",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10985151",
+      "fuente": "SECOP II",
+      "entidad": "VALOR + S.A.S. - COMPRADOR",
+      "unspsc": "V1.81112220",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Suministro e implementación de una solución tecnológica de seguridad informática con bolsa de horas para Valor+ S.A.S. y sus clientes.",
+      "valor": 297735431,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10839458",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10988957",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL DEPARTAMENTAL PSIQUIATRICO UNIVERSITARIO DEL VALLE E.S.E",
+      "unspsc": "V1.81111811",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Adquisición del servicio de implementación de un esquema de disponibilidad y continuidad de negocio externo que permita mantener la operación a nivel aceptable de la infraestructura tecnológica y operar una contingencia adecuadamente apoyada en el servicio de mesa de soporte especializada en soluciones de plataformas virtuales y respaldos de información.",
+      "valor": 285008000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843409",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989206",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD MILITAR NUEVA GRANADA**",
+      "unspsc": "V1.81112205",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "CONTRATAR LOS SERVICIOS DE SOPORTE TÉCNICO, MANTENIMIENTO Y ALOJAMIENTO EN EL (CLOUD) DE LA PLATAFORMA SIVIN-FUNDANET, CON EL FIN DE GARANTIZAR SU DISPONIBILIDAD, ESTABILIDAD, CORRECTO FUNCIONAMIENTO Y CONTINUIDAD OPERATIVA PARA LA GESTIÓN DE LAS ACTIVIDADES DE INVESTIGACIÓN DE LA UNIVERSIDAD MILITAR NUEVA GRANADA.",
+      "valor": 237000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843202",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10985779",
+      "fuente": "SECOP II",
+      "entidad": "UNAD",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Contratar el mantenimiento lógico y traslado del dispositivo de almacenamiento HP MSA 1040 de la zona franca edificio inteligente MARM.",
+      "valor": 170000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10839945",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10990870",
+      "fuente": "SECOP II",
+      "entidad": "Institución Universitaria Pascual Bravo COMPRADOR",
+      "unspsc": "V1.81112202",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Renovación del paquete de Softwares que incluye: Harmony Premium, Storyboard PRO y MAXON One (CLASSROOM LICENSE) para la Institución Universitaria Pascual Bravo",
+      "valor": 146669276,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10845217",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989825",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA DISTRITAL BARRANCABERMEJA",
+      "unspsc": "V1.81111805",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIOS PROFESIONALES PARA EL SOPORTO Y ACTUALIZACIÓN DEL SISTEMA INTEGRADO DE INFORMACIÓN FINANCIERO YUMA VIGENCIA 2026 EN DESARROLLO DEL PROYECTO FORTALECIMIENTO ECONÓMICO Y FINANCIERO DEL DISTRITO DE BARRANCABERMEJA SANTANDER",
+      "valor": 128000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843769",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989385",
+      "fuente": "SECOP II",
+      "entidad": "ALEJANDRO PROSPERO REVEREND E.S.E.",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE REDES LAN E IMPRESORAS DE LAS UNIDADES PRESTADORAS DE SERVICIOS (UPSS) Y LA SEDE ADMINISTRATIVA DE LA E.S.E ALEJANDRO PROSPERO REVEREND",
+      "valor": 107700000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843498",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10986099",
+      "fuente": "SECOP II",
+      "entidad": "DEFENSORÍA DEL PUEBLO",
+      "unspsc": "V1.43232300",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Adquirir la actualización del licenciamiento y prestar el soporte y mantenimiento, con bolsa de horas de análisis técnico, para el motor de base de datos IBM Informix.",
+      "valor": 680085000,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10840987",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10984936",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA MUNICIPIO DE ZIPAQUIRA",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "COMPRA-RENOVACIÓN DEL LICENCIAMIENTO SUITE MICROSOFT\nOFFICE 365 - SUSCRIPCIÓN A SOFTWARE DE ACCESO REMOTO Y SUSCRIPCIÓN DE LÍNEA PARA\nATENCIÓN AL USUARIO AL PBX",
+      "valor": 540136750,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10839683",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10986130",
+      "fuente": "SECOP II",
+      "entidad": "FONDO PARA EL FINANCIAMIENTO DEL SECTOR AGROPECUARIO",
+      "unspsc": "V1.43231508",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "EL FONDO PARA EL FINANCIAMIENTO DEL SECTOR AGROPECUARIO - FINAGRO, ESTÁ \nINTERESADO EN CONTRATAR LA RENOVACIÓN  DE LICENCIAS Y SOPORTE DE LA \nSOLUCIÓN ARANDA SERVICE MANAGEMENT SUITE (ASMS) Y ARANDA DEVICE \nMANAGEMENT (ADM) EN MODALIDAD SOFTWARE AS A SERVICE (SAAS), INCLUYENDO UNA \nBOLSA DE SESENTA (60) HORAS DE SERVICIOS PROFESIONALES ESPECIALIZADOS POR \nDEMANDA QUE FORTALEZCAN LA OPERACIÓN DE LA MESA DE SERVICIOS DE \nTECNOLOGÍAS DE LA INFORMACIÓN DE FINAGRO.",
+      "valor": 469567058,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10841019",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10985740",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE URIBIA",
+      "unspsc": "V1.43231513",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "ARRENDAMIENTO EN LA NUBE Y SERVICIOS TECNOLÓGICOS COMPLEMENTARIOS EN APOYO A LA GESTIÓN ADMINISTRATIVA, FINANCIERA Y TRIBUTARIA A TRAVÉS DE LA DISPOSICIÓN Y SOPORTE TÉCNICO DE LOS SISTEMAS DENOMINADO SIIAFE - SISTEMA DE INFORMACIÓN INTEGRADO ADMINISTRATIVO Y FINANCIERO ESTATAL Y SWIT - SOFTWARE WEB DE IMPUESTOS TERRITORIALES",
+      "valor": 414995040,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843600",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989588",
+      "fuente": "SECOP II",
+      "entidad": "SECRETARIA DISTRITAL DEL HABITAT-",
+      "unspsc": "V1.43232300",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "CONTRATAR EL SERVICIO DE COMPUTACIÓN EN LA NUBE PARA EL SISTEMA JSP7-GOBIERNO",
+      "valor": 370440000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10845014",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10870846",
+      "fuente": "SECOP II",
+      "entidad": "DIRECCION GENERAL MARITIMA - SUBDIRECCION ADMINISTRATIVA Y FINANCIERA - SUBAFIN",
+      "unspsc": "V1.43231600",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Prestación de servicios de  Consultoría para las mejoras, soporte, mantenimiento, capacitación y desarrollo de manuales técnico-funcionales en el Plan Anual de Adquisiciones y Aplicativo Anteproyecto dentro del sistema ERP SAP, para la mejora de los procesos de negocio de la Dirección General Marítima de acuerdo con las especificaciones técnicas establecidas por la Entidad .(Acuerdo Anexo Técnico)",
+      "valor": 290906222,
+      "estado": "Publicado",
+      "modalidad": "Concurso de méritos abierto",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843172",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10972211",
+      "fuente": "SECOP II",
+      "entidad": "Departamento Administrativo TIC - Alcaldía de Tuluá",
+      "unspsc": "V1.43232400",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "PROCESO DE SELECCIÓN ABREVIADA POR SUBASTA INVERSA PARA LA COMPRAVENTA DE LICENCIAS MICROSOFT OFFICE 2024 EN MODALIDAD PERPETUA, PARA EQUIPOS DE CÓMPUTO DE LA ALCALDÍA MUNICIPAL DE TULUÁ",
+      "valor": 270903500,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10844235",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10983161",
+      "fuente": "SECOP II",
+      "entidad": "ESAP SEDE CENTRAL (Cuenta Oficial)",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "Adquirir e implementar un (1) sistema de seguridad antihurto RFID/EAS y un (1) módulo de autopréstamo y auto devolución, además de un (1) dispositivo lector de RFID tipo Wand o PDA para inventario, con el fin de modernizar los servicios bibliotecarios de la Escuela Superior de Administración Pública (ESAP) sede Bogotá, garantizando la compatibilidad e integración con el software de gestión bibliotecaria KOHA.",
+      "valor": 200408193,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10844589",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989301",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DE CORDOBA",
+      "unspsc": "V1.43231512",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DEL LICENCIAMIENTO ADICIONAL PARA SEISCIENTOS 600 EMPLEADOS DEL APLICATIVO KACTUS HCM.",
+      "valor": 194094664,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10843147",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10989838",
+      "fuente": "SECOP II",
+      "entidad": "FONDO DE PREVISION SOCIAL DEL CONGRESO DE LA REPUBLICA",
+      "unspsc": "V1.43233200",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "ADQUISICION DE BIENES Y SERVICIOS TECNOLOGICOS PARA FORTALECER LA SEGURIDAD DE LA INFORMACION DEL FONDO DE PREVISION SOCIAL DEL CONGRESO DE LA REPUBLICA.",
+      "valor": 166962301,
+      "estado": "Evaluación",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10844310",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10984796",
+      "fuente": "SECOP II",
+      "entidad": "UNAD",
+      "unspsc": "V1.43232500",
+      "fecha_publicacion": "2026-09-04T00:00:00.000",
+      "descripcion": "ADQUIRIR LICENCIAS DE USO DE SOFTWARE ESPECIALIZADO \nBASADO EN INTELIGENCIA ARTIFICIAL PARA LA CREACIÓN, \nEDICIÓN Y PRODUCCIÓN DE CONTENIDOS EDUCATIVOS, \nINCLUYENDO HERRAMIENTAS DESTINADAS A LA \nGENERACIÓN Y EDICIÓN DE VIDEO, ASÍ COMO PLATAFORMAS \nORIENTADAS A LA CREACIÓN, EDICIÓN Y SÍNTESIS DE AUDIO \nY VOZ, CON EL FIN DE FORTALECER LOS PROCESOS DE \nPRODUCCIÓN AUDIOVISUAL DE LA VICERRECTORÍA DE \nMEDIOS Y MEDIACIONES PEDAGÓGICAS DE LA UNIVERSIDAD \nNACIONAL ABIERTA Y A DISTANCIA UNAD.,",
+      "valor": 120000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10839114",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -1027,6 +3315,336 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.10978610",
+      "fuente": "SECOP II",
+      "entidad": "FEDERACION COLOMBIANA DE MUNICIPIOS",
+      "unspsc": "V1.81112000",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Consultoría para desarrollo de nuevas funcionalidades, mejoras, afinamiento, soporte y mantenimiento de los sistemas: Gestor de Tránsito - SGTS y Gestor de Recursos Públicos - SIGERP de la Federación Colombiana de Municipios en cumplimiento de la función pública asignada - Simit",
+      "valor": 1570198455,
+      "estado": "Publicado",
+      "modalidad": "Concurso de méritos abierto",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832156",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10976371",
+      "fuente": "SECOP II",
+      "entidad": "GOBERNACION DE CALDAS",
+      "unspsc": "V1.81111708",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Desarrollar e implementar una estrategia integral de comunicación pública y divulgación para la promoción, difusión, socialización y visibilización de los proyectos financiados con recursos del Sistema General de Regalías en el Departamento de Caldas y demás necesidades de la Secretaría de Planeación",
+      "valor": 543000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832862",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10976064",
+      "fuente": "SECOP II",
+      "entidad": "SECRETARÍA GENERAL DE LA ALCALDÍA MAYOR DE BOGOTÁ",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Desarrollar e implementar el modelo operativo de gobierno de datos en la Secretaría General de la Alcaldía Mayor de Bogotá D.C., conforme a los marcos de referencia y a los lineamientos distritales y nacionales aplicables",
+      "valor": 492110316,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834978",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10979750",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO DEPARTAMENTAL DE DEPORTES DE ANTIOQUIA",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Prestación de servicios de mantenimiento y soporte del sistema G+ y renovación del servicio de nube para Indeportes Antioquia.",
+      "valor": 346012654,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833167",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10974286",
+      "fuente": "SECOP II",
+      "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL - UNIDAD ADMINISTRATIVA ESPECIAL DE SERVICIOS PUBLICOS",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "REALIZAR LA ORGANIZACIÓN Y ELABORACIÓN DE MAPAS E INFORMACIÓN DEL SISTEMA DE ALCANTARILLADO DE LA VEREDA PANCE CABECERA, CORREGIMIENTO PANCE Y PUEBLO NUEVO, PARA EL NODO DE INFORMACIÓN GEOGRÁFICA DE LA UAESP, EN ARTICULACIÓN CON LA INFRAESTRUCTURA DE DATOS ESPECIALES DE SANTIAGO DE CALI (IDESC), MEDIANTE LEVANTAMIENTOS TOPOGRÁFICOS Y EL INVENTARIO DE LOS ELEMENTOS DEFINIDOS EN EL CATÁLOGO DE OBJETOS GEOGRÁFICOS DEL SISTEMA DE ALCANTARILLADO",
+      "valor": 328085535,
+      "estado": "Abierto",
+      "modalidad": "Concurso de méritos abierto",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10829106",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10977018",
+      "fuente": "SECOP II",
+      "entidad": "Universidad del Atlántico",
+      "unspsc": "V1.81112003",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Optimizar la infraestructura tecnológica de la Universidad del Atlántico mediante la adopción de una solución integral de Servicios de infraestructura de computación en la nube (IaaS), que permita reducir costos operativos, aumentar la escalabilidad y flexibilidad de los recursos, garantizar la alta disponibilidad y seguridad de los servicios, e impulsar la transformación digital de la institución para fortalecer su competitividad y mejorar la experiencia de estudiantes, docentes y administrativ",
+      "valor": 271564395,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10830882",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10969787",
+      "fuente": "SECOP II",
+      "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES",
+      "unspsc": "V1.81112220",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "REQUIERE CONTRATAR EL SERVICIO DE SOPORTE PREMIER DE MICROSOFT, DE ACUERDO CON LAS ESPECIFICACIONES TÉCNICAS DEL ANEXO",
+      "valor": 160000000,
+      "estado": "Cancelado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832065",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10976555",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "V1.43232300",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "CONTRATAR LA GESTION DE LOS SERVICIOS DE COMPUTACION DE LA NUBE DE AMAZON WEB SERVICE AWS PARA LA UNIVERSIDAD NACIONAL DE COLOMBIA, BAJO LAS CONDICIONES DEL CONTRATO DE NEGOCIACIÓN GLOBAL N 03 2023.",
+      "valor": 1063272072,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10830314",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10977051",
+      "fuente": "SECOP II",
+      "entidad": "SUPERINTENDENCIA FINANCIERA DE COLOMBIA**",
+      "unspsc": "V1.43232900",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Adquirir la suscripción al servicio de software en línea (Software as a Service) que permita identificar, en tiempo real, la postura de ciberseguridad de las entidades vigiladas, de conformidad con las especificaciones técnicas señaladas.",
+      "valor": 868262906,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10836971",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10980337",
+      "fuente": "SECOP II",
+      "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES",
+      "unspsc": "V1.43233205",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "REQUIERE CONTRATAR EL SERVICIO DE SOPORTE, ACTUALIZACIÓN Y GARANTÍA DE LOS BALANCEADORES DE CARGA DEL COGFM Y LA RENOVACIÓN DE SU LICENCIAMIENTO LTM DE ACUERDO CON LAS ESPECIFICACIONES TÉCNICAS DEL ANEXO.",
+      "valor": 333297664,
+      "estado": "Evaluación",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10833900",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10979720",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "RENOVACIÓN DEL LICENCIAMIENTO DE ADOBE PARA LA INSTITUCIÓN UNIVERSITARIA ITM, DE ACUERDO CON LAS ESPECIFICACIONES TÉCNICAS.",
+      "valor": 185712838,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834364",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10976363",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA MUNICIPIO DE CAJICA",
+      "unspsc": "V1.43233200",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "COMPRA DE LICENCIAS PARA LAS HERRAMIENTAS DE ADMINISTRACIÓN Y PROTECCIÓN DE LA INFORMACIÓN, SERVIDORES Y EQUIPOS DE CÓMPUTO DE LA ALCALDÍA DE CAJICÁ.",
+      "valor": 165000000,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10832470",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10979850",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA MUNICIPIO DE CAJICA",
+      "unspsc": "V1.43233415",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "COMPRAVENTA Y CONFIGURACIÓN DE HERRAMIENTA SOFTWARE DE RESPALDO DE LA INFORMACIÓN (BACKUP) PARA LOS EQUIPOS DE CÓMPUTO DE LA ALCALDÍA MUNICIPAL DE CAJICÁ",
+      "valor": 149619064,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834743",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10981662",
+      "fuente": "SECOP II",
+      "entidad": "INSTITUTO DEPARTAMENTAL DE BELLAS ARTES",
+      "unspsc": "V1.43232100",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "Adquirir, suministrar, instalar, configurar y poner en funcionamiento un total de ciento cincuenta y dos (152) licencias de software para el Instituto Departamental de Bellas Artes, distribuidas de la siguiente manera: ciento treinta y seis (136) licencias de Adobe Creative Cloud tipo laboratorio, quince (15) licencias de Adobe Creative Cloud de usuario nombrado, una (1) licencia de Archicad y una (1) licencia de Adobe Captivate.",
+      "valor": 144651409,
+      "estado": "Evaluación",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10835543",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10977596",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DEL CAUCA",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-03T00:00:00.000",
+      "descripcion": "RENOVACIÓN DE LICENCIAMIENTO DE BACKUP ESPECIALIZADO PARA LA UNIVERSIDAD DEL CAUCA",
+      "valor": 107695000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10831249",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.10967900",
       "fuente": "SECOP II",
       "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL JUNTA CENTRAL DE CONTADORES",
@@ -1174,6 +3792,358 @@
       ],
       "matched_keywords": [
         "inteligencia de negocios"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10867359",
+      "fuente": "SECOP II",
+      "entidad": "DIRECCION GENERAL MARITIMA - SUBDIRECCION ADMINISTRATIVA Y FINANCIERA - SUBAFIN",
+      "unspsc": "V1.81111508",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DEL LICENCIAMIENTO DE LAS HERRAMIENTAS DE SEGURIDAD, MONITOREO Y SERVICIOS PARA LA DIMAR, CONFORME CON LAS ESPECIFICACIONES ESTABLECIDAS EN EL ANEXO TÉCNICO",
+      "valor": 1246366545,
+      "estado": "Publicado",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10825749",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10958746",
+      "fuente": "SECOP II",
+      "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Adquirir la suscripción, soporte, mantenimiento y actualización para la Plataforma MapGIS 9.0",
+      "valor": 1107256418,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10821747",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10943952",
+      "fuente": "SECOP II",
+      "entidad": "COMANDO GENERAL DE LAS FUERZAS MILITARES",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "CONTRATAR EL  SERVICIO DE  MANTENIMIENTO, SOPORTE Y ACTUALIZACION PARA EL SISTEMA DE INFORMACIÓN BISIGOI DEL COMANDO GENERAL DE LAS FUERZAS MILITARES, INCLUYENDO EL MÓDULO DE AUDITORIA, SEGURIDAD, GESTIÓN   Y DESARTICULACION TOTAL DEL SISTEMA DE SEGURIDAD HERCULES , DE ACUERDO CON LAS ESPECIFICACIONES TÉCNICAS RESERVADAS DEL ANEXO",
+      "valor": 700000000,
+      "estado": "Evaluación",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10823958",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10973137",
+      "fuente": "SECOP II",
+      "entidad": "FONDO NACIONAL DE GARANTIAS S.A. - FNG",
+      "unspsc": "V1.81112501",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Prestar el servicio de renovación, soporte y mantenimiento de la plataforma de contención de eventos de ciberseguridad basada en inteligencia artificial Darktrace",
+      "valor": 672805103,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10826581",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10966483",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DE ANTIOQUIA",
+      "unspsc": "V1.81112215",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Objeto del contrato Prestar servicios de soporte y mantenimiento de la Plataforma de Servicios de Contenido CSP OnBase on Premise de Hyland, y suministrar la suscripción de licenciamiento de uso del módulo REST API Integration Toolkit, conforme con las especificaciones del servicio Anexo 1. Alcance El desarrollo del objeto contractual comprende las siguientes obligaciones, las cuales deberán ejecutarse con sujeción a lo detallado en las Especificaciones del Servicio ver Anexo 1 1.Prestar servici",
+      "valor": 511878500,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820728",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10972220",
+      "fuente": "SECOP II",
+      "entidad": "EMTEL S.A. - E.S.P.",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "POR MEDIO DE ESTE ANEXO NO 017, EL ALIADO REALIZARÁ   LA INTERVENTORÍA TÉCNICA, ADMINISTRATIVA, FINANCIERA, JURÍDICA Y CONTABLE DEL CONTRATO INTERADMINISTRATIVO NO ANT-20268866 Y DEL ANEXO NO 06 DE 2026, SUSCRITO ENTRE EMTEL SA ESP Y GROW DATA S.A.S EN EL MARCO DEL CONTRATO INTERADMINISTRATIVO NO. ANT-20268866, SUSCRITO ENTRE LA AGENCIA NACIONAL DE TIERRAS Y EMTEL S.A. E.S.P.",
+      "valor": 345744345,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10825568",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10968410",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA DE TRANSPORTE MASIVO DEL VALLE DE ABURRA LTDA",
+      "unspsc": "V1.81111801",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Suscripción para gestión centralizada de vulnerabilidades y parches de seguridad",
+      "valor": 255360000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10821867",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10970414",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD MILITAR NUEVA GRANADA**",
+      "unspsc": "V1.81111507",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "RENOVACIÓN LICENCIA CAMPUS MATLAB Y SIMULINK PARA LA UNIVERSIDAD MILITAR NUEVA GRANADA.",
+      "valor": 187694178,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10823876",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10971952",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "CONTRATAR SOPORTE TECNICO EN EL MARCO DEL CONTRATO DE PRESTACIÓN DE SERVICIOS \nNO. ASNV 091-2025, SUSCRITO ENTRE LA AGENCIA NACIONAL DE SEGURIDAD VIAL Y LA \nUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS.",
+      "valor": 182000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10825446",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10972639",
+      "fuente": "SECOP II",
+      "entidad": "CORPORACION AUTONOMA REGIONAL DE CUNDINAMARCA - CAR.",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Contratar la Adquisición de las garantías y las cintas lto8 del equipo IBM ts4300 que posee la Corporación Autónoma Regional de Cundinamarca.",
+      "valor": 168654637,
+      "estado": "Abierto",
+      "modalidad": "Mínima cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10828611",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10838745",
+      "fuente": "SECOP II",
+      "entidad": "DEPARTAMENTO ADMINISTRATIVO DEL SERVICIO CIVIL DISTRITAL",
+      "unspsc": "V1.81112305",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Prestar el servicio de mantenimiento preventivo y correctivo a los bienes informáticos que integran la plataforma tecnológica del DASCD",
+      "valor": 150624667,
+      "estado": "Publicado",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10824157",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10970083",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DEL TOLIMA",
+      "unspsc": "V1.81112500",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Adquisición de licenciamiento de la suite de Adobe Creative Cloud for teams para la Universidad del Tolima",
+      "valor": 106467000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10823941",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10967747",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA MUNICIPIO DE CRAVO NORTE",
+      "unspsc": "V1.43232800",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "ADMINISTRACIÓN, OPERACIÓN Y MANTENIMIENTO DE LAS\nSOLUCIONES INDIVIDUALES SOLARES FOTOVOLTAICAS PARA LA GENERACION DE ENERGIA ELECTRICA EN ZONA RURAL DISPERSA\nDEL MUNICIPIO DE CRAVO NORTE, ARAUCA",
+      "valor": 5754262767,
+      "estado": "Publicado",
+      "modalidad": "Licitación pública",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10824584",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10974307",
+      "fuente": "SECOP II",
+      "entidad": "PATRIMONIO AUTÓNOMO FONDO NACIONAL DEL TURISMO FONTUR",
+      "unspsc": "V1.43231500",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Prestar servicios para el licenciamiento, actualización y soporte de la plataforma JACTUR sobre JAC CLUSTER del P.A. FONTUR.",
+      "valor": 396968784,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10827801",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10962893",
+      "fuente": "SECOP II",
+      "entidad": "Rama Judicial  Dirección Ejecutiva de Administración Judicial",
+      "unspsc": "V1.43232600",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "Adquirir y renovar las licencias de AutoCAD, AEC Collection y Adobe Stock, para uso de la Rama Judicial",
+      "valor": 360301300,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10827425",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10969848",
+      "fuente": "SECOP II",
+      "entidad": "IDRD - ENTIDAD OFICIAL.",
+      "unspsc": "V1.43232900",
+      "fecha_publicacion": "2026-09-02T00:00:00.000",
+      "descripcion": "RENOVAR EL LICENCIAMIENTO ENTERPRISE, EL SOPORTE TÉCNICO ESPECIALIZADO Y EL MANTENIMIENTO DE LA INFRAESTRUCTURA DE COMUNICACIONES CISCO MERAKI QUE POSEE EL INSTITUTO, ASÍ COMO EL SUMINISTRO E INSTALACIÓN DE SENSORES DE TEMPERATURA Y HUMEDAD.",
+      "valor": 110296297,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10828459",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-09-15",
@@ -1379,9 +4349,95 @@
       "primera_vez_visto": "2026-09-15",
       "dias_en_radar": 1,
       "es_nuevo": false
-    }
-  ],
-  "candidatos_exploratorios": [
+    },
+    {
+      "id_proceso": "CO1.REQ.10959466",
+      "fuente": "SECOP II",
+      "entidad": "EMTEL S.A. - E.S.P.",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "Brindar una solución integral para diferentes líneas de servicios y componentes tecnológicos que permitan garantizar la continuidad y adecuada operación de los Sistemas de Información de Tierras de la ANT y servicios conexos, en el marco del contrato interadministrativo No. ANT-20268866 suscrito entre EMTEL S.A. E.S.P., y LA AGENCIA NACIONAL DE TIERRAS",
+      "valor": 6026473958,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10813284",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10963016",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL UNIVERSITARIO LA SAMARITANA",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "SERVICIOS ESPECIALIZADOS PARA EL DESARROLLO DE UN SISTEMA DE INFORMACIÓN HOSPITALARIA SIH  ERP ADMINISTRATIVO BASADO EN ARQUITECTURA WEB, CON PROPIEDAD INTELECTUAL PARA LA E.S.E. HOSPITAL UNIVERSITARIO LA SAMARITANA, QUE INTEGRE LOS PROCESOS ASISTENCIALES, ADMINISTRATIVOS Y FINANCIEROS DE LA E.S.E. SAMARITANA CONFORME A LA NORMATIVIDAD VIGENTE Y EN CUMPLIMIENTO DEL CONVENIO INTERADMINISTRATIVO SS CD CVI 1205  2025 CELEBRADO ENTRE LA SSC Y LA .E.S.E. HOSPITAL UNIVERSITARIO DE LA SAMARITANA.",
+      "valor": 6000000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10816486",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10964977",
+      "fuente": "SECOP II",
+      "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL - DEPARTAMENTO ADMINISTRATIVO DE CONTRATACION PUBLICA",
+      "unspsc": "V1.81112400",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "CONTRATAR LA ADQUISICIÓN LICENCIAS OFFICE Y DE EQUIPOS TECNOLÓGICOS Y PERIFÉRICOS PARA EL DESARROLLO EFICIENTE DE LAS ACTIVIDADES DE LA SECRETARÍA DE EDUCACIÓN DEL DISTRITO DE SANTIAGO DE CALI.",
+      "valor": 2823998491,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10820055",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10959362",
+      "fuente": "SECOP II",
+      "entidad": "E.S.E. HOSPITAL UNIVERSITARIO HERNANDO MONCALEANO PERDOMO DE NEIVA",
+      "unspsc": "V1.81112005",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "PRESTACIÓN DE SERVICIO PARA LA ACTUALIZACIÓN Y CONVALIDACIÓN DE INSTRUMENTOS ARCHIVÍSTICOS, Y POSTERIOR CLASIFICACIÓN, ORDENACIÓN, DESCRIPCIÓN Y DISPOSICIÓN FINAL DE DOCUMENTOS DEL ARCHIVO CENTRAL DE LA E.S.E. HOSPITAL UNIVERSITARIO HERNANDO MONCALEANO PERDOMO.",
+      "valor": 1261400000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10813296",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
     {
       "id_proceso": "CO1.REQ.10959068",
       "fuente": "SECOP II",
@@ -1393,14 +4449,371 @@
       "estado": "Abierto",
       "modalidad": "Concurso de méritos abierto",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10813558",
-      "matched_broad_keywords": [
-        "arquitectura empresarial",
-        "transformacion digital"
+      "matched_groups": [
+        "Codigo UNSPSC"
       ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
       "primera_vez_visto": "2026-09-15",
       "dias_en_radar": 1,
       "es_nuevo": false
     },
+    {
+      "id_proceso": "CO1.REQ.10961809",
+      "fuente": "SECOP II",
+      "entidad": "DIRECCION GENERAL MARITIMA - SUBDIRECCION ADMINISTRATIVA Y FINANCIERA - SUBAFIN",
+      "unspsc": "V1.81112202",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "SERVICIO DE MANTENIMIENTO CONSISTENTE EN ACTUALIZACIÓN E INTEGRACIÓN DEL SOFTWARE NAVI HARBOUR, DE SUS SUBSISTEMAS Y DE TODOS LOS COMPONENTES ESTRUCTURALES, ELECTRÓNICOS, DE COMUNICACIONES PARA EL SISTEMA INTEGRADO DE CONTROL DE TRÁFICO Y VIGILANCIA MARÍTIMA DE LAS ESTACIONES DE CONTROL Y ESTACIONES REMOTAS DE LA DIRECCIÓN GENERAL MARÍTIMA",
+      "valor": 725049400,
+      "estado": "Cancelado",
+      "modalidad": "Contratación Directa (con ofertas)",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10817676",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10963558",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DEL VALLE",
+      "unspsc": "V1.81112500",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "ADQUIRIR LA RENOVACIÓN DEL LICENCIAMIENTO INSTITUCIONAL DEL SOFTWARE CAMPUS WOLFRAM MATHEMATICA, POR UN PERÍODO DE 3 AÑOS PARA LA UNIVERSIDAD DEL VALLE.",
+      "valor": 548523017,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10816989",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10958199",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL UNIVERSITARIO LA SAMARITANA",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "LICENCIAMIENTO ANUAL Y SOPORTE TÉCNICO PARA LA PLATAFORMA DE SOFTWARE COLABORATIVO (GMAIL) PARA LA E.S.E. HOSPITAL UNIVERSITARIO DE LA SAMARITANA Y SU RED PRESATDORA DE SERVICIOS DE SALUD",
+      "valor": 543940000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10812467",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10959299",
+      "fuente": "SECOP II",
+      "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL - DEPARTAMENTO ADMINISTRATIVO DE HACIENDA",
+      "unspsc": "V1.81112002",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "Prestación de servicios de captura por medio de lectora de código de barras y/o digitación,  procesamiento de datos de cupones o colillas, comprobantes de ingreso, facturas y formularios que actualmente no se encuentran automatizados o que los bancos autorizados para recaudar los tributos y rentas municipales no entregan en el formato Asobancaria 2001; además de la digitalización de todos los cupones o colillas, comprobantes de ingreso facturas, formularios y formatos  de las distintas rentas y",
+      "valor": 526000000,
+      "estado": "Evaluación",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10816594",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10953851",
+      "fuente": "SECOP II",
+      "entidad": "SECRETARIA DISTRITAL DE HACIENDA",
+      "unspsc": "V1.81112200",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "Adquirir la suscripción del licenciamiento y soporte de antivirus para proteger la información y mitigar amenazas informáticas en los equipos de cómputo y dispositivos de la SDH",
+      "valor": 303642780,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10812132",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10958328",
+      "fuente": "SECOP II",
+      "entidad": "FONDO DE VALORIZACION DEL MUNICIPIO DE MEDELLIN",
+      "unspsc": "V1.81112401",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "Prestación del servicio integral de alquiler de equipos tecnológicos y suministro de licenciamiento de software requeridos para cumplir con las actividades del Fondo de Valorización de Medellín.",
+      "valor": 229808373,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10812504",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10956842",
+      "fuente": "SECOP II",
+      "entidad": "FONDO DIAN PARA COLOMBIA",
+      "unspsc": "V1.81111504",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "Prestar los servicios de consultoría para ejecutar las actividades del ciclo de vida del desarrollo de software relacionadas con el diseño y gestión de requerimientos para el NSGA y los servicios de transición y transversales de la modernización tecnológica de la DIAN y los servicios de integración entre los PETD, bajo el esquema de metodologías ágiles",
+      "valor": 176568000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10811144",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10957306",
+      "fuente": "SECOP II",
+      "entidad": "FONDO DIAN PARA COLOMBIA",
+      "unspsc": "V1.81111504",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "Prestar los servicios de consultoría para ejecutar las actividades del ciclo de vida del desarrollo de software relacionadas con el diseño y gestión de requerimientos para el NSGA y los servicios de transición y transversales de la modernización tecnológica de la DIAN y los servicios de integración entre los PETD, bajo el esquema de metodologías ágiles",
+      "valor": 176568000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10811606",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10958187",
+      "fuente": "SECOP II",
+      "entidad": "HOSPITAL UNIVERSITARIO LA SAMARITANA",
+      "unspsc": "V1.81111800",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "SERVICIO DE SOPORTE, MANTENIMIENTO Y  RENOVACIÓN DE LICENCIAMIENTO Y TECNOLOGIA DEL SISTEMA DE SEGURIDAD PERIMETRAL CHECKPOINT, CON SOPORTE PARA LA E.S.E. HOSPITAL UNIVERSITARIO DE LA SAMARITANA BOGOTÁ Y EL HOSPITAL SAN RAFAEL DE GIRARDOT HUS",
+      "valor": 160333222,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10812265",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10954247",
+      "fuente": "SECOP II",
+      "entidad": "ESCUELA TECNOLÓGICA INSTITUTO TÉCNICO CENTRAL",
+      "unspsc": "V1.81111500",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "CONTRATACIÓN DEL SERVICIO DE CENTRO DE OPERACIONES DE SEGURIDAD (SOC) PARA LA MONITORIZACIÓN CONTINUA, ANÁLISIS, CORRELACIÓN, GESTIÓN Y RESPUESTA ANTE EVENTOS E INCIDENTES DE SEGURIDAD DE LA INFORMACIÓN DE LA ETITC",
+      "valor": 110614980,
+      "estado": "Evaluación",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818993",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "81.11 servicios informaticos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10950205",
+      "fuente": "SECOP II",
+      "entidad": "CENTRAL ADMINISTRATIVA Y CONTABLE TELEMATICA",
+      "unspsc": "V1.43232100",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "RENOVACIÓN DE LICENCIAS PARA SOFTWARE DE EDICIÓN Y DISEÑO A EJECUTAR EN LA VIGENCIA 2026",
+      "valor": 222133344,
+      "estado": "Publicado",
+      "modalidad": "Selección Abreviada de Menor Cuantía",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10816967",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10961117",
+      "fuente": "SECOP II",
+      "entidad": "TRANSMILENIO S.A.",
+      "unspsc": "V1.43231600",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "DCC110 - DCC138 Contratar el servicio de soporte, mantenimiento, actualización y mejoras para la solución del software KACTUS-HCM en la versión extendida por la Secretaría Distrital de Movilidad.",
+      "valor": 157753500,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10816823",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10965304",
+      "fuente": "SECOP II",
+      "entidad": "UPTC",
+      "unspsc": "V1.43232305",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "RENOVACIÓN DE BASES DE DATOS EBSCO HOST MÁS EDS CON DESTINO AL DEPARTAMENTO DE BIBLIOTECAS Y\nCOMUNIDAD UNIVERSITARIA DE LA UNIVERSIDAD PEDAGÓGICA Y TECNOLÓGICA DE COLOMBIA",
+      "valor": 156498613,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10818653",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10961648",
+      "fuente": "SECOP II",
+      "entidad": "UNIQUINDIO",
+      "unspsc": "V1.43232500",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "ADQUISICION DE LICENCIA CAMPUS WIDE SUITE - SMS DE MATLAB PARA EL CUMPLIMIENTO DE LOS OBJETIVOS MISIONALES ACADEMICOS Y EL DESARROLLO DE LAS ACTIVIDADES DEL PROGRAMA DE INGENIERIA ELECTRONICA  DE LA UNIVERSIDAD DEL QUINDIO.",
+      "valor": 134105019,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10815621",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10960531",
+      "fuente": "SECOP II",
+      "entidad": "UNIQUINDIO",
+      "unspsc": "V1.43232500",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "RENOVACION DE LA BIBLIOTECA DIGITAL PEARSON CON 165 TITULOS CON MODALIDAD DE USO MULTIUSUARIOS Y DESCARGAS, PARA EL CUMPLIMIENTO DE LOS OBJETIVOS MISIONALES ACADEMICOS, INVESTIGACION Y EL DESARROLLO DE LAS ACTIVIDADES DE LOS DIFERENTES PROGRAMAS ACADEMICOS EN TODAS LAS ESTRATEGIAS Y MODALIDADES QUE OFRECE LA UNIVERSIDAD DEL QUINDIO.",
+      "valor": 115500000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10814416",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.10962021",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDÍA LOCAL DE BARRIOS UNIDOS",
+      "unspsc": "V1.43232100",
+      "fecha_publicacion": "2026-09-01T00:00:00.000",
+      "descripcion": "ADQUISICIÓN DE EQUIPOS TECNOLÓGICOS, LICENCIAS DE SOFTWARE, ELEMENTOS DE CONECTIVIDAD, HERRAMIENTAS ESPECIALIZADAS, MOBILIARIO E INSUMOS PARA FORTALECER EL CENTRO DE ACCESO COMUNITARIO - CENTRO DE EXPERIENCIAS TIC DEL FONDO DE DESARROLLO LOCAL DE BARRIOS UNIDOS, DE CONFORMIDAD CON LAS ESPECIFICACIONES TÉCNICAS ESTABLECIDAS.",
+      "valor": 113970634,
+      "estado": "Evaluación",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10817868",
+      "matched_groups": [
+        "Codigo UNSPSC"
+      ],
+      "matched_keywords": [
+        "43.23 software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-09-15",
+      "dias_en_radar": 1,
+      "es_nuevo": false
+    }
+  ],
+  "candidatos_exploratorios": [
     {
       "id_proceso": "CO1.REQ.10990699",
       "fuente": "SECOP II",
@@ -1432,24 +4845,6 @@
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10819464",
       "matched_broad_keywords": [
         "gestion documental"
-      ],
-      "primera_vez_visto": "2026-09-15",
-      "dias_en_radar": 1,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.10976064",
-      "fuente": "SECOP II",
-      "entidad": "SECRETARÍA GENERAL DE LA ALCALDÍA MAYOR DE BOGOTÁ",
-      "unspsc": "V1.81111500",
-      "fecha_publicacion": "2026-09-03T00:00:00.000",
-      "descripcion": "Desarrollar e implementar el modelo operativo de gobierno de datos en la Secretaría General de la Alcaldía Mayor de Bogotá D.C., conforme a los marcos de referencia y a los lineamientos distritales y nacionales aplicables",
-      "valor": 492110316,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación Directa (con ofertas)",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.10834978",
-      "matched_broad_keywords": [
-        "gobierno de datos"
       ],
       "primera_vez_visto": "2026-09-15",
       "dias_en_radar": 1,

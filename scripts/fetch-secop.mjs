@@ -13,6 +13,18 @@ const DESTACADO_VALOR_MIN = 1_000_000_000;
 // solo acota el universo a un tamano razonable para esa revision.
 const EXPLORATORIO_VALOR_MIN = 30_000_000;
 const EXPLORATORIO_MAX_ITEMS = 40;
+// Red de seguridad estructural: el codigo UNSPSC no depende de como la entidad
+// redacto el objeto, asi que atrapa lo que las palabras clave dejan pasar por
+// diferencias de lenguaje. Solo dos familias sirven: medido contra la ventana
+// real de 15 dias (64.960 procesos), 81.11 trae 734 y 43.23 trae 362, mientras
+// que 80.11 (recursos humanos) trae 33.763 --- la mitad de todo SECOP, porque es
+// el codigo que las entidades usan para cualquier contrato de prestacion de
+// servicios. Con piso de $100M las dos familias utiles dan ~185 por ventana.
+const UNSPSC_FAMILIAS = [
+  { prefijo: "V1.8111", nombre: "81.11 servicios informaticos" },
+  { prefijo: "V1.4323", nombre: "43.23 software" },
+];
+const UNSPSC_VALOR_MIN = 100_000_000;
 // data/seen.json guarda, por proceso, unicamente dos fechas: cuando se vio por
 // primera vez y cuando por ultima. No es un historial de los procesos --- eso
 // solo se guarda para los que alguien marca como de interes, y vive en el
@@ -178,6 +190,36 @@ async function fetchByTerms(terms) {
   return byId;
 }
 
+// Busqueda por codigo, no por texto: complementa a fetchByTerms, que solo ve
+// procesos cuya redaccion contiene alguna de las frases buscadas.
+async function fetchByUnspsc() {
+  const since = new Date(Date.now() - WINDOW_DAYS * 24 * 60 * 60 * 1000);
+  const sinceStr = since.toISOString().slice(0, 19);
+  const byId = new Map();
+
+  for (const fam of UNSPSC_FAMILIAS) {
+    const params = new URLSearchParams({
+      "$where":
+        `fecha_de_publicacion_del >= '${sinceStr}'` +
+        ` AND starts_with(codigo_principal_de_categoria,'${fam.prefijo}')` +
+        ` AND precio_base >= ${UNSPSC_VALOR_MIN}`,
+      "$order": "precio_base DESC",
+      "$limit": "500",
+    });
+    const res = await fetch(`${DATASET_URL}?${params.toString()}`);
+    if (!res.ok) {
+      console.warn(`Aviso: busqueda UNSPSC ${fam.prefijo} fallo con ${res.status}, se omite.`);
+      continue;
+    }
+    for (const row of await res.json()) {
+      const id = row.id_del_proceso || row.referencia_del_proceso;
+      if (id && !byId.has(id)) byId.set(id, { row, fam });
+    }
+    await sleep(250);
+  }
+  return byId;
+}
+
 function toItem(row, matched) {
   const valor = row.precio_base ? Number(row.precio_base) : null;
   const hasStrongMatch = matched.some((m) => !m.weak);
@@ -299,6 +341,17 @@ async function main() {
     items.push(toItem(row, matched));
   }
 
+  // Segunda pasada: por codigo UNSPSC. Se marcan debiles a proposito --- estar en
+  // la familia correcta hace que valga la pena mirarlo, no que sea prioritario,
+  // asi que por si solo no puede convertir un proceso en "destacado".
+  const porUnspsc = await fetchByUnspsc();
+  for (const { row, fam } of porUnspsc.values()) {
+    const id = row.id_del_proceso || row.referencia_del_proceso;
+    if (!id || seen.has(id)) continue;
+    seen.add(id);
+    items.push(toItem(row, [{ group: "Codigo UNSPSC", keyword: fam.nombre, weak: true }]));
+  }
+
   items.sort((a, b) => (b.fecha_publicacion || "").localeCompare(a.fecha_publicacion || ""));
 
   // Segunda red, mas amplia: procesos que NO calzaron con RULES pero tocan
@@ -339,7 +392,7 @@ async function main() {
     dia: hoy,
     window_days: WINDOW_DAYS,
     source_dataset: "datos.gov.co / p6dx-8zbt (SECOP II)",
-    total_scanned: coreById.size + broadById.size,
+    total_scanned: coreById.size + broadById.size + porUnspsc.size,
     total_matched: items.length,
     total_destacados: items.filter((it) => it.destacado).length,
     total_nuevos,
