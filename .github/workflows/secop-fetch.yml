@@ -29,6 +29,17 @@ jobs:
       - name: Fetch and filter SECOP II
         run: node scripts/fetch-secop.mjs
 
+      # pdftotext lee los pliegos en PDF. Se instala un paquete del sistema en vez
+      # de agregar dependencias npm, que el repositorio no tiene ni necesita.
+      - name: Instalar poppler para leer PDFs
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends poppler-utils
+
+      # Solo baja documentos de procesos abiertos, dentro del plazo y por encima
+      # del piso de valor --- hoy son cuatro de 218 --- y cachea el resultado,
+      # asi que en regimen estable son uno o dos procesos nuevos por dia.
+      - name: Analizar requisitos de experiencia
+        run: node scripts/requisitos.mjs
+
       - name: Commit updated data
         run: |
           git config user.name "secop-bot"

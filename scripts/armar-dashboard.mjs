@@ -43,6 +43,7 @@ const DATA = {
   items: d.items,
   oportunidades,
   parametros: d.parametros,
+  requisitos: d.requisitos,
 };
 
 const marca = /\/\* DATA_BLOCK_START \*\/[\s\S]*?\/\* DATA_BLOCK_END \*\//;

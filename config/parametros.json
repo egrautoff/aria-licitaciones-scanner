@@ -19,6 +19,26 @@
       }
     ]
   },
+  "requisitos": {
+    "_leeme": "Analisis de requisitos: solo se bajan documentos de procesos abiertos de la lista principal que superen este valor. Cada proceso se analiza una vez y queda en cache; se vuelve a mirar solo si le aparecieron documentos nuevos.",
+    "valor_min": 50000000,
+    "max_documentos": 2,
+    "prioridad_documentos": [
+      "pliego de condiciones definitivo",
+      "pliego definitivo",
+      "proyecto de pliego",
+      "pliego",
+      "estudios previos",
+      "estudio previo",
+      "matriz 1 - experiencia",
+      "matriz de experiencia",
+      "formato 3 - experiencia",
+      "experiencia",
+      "invitacion publica",
+      "invitacion",
+      "anexo tecnico"
+    ]
+  },
   "reglas": [
     {
       "grupo": "Liferay / Portal",

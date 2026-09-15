@@ -84,6 +84,25 @@ Reglas marcadas `weak: true` (no alcanzan a ser "destacado" por si solas): mesa 
 
 **Lo que las palabras clave no pueden resolver:** un contrato como "Prestacion de servicios de soporte, operacion, mantenimiento" (Colpensiones, $544M) no menciona producto ni dominio. Solo se identifica por el cliente. Eso requiere una lista de entidades conocidas, que por ser informacion comercial iria como **secreto de GitHub** (no es publico) leido por el script como variable de entorno --- pendiente.
 
+## Análisis de requisitos
+
+Cada tarjeta de un proceso analizado tiene un botón **"Análisis de requisitos"** que muestra qué experiencia exige el pliego: los códigos UNSPSC, las cifras en SMMLV, el texto del requisito y un enlace a los documentos de donde salió.
+
+La extracción la hace `scripts/requisitos.mjs` dentro del GitHub Action, porque el navegador le bloquea a la página del tablero las peticiones a otros dominios y la rutina en la nube solo alcanza `raw.githubusercontent.com`. El Action es lo único con internet abierto.
+
+**La llave del cruce** es `id_del_portafolio` (formato `CO1.BDOS.*`), que enlaza con el campo `proceso` del dataset `dmgg-8hin` ("SECOP II - Archivos Descarga Desde 2025"). Los identificadores `CO1.REQ.*` y `CO1.NTC.*` no cruzan con nada; ese fue el hallazgo que abrió el camino.
+
+**Por qué no baja casi nada:**
+
+1. Solo procesos **abiertos, dentro del plazo de recepción y por encima del piso de valor** (`requisitos.valor_min`, hoy $50M). De 218 procesos quedan 4. Ojo: en SECOP "Abierto" significa que el proceso sigue vivo, no que todavía se pueda presentar oferta — por eso se mira también `fecha_de_recepcion_de`.
+2. Solo **uno o dos documentos** por proceso, elegidos por nombre según `requisitos.prioridad_documentos`. Los otros quince son formatos en blanco, minutas y certificados.
+3. **Caché permanente** en `data/requisitos/`. Una licitación dura semanas abierta; sin caché bajaríamos lo mismo cuarenta veces.
+4. Se vuelve a mirar solo si le **aparecieron documentos nuevos**, y eso se pregunta con una consulta que no descarga nada.
+
+**Cuidado con el 403.** Las URL de descarga funcionan sin autenticación, pero el Azure Application Gateway de SECOP responde `403 Forbidden` al agente por defecto de `curl`. Con un `User-Agent` de navegador entrega el archivo. No es un muro de acceso, es filtro de bots.
+
+Estados posibles del análisis: `ok`, `sin_documentos`, `sin_documentos_de_requisitos` (típico de contratación directa y régimen especial), `documentos_escaneados` (PDF sin capa de texto) y `sin_seccion_identificable`. El tablero explica cada uno en lugar de mostrar un vacío.
+
 ## Cambiar las palabras clave
 
 Los parámetros viven en `config/parametros.json`, no en el código. Hay dos formas de cambiarlos:

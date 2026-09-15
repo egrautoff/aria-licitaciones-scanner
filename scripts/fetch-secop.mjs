@@ -135,6 +135,11 @@ function toItem(row, matched) {
     fuente: "SECOP II",
     entidad: row.entidad || null,
     unspsc: row.codigo_principal_de_categoria || null,
+    // Llave para llegar a los documentos del proceso: el dataset de archivos
+    // (dmgg-8hin) los identifica por este id y no por id_del_proceso.
+    id_portafolio: row.id_del_portafolio || null,
+    // Fecha limite para presentar oferta.
+    fecha_cierre: row.fecha_de_recepcion_de || null,
     fecha_publicacion: row.fecha_de_publicacion_del || null,
     descripcion: row.descripci_n_del_procedimiento || row.nombre_del_procedimiento || null,
     valor,
@@ -158,6 +163,11 @@ function toExploratorioItem(row, broadKeywords) {
     fuente: "SECOP II",
     entidad: row.entidad || null,
     unspsc: row.codigo_principal_de_categoria || null,
+    // Llave para llegar a los documentos del proceso: el dataset de archivos
+    // (dmgg-8hin) los identifica por este id y no por id_del_proceso.
+    id_portafolio: row.id_del_portafolio || null,
+    // Fecha limite para presentar oferta.
+    fecha_cierre: row.fecha_de_recepcion_de || null,
     fecha_publicacion: row.fecha_de_publicacion_del || null,
     descripcion: row.descripci_n_del_procedimiento || row.nombre_del_procedimiento || null,
     valor: row.precio_base ? Number(row.precio_base) : null,
