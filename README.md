@@ -8,36 +8,38 @@ Escanea a diario el dataset público de SECOP II (datos.gov.co, `p6dx-8zbt`) y f
 - `data/seen.json` — registro de cuándo se vio por primera vez cada proceso.
 - `dashboard.html` — copia de referencia del tablero publicado.
 
-## Horarios y disparo
+## Horarios
 
-El Action corre a las **06:23 UTC (01:23 hora Colombia)**. Al terminar de commitear, dispara la rutina de Claude que publica el tablero. La rutina además tiene su propio cron a las **14:00 UTC (09:00 hora Colombia)** como red de seguridad, por si el disparo falla.
+| Pieza | Hora | Qué hace |
+|---|---|---|
+| GitHub Action | 05:23 UTC · 00:23 Colombia | Consulta SECOP y commitea `data/` |
+| Rutina principal | 14:00 UTC · 09:00 Colombia | Publica el tablero |
+| Rutina de recuperación | 18:00 UTC · 13:00 Colombia | Solo publica si el tablero quedó atrasado |
 
-El minuto no redondo del cron es deliberado. Con `0 9` — hora en punto, la franja más congestionada de GitHub — el arranque real se corría entre 3h30 y 6h35 respecto de lo programado, así que la rutina siempre alcanzaba a leer el archivo del día anterior y republicaba datos viejos sin que nada lo advirtiera. Importante: **ese retraso solo afecta a `schedule`**; un `workflow_dispatch` arranca de inmediato.
+El minuto no redondo del cron es deliberado: con `0 9` — hora en punto, la franja más congestionada de GitHub — el arranque real se corría entre 3h34 y 6h35 respecto de lo programado, y creciendo día a día. Las 05:23 UTC son lo más temprano posible que todavía cae dentro del mismo día calendario colombiano (05:00 UTC es medianoche en Bogotá); correr antes etiquetaría el dato con el día anterior. Eso deja 8h37 de margen, el máximo alcanzable.
 
-### Por qué el Action llama a la rutina y no al revés
+El retraso afecta **solo a `schedule`**; un `workflow_dispatch` arranca de inmediato.
 
-Se probaron los tres caminos (2026-09-15, desde rutinas desechables en el sandbox de Claude):
+### Por qué no hay disparo por evento
+
+Sería mejor que el Action avisara a la rutina en vez de confiar en un margen. Se probaron los tres caminos y los tres están cerrados:
 
 | Camino | Resultado |
 |---|---|
-| Rutina → `datos.gov.co` | bloqueado por el proxy: `connect_rejected (organization policy)` |
-| Rutina → `raw.githubusercontent.com` | HTTP 200 |
-| Rutina → `api.github.com` y `github.com` | HTTP 403 de GitHub (el proxy no lo bloquea: `recentRelayFailures: []`) |
+| Webhook nativo (`create_webhook_trigger`, `hook_type: app`) | Exige conectar GitHub a claude.ai; la política de la organización no lo permite |
+| Rutina → `api.github.com` para disparar el workflow | HTTP 403 de GitHub a la IP del sandbox (el proxy no interviene: `recentRelayFailures: []`) |
+| Action → `POST /v1/code/triggers/{id}/run` | HTTP 401 `oauth_scope_insufficient`: un token de `claude setup-token` sirve para usar los modelos, no para administrar rutinas |
 
-O sea que la rutina no puede traer los datos ella misma ni disparar el workflow. El runner de GitHub, en cambio, tiene internet abierto y puede llamar a `POST https://api.anthropic.com/v1/code/triggers/{id}/run`. Esa es la única dirección libre y por eso el disparo va en ese sentido.
+Tampoco sirve que la rutina traiga los datos ella misma: `datos.gov.co` responde `connect_rejected (organization policy)` desde el sandbox.
 
-El camino nativo (`create_webhook_trigger` con `hook_type: app`, que engancharía el evento `push` de GitHub a la rutina) está descartado: exige conectar la cuenta de GitHub en claude.ai y la política de la organización no lo permite.
+Por eso las defensas son tres, todas pasivas: el margen amplio, la rutina de recuperación, y el aviso de dato atrasado que el propio tablero calcula desde `dia`.
 
-### Activar el disparo
+### Las rutinas
 
-El paso se salta solo mientras no exista el secreto, así que el repositorio funciona igual sin él. Para activarlo:
+- Principal: `trig_01TYWswpG56dfVXbizXAckku`
+- Recuperación: `trig_01Wdvk2CE5DSXAFadgcgG168` — compara el `dia` del archivo de datos contra el `dia` del tablero y no hace nada si ya coinciden, que es lo normal.
 
-```
-claude setup-token
-gh secret set CLAUDE_CODE_OAUTH_TOKEN --repo egrautoff/aria-licitaciones-scanner
-```
-
-El token no debe quedar en ningún archivo del repositorio ni en un historial de comandos: se pega solo en el prompt de `gh secret set`.
+Se editan con `RemoteTrigger action:update` desde Claude Code.
 
 ## Novedades y seguimiento
 

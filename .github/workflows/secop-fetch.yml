@@ -2,11 +2,15 @@ name: SECOP fetch
 
 on:
   schedule:
-    # 06:23 UTC = 01:23 America/Bogota. El minuto no redondo es deliberado:
-    # GitHub encola las tareas programadas de la hora en punto y con "0 9"
-    # el arranque real se corria entre 3h30 y 6h35, dejando al dashboard
-    # leyendo siempre el archivo del dia anterior.
-    - cron: "23 6 * * *"
+    # 05:23 UTC = 00:23 America/Bogota. Dos decisiones deliberadas:
+    # - El minuto no redondo: GitHub encola las tareas programadas de la hora
+    #   en punto y con "0 9" el arranque real se corria entre 3h34 y 6h35.
+    # - La hora: es lo mas temprano posible que todavia cae dentro del mismo
+    #   dia calendario colombiano (05:00 UTC es medianoche en Bogota). Correr
+    #   antes etiquetaria el dato con el dia anterior. Asi el margen contra el
+    #   retraso de GitHub es el maximo alcanzable: 8h37 hasta que publica la
+    #   rutina de las 14:00 UTC.
+    - cron: "23 5 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -32,31 +36,3 @@ jobs:
           git add data
           git diff --cached --quiet || git commit -m "chore: actualizar licitaciones SECOP $(TZ=America/Bogota date +%Y-%m-%d)"
           git push
-
-      # El dato ya esta commiteado: recien ahora tiene sentido que la rutina lo
-      # lea. Dispararla aqui es lo unico que elimina de raiz el problema de los
-      # dos relojes --- su cron pasa a ser solo una red de seguridad.
-      # El paso se salta solo si no hay secreto, para no romper nada mientras
-      # la credencial no exista.
-      - name: Disparar la rutina que publica el tablero
-        env:
-          CLAUDE_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          TRIGGER_ID: trig_01TYWswpG56dfVXbizXAckku
-        run: |
-          if [ -z "$CLAUDE_TOKEN" ]; then
-            echo "::notice::Sin CLAUDE_CODE_OAUTH_TOKEN. El tablero se actualizara en el horario programado de la rutina (14:00 UTC)."
-            exit 0
-          fi
-          codigo=$(curl -sS -o /tmp/respuesta.json -w '%{http_code}' -X POST \
-            -H "Authorization: Bearer $CLAUDE_TOKEN" \
-            -H "anthropic-version: 2023-06-01" \
-            -H "content-type: application/json" \
-            "https://api.anthropic.com/v1/code/triggers/$TRIGGER_ID/run")
-          if [ "$codigo" = "200" ]; then
-            echo "Rutina disparada. El tablero se actualiza en unos minutos."
-          else
-            # No se falla el job: la rutina igual corre en su horario, asi que
-            # esto es una degradacion, no una caida. Pero queda visible.
-            echo "::warning::La rutina no se pudo disparar (HTTP $codigo). El tablero se actualizara en su horario programado."
-            head -c 300 /tmp/respuesta.json || true
-          fi
