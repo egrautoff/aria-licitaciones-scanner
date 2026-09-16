@@ -94,9 +94,9 @@ La extracción la hace `scripts/requisitos.mjs` dentro del GitHub Action, porque
 
 **Por qué no baja casi nada:**
 
-1. Solo procesos **abiertos, dentro del plazo de recepción y por encima del piso de valor** (`requisitos.valor_min`, hoy $50M). De 218 procesos quedan 4. Ojo: en SECOP "Abierto" significa que el proceso sigue vivo, no que todavía se pueda presentar oferta — por eso se mira también `fecha_de_recepcion_de`.
+1. Se analizan **todos los procesos del radar, incluidas las oportunidades a explorar** (con `requisitos.valor_min` en 0 y `solo_abiertos` en false). Las oportunidades salen como tarjetas igual que las demás: si no se analizaran, su botón prometería un pliego que nunca llega. Para restringirlo, subir el piso o activar `solo_abiertos` (`requisitos.valor_min`, hoy $50M). De 218 procesos quedan 4. Ojo: en SECOP "Abierto" significa que el proceso sigue vivo, no que todavía se pueda presentar oferta — por eso se mira también `fecha_de_recepcion_de`.
 2. Solo **uno o dos documentos** por proceso, elegidos por nombre según `requisitos.prioridad_documentos`. Los otros quince son formatos en blanco, minutas y certificados.
-3. **Caché permanente** en `data/requisitos/`. Una licitación dura semanas abierta; sin caché bajaríamos lo mismo cuarenta veces.
+3. **Caché** en `data/requisitos/`, con poda. Una licitación dura semanas abierta; sin caché bajaríamos lo mismo cuarenta veces. Cada corrida marca `ultima_vez_en_radar` en los procesos vigentes y borra los que llevan más de `requisitos.retencion_dias` (90) fuera del radar, para que la carpeta no crezca sin límite.
 4. Se vuelve a mirar solo si le **aparecieron documentos nuevos**, y eso se pregunta con una consulta que no descarga nada.
 
 **Cuidado con el 403.** Las URL de descarga funcionan sin autenticación, pero el Azure Application Gateway de SECOP responde `403 Forbidden` al agente por defecto de `curl`. Con un `User-Agent` de navegador entrega el archivo. No es un muro de acceso, es filtro de bots.

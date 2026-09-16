@@ -217,7 +217,12 @@ async function main() {
   // Por defecto se analizan todos: el costo real no es el numero de procesos
   // sino cuantos son NUEVOS, porque el cache es permanente. La primera corrida
   // es larga; las siguientes bajan solo lo que aparecio.
-  const candidatos = datos.items.filter(
+  // Los candidatos exploratorios son los que la rutina convierte en "Otras
+  // oportunidades", y salen como tarjetas igual que los demas. Sin incluirlos,
+  // su boton de requisitos promete un analisis que nunca llega.
+  const universo = [...datos.items, ...(datos.candidatos_exploratorios || [])];
+  const porId = new Map(universo.map((it) => [it.id_proceso, it]));
+  const candidatos = [...porId.values()].filter(
     (it) =>
       it.id_portafolio &&
       (it.valor || 0) >= (REQ.valor_min || 0) &&
@@ -357,11 +362,32 @@ async function main() {
   }
 
   // Se adjunta a latest.json para que el tablero lo lleve consigo.
+  const enElRadarHoy = new Set(universo.map((it) => it.id_proceso));
+  const retencion = REQ.retencion_dias || 90;
+  const limite = Date.parse(`${datos.dia}T00:00:00Z`) - retencion * 86400000;
+  let podados = 0;
+
   const requisitos = {};
   for (const archivo of readdirSync(dirCache)) {
     if (!archivo.endsWith(".json")) continue;
-    const r = JSON.parse(readFileSync(path.join(dirCache, archivo), "utf8"));
-    if (!datos.items.some((it) => it.id_proceso === r.id_proceso)) continue;
+    const ruta = path.join(dirCache, archivo);
+    const r = JSON.parse(readFileSync(ruta, "utf8"));
+
+    if (enElRadarHoy.has(r.id_proceso)) {
+      // Se deja constancia de que hoy seguia vigente, que es lo que despues
+      // decide si se poda.
+      if (r.ultima_vez_en_radar !== datos.dia) {
+        r.ultima_vez_en_radar = datos.dia;
+        writeFileSync(ruta, JSON.stringify(r, null, 2));
+      }
+    } else {
+      const visto = r.ultima_vez_en_radar || r.revisado_en;
+      if (!visto || Date.parse(`${visto}T00:00:00Z`) < limite) {
+        rmSync(ruta, { force: true });
+        podados++;
+      }
+      continue;
+    }
     const tope = REQ.max_caracteres_tablero || 1800;
     requisitos[r.id_proceso] = {
       ...r,
@@ -380,7 +406,7 @@ async function main() {
 
   console.log(
     `\nAnalizados ${analizados} · reusados de cache ${reusados} · sin documentos ${sinDocumentos} · ` +
-      `adjuntados al tablero ${Object.keys(requisitos).length}`,
+      `adjuntados al tablero ${Object.keys(requisitos).length} · podados ${podados}`,
   );
 }
 

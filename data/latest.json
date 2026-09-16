@@ -5592,7 +5592,8 @@
         "anexo tecnico"
       ],
       "solo_abiertos": false,
-      "max_caracteres_tablero": 1800
+      "max_caracteres_tablero": 1800,
+      "retencion_dias": 90
     },
     "reglas": [
       {
@@ -5937,6 +5938,7 @@
       "minimo_codigos": 1,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10867359": {
@@ -5951,6 +5953,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10870846": {
@@ -5971,6 +5974,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10905707": {
@@ -5982,6 +5986,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10922197": {
@@ -6008,6 +6013,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10932385": {
@@ -6019,6 +6025,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10932790": {
@@ -6030,6 +6037,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10941058": {
@@ -6041,6 +6049,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10943952": {
@@ -6069,6 +6078,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10944984": {
@@ -6092,6 +6102,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10946276": {
@@ -6117,6 +6128,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10947031": {
@@ -6128,6 +6140,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10950205": {
@@ -6159,6 +6172,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10950411": {
@@ -6170,6 +6184,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10953851": {
@@ -6198,6 +6213,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10953993": {
@@ -6212,6 +6228,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10954026": {
@@ -6223,6 +6240,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10954247": {
@@ -6255,6 +6273,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10956842": {
@@ -6266,6 +6285,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10957306": {
@@ -6277,6 +6297,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10958000": {
@@ -6288,6 +6309,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10958187": {
@@ -6302,6 +6324,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10958199": {
@@ -6316,6 +6339,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10958328": {
@@ -6358,7 +6382,20 @@
       "minimo_codigos": null,
       "max_contratos": 3,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
+    },
+    "CO1.REQ.10958699": {
+      "id_proceso": "CO1.REQ.10958699",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 10,
+      "estado_analisis": "sin_documentos_de_requisitos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
     },
     "CO1.REQ.10958746": {
       "id_proceso": "CO1.REQ.10958746",
@@ -6380,6 +6417,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10959068": {
@@ -6410,6 +6448,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10959299": {
@@ -6444,6 +6483,7 @@
         "100",
         "6"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10959362": {
@@ -6458,6 +6498,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10959466": {
@@ -6469,6 +6510,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10960531": {
@@ -6483,6 +6525,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10961117": {
@@ -6510,6 +6553,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10961648": {
@@ -6524,6 +6568,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10961809": {
@@ -6535,6 +6580,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10962021": {
@@ -6576,6 +6622,22 @@
         "62.10",
         "2.99"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.10962421": {
+      "id_proceso": "CO1.REQ.10962421",
+      "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE GESTION DE RESTITUCION DE TIERRAS DESPOJADAS**",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 45,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10962893": {
@@ -6607,6 +6669,7 @@
       "minimo_codigos": 1,
       "max_contratos": 3,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10963016": {
@@ -6621,6 +6684,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10963558": {
@@ -6646,7 +6710,23 @@
         "313,36",
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
+    },
+    "CO1.REQ.10964864": {
+      "id_proceso": "CO1.REQ.10964864",
+      "entidad": "ALCALDÍA MUNICIPAL DE SOPO",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 11,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
     },
     "CO1.REQ.10964873": {
       "id_proceso": "CO1.REQ.10964873",
@@ -6660,6 +6740,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10964977": {
@@ -6693,6 +6774,7 @@
       "minimo_codigos": null,
       "max_contratos": 5,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10965233": {
@@ -6704,6 +6786,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10965304": {
@@ -6715,6 +6798,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10966370": {
@@ -6726,6 +6810,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10966483": {
@@ -6737,6 +6822,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10967502": {
@@ -6748,6 +6834,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10967747": {
@@ -6762,6 +6849,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10967900": {
@@ -6793,6 +6881,7 @@
       "minimo_codigos": null,
       "max_contratos": 4,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10968410": {
@@ -6804,6 +6893,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10969654": {
@@ -6834,6 +6924,7 @@
       "minimo_codigos": 1,
       "max_contratos": 4,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10969757": {
@@ -6845,6 +6936,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10969787": {
@@ -6859,6 +6951,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10969848": {
@@ -6893,6 +6986,7 @@
       "smmlv": [
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10970083": {
@@ -6904,6 +6998,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10970414": {
@@ -6928,6 +7023,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10970755": {
@@ -6953,6 +7049,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10971790": {
@@ -6964,6 +7061,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10971952": {
@@ -6975,6 +7073,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10972211": {
@@ -7001,6 +7100,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10972220": {
@@ -7012,6 +7112,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10972639": {
@@ -7042,6 +7143,7 @@
       "smmlv": [
         "96,32"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10973137": {
@@ -7053,6 +7155,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10973403": {
@@ -7067,6 +7170,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10973895": {
@@ -7078,6 +7182,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10974286": {
@@ -7106,6 +7211,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10974307": {
@@ -7117,6 +7223,22 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.10975773": {
+      "id_proceso": "CO1.REQ.10975773",
+      "entidad": "UNIVERSIDAD DE CORDOBA",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 7,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10975849": {
@@ -7128,6 +7250,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10976064": {
@@ -7139,6 +7262,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10976363": {
@@ -7166,6 +7290,7 @@
       "smmlv": [
         "119,12"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10976371": {
@@ -7180,6 +7305,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10976555": {
@@ -7191,6 +7317,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10977018": {
@@ -7202,6 +7329,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10977051": {
@@ -7240,7 +7368,23 @@
         "347,13",
         "1.750.905"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
+    },
+    "CO1.REQ.10977102": {
+      "id_proceso": "CO1.REQ.10977102",
+      "entidad": "EMPRESA DE ACUEDUCTO, ALCANTARILLADO Y ASEO DE EL ROSAL S.A E.S.P",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 10,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
     },
     "CO1.REQ.10977596": {
       "id_proceso": "CO1.REQ.10977596",
@@ -7251,6 +7395,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10978433": {
@@ -7262,6 +7407,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10978610": {
@@ -7299,6 +7445,7 @@
         "1.000",
         "280"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10978918": {
@@ -7310,6 +7457,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10979414": {
@@ -7335,6 +7483,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10979619": {
@@ -7364,6 +7513,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10979720": {
@@ -7393,6 +7543,7 @@
       "minimo_codigos": null,
       "max_contratos": 3,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10979750": {
@@ -7404,6 +7555,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10979850": {
@@ -7428,6 +7580,7 @@
       "smmlv": [
         "110,53"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10979971": {
@@ -7439,6 +7592,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10980080": {
@@ -7450,6 +7604,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10980278": {
@@ -7461,6 +7616,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10980337": {
@@ -7475,6 +7631,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10981662": {
@@ -7504,6 +7661,7 @@
       "minimo_codigos": null,
       "max_contratos": 3,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10982219": {
@@ -7515,6 +7673,19 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.10982497": {
+      "id_proceso": "CO1.REQ.10982497",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10983161": {
@@ -7544,6 +7715,7 @@
       "minimo_codigos": null,
       "max_contratos": 3,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10984418": {
@@ -7564,6 +7736,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10984517": {
@@ -7575,6 +7748,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10984796": {
@@ -7586,6 +7760,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10984936": {
@@ -7616,6 +7791,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10985151": {
@@ -7627,6 +7803,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10985559": {
@@ -7647,6 +7824,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10985705": {
@@ -7661,6 +7839,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10985740": {
@@ -7686,6 +7865,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10985779": {
@@ -7697,6 +7877,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10985869": {
@@ -7751,6 +7932,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10986099": {
@@ -7781,6 +7963,7 @@
       "smmlv": [
         "388,41"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10986130": {
@@ -7792,6 +7975,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10986458": {
@@ -7822,6 +8006,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10987135": {
@@ -7844,6 +8029,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10987570": {
@@ -7855,6 +8041,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10987600": {
@@ -7884,6 +8071,7 @@
       "minimo_codigos": null,
       "max_contratos": 4,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10987814": {
@@ -7907,6 +8095,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10987837": {
@@ -7921,6 +8110,19 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.10988360": {
+      "id_proceso": "CO1.REQ.10988360",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 8,
+      "estado_analisis": "sin_documentos_de_requisitos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10988770": {
@@ -7932,6 +8134,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10988957": {
@@ -7946,6 +8149,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989146": {
@@ -7977,6 +8181,7 @@
       "smmlv": [
         "30.000"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10989206": {
@@ -8004,6 +8209,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989301": {
@@ -8018,6 +8224,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989385": {
@@ -8040,6 +8247,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989413": {
@@ -8051,6 +8259,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989584": {
@@ -8062,6 +8271,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989588": {
@@ -8092,6 +8302,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989825": {
@@ -8103,6 +8314,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10989838": {
@@ -8137,6 +8349,22 @@
       "smmlv": [
         "95"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.10990699": {
+      "id_proceso": "CO1.REQ.10990699",
+      "entidad": "HOSPITAL RAUL OREJUELA BUENO",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 32,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10990870": {
@@ -8162,6 +8390,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10994067": {
@@ -8191,6 +8420,7 @@
       "minimo_codigos": 1,
       "max_contratos": 3,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10994705": {
@@ -8202,6 +8432,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10994863": {
@@ -8238,6 +8469,7 @@
         "200",
         "450"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10995232": {
@@ -8269,6 +8501,7 @@
         "220",
         "1100"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10995264": {
@@ -8294,6 +8527,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10995382": {
@@ -8321,6 +8555,7 @@
       "smmlv": [
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10995486": {
@@ -8332,6 +8567,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10995880": {
@@ -8368,6 +8604,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10996145": {
@@ -8379,6 +8616,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10996453": {
@@ -8413,6 +8651,7 @@
         "1.750.905",
         ".2"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10996680": {
@@ -8424,6 +8663,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10997157": {
@@ -8435,6 +8675,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10997376": {
@@ -8462,6 +8703,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10997473": {
@@ -8473,6 +8715,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10997507": {
@@ -8484,6 +8727,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10997511": {
@@ -8495,6 +8739,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10998436": {
@@ -8506,6 +8751,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.10998909": {
@@ -8533,7 +8779,23 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
+    },
+    "CO1.REQ.10999193": {
+      "id_proceso": "CO1.REQ.10999193",
+      "entidad": "MUNICIPIO DE OTANCHE",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 11,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
     },
     "CO1.REQ.10999316": {
       "id_proceso": "CO1.REQ.10999316",
@@ -8571,6 +8833,7 @@
         "19",
         "20"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.10999328": {
@@ -8582,6 +8845,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11000048": {
@@ -8596,6 +8860,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11000336": {
@@ -8625,6 +8890,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11000769": {
@@ -8636,6 +8902,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11001415": {
@@ -8659,6 +8926,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11001532": {
@@ -8687,6 +8955,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11001782": {
@@ -8717,6 +8986,7 @@
       "minimo_codigos": 1,
       "max_contratos": 4,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11001868": {
@@ -8731,6 +9001,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11002032": {
@@ -8760,6 +9031,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11002048": {
@@ -8795,6 +9067,7 @@
       "smmlv": [
         "1.000.000"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11002703": {
@@ -8815,6 +9088,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11002800": {
@@ -8826,6 +9100,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11002893": {
@@ -8837,6 +9112,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11003069": {
@@ -8848,6 +9124,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11003603": {
@@ -8859,6 +9136,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11004296": {
@@ -8893,6 +9171,7 @@
         "3.024,7",
         "400"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11004700": {
@@ -8907,6 +9186,22 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.11005081": {
+      "id_proceso": "CO1.REQ.11005081",
+      "entidad": "ESE HOSPITAL SANTA TERESA",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 6,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11005082": {
@@ -8933,6 +9228,7 @@
       "smmlv": [
         "1500"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11005225": {
@@ -8953,6 +9249,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11005370": {
@@ -8964,6 +9261,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11005671": {
@@ -8975,6 +9273,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11005689": {
@@ -8986,6 +9285,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11005923": {
@@ -9014,6 +9314,7 @@
       "minimo_codigos": 2,
       "max_contratos": 3,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11006062": {
@@ -9034,6 +9335,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11006210": {
@@ -9045,7 +9347,31 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
+    },
+    "CO1.REQ.11006560": {
+      "id_proceso": "CO1.REQ.11006560",
+      "entidad": "INSTITUCIÓN UNIVERSITARIA ITM",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 7,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "VLADIMIR  RUEDA  BERMÚDEZ - ESTUDIOS PREVIOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=854437648&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "Así las cosas, el Centro de Vinculación, adscrito a la Vicerrectoría de Extensión, tiene como propósito materializar\n la misión institucional de fortalecer la interacción del ITM con los sectores social, académico, productivo y\n gubernamental, mediante la extensión de sus capacidades académicas, científicas, tecnológicas y de innovación.\n Lo anterior, con el fin de contribuir a la solución de las necesidades y problemáticas del entorno, así como al\n fortalecimiento y posicionamiento institucional en los ámbitos local, regional, nacional e internacional. En este\n contexto, las actividades del Centro De Vinculación Intersectorial resultan indispensables para consolidar\n mecanismos que permitan identificar las necesidades y demandas de los diferentes sectores, así como\n estructurar y ofrecer un portafolio de servicios pertinente, alineado con el conocimiento, la experiencia y la\n capacidad institucional instalada. Lo anterior favorece la transferencia de conocimiento, tecnología e innovación,\n fortalece las relaciones interinstitucionales y genera oportunidades para el desarrollo territorial, en concordancia\n con los objetivos misionales y estratégicos de la Institución. Adicionalmente, con el fin de dar cumplimiento a\n compromisos contractuales derivados del CONTRATO O CONVENIO INTERADMINISTRATIVO 4600108695\n DE 2026 cuyo objeto es CONTRATO INTERADMINISTRATIVO PARA LA PRESTACIÓN DE SERVICIOS DE\n APOYO A LA PLANEACIÓN, DESARROLLO Y FORTALECIMIENTO DE LAS CAPACIDADES TÉCNICAS DE\n LA SECRETARIA DE INNOVACION DIGITA\n\nREQUISITOS ACADÉMICOS REQUISITOS DE EXPERIENCIA\n Profesional en Ingeniería de sistemas, informática, con experiencia profesional de 5 años\n Electrónica, Telecomunicaciones y/o a fines. Con\n especialización en Ingeniería de Software.\n\n2. CLASIFICADOR DE BIENES Y S\n\n[...]",
+      "unspsc_exigidos": [
+        "80111600"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": true
     },
     "CO1.REQ.11006705": {
       "id_proceso": "CO1.REQ.11006705",
@@ -9067,6 +9393,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11006729": {
@@ -9078,6 +9405,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11006765": {
@@ -9110,6 +9438,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11007222": {
@@ -9124,6 +9453,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11007309": {
@@ -9153,6 +9483,7 @@
       "smmlv": [
         "25"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11008085": {
@@ -9167,6 +9498,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11008237": {
@@ -9178,6 +9510,19 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.11009102": {
+      "id_proceso": "CO1.REQ.11009102",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 9,
+      "estado_analisis": "sin_documentos_de_requisitos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11009126": {
@@ -9216,6 +9561,7 @@
         "963,86",
         "2.000"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11009435": {
@@ -9245,6 +9591,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11009447": {
@@ -9276,6 +9623,7 @@
       "smmlv": [
         "594,76"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11009673": {
@@ -9296,6 +9644,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11011688": {
@@ -9307,6 +9656,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11011964": {
@@ -9327,6 +9677,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11012369": {
@@ -9338,7 +9689,37 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
+    },
+    "CO1.REQ.11012499": {
+      "id_proceso": "CO1.REQ.11012499",
+      "entidad": "MUNICIPIO DE SEGOVIA",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 14,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "PLIEGO DEFINITIVO SG-SASIE-0038-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=854983608&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        },
+        {
+          "nombre": "4. PLIEGO PRELIMINAR  SG-SASIE-0038-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=854983603&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "Los proponentes deberán anexar a su propuesta una certificación en la cual conste el Pago\na los Sistemas de Salud, Riesgos Profesionales, Pensiones y Aportes a las Cajas de\nCompensación Familiar, Instituto Colombiano de Bienestar Familiar –ICBF– y Servicio\nNacional de Aprendizaje –SENA–, de conformidad con lo dispuesto en el artículo 50 de\nLey 789 de 2002 y la Ley 1562 de 2012, esto es, que si la contratación se realiza con\npersonas jurídicas, se deberá acreditar el pago de los aportes de sus empleados, a los\nsistemas mencionados mediante certificación expedida por el revisor fiscal, cuando este\nexista de acuerdo con los requerimientos de ley, o por el representante legal durante un\nlapso equivalente al que exija el respectivo régimen de contratación para que se hubiera\nconstituido la sociedad.\n\nA partir del primer día hábil de abril de 2015, para la inscripción, renovación y actualización\ndel RUP todos los proponentes deben utilizar el Clasificador de Bienes y Servicios. Decreto\n1082 de 2015.\n\nDe conformidad con lo dispuesto en el Decreto 1082 de 2015, los proponentes que deseen\nparticipar en el proceso deberán estar clasificados conforme al clasificador de bienes y\nservicios UNSPSC. De igual manera, conforme la circular Externa No. 12 de 5 de mayo de\n2014, expedida por Colombia Compra Eficiente, la Entidad verificará como requisito\nhabilitante jurídico que el objeto social, actividad comercial o actividad económica del\nproponente le permita ejecutar el objeto contractual determinado en el presente proceso.\n\nEl análisis de los documentos financieros solicitados conducirá a determinar si el\nproponente tiene capacidad financiera y podrá ser habilitado.\n\fPara la verificación de las condiciones financieras, la entidad extraerá la misma del RUP.\n\nEn caso de proponentes plur\n\n[...]",
+      "unspsc_exigidos": [
+        "43211500",
+        "43211501"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": true
     },
     "CO1.REQ.11012544": {
       "id_proceso": "CO1.REQ.11012544",
@@ -9368,6 +9749,7 @@
       "smmlv": [
         "854"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11013056": {
@@ -9403,6 +9785,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11013764": {
@@ -9427,6 +9810,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11014017": {
@@ -9458,6 +9842,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11014403": {
@@ -9469,6 +9854,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11015123": {
@@ -9480,6 +9866,19 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": false
+    },
+    "CO1.REQ.11015278": {
+      "id_proceso": "CO1.REQ.11015278",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 4,
+      "estado_analisis": "sin_documentos_de_requisitos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11015735": {
@@ -9500,6 +9899,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11015809": {
@@ -9531,6 +9931,7 @@
       "smmlv": [
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11017427": {
@@ -9556,6 +9957,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11018091": {
@@ -9567,6 +9969,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11018523": {
@@ -9578,6 +9981,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11019131": {
@@ -9592,6 +9996,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11019501": {
@@ -9619,6 +10024,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11019694": {
@@ -9630,6 +10036,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11020270": {
@@ -9644,6 +10051,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11020299": {
@@ -9680,6 +10088,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11020649": {
@@ -9709,6 +10118,7 @@
       "smmlv": [
         "20"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11020811": {
@@ -9749,6 +10159,7 @@
         "243,05",
         "1.750.905"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11021283": {
@@ -9760,6 +10171,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11021303": {
@@ -9792,6 +10204,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11021416": {
@@ -9814,6 +10227,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11021496": {
@@ -9846,6 +10260,7 @@
       "smmlv": [
         "280"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11021927": {
@@ -9857,6 +10272,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11022350": {
@@ -9882,6 +10298,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11022693": {
@@ -9920,6 +10337,7 @@
       "smmlv": [
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11022817": {
@@ -9953,6 +10371,7 @@
         "100",
         "6"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11023112": {
@@ -9964,6 +10383,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11023454": {
@@ -9996,6 +10416,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11023646": {
@@ -10010,6 +10431,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11025632": {
@@ -10037,6 +10459,7 @@
       "smmlv": [
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11027093": {
@@ -10048,6 +10471,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11027535": {
@@ -10076,6 +10500,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11028356": {
@@ -10087,7 +10512,33 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
+    },
+    "CO1.REQ.11028361": {
+      "id_proceso": "CO1.REQ.11028361",
+      "entidad": "MUNICIPIO DE PRADERA",
+      "revisado_en": "2026-09-15",
+      "documentos_en_el_proceso": 6,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "ESTUDIOS PREVIOS_CONTRATO INTERADMINISTRATIVO_COPIA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=856366179&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "En cuanto a su capacidad técnica y operativa, RED SUMMA acredita experiencia\n en la ejecución de contratos relacionados con software, gestión de contenidos,\n soluciones tecnológicas y servicios informáticos, incluyendo contrataciones con\n entidades públicas, conforme a la documentación de experiencia y al Registro\n Único de Proponentes incorporado al expediente.\n\n17. EXPERIENCIA: Para la presente contratación, el Municipio de Pradera verificará\n la experiencia de la entidad ejecutora. Para tal efecto, la ALIANZA COLOMBIANA\n DE INSTITUCIONES PÚBLICAS DE EDUCACIÓN SUPERIOR – RED SUMMA,\n identificada con NIT 901.417.108-6, acredita experiencia en la ejecución de\n contratos relacionados con servicios tecnológicos, software, sistemas de\n información, gestión de contenidos y soluciones tecnológicas, conforme a la\n información registrada en su Registro Único de Proponentes – RUP y demás\n documentación aportada.\n\nCONTRATO / ENTIDAD EXPERIENCIA VALOR\n CONVENIO CONTRATANTE RELACIONADA\n CD-847-2023 Defensoría del Software funcional específico $4.949.962.534\n Pueblo de la empresa – Código\n UNSPSC 43231500\n IN-I01-09-22 Unidades Servicios de investigación y $200.000.000\n Tecnológicas de desarrollo de tecnología –\n Santander Código UNSPSC 81141900\n CTO N.° 219- Instituto Distrital de Servicios y bienes relacionados $124.604.900\n 2025 Turismo con actividades institucionales y\n tecnológicas\n\nDe acuerdo con la documentación aportada, RED SUMMA registra experiencia\n contractual con entidades públicas en la ejecución de servicios asociados a\n software, sistemas de información, gestión de contenidos y soluciones\n tecnológicas, incluyendo actividades clasificadas, entre otros, en los códigos\n UNSPSC 43231500 – Software funcional específico de la empresa y 43232200\n – Software de gestión de \n\n[...]",
+      "unspsc_exigidos": [
+        "43232200",
+        "43231500",
+        "81141900"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
+      "recortado": true
     },
     "CO1.REQ.11028836": {
       "id_proceso": "CO1.REQ.11028836",
@@ -10098,6 +10549,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11029078": {
@@ -10123,6 +10575,7 @@
       "smmlv": [
         "452"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11029301": {
@@ -10164,6 +10617,7 @@
         "62.10",
         "2.99"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11029435": {
@@ -10178,6 +10632,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11029541": {
@@ -10189,6 +10644,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11030623": {
@@ -10200,6 +10656,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11030646": {
@@ -10234,6 +10691,7 @@
       "smmlv": [
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.11030701": {
@@ -10256,6 +10714,7 @@
       "smmlv": [
         "200"
       ],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": true
     },
     "CO1.REQ.11033146": {
@@ -10267,6 +10726,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     },
     "CO1.REQ.9382732": {
@@ -10278,6 +10738,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
+      "ultima_vez_en_radar": "2026-09-15",
       "recortado": false
     }
   }
