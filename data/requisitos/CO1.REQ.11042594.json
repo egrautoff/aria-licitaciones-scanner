@@ -1,11 +1,26 @@
 {
   "id_proceso": "CO1.REQ.11042594",
-  "revisado_en": "2026-09-17",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
-  "texto": "",
-  "unspsc_exigidos": [],
+  "entidad": "CORPORACIÓN AUTÓNOMA REGIONAL DEL CENTRO DE ANTIOQUIA",
+  "revisado_en": "2026-09-18",
+  "documentos_en_el_proceso": 8,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "5. F-PGC-18_Pliego_seleccion_abreviada_menor_cuantia 110-SA2608-10.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=857731803&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "7. Cuando el proponente sea quien certifique a uno de los profesionales que participarán en la\n propuesta, se deberá aportar a la certificación expedida por él, documentos tales como actas,\n constancias de pagos, informes, donde se dé constancia del cargo y las funciones o\n actividades desempeñadas (vinculado a la empresa proponente) o los contratos celebrados\n con las entidades públicas o privadas en los cuales participó dicho profesional, de manera\n que se pueda verificar claramente la información aportada respecto al tipo de experiencia que\n en este pliego se solicita.\n\n8. La experiencia para los integrantes del equipo de trabajo será sometida al análisis de\n cruzamiento de tiempo. Como resultado se tendrá en cuenta para la evaluación la experiencia\n no cruzada para la suma del tiempo de las certificaciones, en el caso que se presente\n cruzamiento de tiempos la experiencia se contabilizará una sola vez. Este análisis de\n cruzamiento también aplica en aquellos casos en los que el proponente sea persona natural\n y a su vez integre el equipo de trabajo presentado en la propuesta.\n\n9. Las certificaciones presentadas para valorar la experiencia mínima habilitante del personal\n no serán evaluables, solo servirán para habilitarlo y por lo tanto pueden ser sujetas a ajustes\n y aclaraciones.\n\n11. El proponente debe tener en cuenta que si las certificaciones entregadas para evaluar la\n experiencia mínima del equipo de trabajo (es decir las primeras en orden de presentación)\n tienen un tiempo superior al exigido para superar el umbral, éste será tenido en cuenta para\n la experiencia evaluable (puntaje), siempre y cuando este certificado no haya sido\n subsanado.\n\n17. En el evento de presentarse proponentes extranjeros sin domicilio o sucursal en\n Colombia, la experiencia mínima habilitante se acreditará y evaluará de conformidad con los\n lineamientos establecidos en el SECOP y en los Manuales de Colombia Compra Eficiente\n establecidos para esos efectos por la Agencia Nacional de Contratación Pública.\n\n18. En el evento que el proponente tenga una constitución menor a tres (03) años puede\n acreditar para la experiencia habilitante y calificable del proponente, la experiencia de sus\n accionistas, socios o constituyentes.\n\n20. El proponente en su propuesta deberá indicar la experiencia que presenta como requisito\n habilitante y cuál como experiencia para la asignación de puntaje. En caso de que no se incluya\n esta precisión en la propuesta, la Corporación definirá que las primeras certificaciones en orden\n de presentación servirán para valorar la experiencia mínima habilitante y las demás para realizar\n la valoración de puntajes. (Cuando aplique).\n\nLa experiencia se tomará directamente de la información contenida en el RUP, mediante los\n contratos allí certificados identificados con la clasificación UNSPSC establecida en el Decreto\n 1082 de 2015. Para lo anterior, el proponente deberá acreditar en el RUP que ha ejecutado un\n como MÁXIMO TRES (3) contratos, cada uno clasificado en mínimo dos (2) de los códigos citados\n a continuación:\n CLASIFICACIÓN\n DESCRIPCIÓN\n UNSPSC\n 25 19 18 00 Clase: Equipo de medición y prueba de vehículos\n 41 11 31 00 Clase: Analizadores y monitores de gas\n 25 19 17 00 Clase: Equipos para el mantenimiento de vehículos\n 25 17 27 00 Clase: Sistemas de control medioambiental\n 81 11 22 00 Clase: Mantenimiento y soporte de software",
+  "unspsc_exigidos": [
+    "25191800",
+    "41113100",
+    "25191700",
+    "25172700",
+    "81112200"
+  ],
+  "minimo_codigos": 2,
+  "max_contratos": 3,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-09-17"
+  "ultima_vez_en_radar": "2026-09-18"
 }

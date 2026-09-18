@@ -1,11 +1,31 @@
 {
   "id_proceso": "CO1.REQ.11020317",
-  "revisado_en": "2026-09-17",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
+  "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
+  "revisado_en": "2026-09-18",
+  "documentos_en_el_proceso": 15,
+  "estado_analisis": "sin_seccion_identificable",
+  "documentos": [
+    {
+      "nombre": "13. Proyecto Pliego Cond Subasta Inversa.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=857557795&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "1. Estudio Previo 41844.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=857557781&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
   "texto": "",
-  "unspsc_exigidos": [],
+  "unspsc_exigidos": [
+    "43222500",
+    "43233200",
+    "81111800",
+    "81112200",
+    "81112500"
+  ],
+  "minimo_codigos": null,
+  "max_contratos": 5,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-09-17"
+  "ultima_vez_en_radar": "2026-09-18"
 }
