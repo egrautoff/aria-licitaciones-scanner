@@ -1,14 +1,38 @@
 {
   "id_proceso": "CO1.REQ.11086154",
   "entidad": "MUNICIPIO DE SAN JOSE DE CUCUTA.",
-  "revisado_en": "2026-09-25",
-  "documentos_en_el_proceso": 9,
-  "estado_analisis": "documentos_escaneados",
-  "documentos": [],
-  "texto": "",
-  "unspsc_exigidos": [],
+  "revisado_en": "2026-09-28",
+  "documentos_en_el_proceso": 18,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "8. ESTUDIO PREVIO CONECTIVIDAD COLEGIOS F (1).pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=861778438&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "9. INVITACION.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=861778439&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "Sin embargo, el análisis realizado sobre los indicadores de conectividad escolar evidencia que el desafío actual ya no se\nlimita a llevar Internet a las instituciones educativas, sino a garantizar que dicha conectividad llegue efectivamente a cada\nestudiante dentro de los entornos de aprendizaje. En muchos establecimientos educativos, las limitaciones de las redes\ninternas, tanto alámbricas como inalámbricas, generan cuellos de botella que afectan la calidad de la experiencia de\nnavegación, el acceso simultáneo a contenidos digitales y el aprovechamiento de las herramientas tecnológicas\ndisponibles.\n\nBajo este marco normativo, y en concordancia con el propósito de mejorar la calidad del servicio y la experiencia de\nnavegación de la comunidad educativa, la Oficina TIC del Municipio de San José de Cúcuta propone intervenir 61\nestablecimientos educativos oficiales, priorizados a partir de un diagnóstico técnico de su infraestructura tecnológica. El\nanálisis realizado permitió identificar oportunidades de mejora que impactarán directamente la capacidad de acceso de\nestudiantes y docentes a los recursos digitales disponibles.\n\nESTUDIO PREVIO\n Alcaldía Municipal de\n San José de Cúcuta Fecha: Agosto 2018\n GESTIÓN DOCUMENTAL\n APOYO A LA GESTIÓN\n GESTIÓN ADMINISTRATIVA ARCHIVO Y\n INSTITUCIONAL\n CORRESPONDENCIA\n Macroproceso Proceso Subproceso\n PÁGINA Nº: 15 de 32\nCon el propósito de continuar cerrando la brecha digital y garantizar que la conectividad llegue de manera efectiva a\ncada estudiante, la Alcaldía de San José de Cúcuta, a través de la Secretaría de Educación y la Oficina TIC, adelantará\nun proyecto de fortalecimiento de la infraestructura inalámbrica en 60 sedes educativas oficiales del área urbana. Esta\niniciativa busca complementar la cobertura alámbrica ya existente y mejorar la capacidad de las rede Wi-Fi en la\ninstitución; este canal será alimentado por la infraestructura de fibra óptica de propiedad del municipio, mejorando la\nexperiencia de navegación y el acceso a recursos educativos digitales por parte de estudiantes, docentes y directivos.",
+  "unspsc_exigidos": [
+    "43000000",
+    "43220000",
+    "43221700",
+    "26000000",
+    "26120000",
+    "26121600",
+    "83000000",
+    "83110000",
+    "83112200",
+    "81000000",
+    "81100000",
+    "81101700"
+  ],
   "minimo_codigos": null,
   "max_contratos": null,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-09-27"
+  "ultima_vez_en_radar": "2026-09-28"
 }

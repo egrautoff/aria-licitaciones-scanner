@@ -1,14 +1,23 @@
 {
   "id_proceso": "CO1.REQ.11049986",
   "entidad": "IDS",
-  "revisado_en": "2026-09-25",
-  "documentos_en_el_proceso": 23,
-  "estado_analisis": "documentos_escaneados",
-  "documentos": [],
-  "texto": "",
-  "unspsc_exigidos": [],
+  "revisado_en": "2026-09-28",
+  "documentos_en_el_proceso": 27,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "Estudios Previos Gestión documental SEP 10-2026 (V2).pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=860484948&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "En consecuencia, el Institute Departamental de Salud de Norte de Santander adelantara el procedimiento de\n Contratacibn Directa, requiriendo al oferente unico la presentacibn de la propuesta tecnica y econbmica con el Ueno\n de los requisites legales, de idoneidad y de experiencia exigidos por la Entidad.\n 5. ANALISIS ECONOMICO DEL VALOR ESTIMADQ DEL CONTRATO ¥ DISPONIBILIDAD. J\n\nDe conformidad con el clasificador de bienes y servicios UNSPSC, Version 14.0, se establece segun el objeto a contratar\n el siguiente para el presente proceso, obligatorio solo hasta el 3 nivel:",
+  "unspsc_exigidos": [
+    "43231513",
+    "43231507"
+  ],
   "minimo_codigos": null,
   "max_contratos": null,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-09-27"
+  "ultima_vez_en_radar": "2026-09-28"
 }

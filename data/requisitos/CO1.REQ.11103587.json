@@ -1,11 +1,24 @@
 {
   "id_proceso": "CO1.REQ.11103587",
-  "revisado_en": "2026-09-27",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
-  "texto": "",
+  "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+  "revisado_en": "2026-09-28",
+  "documentos_en_el_proceso": 15,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "01. 2022-11-25 ANEXO TÉCNICO ELECTROBOMBA PTTAR.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=863078142&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "Adicionalmente, para elaborar la propuesta económica EL PROPONENTE debe\n tener en cuenta que el Régimen Tributario aplicable a LA UNIVERSIDAD contempla\n las siguientes contribuciones y retenciones:\n a) Contribución Estampilla Pro Universidad Nacional de Colombia y demás\n universidades estatales de Colombia, sobre cada valor autorizado para\n pago antes de IVA, incluye anticipos:\n 1. Contratos con valores entre 1 y 2.000 SMMLV, el 0,5%\n 2. Contratos con valores entre 2.001 y hasta 6.000 SMMLV, el 1%\n 3. Contratos con valores mayores a 6.001 SMMLV, el 2%\n b) Retención de IVA (de acuerdo a la calidad de contribuyente del\n contratista): 19% del valor de IVA, no aplica para anticipos.\n c) Retención en la fuente (de acuerdo a la calidad de contribuyente del\n contratista): 2% sobre sobre cada valor autorizado para pago antes de\n IVA, no aplica para anticipos.",
   "unspsc_exigidos": [],
-  "smmlv": [],
-  "ultima_vez_en_radar": "2026-09-27"
+  "minimo_codigos": null,
+  "max_contratos": null,
+  "smmlv": [
+    "2.000",
+    "6.000",
+    "6.001"
+  ],
+  "ultima_vez_en_radar": "2026-09-28"
 }
