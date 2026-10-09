@@ -1,11 +1,24 @@
 {
   "id_proceso": "CO1.REQ.11166606",
-  "revisado_en": "2026-10-08",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
-  "texto": "",
-  "unspsc_exigidos": [],
+  "entidad": "CORPORACION AUTONOMA REGIONAL DE CUNDINAMARCA - CAR.",
+  "revisado_en": "2026-10-09",
+  "documentos_en_el_proceso": 7,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "08. Estudios Previos firmados. MELBA ESPERANZA CORREDOR SUESCA F.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=869289709&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "iniciativas institucionales de Inteligencia Artificial (CAR-AI), la automatización y\ndigitalización de procesos institucionales, así como la integración e interoperabilidad entre\nsistemas de información.\nDe manera complementaria, la creciente generación de información ambiental, territorial y\nadministrativa requiere fortalecer las capacidades institucionales para la gestión,\nintegración, calidad, análisis y aprovechamiento de datos. En este sentido, la OGDAD lidera\niniciativas orientadas al fortalecimiento de la geoanalítica, la gestión de datos\ngeoespaciales, la interoperabilidad de información geográfica y la implementación de\nherramientas analíticas que permitan transformar los datos institucionales en información\nestratégica para apoyar la planeación, el monitoreo ambiental, la gestión territorial y la toma\nde decisiones.\nAsí mismo, la creciente demanda de requerimientos provenientes de las diferentes\ndependencias de la Corporación, así como la necesidad de atender mejoras funcionales,\nnuevos desarrollos, mantenimiento evolutivo, correctivo y adaptativo, soporte\nespecializado, aseguramiento de calidad, diseño de experiencia de usuario, levantamiento\ny gestión de requerimientos, arquitectura de software, administración de datos, analítica,\ninteligencia artificial y soluciones geoespaciales, supera la capacidad operativa del personal\nde planta actualmente disponible.\nPor lo anterior, resulta necesario contar con un equipo multidisciplinario especializado\nconformado por perfiles de arquitectura de software, desarrollo frontend y backend, análisis\ny levantamiento de requerimientos, aseguramiento de calidad (QA), diseño UX/UI, gestión\nfuncional de sistemas de información, administración y explotación de datos, geomática,\nsistemas de información geográfica (SIG), analítica de datos e inteligencia artificial, que\npermita garantizar el adecuado ciclo de vida de los sistemas de información institucionales\ny el aprovechamiento estratégico de la información corporativa, desde la planeación y\ndefinición de requerimientos hasta la implementación, despliegue, soporte, estabilización y\nmejora continua de las soluciones.\nLa contratación de estos servicios permitirá fortalecer la capacidad técnica y operativa de\nla OGDAD para atender de manera oportuna los compromisos institucionales derivados del\nPlan de Acción Cuatrienal 2024-2027, del Plan Estratégico de Tecnologías de la\nInformación – PETI, de las políticas de Gobierno Digital, Gobierno de Datos, Seguridad de\nla Información y Transformación Digital, así como de las iniciativas de innovación\ntecnológica, inteligencia artificial y analítica de datos promovidas por la Corporación.\nAsí mismo, contribuirá al cumplimiento del Proyecto 18 “Gestión Institucional e\nInterinstitucional”, particularmente del objetivo orientado a garantizar una plataforma\ntecnológica transversal moderna, segura y sostenible que soporte la operación institucional,\nfacilite la gestión ambiental, fortalezca la gobernanza de los datos y optimice los servicios\ndigitales ofrecidos a la ciudadanía.",
+  "unspsc_exigidos": [
+    "80000000",
+    "80110000",
+    "80111600"
+  ],
+  "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-10-08"
+  "ultima_vez_en_radar": "2026-10-09"
 }
