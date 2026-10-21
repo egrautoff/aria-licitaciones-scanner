@@ -1,11 +1,29 @@
 {
   "id_proceso": "CO1.REQ.11220240",
-  "revisado_en": "2026-10-18",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
-  "texto": "",
-  "unspsc_exigidos": [],
+  "entidad": "ARCHIVO GENERAL DE LA NACION",
+  "revisado_en": "2026-10-21",
+  "documentos_en_el_proceso": 15,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "ESTUDIO PREVIO CONTRATACIÓNDIRECTA.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=874885869&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "Este nivel de automatización representa un ahorro significativo en carga\noperativa para el equipo Grupo de Atención y Servicio al Ciudadano - GSC,\npermitiendo que los agentes concentren su atención en los casos de mayor\ncomplejidad (15% restante). La tasa de resolución promedio del canal alcanzó\nel 93%, con picos de eficiencia del 99,5% registrados en marzo de 2026. Este\ncomportamiento demuestra una apropiación progresiva del canal por parte de la\nciudadanía y valida la pertinencia de la inversión en la herramienta, así como\ntambién se evidencia en los Indicadores claves de desempeño (KPIs):",
+  "unspsc_exigidos": [
+    "81000000",
+    "81110000",
+    "81112200",
+    "43000000",
+    "43231500",
+    "43231511",
+    "43230000",
+    "43231513"
+  ],
+  "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-10-20"
+  "ultima_vez_en_radar": "2026-10-21"
 }
