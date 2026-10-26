@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T09:53:21.144Z",
-  "dia": "2026-10-25",
+  "generated_at": "2026-10-26T11:13:01.713Z",
+  "dia": "2026-10-26",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2288,
-  "total_matched": 82,
+  "total_scanned": 2283,
+  "total_matched": 83,
   "total_destacados": 1,
-  "total_nuevos": 8,
+  "total_nuevos": 0,
   "items": [
     {
       "id_proceso": "CO1.REQ.11257246",
@@ -30,8 +30,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11244375",
@@ -55,7 +55,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -80,6 +80,31 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
+      "dias_en_radar": 3,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11253173",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA LOCAL DE USAQUEN",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11064707",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-22T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO LOGÍSTICO Y OPERATIVO A LA ALCALDÍA LOCAL DE USAQUÉN PARA LA EFICIENTE IMPLEMENTACIÓN DE LOS PROCESOS, ESTRATEGIAS Y ACTIVIDADES RELACIONADOS CON LA SEGURIDAD Y CONVIVENCIA. EL APOYO INCLUIRÁ, PERO NO SE LIMITARÁ A, LA GESTIÓN DE INFORMACIÓN, EL SOPORTE DIRECTO A OPERATIVOS, EL ACOMPAÑAMIENTO TERRITORIAL, EL SEGUIMIENTO A REQUERIMIENTOS CIUDADANOS Y EL APOYO EN LA EJECUCIÓN DE LOS PROYECTOS DEL PLAN DE DESARROLLO LOCAL EN LA MATERIA.",
+      "valor": 7626667,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11108914",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-25",
       "dias_en_radar": 2,
       "es_nuevo": false
     },
@@ -105,33 +130,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
-    },
-    {
-      "id_proceso": "CO1.REQ.11253173",
-      "fuente": "SECOP II",
-      "entidad": "ALCALDIA LOCAL DE USAQUEN",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11064707",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-22T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS DE APOYO LOGÍSTICO Y OPERATIVO A LA ALCALDÍA LOCAL DE USAQUÉN PARA LA EFICIENTE IMPLEMENTACIÓN DE LOS PROCESOS, ESTRATEGIAS Y ACTIVIDADES RELACIONADOS CON LA SEGURIDAD Y CONVIVENCIA. EL APOYO INCLUIRÁ, PERO NO SE LIMITARÁ A, LA GESTIÓN DE INFORMACIÓN, EL SOPORTE DIRECTO A OPERATIVOS, EL ACOMPAÑAMIENTO TERRITORIAL, EL SEGUIMIENTO A REQUERIMIENTOS CIUDADANOS Y EL APOYO EN LA EJECUCIÓN DE LOS PROYECTOS DEL PLAN DE DESARROLLO LOCAL EN LA MATERIA.",
-      "valor": 7626667,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11108914",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11255006",
@@ -155,8 +155,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11253891",
@@ -180,8 +180,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11253847",
@@ -205,8 +205,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11209951",
@@ -230,8 +230,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11248899",
@@ -255,7 +255,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -280,7 +280,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -305,8 +305,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11245780",
@@ -330,7 +330,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -355,7 +355,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -380,7 +380,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -405,7 +405,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -430,7 +430,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -455,7 +455,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -480,7 +480,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -506,7 +506,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -531,7 +531,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -556,7 +556,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -581,7 +581,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -606,7 +606,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -631,82 +631,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11236514",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11047875",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-20T00:00:00.000",
-      "descripcion": "ORDEN CONTRACTUAL MÍNIMA DE PRESTACIÓN DE SERVICIOS PROFESIONALES EN INGENIERÍA ELECTRÓNICA CON MAESTRÍA EN AUTOMATIZACIÓN INDUSTRIAL, PARA LA CONSTRUCCIÓN Y EJECUCIÓN DE PRUEBAS DE IMPLEMENTACIÓN Y VALIDACIÓN DEL APLICATIVO MÓVIL NATURETUNES PARA LA IDENTIFICACIÓN DE ESPECIES DE AVES A PARTIR DE PAISAJES SONOROS Y VISUALES, Y EN LA INCLUSIÓN DE AGENTES DE INTELIGENCIA ARTIFICIAL PARA LA RECOMENDACIÓN DE PAISAJES SONOROS, COMO SOPORTE AL FOMENTO DEL AVITURISMO EN EL DEPARTAMENTO DE CALDAS, EN EL",
-      "valor": 13000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11090903",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "inteligencia artificial + agentes"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11238201",
-      "fuente": "SECOP II",
-      "entidad": "ALCALDIA LOCAL DE USAQUEN",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11049275",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-20T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS DE APOYO LOGÍSTICO Y OPERATIVO A LA ALCALDÍA LOCAL DE USAQUÉN PARA LA EFICIENTE IMPLEMENTACIÓN DE LOS PROCESOS, ESTRATEGIAS Y ACTIVIDADES RELACIONADOS CON LA SEGURIDAD Y CONVIVENCIA. EL APOYO INCLUIRÁ, PERO NO SE LIMITARÁ A, LA GESTIÓN DE INFORMACIÓN, EL SOPORTE DIRECTO A OPERATIVOS, EL ACOMPAÑAMIENTO TERRITORIAL, EL SEGUIMIENTO A REQUERIMIENTOS CIUDADANOS Y EL APOYO EN LA EJECUCIÓN DE LOS PROYECTOS DEL PLAN DE DESARROLLO LOCAL EN LA MATERIA",
-      "valor": 9000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11093205",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11231793",
-      "fuente": "SECOP II",
-      "entidad": "DEPARTAMENTO ADMINISTRATIVO NACIONAL DE ESTADISTICA (DANE)",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11043184",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-20T00:00:00.000",
-      "descripcion": "2278501526 FORT_DIFUSION_2026_SDIE Prestación de servicios de soporte técnico, mantenimiento y actualización del sistema Agenti Chatbot, con el fin de garantizar el correcto funcionamiento y la continuidad de la asesoría en línea ofrecida a todos los grupos de valor del DANE a través del Agente Virtual DANE, como estrategia institucional para la difusión, acceso y apropiación de la información.",
-      "valor": 42638256,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11094163",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -731,7 +656,82 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11236514",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11047875",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-20T00:00:00.000",
+      "descripcion": "ORDEN CONTRACTUAL MÍNIMA DE PRESTACIÓN DE SERVICIOS PROFESIONALES EN INGENIERÍA ELECTRÓNICA CON MAESTRÍA EN AUTOMATIZACIÓN INDUSTRIAL, PARA LA CONSTRUCCIÓN Y EJECUCIÓN DE PRUEBAS DE IMPLEMENTACIÓN Y VALIDACIÓN DEL APLICATIVO MÓVIL NATURETUNES PARA LA IDENTIFICACIÓN DE ESPECIES DE AVES A PARTIR DE PAISAJES SONOROS Y VISUALES, Y EN LA INCLUSIÓN DE AGENTES DE INTELIGENCIA ARTIFICIAL PARA LA RECOMENDACIÓN DE PAISAJES SONOROS, COMO SOPORTE AL FOMENTO DEL AVITURISMO EN EL DEPARTAMENTO DE CALDAS, EN EL",
+      "valor": 13000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11090903",
+      "matched_groups": [
+        "IA / Agentes"
+      ],
+      "matched_keywords": [
+        "inteligencia artificial + agentes"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-22",
+      "dias_en_radar": 5,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11238201",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA LOCAL DE USAQUEN",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11049275",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-20T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO LOGÍSTICO Y OPERATIVO A LA ALCALDÍA LOCAL DE USAQUÉN PARA LA EFICIENTE IMPLEMENTACIÓN DE LOS PROCESOS, ESTRATEGIAS Y ACTIVIDADES RELACIONADOS CON LA SEGURIDAD Y CONVIVENCIA. EL APOYO INCLUIRÁ, PERO NO SE LIMITARÁ A, LA GESTIÓN DE INFORMACIÓN, EL SOPORTE DIRECTO A OPERATIVOS, EL ACOMPAÑAMIENTO TERRITORIAL, EL SEGUIMIENTO A REQUERIMIENTOS CIUDADANOS Y EL APOYO EN LA EJECUCIÓN DE LOS PROYECTOS DEL PLAN DE DESARROLLO LOCAL EN LA MATERIA",
+      "valor": 9000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11093205",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-24",
+      "dias_en_radar": 3,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11238309",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA LOCAL DE USAQUEN",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11049804",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-20T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO LOGÍSTICO Y OPERATIVO A LA ALCALDÍA LOCAL DE USAQUÉN PARA LA EFICIENTE IMPLEMENTACIÓN DE LOS PROCESOS, ESTRATEGIAS Y ACTIVIDADES RELACIONADOS CON LA SEGURIDAD Y CONVIVENCIA. EL APOYO INCLUIRÁ, PERO NO SE LIMITARÁ A, LA GESTIÓN DE INFORMACIÓN, EL SOPORTE DIRECTO A OPERATIVOS, EL ACOMPAÑAMIENTO TERRITORIAL, EL SEGUIMIENTO A REQUERIMIENTOS CIUDADANOS Y EL APOYO EN LA EJECUCIÓN DE LOS PROYECTOS DEL PLAN DE DESARROLLO LOCAL EN LA MATERIA",
+      "valor": 9000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11094180",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-24",
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -758,32 +758,32 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
-      "id_proceso": "CO1.REQ.11238364",
+      "id_proceso": "CO1.REQ.11231793",
       "fuente": "SECOP II",
-      "entidad": "UNAD",
+      "entidad": "DEPARTAMENTO ADMINISTRATIVO NACIONAL DE ESTADISTICA (DANE)",
       "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11049779",
+      "id_portafolio": "CO1.BDOS.11043184",
       "fecha_cierre": null,
       "lotes": 0,
       "fecha_publicacion": "2026-10-20T00:00:00.000",
-      "descripcion": "EJECUTAR LOS SERVICIOS ESPECIALIZADOS PARA LA CONTINUIDAD DEL DISEÑO, DESARROLLO, OPERACIÓN, MANTENIMIENTO, ACTUALIZACIÓN Y SOPORTE DE LA SOLUCIÓN TECNOLÓGICA DESTINADA A LA GESTIÓN INTEGRAL DE LA INFRAESTRUCTURA FÍSICA DE LA UNAD, INCLUYENDO EL CARGUE, VALIDACIÓN, ESTRUCTURACIÓN, ADMINISTRACIÓN Y CONTROL DE LA INFORMACIÓN INSTITUCIONAL CONTENIDA EN LAS BASES DE DATOS, GARANTIZANDO SU FUNCIONALIDAD, TRAZABILIDAD, DISPONIBILIDAD Y MEJORA CONTINUA, DE CONFORMIDAD CON LOS TÉRMINOS DE REFERENCIA DE",
-      "valor": 565992000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11092717",
+      "descripcion": "2278501526 FORT_DIFUSION_2026_SDIE Prestación de servicios de soporte técnico, mantenimiento y actualización del sistema Agenti Chatbot, con el fin de garantizar el correcto funcionamiento y la continuidad de la asesoría en línea ofrecida a todos los grupos de valor del DANE a través del Agente Virtual DANE, como estrategia institucional para la difusión, acceso y apropiación de la información.",
+      "valor": 42638256,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11094163",
       "matched_groups": [
-        "Analitica / BI"
+        "IA / Agentes"
       ],
       "matched_keywords": [
-        "business intelligence"
+        "chatbot"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -808,7 +808,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -833,7 +833,32 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11238364",
+      "fuente": "SECOP II",
+      "entidad": "UNAD",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11049779",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-20T00:00:00.000",
+      "descripcion": "EJECUTAR LOS SERVICIOS ESPECIALIZADOS PARA LA CONTINUIDAD DEL DISEÑO, DESARROLLO, OPERACIÓN, MANTENIMIENTO, ACTUALIZACIÓN Y SOPORTE DE LA SOLUCIÓN TECNOLÓGICA DESTINADA A LA GESTIÓN INTEGRAL DE LA INFRAESTRUCTURA FÍSICA DE LA UNAD, INCLUYENDO EL CARGUE, VALIDACIÓN, ESTRUCTURACIÓN, ADMINISTRACIÓN Y CONTROL DE LA INFORMACIÓN INSTITUCIONAL CONTENIDA EN LAS BASES DE DATOS, GARANTIZANDO SU FUNCIONALIDAD, TRAZABILIDAD, DISPONIBILIDAD Y MEJORA CONTINUA, DE CONFORMIDAD CON LOS TÉRMINOS DE REFERENCIA DE",
+      "valor": 565992000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11092717",
+      "matched_groups": [
+        "Analitica / BI"
+      ],
+      "matched_keywords": [
+        "business intelligence"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-24",
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -858,7 +883,7 @@
       ],
       "destacado": true,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -885,7 +910,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-21",
-      "dias_en_radar": 5,
+      "dias_en_radar": 6,
       "es_nuevo": false
     },
     {
@@ -910,7 +935,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -935,7 +960,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -960,7 +985,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -985,7 +1010,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -1010,7 +1035,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -1035,7 +1060,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-21",
-      "dias_en_radar": 5,
+      "dias_en_radar": 6,
       "es_nuevo": false
     },
     {
@@ -1060,7 +1085,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-20",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -1085,7 +1110,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1110,7 +1135,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-19",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1135,7 +1160,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-19",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1160,7 +1185,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-19",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1185,7 +1210,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1210,7 +1235,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1235,7 +1260,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1260,7 +1285,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1285,7 +1310,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1310,7 +1335,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1335,7 +1360,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1360,7 +1385,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1385,7 +1410,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1410,7 +1435,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1435,7 +1460,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1460,7 +1485,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1485,7 +1510,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1510,7 +1535,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1535,7 +1560,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1560,7 +1585,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1585,7 +1610,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1610,7 +1635,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1635,7 +1660,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1660,7 +1685,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1685,7 +1710,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1710,7 +1735,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1735,7 +1760,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1760,7 +1785,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1786,7 +1811,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1811,7 +1836,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1836,7 +1861,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1861,7 +1886,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1886,7 +1911,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1911,7 +1936,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1936,7 +1961,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1961,7 +1986,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1987,7 +2012,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2012,7 +2037,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2039,7 +2064,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2064,7 +2089,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     }
   ],
@@ -2087,7 +2112,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -2108,7 +2133,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -2129,7 +2154,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -2150,7 +2175,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-21",
-      "dias_en_radar": 5,
+      "dias_en_radar": 6,
       "es_nuevo": false
     },
     {
@@ -2172,7 +2197,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-17",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -2193,7 +2218,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -2214,8 +2239,8 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11160883",
@@ -2235,7 +2260,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-14",
-      "dias_en_radar": 12,
+      "dias_en_radar": 13,
       "es_nuevo": false
     },
     {
@@ -2256,7 +2281,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2277,7 +2302,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2298,7 +2323,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2319,8 +2344,8 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11235339",
@@ -2340,7 +2365,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -2361,7 +2386,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-16",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2382,7 +2407,7 @@
         "transformacion digital"
       ],
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     }
   ],
@@ -2768,7 +2793,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11160883": {
@@ -2791,7 +2816,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11186074": {
@@ -2819,7 +2844,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11196743": {
@@ -2849,7 +2874,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11197351": {
@@ -2861,7 +2886,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11197649": {
@@ -2882,7 +2907,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11197666": {
@@ -2903,7 +2928,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11197711": {
@@ -2915,7 +2940,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11198158": {
@@ -2927,7 +2952,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11198182": {
@@ -2948,7 +2973,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11198744": {
@@ -2960,7 +2985,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11199970": {
@@ -2981,7 +3006,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11200089": {
@@ -3002,7 +3027,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11201774": {
@@ -3014,7 +3039,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11202942": {
@@ -3026,7 +3051,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11203665": {
@@ -3038,19 +3063,19 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11204306": {
       "id_proceso": "CO1.REQ.11204306",
-      "revisado_en": "2026-10-25",
-      "documentos_en_el_proceso": 17,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 18,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11204489": {
@@ -3062,7 +3087,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11205846": {
@@ -3094,7 +3119,7 @@
       "smmlv": [
         "200"
       ],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11207990": {
@@ -3117,7 +3142,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11209859": {
@@ -3140,7 +3165,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11209945": {
@@ -3163,7 +3188,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11209951": {
@@ -3186,7 +3211,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11210968": {
@@ -3211,7 +3236,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11211031": {
@@ -3234,7 +3259,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11211632": {
@@ -3249,7 +3274,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11211696": {
@@ -3277,7 +3302,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11212414": {
@@ -3289,79 +3314,79 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11213174": {
       "id_proceso": "CO1.REQ.11213174",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 9,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 14,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11213405": {
       "id_proceso": "CO1.REQ.11213405",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 9,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 15,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11213563": {
       "id_proceso": "CO1.REQ.11213563",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 9,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 13,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11213642": {
       "id_proceso": "CO1.REQ.11213642",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 9,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 14,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11213829": {
       "id_proceso": "CO1.REQ.11213829",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 9,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 14,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11214303": {
       "id_proceso": "CO1.REQ.11214303",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 9,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 14,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11214510": {
@@ -3373,19 +3398,19 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11214718": {
       "id_proceso": "CO1.REQ.11214718",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 9,
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 14,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11214893": {
@@ -3397,7 +3422,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11214969": {
@@ -3412,7 +3437,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11214978": {
@@ -3435,7 +3460,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11215351": {
@@ -3458,7 +3483,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11215410": {
@@ -3484,7 +3509,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11216420": {
@@ -3505,7 +3530,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11216779": {
@@ -3520,7 +3545,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11216846": {
@@ -3546,7 +3571,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11216942": {
@@ -3558,7 +3583,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11216958": {
@@ -3570,7 +3595,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11217521": {
@@ -3582,7 +3607,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11218815": {
@@ -3594,7 +3619,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11219312": {
@@ -3606,7 +3631,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11220240": {
@@ -3636,7 +3661,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11220255": {
@@ -3651,7 +3676,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11220524": {
@@ -3682,7 +3707,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11222829": {
@@ -3694,7 +3719,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11224406": {
@@ -3706,7 +3731,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11226244": {
@@ -3718,7 +3743,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11226766": {
@@ -3730,7 +3755,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11228831": {
@@ -3745,7 +3770,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11228946": {
@@ -3757,7 +3782,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11230981": {
@@ -3772,7 +3797,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11231626": {
@@ -3784,7 +3809,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11231793": {
@@ -3807,7 +3832,7 @@
       "smmlv": [
         "200"
       ],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11232505": {
@@ -3819,7 +3844,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11233076": {
@@ -3831,7 +3856,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11233134": {
@@ -3843,7 +3868,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11234029": {
@@ -3855,7 +3880,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11234095": {
@@ -3867,7 +3892,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11234583": {
@@ -3879,7 +3904,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11235339": {
@@ -3909,7 +3934,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11235927": {
@@ -3921,7 +3946,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11236262": {
@@ -3933,7 +3958,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11236342": {
@@ -3945,7 +3970,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11236495": {
@@ -3974,7 +3999,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11236514": {
@@ -3986,7 +4011,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11238051": {
@@ -3998,7 +4023,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11238201": {
@@ -4010,7 +4035,19 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
+      "recortado": false
+    },
+    "CO1.REQ.11238309": {
+      "id_proceso": "CO1.REQ.11238309",
+      "revisado_en": "2026-10-26",
+      "documentos_en_el_proceso": 3,
+      "estado_analisis": "sin_documentos_de_requisitos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11238364": {
@@ -4022,7 +4059,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11241672": {
@@ -4034,7 +4071,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11241676": {
@@ -4046,7 +4083,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11242591": {
@@ -4058,7 +4095,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11244375": {
@@ -4070,7 +4107,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11244732": {
@@ -4091,7 +4128,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11245691": {
@@ -4103,7 +4140,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11245780": {
@@ -4115,7 +4152,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11246329": {
@@ -4141,7 +4178,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11246413": {
@@ -4153,7 +4190,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11247010": {
@@ -4165,7 +4202,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11248899": {
@@ -4193,7 +4230,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11250065": {
@@ -4214,7 +4251,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": true
     },
     "CO1.REQ.11250179": {
@@ -4226,7 +4263,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11251435": {
@@ -4238,7 +4275,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11253173": {
@@ -4250,7 +4287,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11253847": {
@@ -4262,7 +4299,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11253891": {
@@ -4274,7 +4311,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11254725": {
@@ -4286,7 +4323,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11254986": {
@@ -4307,7 +4344,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11255006": {
@@ -4319,7 +4356,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     },
     "CO1.REQ.11257246": {
@@ -4331,7 +4368,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-25",
+      "ultima_vez_en_radar": "2026-10-26",
       "recortado": false
     }
   }
