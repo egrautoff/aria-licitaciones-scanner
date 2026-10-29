@@ -1,11 +1,34 @@
 {
   "id_proceso": "CO1.REQ.11253847",
-  "revisado_en": "2026-10-25",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
-  "texto": "",
-  "unspsc_exigidos": [],
-  "smmlv": [],
-  "ultima_vez_en_radar": "2026-10-28"
+  "entidad": "ALCALDÍA DE CHINACOTA",
+  "revisado_en": "2026-10-29",
+  "documentos_en_el_proceso": 7,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "6. PROYECTO DE PLIEGO DE CONDICIONES SAMC-SHA-008-2026.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=878079508&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "2. ESTUDIOS PREVIOS SAMC-SHA-008-2026.pdfF.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=878079514&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "B. En el caso de proponentes plurales, los requisitos habilitantes serán acreditados por cada\n uno de los integrantes de la figura asociativa de acuerdo con las reglas del pliego de\n condiciones.\n C. Todos los proponentes deben diligenciar el Formato 3 – Experiencia y los proponentes\n extranjeros sin domicilio o sin sucursal en Colombia deben diligenciar adicionalmente el\n Formato 4 – Capacidad financiera y organizacional para extranjeros y adjuntar los soportes\n que ahí se definen.\n D. Los proponentes obligados a estar inscritos en el Registro Único de Proponentes (RUP),\n deben aportar certificado con fecha de expedición no mayor a treinta (30) días calendario\n anteriores a la fecha de cierre del proceso de contratación. En caso de modificarse la fecha\n de cierre del proceso, se tendrá como referencia para establecer el plazo de vigencia del\n certificado la fecha originalmente establecida en el pliego de condiciones definitivo.",
+  "unspsc_exigidos": [
+    "81112002",
+    "81112106"
+  ],
+  "minimo_codigos": null,
+  "max_contratos": 2,
+  "smmlv": [
+    "120.000",
+    "280",
+    "28",
+    "34,77",
+    "26,08"
+  ],
+  "ultima_vez_en_radar": "2026-10-29"
 }
