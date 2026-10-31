@@ -1,13 +1,90 @@
 {
-  "generated_at": "2026-10-30T11:27:12.671Z",
-  "dia": "2026-10-30",
+  "generated_at": "2026-10-31T10:58:11.254Z",
+  "dia": "2026-10-31",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2287,
-  "total_matched": 53,
+  "total_scanned": 2265,
+  "total_matched": 55,
   "total_destacados": 1,
-  "total_nuevos": 4,
+  "total_nuevos": 8,
   "items": [
+    {
+      "id_proceso": "CO1.REQ.11284310",
+      "fuente": "SECOP II",
+      "entidad": "ESE HOSPITAL SALAZAR DE VILLETA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11094676",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-29T00:00:00.000",
+      "descripcion": "CONTRATAR LOS SERVICIOS PROFESIONALES PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN Y PUESTA EN FUNCIONAMIENTO DE UNA SOLUCIÓN TECNOLÓGICA DE AUTOMATIZACIÓN MEDIANTE AGENTES DE INTELIGENCIA ARTIFICIAL PARA APOYAR LA REVISIÓN DE CUENTAS PREVIA A LA FACTURACIÓN, LA ORGANIZACIÓN DE SOPORTES Y LA RADICACIÓN DE FACTURAS ANTE LAS ENTIDADES RESPONSABLES DEL PAGO DE LA E.S.E. HOSPITAL SALAZAR DE VILLETA, INCLUYENDO TABLERO DE TRAZABILIDAD, PRUEBAS, CAPACITACIÓN, DOCUMENTACIÓN Y SOPORTE INICIAL.",
+      "valor": 36000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/STS/Users/Login/Index",
+      "matched_groups": [
+        "Desarrollo / Fabrica",
+        "IA / Agentes"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte",
+        "inteligencia artificial + agentes"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11287076",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11097986",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-29T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES COMO PUBLICISTA PARA SER LIDER DE LA MESA DE AYUDA EN EL MARCO DEL PROYECTO CONVENIO INTERADMINISTRATIVO NO. ATENEA 1582023 SUSCRITO ENTRE LA AGENCIA DISTRITAL PARA LA EDUCACIÓN SUPERIOR, LA CIENCIA Y LA TECNOLOGÍA-ATENEA Y LA UNIVERSIDAD NACIONAL DE COLOMBIA- SEDE BOGOTÁ.",
+      "valor": 30000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/STS/Users/Login/Index",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11288347",
+      "fuente": "SECOP II",
+      "entidad": "METRO DE BOGOTA SA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11099031",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-29T00:00:00.000",
+      "descripcion": "Prestación de servicios profesionales para apoyar a la Oficina de Tecnologías en la prestación de servicios tecnológicos y la atención de necesidades de los usuarios de la mesa de ayuda, así como en la ejecución de los planes de TI.",
+      "valor": 108959760,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/STS/Users/Login/Index",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
     {
       "id_proceso": "CO1.REQ.11279711",
       "fuente": "SECOP II",
@@ -30,8 +107,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11275620",
@@ -55,6 +132,132 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
+      "dias_en_radar": 2,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11284825",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE TUNJA/",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11095422",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-28T00:00:00.000",
+      "descripcion": "GCP-53 PRESTACIÓN DE SERVICIOS PROFESIONALES COMO WEBMASTER DE LA SEDE ELECTRÓNICA DE LA ALCALDÍA MAYOR DE TUNJA, PARA LA ACTUALIZACIÓN, ADMINISTRACIÓN, REPORTE Y PUBLICACIÓN DE LA INFORMACIÓN DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA Y OTROS SITIOS INSTITUCIONALES.",
+      "valor": 7644000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11138043",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "webmaster",
+        "sede electronica"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11283951",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA LOCAL DE USAQUEN",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11094578",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-28T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS DE APOYO LOGÍSTICO Y OPERATIVO A LA ALCALDÍA LOCAL DE USAQUÉN PARA LA EFICIENTE IMPLEMENTACIÓN DE LOS\nPROCESOS, ESTRATEGIAS Y ACTIVIDADES RELACIONADOS CON LA SEGURIDAD Y CONVIVENCIA. EL APOYO INCLUIRÁ, PERO NO SE LIMITARÁ A,\nLA GESTIÓN DE INFORMACIÓN, EL SOPORTE DIRECTO A OPERATIVOS, EL ACOMPAÑAMIENTO TERRITORIAL, EL SEGUIMIENTO A\nREQUERIMIENTOS CIUDADANOS Y EL APOYO EN LA EJECUCIÓN DE LOS PROYECTOS DEL PLAN DE DESARROLLO LOCAL EN LA MATERIA.",
+      "valor": 7800000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11138717",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11285725",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11096328",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-28T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES COMO INGENIERO INDUSTRIAL PARA REALIZAR LA REVISIÓN FINANCIERA Y ELABORACIÓN DE LOS ESTADOS FINANCIEROS DE LOS CONTRATOS DE CONECTIVIDAD, DATACENTER, VIDEOCONFERENCIAS, CORREO ELECTRÓNICO Y MESA DE AYUDA DEL CONTRATO 223 DE 2018 EN LA ETAPA DE LIQUIDACIÓN DEL PROYECTO.",
+      "valor": 7500000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11139403",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11284523",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11095306",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-28T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES COMO ADMINISTRADORA DE EMPRESAS PARA EJERCER COMO PROJECT MANAGER AL SEGUIMIENTO DEL CONTRATO BASE DE MESA DE AYUDA, MOTIVO DEL  CONTRATO INTERADMINISTRATIVO DEI NTERVENTORÍANO. 320 DE 2022, DURANTE LA ETAPA DE  EJECUCIÓN Y LIQUIDACIÓN DEL PROYECTO.",
+      "valor": 80000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11137940",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11286721",
+      "fuente": "SECOP II",
+      "entidad": "ALCALDIA DE PASTO",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11031886",
+      "fecha_cierre": "2026-11-04T00:00:00.000",
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-28T00:00:00.000",
+      "descripcion": "El contratista se compromete para con el Municipio de Pasto- Secretaría de Tránsito y Transporte, al  SUMINISTRO DE SOFTWARE ESPECIALIZADO, LICENCIAS, Y DEMÁS ELEMENTOS TECNOLÓGICOS PARA LA CONFIGURACIÓN, PROGRAMACIÓN, DIAGNÓSTICO, GESTIÓN Y ADMINISTRACIÓN DEL SISTEMA DE CONTROL SEMAFÓRICO DEL MUNICIPIO DE SAN JUAN DE PASTO, QUE CUMPLAN CON LAS CARACTERÍSTICAS TÉCNICAS DE COMPATIBILIDAD, INTEROPERABILIDAD Y COMUNICACIÓN REQUERIDAS PARA SU OPERACIÓN CON LA INFRAESTRUCTURA SEMAFÓRICA EXISTENTE, IN",
+      "valor": 1475213964,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11140059",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-31",
       "dias_en_radar": 1,
       "es_nuevo": true
     },
@@ -80,7 +283,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -94,7 +297,7 @@
       "fecha_publicacion": "2026-10-27T00:00:00.000",
       "descripcion": "Contratar la prestación de servicios tecnológicos bajo la modalidad Software as a Service (SaaS) para la transición, implementación, operación, soporte, estabilización y evolución de Chatico como agente de inteligencia artificial generativa multicanal y su plataforma de gestión y gobierno, garantizando la continuidad del servicio, la seguridad de la información, la trazabilidad, la interoperabilidad, la portabilidad de los activos institucionales, la protección de datos y el cumplimiento de la",
       "valor": 1106100507,
-      "estado": "Publicado",
+      "estado": "Seleccionado",
       "modalidad": "Contratación Directa (con ofertas)",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11132331",
       "matched_groups": [
@@ -105,7 +308,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -130,8 +333,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11279123",
@@ -155,8 +358,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11266566",
@@ -180,7 +383,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -205,7 +408,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -230,7 +433,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -255,7 +458,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -269,7 +472,7 @@
       "fecha_publicacion": "2026-10-26T00:00:00.000",
       "descripcion": "SERVICIO DE DIAGNÓSTICO, PLANEACIÓN, CONFIGURACIÓN E IMPLEMENTACIÓN DE LA MIGRACIÓN AL PROTOCOLO IPV6-ONLY, INCLUYENDO INVENTARIO Y EVALUACIÓN DE COMPATIBILIDAD DE LA INFRAESTRUCTURA TECNOLÓGICA, PLAN DE DIRECCIONAMIENTO IPV6, CONFIGURACIÓN Y PRUEBAS FUNCIONALES, DOCUMENTACIÓN TÉCNICA, CAPACITACIÓN AL PERSONAL DE TI, LINEAMIENTOS DE SEGURIDAD, PLAN DE CONTINGENCIA Y ALQUILER SUMINISTRO DE POOL IPV6 /56, GARANTIZANDO LA INTEROPERABILIDAD CON IPV4 Y EL CUMPLIMIENTO DE LINEAMIENTOS MINTIC",
       "valor": 48552000,
-      "estado": "Publicado",
+      "estado": "Abierto",
       "modalidad": "Mínima cuantía",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120166",
       "matched_groups": [
@@ -280,7 +483,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -305,7 +508,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -330,7 +533,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-27",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -355,7 +558,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-27",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -380,7 +583,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -405,7 +608,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -430,7 +633,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -455,7 +658,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -480,7 +683,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -505,7 +708,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -530,7 +733,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -555,7 +758,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -580,7 +783,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -605,7 +808,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -630,7 +833,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -655,33 +858,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11244732",
-      "fuente": "SECOP II",
-      "entidad": "SUPERINTENDENCIA DE NOTARIADO Y REGISTRO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11056205",
-      "fecha_cierre": "2026-10-28T00:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-21T00:00:00.000",
-      "descripcion": "Contratar con enfoque de catastro multipropósito los servicios para desarrollar e implementar un modelo que  permita la transferencia de información registral que cumpla con el estándar del modelo extendido CatastroRegistro LADM_COL versión 4.1 para realizar los procesos de interoperabilidad y hacer la disposición de  datos maestros SNR al RDM y SAT",
-      "valor": 0,
-      "estado": "Publicado",
-      "modalidad": "Solicitud de información a los Proveedores",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11099034",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad",
-        "datos maestros"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -706,7 +883,33 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11244732",
+      "fuente": "SECOP II",
+      "entidad": "SUPERINTENDENCIA DE NOTARIADO Y REGISTRO",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11056205",
+      "fecha_cierre": "2026-10-30T00:00:00.000",
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-21T00:00:00.000",
+      "descripcion": "Contratar con enfoque de catastro multipropósito los servicios para desarrollar e implementar un modelo que  permita la transferencia de información registral que cumpla con el estándar del modelo extendido CatastroRegistro LADM_COL versión 4.1 para realizar los procesos de interoperabilidad y hacer la disposición de  datos maestros SNR al RDM y SAT",
+      "valor": 0,
+      "estado": "Publicado",
+      "modalidad": "Solicitud de información a los Proveedores",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11099034",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad",
+        "datos maestros"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-24",
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -731,7 +934,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -756,7 +959,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -781,7 +984,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -806,7 +1009,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -831,7 +1034,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -856,7 +1059,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -881,7 +1084,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -908,7 +1111,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -933,7 +1136,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -958,7 +1161,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -983,7 +1186,7 @@
       ],
       "destacado": true,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1010,7 +1213,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-21",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1035,57 +1238,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11233134",
-      "fuente": "SECOP II",
-      "entidad": "Superintendencia de Transporte**",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11044654",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-19T00:00:00.000",
-      "descripcion": "Prestar servicios de apoyo a la gestión en la Oficina de Tecnologías de la Información y las Comunicaciones (OTIC), para apoyar la operación de la mesa de ayuda institucional, la atención y seguimiento de solicitudes de soporte tecnológico, la gestión de usuarios y accesos, el control y seguimiento de certificados digitales, la verificación del funcionamiento de los servicios tecnológicos y el apoyo en la atención de incidencias sobre aplicativos y plataformas institucionales, contribuyendo a la",
-      "valor": 7191323,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11087388",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11231626",
-      "fuente": "SECOP II",
-      "entidad": "Superintendencia de Transporte**",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11042776",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-19T00:00:00.000",
-      "descripcion": "Prestar servicios de apoyo a la gestión en la Oficina de Tecnologías de la Información y las Comunicaciones (OTIC), apoyando las actividades de soporte técnico, atención de usuarios, gestión de incidentes y requerimientos, seguimiento de casos escalados, verificación del funcionamiento de aplicativos y plataformas tecnológicas institucionales, y demás actividades asociadas a la operación de la mesa de ayuda, contribuyendo al adecuado funcionamiento y continuidad de los servicios tecnológicos",
-      "valor": 8211502,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11086017",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1110,7 +1263,57 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11231626",
+      "fuente": "SECOP II",
+      "entidad": "Superintendencia de Transporte**",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11042776",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-19T00:00:00.000",
+      "descripcion": "Prestar servicios de apoyo a la gestión en la Oficina de Tecnologías de la Información y las Comunicaciones (OTIC), apoyando las actividades de soporte técnico, atención de usuarios, gestión de incidentes y requerimientos, seguimiento de casos escalados, verificación del funcionamiento de aplicativos y plataformas tecnológicas institucionales, y demás actividades asociadas a la operación de la mesa de ayuda, contribuyendo al adecuado funcionamiento y continuidad de los servicios tecnológicos",
+      "valor": 8211502,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11086017",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-22",
+      "dias_en_radar": 10,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11233134",
+      "fuente": "SECOP II",
+      "entidad": "Superintendencia de Transporte**",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11044654",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-19T00:00:00.000",
+      "descripcion": "Prestar servicios de apoyo a la gestión en la Oficina de Tecnologías de la Información y las Comunicaciones (OTIC), para apoyar la operación de la mesa de ayuda institucional, la atención y seguimiento de solicitudes de soporte tecnológico, la gestión de usuarios y accesos, el control y seguimiento de certificados digitales, la verificación del funcionamiento de los servicios tecnológicos y el apoyo en la atención de incidencias sobre aplicativos y plataformas institucionales, contribuyendo a la",
+      "valor": 7191323,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11087388",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-10-22",
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1135,7 +1338,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1160,7 +1363,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-21",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1185,156 +1388,6 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-20",
-      "dias_en_radar": 11,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11220255",
-      "fuente": "SECOP II",
-      "entidad": "E S E HOSPITAL LOCAL JORGE CRISTO SAHIUM VILLA DEL ROSARIO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11032075",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-16T00:00:00.000",
-      "descripcion": "CONTRATAR EL SOFTWARE COMO SERVICIO (SAAS) DEL APLICATIVO DKD-CHATBOT PARA LA GESTIÓN DE CITAS E INTEGRACIÓN CON EL SOFTWARE KUBAPP PARA LA ESE HOSPITAL JORGE CRISTO SAHIUM DE VILLA DEL ROSARIO",
-      "valor": 12840000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11074432",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-19",
-      "dias_en_radar": 12,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11220240",
-      "fuente": "SECOP II",
-      "entidad": "ARCHIVO GENERAL DE LA NACION",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11031855",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-16T00:00:00.000",
-      "descripcion": "Renovar el soporte, mantenimiento y actualizaciones de la licencia SOLUCIÓN CHAT ASESORES AVANTI IT, sistema de chatbot para canales web y redes sociales para el Archivo General de la Nación.",
-      "valor": 27500000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11074268",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "chatbot"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11219312",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD DISTRITAL FRANCISCO JOSE DE CALDAS",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11030689",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-16T00:00:00.000",
-      "descripcion": "Prestar servicios profesionales de manera autonoma, independiente y coordinada para apoyar, de manera articulada la Oficina de Investigaciones y la Red de Investigaciones de Tecnologia Avanzada - RITA en el levantamiento y estructuracion de la arquitectura de datos del Portal de Servicios de Investigaciones de la Universidad Distrital Francisco Jose de Caldas, el diagnostico de interoperabilidad de la plataforma SICIUD y la estructuracion de la proyeccion tecnica y financiera preliminar requerid",
-      "valor": 13734067,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11073428",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11220524",
-      "fuente": "SECOP II",
-      "entidad": "ALCALDIA DE PASTO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11031886",
-      "fecha_cierre": "2026-11-03T00:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-16T00:00:00.000",
-      "descripcion": "El contratista se compromete para con el Municipio de Pasto- Secretaría de Tránsito y Transporte, al  SUMINISTRO DE SOFTWARE ESPECIALIZADO, LICENCIAS, Y DEMÁS ELEMENTOS TECNOLÓGICOS PARA LA CONFIGURACIÓN, PROGRAMACIÓN, DIAGNÓSTICO, GESTIÓN Y ADMINISTRACIÓN DEL SISTEMA DE CONTROL SEMAFÓRICO DEL MUNICIPIO DE SAN JUAN DE PASTO, QUE CUMPLAN CON LAS CARACTERÍSTICAS TÉCNICAS DE COMPATIBILIDAD, INTEROPERABILIDAD Y COMUNICACIÓN REQUERIDAS PARA SU OPERACIÓN CON LA INFRAESTRUCTURA SEMAFÓRICA EXISTENTE, IN",
-      "valor": 1475213964,
-      "estado": "Publicado",
-      "modalidad": "Selección abreviada subasta inversa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11077931",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-19",
-      "dias_en_radar": 12,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11216846",
-      "fuente": "SECOP II",
-      "entidad": "SUPERINTENDENCIA DE NOTARIADO Y REGISTRO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11028802",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-16T00:00:00.000",
-      "descripcion": "El CONTRATISTA deberá prestar por sus propios medios y con plena autonomía técnica y administrativa,\ndentro del plazo acordado, los servicios y/o actividades enunciadas a lo largo del presente contrato. Como \ncontraprestación recibirá por parte del CONTRATANTE unas sumas de dinero, a título de honorarios.\nPERFIL: Profesional Especializado E\nDEPENDENCIA: Superintendencia Delegada para la Protección, Restitución y Formalización de Tierras -\nGrupo interno de trabajo de Interoperabilidad Registro Ca",
-      "valor": 24802575,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11073078",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11224406",
-      "fuente": "SECOP II",
-      "entidad": "SUPERINTENDENCIA DE NOTARIADO Y REGISTRO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11035812",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-16T00:00:00.000",
-      "descripcion": "El CONTRATISTA deberá prestar por sus propios medios y con plena autonomía técnica y administrativa,\ndentro del plazo acordado, los servicios y/o actividades enunciadas a lo largo del presente contrato. Como \ncontraprestación recibirá por parte del CONTRATANTE unas sumas de dinero, a título de honorarios.\nPERFIL: Profesional Universitario A\nDEPENDENCIA: Superintendencia Delegada para la Protección, Restitución y Formalización de Tierras -\nGrupo interno de trabajo de Interoperabilidad Registro Ca",
-      "valor": 9664350,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11078604",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-10-19",
       "dias_en_radar": 12,
       "es_nuevo": false
     }
@@ -1358,7 +1411,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-27",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -1379,29 +1432,29 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-27",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
-      "id_proceso": "CO1.REQ.11218815",
+      "id_proceso": "CO1.REQ.11285367",
       "fuente": "SECOP II",
-      "entidad": "Universidad de Cartagena",
+      "entidad": "EMPRESA PARA LA SEGURIDAD Y SOLUCIONES URBANAS - COMPRADOR",
       "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11030353",
+      "id_portafolio": "CO1.BDOS.11096139",
       "fecha_cierre": null,
       "lotes": 0,
-      "fecha_publicacion": "2026-10-16T00:00:00.000",
-      "descripcion": "Prestacion de servicios especializados para el desarrollo, implementacion, puesta en operacion y transferencia de los sistemas de informacion para las sistematizacion y gestion documental requeridos en el marco de la ejecucion del contrato interadministrativo N° 1091 de 2026 suscrito entre EL FONDO UNICO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES Y LA UNIVERSIDAD DE CARTAGENA, cuyo objeto es: #Prestar servicios de asistencia tecnica especializada para implementar las acciones de CONPE",
-      "valor": 1000000000,
+      "fecha_publicacion": "2026-10-28T00:00:00.000",
+      "descripcion": "Desarrollar, integrar, implementar y evolucionar la plataforma tecnológica DATOS 360 de la Empresa para la Seguridad y soluciones. Urbanas ESU, mediante la incorporación de módulos, componentes, integraciones y funcionalidades que soporten los procesos institucionales y la implementación de la Estrategia de Gobierno de Datos de la Entidad",
+      "valor": 940338000,
       "estado": "Publicado",
       "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11072757",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11138847",
       "matched_broad_keywords": [
-        "gestion documental"
+        "gobierno de datos"
       ],
-      "primera_vez_visto": "2026-10-18",
-      "dias_en_radar": 13,
-      "es_nuevo": false
+      "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 1,
+      "es_nuevo": true
     },
     {
       "id_proceso": "CO1.REQ.11271065",
@@ -1421,7 +1474,7 @@
         "arquitectura empresarial"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -1442,6 +1495,27 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-30",
+      "dias_en_radar": 2,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11284818",
+      "fuente": "SECOP II",
+      "entidad": "JUNTA REGIONAL DE CALIFICACION DE INVALIDEZ DEL ATLANTICO.",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11095228",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-28T00:00:00.000",
+      "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES PARA IMPLEMENTACION DEL PROGRAMA DE GESTION DOCUMENTAL INVENTARIOS Y DIGITALIZACION DE LOS EXPEDIENTES CLINICOS PERIODO 2026 UBICADOS EN EL ARCHIVO DE GESTION DE LA JUNTA REGIONAL DE CALIFICACION DE INVALIDEZ DEL ATLANTICO",
+      "valor": 90000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11137861",
+      "matched_broad_keywords": [
+        "gestion documental"
+      ],
+      "primera_vez_visto": "2026-10-31",
       "dias_en_radar": 1,
       "es_nuevo": true
     },
@@ -1463,7 +1537,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1484,7 +1558,7 @@
         "arquitectura empresarial"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -1505,7 +1579,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-21",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1526,7 +1600,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-24",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1547,7 +1621,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -1568,8 +1642,8 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11267643",
@@ -1589,7 +1663,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -1610,7 +1684,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-25",
-      "dias_en_radar": 6,
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -1631,7 +1705,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1652,7 +1726,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -1668,13 +1742,13 @@
       "valor": 30752260,
       "estado": "Seleccionado",
       "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/STS/Users/Login/Index",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11135563",
       "matched_broad_keywords": [
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11273252",
@@ -1695,7 +1769,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -1716,7 +1790,7 @@
         "transformacion digital"
       ],
       "primera_vez_visto": "2026-10-22",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     }
   ],
@@ -2102,7 +2176,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11209859": {
@@ -2125,7 +2199,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11209945": {
@@ -2148,7 +2222,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11209951": {
@@ -2171,7 +2245,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11216779": {
@@ -2186,134 +2260,8 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
-    },
-    "CO1.REQ.11216846": {
-      "id_proceso": "CO1.REQ.11216846",
-      "entidad": "SUPERINTENDENCIA DE NOTARIADO Y REGISTRO",
-      "revisado_en": "2026-10-25",
-      "documentos_en_el_proceso": 16,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "ESTUDIO PREVIO + CDP + I. + O.I..pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=874755923&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "Por lo anteriormente expuesto, es necesario contratar un (01) profesional que cumpla con la idoneidad,\nexperiencia y requisitos establecidos en el presente estudio previo, teniendo en cuenta que de acuerdo con\nla certificación expedida por el/la director/a de Talento Humano de LA SUPERINTENDENCIA en la\nactualidad la planta global de personal de la Entidad no cuenta con el personal suficiente para encargarse\nde la totalidad de las actividades que implica este objeto, por lo cual se hace necesario la contratación del\nperfil requerido en el estudio previo que garantice la consecución del objetivo definido.\n\nEn general, los servicios de Asistencia de Oficina o Administrativa Temporal (80111601) se prestan de\nmanera individual, por personas naturales o a través de personas jurídicas cuyo objeto social comprenda\neste tipo de servicios. De forma ordinaria, las personas jurídicas que prestan estos servicios cuentan con un\nportafolio diversificado que incluye profesionales en diferentes áreas. De otra parte, los profesionales\npersonas naturales, cuentan con experiencia en diferentes temas y áreas, de forma tal que su oferta de\nservicios tiene mercados específicos, generalmente asociados a aspectos puntuales, que no demandan una\norganización compleja para su prestación, sino que, por el contrario, son prestados de forma completa por el\nprofesional.\n\nEl acompañamiento técnico oportuno y de calidad en esta materia, exige del personal un tipo de cualificación\nespecífica, así como experiencia directamente relacionada que le ofrezca certeza a la Entidad con base en\nsus habilidades y conocimientos. De acuerdo con lo anterior y teniendo en cuenta la trascendencia de las\n Superintendencia de Notariado y Registro\n Calle 26 No. 13 - 49 Int. 201 Página 20 de 30\n PBX: (601) 5140313\n Bogotá D\n\n[...]",
-      "unspsc_exigidos": [
-        "80000000",
-        "80110000",
-        "80111600",
-        "80111601"
-      ],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
-      "recortado": true
-    },
-    "CO1.REQ.11218815": {
-      "id_proceso": "CO1.REQ.11218815",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 4,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
-      "recortado": false
-    },
-    "CO1.REQ.11219312": {
-      "id_proceso": "CO1.REQ.11219312",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 6,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
-      "recortado": false
-    },
-    "CO1.REQ.11220240": {
-      "id_proceso": "CO1.REQ.11220240",
-      "entidad": "ARCHIVO GENERAL DE LA NACION",
-      "revisado_en": "2026-10-21",
-      "documentos_en_el_proceso": 15,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "ESTUDIO PREVIO CONTRATACIÓNDIRECTA.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=874885869&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "Este nivel de automatización representa un ahorro significativo en carga\noperativa para el equipo Grupo de Atención y Servicio al Ciudadano - GSC,\npermitiendo que los agentes concentren su atención en los casos de mayor\ncomplejidad (15% restante). La tasa de resolución promedio del canal alcanzó\nel 93%, con picos de eficiencia del 99,5% registrados en marzo de 2026. Este\ncomportamiento demuestra una apropiación progresiva del canal por parte de la\nciudadanía y valida la pertinencia de la inversión en la herramienta, así como\ntambién se evidencia en los Indicadores claves de desempeño (KPIs):",
-      "unspsc_exigidos": [
-        "81000000",
-        "81110000",
-        "81112200",
-        "43000000",
-        "43231500",
-        "43231511",
-        "43230000",
-        "43231513"
-      ],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
-      "recortado": false
-    },
-    "CO1.REQ.11220255": {
-      "id_proceso": "CO1.REQ.11220255",
-      "entidad": "E S E HOSPITAL LOCAL JORGE CRISTO SAHIUM VILLA DEL ROSARIO",
-      "revisado_en": "2026-10-22",
-      "documentos_en_el_proceso": 10,
-      "estado_analisis": "documentos_escaneados",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
-      "recortado": false
-    },
-    "CO1.REQ.11220524": {
-      "id_proceso": "CO1.REQ.11220524",
-      "entidad": "ALCALDIA DE PASTO",
-      "revisado_en": "2026-10-22",
-      "documentos_en_el_proceso": 8,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "2. PROYECTO PLIEGO SUBASTA SU-2026-37software.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=875179139&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        },
-        {
-          "nombre": "3.Anexo técnico actualización sistema semafórico 2026 Rev.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=875179140&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "• ANEXO No. 1. CARTA DE PRESENTACIÓN DE LA OFERTA.\n• ANEXO No. 2. OFERTA ECONÓMICA U OFERTA INICIAL DE PRECIO.\n• ANEXO No. 3. ESPECIFICACIONES TÉCNICA o FICHA TÉCNICA. (DOCUMENTO ANEXO).\n• ANEXO No. 4. FORMATO PARA RELACIONAR EXPERIENCIA ESPECÍFICA DEL PROPONENTE.\n• ANEXO No. 5. CARTA DE COMPROMISO DE TRANSPARENCIA\n• ANEXO No. 6-A. MODELO DOCUMENTO DE CONFORMACIÓN DEL CONSORCIO.\n• ANEXO No. 6-B. MODELO DOCUMENTO DE CONFORMACIÓN DE UNIÓN TEMPORAL.\n• ANEXO No. 7-A. MODELO CERTIFICACIÓN DE PAGOS DE SEGURIDAD SOCIAL Y APORTES\n PARAFISCALES- ARTÍCULO 50 LEY 789 DE 2002 (PERSONAS JURÍDICAS).\n• ANEXO No. 7-B. MODELO DECLARACIÓN JURAMENTADA DE PAGOS DE SEGURIDAD SOCIAL\n Y APORTES PARAFISCALES- ARTÍCULO 9 LEY 828 DE 2003 (PERSONAS NATURALES).\n• ANEXO No. 8 MODELO CERTIFICADO SEGURIDAD Y SALUD EN EL TRABAJO\n• ANEXO No 9. MODELO DE MINUTA DEL CONTRATO\n• ANEXO No. 10. CRITERIOS DE DESEMPATE\n\f PROCESO CONTRATACIÓN\n\nSi la oferta es presentada por un proponente plural, el integrante que acredite que el diez por\nciento (10%) de su nómina está en condición de discapacidad, en los términos del presente\nnumeral, debe tener una participación de por lo menos el veinticinco por ciento (25%) en la\nestructura plural y aportar como mínimo el veinticinco por ciento (25%) de la experiencia\nacreditada en la oferta.\nEl tiempo de vinculación en la planta referida de que trata este numeral se acreditará con el\ncertificado de aportes a seguridad social del último año o del tiempo de su constitución\ncuando su conformación es inferior a un (1) año, en el que se demuestren los pagos realizados\npor el empleador.\n\nTeniendo en cuenta que la experiencia solicitada debe también estar acorde con el\ncontrato a suscribir, según lo estipulado por el Artículo 5 de la ley 1150 de 2007 y el Artículo\n88 de ley 1474 d\n\n[...]",
-      "unspsc_exigidos": [
-        "32101600",
-        "39121100",
-        "39121300",
-        "43222600"
-      ],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
-      "recortado": true
     },
     "CO1.REQ.11222829": {
       "id_proceso": "CO1.REQ.11222829",
@@ -2324,19 +2272,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
-      "recortado": false
-    },
-    "CO1.REQ.11224406": {
-      "id_proceso": "CO1.REQ.11224406",
-      "revisado_en": "2026-10-25",
-      "documentos_en_el_proceso": 14,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11226244": {
@@ -2348,7 +2284,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11226766": {
@@ -2360,7 +2296,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11228946": {
@@ -2372,7 +2308,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11230981": {
@@ -2387,7 +2323,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11231626": {
@@ -2399,14 +2335,14 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11231793": {
       "id_proceso": "CO1.REQ.11231793",
       "entidad": "DEPARTAMENTO ADMINISTRATIVO NACIONAL DE ESTADISTICA (DANE)",
-      "revisado_en": "2026-10-25",
-      "documentos_en_el_proceso": 15,
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 16,
       "estado_analisis": "ok",
       "documentos": [
         {
@@ -2422,7 +2358,7 @@
       "smmlv": [
         "200"
       ],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11232505": {
@@ -2434,7 +2370,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11233076": {
@@ -2446,7 +2382,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11233134": {
@@ -2458,7 +2394,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11234029": {
@@ -2470,7 +2406,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11234095": {
@@ -2482,7 +2418,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11234583": {
@@ -2494,7 +2430,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11235339": {
@@ -2524,7 +2460,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11235927": {
@@ -2536,7 +2472,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11236262": {
@@ -2548,7 +2484,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11236342": {
@@ -2560,7 +2496,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11236495": {
@@ -2589,7 +2525,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11236514": {
@@ -2601,7 +2537,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11238364": {
@@ -2613,7 +2549,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11241672": {
@@ -2625,7 +2561,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11241676": {
@@ -2637,7 +2573,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11241859": {
@@ -2670,7 +2606,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11242591": {
@@ -2682,7 +2618,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11244375": {
@@ -2694,7 +2630,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11244732": {
@@ -2715,7 +2651,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11245780": {
@@ -2727,20 +2663,20 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11246329": {
       "id_proceso": "CO1.REQ.11246329",
       "entidad": "HOSPITAL MILITAR CENTRAL",
-      "revisado_en": "2026-10-25",
-      "documentos_en_el_proceso": 23,
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 37,
       "estado_analisis": "sin_seccion_identificable",
       "documentos": [
         {
           "nombre": "ANEXO PLIEGO DEFINITIVOS.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=877873153&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=879629373&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
         },
         {
           "nombre": "ANEXO PLIEGO.pdf",
@@ -2753,7 +2689,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11248899": {
@@ -2781,7 +2717,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11250065": {
@@ -2802,7 +2738,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11250179": {
@@ -2814,7 +2750,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11251435": {
@@ -2826,7 +2762,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11253847": {
@@ -2861,7 +2797,7 @@
         "34,77",
         "26,08"
       ],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11253891": {
@@ -2873,7 +2809,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11253939": {
@@ -2885,7 +2821,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11254725": {
@@ -2915,7 +2851,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11254986": {
@@ -2936,7 +2872,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11257246": {
@@ -2948,7 +2884,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11259055": {
@@ -2971,7 +2907,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11259065": {
@@ -2983,7 +2919,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11259962": {
@@ -3008,19 +2944,19 @@
       "minimo_codigos": 1,
       "max_contratos": 4,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11260221": {
       "id_proceso": "CO1.REQ.11260221",
-      "revisado_en": "2026-10-27",
-      "documentos_en_el_proceso": 2,
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 6,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11262035": {
@@ -3032,7 +2968,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11266566": {
@@ -3044,14 +2980,14 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11267146": {
       "id_proceso": "CO1.REQ.11267146",
       "entidad": "SECRETARÍA GENERAL DE LA ALCALDÍA MAYOR DE BOGOTÁ",
-      "revisado_en": "2026-10-29",
-      "documentos_en_el_proceso": 12,
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 22,
       "estado_analisis": "ok",
       "documentos": [
         {
@@ -3078,7 +3014,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11267643": {
@@ -3099,32 +3035,43 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11269994": {
       "id_proceso": "CO1.REQ.11269994",
-      "revisado_en": "2026-10-29",
-      "documentos_en_el_proceso": 2,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
+      "entidad": "ALCALDIA LOCAL DE USAQUEN",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 5,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "Estudio Previo Asitencial II -  CESAR PEÑA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=879699181&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "ASISTENCIAL II Título de Bachiller 24 meses de experiencia Desde $2.146.001\n laboral debidamente certificada hasta $ 3.095.000\n\nDe conformidad con el Artículo 2.2.1.2.1.4.9. del Decreto Nacional 1082 de 2015, para la prestación de\nservicios profesionales y/o de apoyo a la gestión o para la ejecución de trabajos artísticos que solo pueden\nencomendarse a determinadas personas naturales, “las Entidades pueden contratar bajo la modalidad de\ncontratación directa la prestación de servicios profesionales y de apoyo a la gestión con la persona natural o jurídica que\nesté en capacidad de ejecutar el objeto del contrato, siempre y cuando la Entidad verifique la idoneidad o experiencia\nrequerida y relacionada con el área de que se trate. En este caso, no es necesario que la Entidad haya obtenido\npreviamente varias ofertas, de lo cual el ordenador del gasto debe dejar constancia escrita.\nLos servicios profesionales y de apoyo a la gestión corresponden a aquellos de naturaleza intelectual diferentes a los de\nconsultoría que se derivan del cumplimiento de las funciones de la entidad; así como los relacionados con actividades\noperativas, logísticas, o asistenciales.”\nPara la prestación del servicio requerido y en concordancia con la descripción de la necesidad\nseñalada, se requiere contar con una persona que cumpla los siguientes requisitos mínimos de\nidoneidad y/o experiencia, los cuales están directamente relacionados con el área a contratar y de\nconformidad con lo establecido en la resolución vigente por la cual se adopta la tabla de honorarios\n\nEXPERIENCIA 24 meses de experiencia laboral debidamente certificada",
+      "unspsc_exigidos": [
+        "80111600"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11270336": {
       "id_proceso": "CO1.REQ.11270336",
       "entidad": "HOSPITAL MILITAR CENTRAL",
-      "revisado_en": "2026-10-29",
-      "documentos_en_el_proceso": 23,
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 37,
       "estado_analisis": "sin_seccion_identificable",
       "documentos": [
         {
           "nombre": "ANEXO PLIEGO DEFINITIVOS.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=877873153&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=879629373&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
         },
         {
           "nombre": "ANEXO PLIEGO.pdf",
@@ -3137,7 +3084,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11270782": {
@@ -3158,7 +3105,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11271065": {
@@ -3170,7 +3117,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11272694": {
@@ -3182,7 +3129,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11273252": {
@@ -3212,7 +3159,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11275620": {
@@ -3241,7 +3188,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11276753": {
@@ -3253,7 +3200,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11277983": {
@@ -3265,7 +3212,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11279123": {
@@ -3286,7 +3233,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": true
     },
     "CO1.REQ.11279711": {
@@ -3298,32 +3245,233 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
     "CO1.REQ.11280421": {
       "id_proceso": "CO1.REQ.11280421",
-      "revisado_en": "2026-10-30",
+      "entidad": "ALCALDÍA MUNICIPAL DE ROLDANILLO",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 7,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "PROYECTO - ESTUDIO PREVIO - CDP - SIGE.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=880691704&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "\"Atticulo 2.2.1.2.1 .4.9. Contratos de prestac¡ón de servic,bs profesionales y de apoyo a la\n gestión, o para la ejecución de trabajos añísticos que solo pueden encomendarse a\n determinadas personas naturales. Las entidades es¿afa/es pueden contratar bajo la modalidad\n de contrata-ción directa la prestación de servic¡os profesionales y de apoyo a la gestión con la\n persona natural o jurídica que esté en capacidad de ejecutar el objeto del contrato, siempre y\n cuando la entidad estatal verifique la idoneidad o experiencia requerida y relacionada con el\n área de gue se trate. En este caso, no es necesarlo que la entidad estatal haya obtenido\n previamente varias ofeñas, de lo cual el ordenador del gasto debe dejar constancia escrita.\n\nConforme al estud¡o de precios se est¡ma un promedio de servicios 99,85 smmlv valor que es\n relativo puesto que depende del grado de estudio, actividad a realiza¡, experiencia entre otros.\n No obstante lo anterior, y teniendo en cuenta que no es necesar¡o el desplazamiento\n permanente a las instalaciones de la administración municipal por parte del contratista, el\n Municipio establece un presupuesto de hasta TREINTA Y TRES MILLONES NOVECIENTOS\n DOCE MIL CIENTO SETENTA Y SIETE PESOS ($33.912.177,00) M/CTE, en este orden de\n ideas, el valor anteriormente expuesto incluye IVA y todos los gastos, impuestos, ganancias,\n ¡mprevistos, deducciones, y retenciones a los que legalmente haya lugar generados con la\n presentación de la oferta, suscripción del contrato y su posterior eiecuc¡ón de la prestación del\n servicio.",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [
+        "56,96",
+        "99,85"
+      ],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": false
+    },
+    "CO1.REQ.11281450": {
+      "id_proceso": "CO1.REQ.11281450",
+      "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 11,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "6. Certificado de experiencia  e idoneidad del contratista. OLMA YAIR (1).pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=880891848&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "NOMBRE DEL\n OLMAN YAIR VÁSQUEZ MEJÍA EXPERIENCIA\n CONTRATISTA\n IDENTIFICACIÓN C.C. No. 79852436 SI CUMPLE\n\nAÑO(S) MES(ES) DIAS TOTAL\n EXPERIENCIA\n REQUERIDA Categoria : IV\n 2 72 730 2160 2890\n (ESTUDIO PREVIO):\n\nFECHA DE INGRESO FECHA DE RETIRO EXPERIENCIA\n NOMBRE EMPRESA O ENTIDAD\n DIA/MES/AÑO DIA/MES/AÑO (DIAS)\n FONDO UNICO DE TECNOLOGIAS DE LA INFORMACION Y\n 28/02/2025 12/11/2025 258\n 1 LAS COMUNICACIONES\n SUPERINTENDENCIA DE VIGILANCIA Y SEGURIDAD\n 30/01/2024 15/09/2024 230\n PRIVIDAD\n 2\n SUPERINTENDENCIA DE VIGILANCIA Y SEGURIDAD\n 21/09/2023 31/12/2023 102\n 3 PRIVIDAD\n\nMINCIVIL 15/01/2019 15/05/2022 1.217\n 5\n 6 CONSEJURIDICAS 1/01/2018 30/08/2018 242\n 7 CONSEJURIDICAS 1/07/2017 31/12/2017 184\n 8 CONSEJURIDICAS 1/04/2017 30/06/2017 91\n 9 OPEN SAI 2/02/2016 31/03/2017 424\n 10 0\n 11 0\n 12 0\n 13 0\n 14 0\n 15 0\n 16 0\n 17 0\n 18 0\n EXPERIENCIA VERIFICADA TOTAL 3.082\n EQUIVALENCIA (Título de posgrado relacionado con el objeto a contratar por Dos (2) años de experiencia profesional)\n 1 Si aplica\n TOTAL EQUIVALENCIA 0\n\nPara la presente contratación se dará aplicación a lo establecido en el artículo 10 de la Resolución 05736 de\n 2025, es decir, que por el título de posgrado se aplicará una equivalencia de dos (2) años de experiencia\n relacionada con el objeto a contratar, los cuales deberán ser adicionales a la experiencia mínima requerida. Así,\n del análisis de experiencia realizada al contratista, se verificó que acredita noventa y seis (96) meses de\n OBSERVACIONES:\n experiencia profesional requerida para la categoría IV, y cuenta con más de 24 meses de experiencia\n relacionada con el objeto y/o obligaciones contractuales que serían la relacionada con el Fondo Unico de\n Tecnologias de la Información y las Comunicaciones y las dos de la Superintendencia de Vigilancia y Segurid\n\n[...]",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": true
+    },
+    "CO1.REQ.11283951": {
+      "id_proceso": "CO1.REQ.11283951",
+      "entidad": "ALCALDIA LOCAL DE USAQUEN",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 5,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "Estudio Previo Asitencial II SERGIO ANDRES GORDILLO BONILLA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=881234153&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "ASISTENCIAL II Título de Bachiller 24 meses de experiencia Desde $2.146.001\n laboral debidamente certificada hasta $ 3.095.000\n\nDe conformidad con el Artículo 2.2.1.2.1.4.9. del Decreto Nacional 1082 de 2015, para la prestación de\nservicios profesionales y/o de apoyo a la gestión o para la ejecución de trabajos artísticos que solo pueden\nencomendarse a determinadas personas naturales, “las Entidades pueden contratar bajo la modalidad de\ncontratación directa la prestación de servicios profesionales y de apoyo a la gestión con la persona natural o jurídica que\nesté en capacidad de ejecutar el objeto del contrato, siempre y cuando la Entidad verifique la idoneidad o experiencia\nrequerida y relacionada con el área de que se trate. En este caso, no es necesario que la Entidad haya obtenido\npreviamente varias ofertas, de lo cual el ordenador del gasto debe dejar constancia escrita.\nLos servicios profesionales y de apoyo a la gestión corresponden a aquellos de naturaleza intelectual diferentes a los de\nconsultoría que se derivan del cumplimiento de las funciones de la entidad; así como los relacionados con actividades\noperativas, logísticas, o asistenciales.”\nPara la prestación del servicio requerido y en concordancia con la descripción de la necesidad\nseñalada, se requiere contar con una persona que cumpla los siguientes requisitos mínimos de\nidoneidad y/o experiencia, los cuales están directamente relacionados con el área a contratar y de\nconformidad con lo establecido en la resolución vigente por la cual se adopta la tabla de honorarios\n\nEXPERIENCIA 24 meses de experiencia laboral debidamente certificada",
+      "unspsc_exigidos": [
+        "80111600"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": false
+    },
+    "CO1.REQ.11284310": {
+      "id_proceso": "CO1.REQ.11284310",
+      "entidad": "ESE HOSPITAL SALAZAR DE VILLETA",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 3,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "928-2026 ESTUDIO PREVIO AUTOMATIZACION FACTURACION.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=881469806&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "La necesidad podrá ser satisfecha mediante la contratación de una persona natural o jurídica con capacidad técnica\ny experiencia en desarrollo e implementación de soluciones de automatización e integración de sistemas de\ninformación. La dependencia responsable deberá verificar su incorporación en el plan de compras y la disponibilidad\npresupuestal antes de formalizar el proceso.\n2. OBJETO A CONTRATAR:\nCONTRATAR LOS SERVICIOS PROFESIONALES PARA EL DISEÑO, DESARROLLO, IMPLEMENTACIÓN Y\nPUESTA EN FUNCIONAMIENTO DE UNA SOLUCIÓN TECNOLÓGICA DE AUTOMATIZACIÓN MEDIANTE\nAGENTES DE INTELIGENCIA ARTIFICIAL PARA APOYAR LA REVISIÓN DE CUENTAS PREVIA A LA\nFACTURACIÓN, LA ORGANIZACIÓN DE SOPORTES Y LA RADICACIÓN DE FACTURAS ANTE LAS ENTIDADES\nRESPONSABLES DEL PAGO DE LA E.S.E. HOSPITAL SALAZAR DE VILLETA, INCLUYENDO TABLERO DE\nTRAZABILIDAD, PRUEBAS, CAPACITACIÓN, DOCUMENTACIÓN Y SOPORTE INICIAL.\n3. PRODUCTO – RESULTADO DE LA CONTRATACIÓN\nLa E.S.E. deberá recibir una solución integrada al sistema de información institucional, con tres componentes\nfuncionales y un tablero de seguimiento. La radicación se proyecta para hasta cuatro (4) entidades responsables del\npago, previamente identificadas por la E.S.E., iniciando con una entidad piloto. Los productos serán recibidos\nmediante pruebas documentadas y validación de la supervisión, con apoyo de facturación y sistemas.\n Producto Resultado y evidencia de entrega\n 1. Diagnóstico y diseño Documento del flujo, fuentes de datos, reglas de\n comparación, entidades incluidas, requisitos de acceso,\n cronograma, línea base y criterios de aceptación,\n aprobado por la supervisión.\n 2. Revisión previa de cuentas Componente funcional que compare registros de\n atención y cuentas, clasifique diferencias de servicios,\n medicamentos e insumos y genere aler\n\n[...]",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": true
+    },
+    "CO1.REQ.11284523": {
+      "id_proceso": "CO1.REQ.11284523",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": false
+    },
+    "CO1.REQ.11284818": {
+      "id_proceso": "CO1.REQ.11284818",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": false
+    },
+    "CO1.REQ.11284825": {
+      "id_proceso": "CO1.REQ.11284825",
+      "revisado_en": "2026-10-31",
       "documentos_en_el_proceso": 3,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
     },
-    "CO1.REQ.11281450": {
-      "id_proceso": "CO1.REQ.11281450",
-      "revisado_en": "2026-10-30",
-      "documentos_en_el_proceso": 6,
-      "estado_analisis": "sin_documentos_de_requisitos",
+    "CO1.REQ.11285367": {
+      "id_proceso": "CO1.REQ.11285367",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-10-30",
+      "ultima_vez_en_radar": "2026-10-31",
       "recortado": false
+    },
+    "CO1.REQ.11285725": {
+      "id_proceso": "CO1.REQ.11285725",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": false
+    },
+    "CO1.REQ.11286721": {
+      "id_proceso": "CO1.REQ.11286721",
+      "entidad": "ALCALDIA DE PASTO",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 22,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "2. PLIEGO DEFINITIVO SUBASTA SU-2026-37software.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=881418598&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        },
+        {
+          "nombre": "ACTA 28 OCTUBRE 2026 OBSERVACIONES Y RESPUESTAS PROYECTO PLIEGO CONDICIONES SU-2026-37 ok.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=881418595&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "• ANEXO No. 1. CARTA DE PRESENTACIÓN DE LA OFERTA.\n• ANEXO No. 2. OFERTA ECONÓMICA U OFERTA INICIAL DE PRECIO.\n• ANEXO No. 3. ESPECIFICACIONES TÉCNICA o FICHA TÉCNICA. (DOCUMENTO ANEXO).\n• ANEXO No. 4. FORMATO PARA RELACIONAR EXPERIENCIA ESPECÍFICA DEL PROPONENTE.\n• ANEXO No. 5. CARTA DE COMPROMISO DE TRANSPARENCIA\n• ANEXO No. 6-A. MODELO DOCUMENTO DE CONFORMACIÓN DEL CONSORCIO.\n• ANEXO No. 6-B. MODELO DOCUMENTO DE CONFORMACIÓN DE UNIÓN TEMPORAL.\n• ANEXO No. 7-A. MODELO CERTIFICACIÓN DE PAGOS DE SEGURIDAD SOCIAL Y APORTES\n PARAFISCALES- ARTÍCULO 50 LEY 789 DE 2002 (PERSONAS JURÍDICAS).\n• ANEXO No. 7-B. MODELO DECLARACIÓN JURAMENTADA DE PAGOS DE SEGURIDAD SOCIAL\n Y APORTES PARAFISCALES- ARTÍCULO 9 LEY 828 DE 2003 (PERSONAS NATURALES).\n• ANEXO No. 8 MODELO CERTIFICADO SEGURIDAD Y SALUD EN EL TRABAJO\n• ANEXO No 9. MODELO DE MINUTA DEL CONTRATO\n• ANEXO No. 10. CRITERIOS DE DESEMPATE\n\f PROCESO CONTRATACIÓN\n NOMBRE DEL FORMATO\n PLIEGO DE CONDICIONES SELECCIÓN ABREVIADA POR SUBASTA INVERSA-\n Definitivo\n VIGENCIA VERSIÓN CODIGO PAGINA\n\nSi la oferta es presentada por un proponente plural, el integrante que acredite que el diez por\nciento (10%) de su nómina está en condición de discapacidad, en los términos del presente\nnumeral, debe tener una participación de por lo menos el veinticinco por ciento (25%) en la\nestructura plural y aportar como mínimo el veinticinco por ciento (25%) de la experiencia\nacreditada en la oferta.\nEl tiempo de vinculación en la planta referida de que trata este numeral se acreditará con el\ncertificado de aportes a seguridad social del último año o del tiempo de su constitución\ncuando su conformación es inferior a un (1) año, en el que se demuestren los pagos realizados\npor el empleador.\n\nTeniendo en cuenta que la experiencia solicitada debe también estar\n\n[...]",
+      "unspsc_exigidos": [
+        "32101600",
+        "39121100",
+        "39121300",
+        "39121500",
+        "46161500",
+        "81102200",
+        "81111500",
+        "81112200",
+        "81112500"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": true
+    },
+    "CO1.REQ.11287076": {
+      "id_proceso": "CO1.REQ.11287076",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": false
+    },
+    "CO1.REQ.11288347": {
+      "id_proceso": "CO1.REQ.11288347",
+      "entidad": "METRO DE BOGOTA SA",
+      "revisado_en": "2026-10-31",
+      "documentos_en_el_proceso": 9,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "2. ESTUDIOS PREVIOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=881674979&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "Por lo anterior, se requiere contar con apoyo externo de un profesional en sistemas de información o\ntelecomunicaciones, con experiencia en instalación de equipos y software, soporte técnico, atención de mesa de\nayuda, que apoye la operación y mejora continua de los servicios que proporciona la OTI para el cumplimiento\nde los objetivos institucionales, así como su participación en las actividades asociadas a la formulación,\nejecución, seguimiento y actualización de los planes de la OTI, aportando desde su rol técnico al cumplimiento\nde las metas institucionales, la mejora continua de los servicios tecnológicos y la implementación de las iniciativas\nestratégicas de la dependencia , conforme lo establecido en la línea del PAA 036.\n\nTítulo profesional de Ingeniero en Telecomunicaciones, de sistemas o electrónico.\n Título de posgrado en Gerencia de Proyectos, gestión de tecnologías de la información, gestión de\n servicios de TI o infraestructura tecnológica.\n Experiencia profesional de 3 años.\n\nDe conformidad con lo establecido en la Resolución 482 del 15 de diciembre de 2025, emitida por el Gerente\nGeneral de la Empresa Metro de Bogotá S.A., para el análisis del cumplimiento de los requisitos exigidos de\nestudio o experiencia, se aplicarán las equivalencias establecidas en el Decreto-Ley 785 de 2005, o la norma que\nlo modifique, aclare o complemente.\nDe conformidad con la tabla de honorarios emitida por la EMB, a través de la Resolución 482 del 15 de diciembre\nde 2025 Por la cual se adopta la tabla de honorarios para contratos de prestación de servicios y de apoyo a\nla gestión de la Empresa Metro de Bogotá S.A. y se deroga la Resolución No. 609 de 2024 el perfil del contratista\nse enmarca en la siguiente clasificación:\n\nCategoría Nivel Desde Hasta Requisitos\n 1. Título Pro\n\n[...]",
+      "unspsc_exigidos": [
+        "81000000",
+        "81110000",
+        "81111800",
+        "81111812",
+        "81112200",
+        "81112204"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-10-31",
+      "recortado": true
     }
   }
 }
