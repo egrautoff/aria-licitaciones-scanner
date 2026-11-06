@@ -1,6 +1,6 @@
 {
   "_leeme": "Parametros de busqueda del radar SECOP. Este archivo manda: scripts/fetch-secop.mjs solo los lee. Se edita desde el boton Parametros de busqueda del tablero, o aqui directamente.",
-  "version": "2026-09-15",
+  "version": "2026-11-06",
   "ventana_dias": 15,
   "destacado_valor_min": 1000000000,
   "exploratorio_valor_min": 30000000,
@@ -137,6 +137,27 @@
       ]
     },
     {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "sitio web",
+        "desarrollo"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "sitio web",
+        "migracion"
+      ]
+    },
+    {
+      "grupo": "Liferay / Portal",
+      "todas": [
+        "sitio web",
+        "rediseno"
+      ]
+    },
+    {
       "grupo": "Desarrollo / Fabrica",
       "cualquiera": [
         "fabrica de software",
@@ -175,6 +196,25 @@
         "desarrollo",
         "implementacion",
         "soporte"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "todas": [
+        "bolsa de horas",
+        "desarrollo"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "pruebas de software"
+      ]
+    },
+    {
+      "grupo": "Desarrollo / Fabrica",
+      "cualquiera": [
+        "aplicacion movil"
       ]
     },
     {
