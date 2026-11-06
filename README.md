@@ -14,10 +14,12 @@ Escanea a diario el dataset público de SECOP II (datos.gov.co, `p6dx-8zbt`) y f
 | Pieza | Hora | Qué hace |
 |---|---|---|
 | GitHub Action, primera pasada | 05:23 UTC · 00:23 Colombia | Consulta SECOP y commitea `data/` |
-| GitHub Action, segunda pasada | 11:23 UTC · 06:23 Colombia | Igual; con el retraso de GitHub llega a media mañana |
-| Rutina | 07:00 y 14:00 Colombia | Publica el tablero y envía el correo con los procesos más relevantes |
+| GitHub Action, segunda pasada | 09:23 UTC · 04:23 Colombia | Igual; con el retraso de GitHub llega entre media mañana y mediodía |
+| Rutina | 09:00 y 14:00 Colombia | Publica el tablero y envía el correo con los procesos más relevantes |
 
-El minuto no redondo del cron es deliberado: con `0 9` — hora en punto, la franja más congestionada de GitHub — el arranque real se corría entre 3h34 y 6h35 respecto de lo programado, y creciendo día a día. Las 05:23 UTC son lo más temprano posible que todavía cae dentro del mismo día calendario colombiano (05:00 UTC es medianoche en Bogotá); correr antes etiquetaría el dato con el día anterior. Eso deja 8h37 de margen, el máximo alcanzable.
+El minuto no redondo del cron es deliberado: con `0 9` — hora en punto, la franja más congestionada de GitHub — el arranque real se corría entre 3h34 y 6h35 respecto de lo programado, y creciendo día a día. Las 05:23 UTC son lo más temprano posible que todavía cae dentro del mismo día calendario colombiano (05:00 UTC es medianoche en Bogotá); correr antes etiquetaría el dato con el día anterior. Eso deja 8h37 de margen hasta la rutina de las 09:00, el máximo alcanzable.
+
+Aun así el retraso sigue creciendo: entre el 16 de septiembre y el 6 de noviembre de 2026 la primera pasada arrancó entre las 04:35 y las 08:36 Colombia, y la primera semana de noviembre siempre después de las 07:50. Por eso la rutina de la mañana pasó de las 07:00 a las 09:00, y la segunda pasada de las 06:23 a las 04:23 (con el peor retraso visto llega hacia las 12:40, antes de la rutina de las 14:00). Si el retraso pasa de las 09:00, la salida es disparar el workflow desde un cron externo con `workflow_dispatch`, que arranca de inmediato.
 
 El retraso afecta **solo a `schedule`**; un `workflow_dispatch` arranca de inmediato.
 
@@ -37,7 +39,7 @@ Por eso las defensas son tres, todas pasivas: el margen amplio, la rutina de rec
 
 ### Las rutinas
 
-- Principal: `trig_01TYWswpG56dfVXbizXAckku`
+- Principal: `trig_01D9XMSk1SfNfB5Psv7ZJnhu` (09:00 y 14:00 Colombia, publica el tablero y envía el correo). La anterior, `trig_01TYWswpG56dfVXbizXAckku`, está desactivada.
 - Recuperación: `trig_01Wdvk2CE5DSXAFadgcgG168` — compara el `dia` del archivo de datos contra el `dia` del tablero y no hace nada si ya coinciden, que es lo normal.
 
 Se editan con `RemoteTrigger action:update` desde Claude Code.

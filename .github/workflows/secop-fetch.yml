@@ -8,13 +8,15 @@ on:
     # - La hora: es lo mas temprano posible que todavia cae dentro del mismo
     #   dia calendario colombiano (05:00 UTC es medianoche en Bogota). Correr
     #   antes etiquetaria el dato con el dia anterior. Asi el margen contra el
-    #   retraso de GitHub es el maximo alcanzable: 6h37 hasta la rutina de las
-    #   07:00 Bogota.
+    #   retraso de GitHub es el maximo alcanzable: 8h37 hasta la rutina de las
+    #   09:00 Bogota. Entre sep y nov 2026 el arranque real cayo entre las 04:35
+    #   y las 08:36 Bogota, creciendo; por eso la rutina no puede ir a las 07:00.
     - cron: "23 5 * * *"
-    # Segunda pasada: 11:23 UTC = 06:23 Bogota. Con el retraso habitual llega
-    # entre las 10:00 y las 13:00, antes de la rutina de las 14:00 Bogota, que
-    # asi ve los procesos publicados durante la manana.
-    - cron: "23 11 * * *"
+    # Segunda pasada: 09:23 UTC = 04:23 Bogota. Con el peor retraso visto (~8h)
+    # llega hacia las 12:40, antes de la rutina de las 14:00 Bogota, que asi ve
+    # los procesos publicados durante la manana. A las 11:23 UTC podia llegar
+    # despues de esa rutina.
+    - cron: "23 9 * * *"
   workflow_dispatch: {}
 
 permissions:
