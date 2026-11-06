@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06T13:00:34.628Z",
+  "generated_at": "2026-11-06T15:26:12.071Z",
   "dia": "2026-11-06",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2075,
-  "total_matched": 53,
+  "total_scanned": 2099,
+  "total_matched": 58,
   "total_destacados": 1,
-  "total_nuevos": 14,
+  "total_nuevos": 19,
   "items": [
     {
       "id_proceso": "CO1.REQ.11315579",
@@ -562,6 +562,31 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11300972",
+      "fuente": "SECOP II",
+      "entidad": "CENTRO DE SALUD SANTIAGO DE MALLAMA ESE",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11111863",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-30T00:00:00.000",
+      "descripcion": "PRESTACION DE SERVICIOS DE MONITOREO, TELEMETRÍA Y SEGUIMIENTO SATELITAL 24/7 PARA LA GESTIÓN INTEGRAL DE LA FLOTA VEHICULAR DE LA E.S.E. MALLAMA, MEDIANTE EL USO Y ACCESO A PLATAFORMA WEB Y APLICACIÓN MÓVIL; INCLUYENDO LA CONFIGURACIÓN E INSTALACIÓN DE DISPOSITIVOS GPS 4G, HERRAMIENTAS DE INSPECCIÓN PREOPERACIONAL DIGITAL, MÓDULOS DE MANTENIMIENTO, GENERACIÓN DE REPORTES Y SOPORTE AL CUMPLIMIENTO DEL PLAN ESTRATÉGICO DE SEGURIDAD VIAL (PESV)",
+      "valor": 2278000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11154480",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "aplicacion movil"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
       "id_proceso": "CO1.REQ.11297725",
       "fuente": "SECOP II",
       "entidad": "INSTITUTO DE HIDROLOGIA, METEOROLOGÍA Y ESTUDIOS AMBIENTALES",
@@ -752,9 +777,11 @@
       "modalidad": "Contratación directa",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11145493",
       "matched_groups": [
+        "Desarrollo / Fabrica",
         "Integracion / BUS"
       ],
       "matched_keywords": [
+        "bolsa de horas + desarrollo",
         "interoperabilidad"
       ],
       "destacado": false,
@@ -1117,6 +1144,31 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11276225",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11087152",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-27T00:00:00.000",
+      "descripcion": "Prestar servicio de calibración e instalación y pruebas de software para equipo óptico de laboratorios de docencia del Área Curricular de Biología",
+      "valor": 476000,
+      "estado": "Cancelado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11129694",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "pruebas de software"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
       "id_proceso": "CO1.REQ.11277983",
       "fuente": "SECOP II",
       "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
@@ -1217,6 +1269,31 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11265794",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD DEL VALLE",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11077338",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-26T00:00:00.000",
+      "descripcion": "DESARROLLAR LA FASE 3B DE LA RENOVACIÓN DEL SITIO WEB INSTITUCIONAL DE\nLA UNIVERSIDAD DEL VALLE, CONSISTENTE EN LA CREACIÓN DE 300 URL`S EN UN\nENTORNO CONTROLADO, INCLUYENDO LA MIGRACIÓN, ADAPTACIÓN Y\nESTRUCTURACIÓN DE SUS CONTENIDOS (TEXTOS, IMÁGENES Y VÍDEOS), DE\nACUERDO CON LOS REQUERIMIENTO DE LA RESOLUCIÓN NO. 1519 DE 2020\nEXPEDIDA POR EL MINTIC, DE CONFORMIDAD CON LAS PLANTILLAS FUNCIONALES Y\nDE DISEÑO DEFINIDAS EN LAS FASES ANTERIORES DEL PROYECTO",
+      "valor": 199000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11120179",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "sitio web + migracion"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
       "id_proceso": "CO1.REQ.11270336",
       "fuente": "SECOP II",
       "entidad": "HOSPITAL MILITAR CENTRAL",
@@ -1265,6 +1342,56 @@
       "primera_vez_visto": "2026-10-29",
       "dias_en_radar": 9,
       "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11259146",
+      "fuente": "SECOP II",
+      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11070257",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-23T00:00:00.000",
+      "descripcion": "No definido",
+      "valor": 19000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11113324",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "sitio web + desarrollo"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11258955",
+      "fuente": "SECOP II",
+      "entidad": "IE SAN ISIDRO",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11070152",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-23T00:00:00.000",
+      "descripcion": "SERVICIO DE HOSTING Y DOMINIO Y REDISEÑO DEL SITIO WEB INSTITUCIONAL PARA LA INSTITUCION EDUCATIVA TECNICA SAN ISIDRO",
+      "valor": 950000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11113130",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "sitio web + rediseno"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 1,
+      "es_nuevo": true
     },
     {
       "id_proceso": "CO1.REQ.11257246",
@@ -1641,7 +1768,7 @@
   ],
   "parametros": {
     "_leeme": "Parametros de busqueda del radar SECOP. Este archivo manda: scripts/fetch-secop.mjs solo los lee. Se edita desde el boton Parametros de busqueda del tablero, o aqui directamente.",
-    "version": "2026-09-15",
+    "version": "2026-11-06",
     "ventana_dias": 15,
     "destacado_valor_min": 1000000000,
     "exploratorio_valor_min": 30000000,
@@ -1778,6 +1905,27 @@
         ]
       },
       {
+        "grupo": "Liferay / Portal",
+        "todas": [
+          "sitio web",
+          "desarrollo"
+        ]
+      },
+      {
+        "grupo": "Liferay / Portal",
+        "todas": [
+          "sitio web",
+          "migracion"
+        ]
+      },
+      {
+        "grupo": "Liferay / Portal",
+        "todas": [
+          "sitio web",
+          "rediseno"
+        ]
+      },
+      {
         "grupo": "Desarrollo / Fabrica",
         "cualquiera": [
           "fabrica de software",
@@ -1816,6 +1964,25 @@
           "desarrollo",
           "implementacion",
           "soporte"
+        ]
+      },
+      {
+        "grupo": "Desarrollo / Fabrica",
+        "todas": [
+          "bolsa de horas",
+          "desarrollo"
+        ]
+      },
+      {
+        "grupo": "Desarrollo / Fabrica",
+        "cualquiera": [
+          "pruebas de software"
+        ]
+      },
+      {
+        "grupo": "Desarrollo / Fabrica",
+        "cualquiera": [
+          "aplicacion movil"
         ]
       },
       {
@@ -2086,6 +2253,21 @@
       "ultima_vez_en_radar": "2026-11-06",
       "recortado": false
     },
+    "CO1.REQ.11258955": {
+      "id_proceso": "CO1.REQ.11258955",
+      "entidad": "IE SAN ISIDRO",
+      "revisado_en": "2026-11-06",
+      "documentos_en_el_proceso": 8,
+      "estado_analisis": "documentos_escaneados",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-11-06",
+      "recortado": false
+    },
     "CO1.REQ.11259065": {
       "id_proceso": "CO1.REQ.11259065",
       "entidad": "FABRICA DE LICORES Y ALCOHOLES DE ANTIOQUIA",
@@ -2097,6 +2279,18 @@
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-11-06",
+      "recortado": false
+    },
+    "CO1.REQ.11259146": {
+      "id_proceso": "CO1.REQ.11259146",
+      "revisado_en": "2026-11-06",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-06",
       "recortado": false
@@ -2149,6 +2343,29 @@
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-06",
       "recortado": false
+    },
+    "CO1.REQ.11265794": {
+      "id_proceso": "CO1.REQ.11265794",
+      "entidad": "UNIVERSIDAD DEL VALLE",
+      "revisado_en": "2026-11-06",
+      "documentos_en_el_proceso": 17,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "3. INVITACIÓN_CD_344_2026_ FASE 3B .pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=879130243&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "Posteriormente, en 2024, se llevó a cabo la Segunda Fase, orientada a la actualización del diseño\n visual y de experiencia de usuario del portal web, alineado con los principios de usabilidad,\n accesibilidad y la Política de Gobierno Digital. Como resultado, se desarrollaron 100 URLs modelo\n con el nuevo diseño, listas para su implementación técnica.\n\nEl Proponente, como empleador de sus trabajadores, será responsable de cubrir oportunamente\n los aportes y atender todas las obligaciones de carácter laboral que corresponden por Ley (Salud,\n Pensión, ARL, ICBF, SENA, Caja de Compensación, etc.). La certificación del pago de estos\n aportes será exigida por la Supervisión del Contrato.\n\nEn caso de que la Universidad advierta hechos constitutivos de corrupción de parte de un\n proponente durante el proceso de selección, sin perjuicio de las acciones legales a que hubiere\n lugar, la propuesta será rechazada.\n\n3.1 Legal ✔ Tener capacidad jurídica para presentar ✔ Carta de presentación de la oferta\n oferta y ejecutar las obligaciones previstas en el debidamente firmada por el proponente o\n contrato, conforme a su naturaleza jurídica y su representante legal, de acuerdo con el\n regulación legal estatutaria que le corresponda. modelo del Anexo 1 de la presente\n Invitación.\n ✔ Las personas jurídicas deben haber sido\n constituidas al menos dos (2) años antes de la ✔ Copia del Certificado de existencia y\n fecha de cierre del presente proceso. representación legal expedido por la\n Cámara de Comercio no mayor a treinta\n ✔ Las personas jurídicas deben demostrar que (30) días calendario anteriores al cierre\n su duración será mínima la del término de del presente proceso, Este certificado\n ejecución del contrato y un (1) año más. deberá acreditar que la sociedad en su\n objeto social le pe\n\n[...]",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [
+        "114,23"
+      ],
+      "ultima_vez_en_radar": "2026-11-06",
+      "recortado": true
     },
     "CO1.REQ.11266566": {
       "id_proceso": "CO1.REQ.11266566",
@@ -2352,6 +2569,18 @@
       ],
       "minimo_codigos": null,
       "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-11-06",
+      "recortado": false
+    },
+    "CO1.REQ.11276225": {
+      "id_proceso": "CO1.REQ.11276225",
+      "revisado_en": "2026-11-06",
+      "documentos_en_el_proceso": 0,
+      "estado_analisis": "sin_documentos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-06",
       "recortado": false
@@ -2870,6 +3099,18 @@
       "id_proceso": "CO1.REQ.11300627",
       "revisado_en": "2026-11-06",
       "documentos_en_el_proceso": 3,
+      "estado_analisis": "sin_documentos_de_requisitos",
+      "documentos": [],
+      "texto": "",
+      "unspsc_exigidos": [],
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-11-06",
+      "recortado": false
+    },
+    "CO1.REQ.11300972": {
+      "id_proceso": "CO1.REQ.11300972",
+      "revisado_en": "2026-11-06",
+      "documentos_en_el_proceso": 10,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
       "texto": "",
