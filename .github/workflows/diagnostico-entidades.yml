@@ -1,0 +1,36 @@
+name: Diagnostico entidades No SECOP
+
+# Solo a pedido: Actions > "Diagnostico entidades No SECOP" > Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: "Dias hacia atras a revisar"
+        default: "60"
+
+permissions:
+  contents: write
+
+jobs:
+  diagnostico:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Buscar las entidades en SECOP II
+        env:
+          DIAS: ${{ inputs.dias }}
+        run: node scripts/diagnostico-entidades.mjs "$DIAS"
+
+      - name: Guardar el resultado
+        run: |
+          git config user.name "secop-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/diagnostico-entidades.json
+          git diff --cached --quiet || git commit -m "chore: diagnostico de entidades No SECOP"
+          git pull --rebase
+          git push
