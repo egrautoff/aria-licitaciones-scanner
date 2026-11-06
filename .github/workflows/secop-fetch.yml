@@ -8,13 +8,23 @@ on:
     # - La hora: es lo mas temprano posible que todavia cae dentro del mismo
     #   dia calendario colombiano (05:00 UTC es medianoche en Bogota). Correr
     #   antes etiquetaria el dato con el dia anterior. Asi el margen contra el
-    #   retraso de GitHub es el maximo alcanzable: 8h37 hasta que publica la
-    #   rutina de las 14:00 UTC.
+    #   retraso de GitHub es el maximo alcanzable: 6h37 hasta la rutina de las
+    #   07:00 Bogota.
     - cron: "23 5 * * *"
+    # Segunda pasada: 11:23 UTC = 06:23 Bogota. Con el retraso habitual llega
+    # entre las 10:00 y las 13:00, antes de la rutina de las 14:00 Bogota, que
+    # asi ve los procesos publicados durante la manana.
+    - cron: "23 11 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# Si GitHub atrasa tanto la primera pasada que se cruza con la segunda, que
+# esperen en fila en vez de pisarse al hacer push.
+concurrency:
+  group: secop-fetch
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -46,4 +56,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "chore: actualizar licitaciones SECOP $(TZ=America/Bogota date +%Y-%m-%d)"
+          git pull --rebase
           git push

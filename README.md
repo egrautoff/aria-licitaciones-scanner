@@ -13,9 +13,9 @@ Escanea a diario el dataset público de SECOP II (datos.gov.co, `p6dx-8zbt`) y f
 
 | Pieza | Hora | Qué hace |
 |---|---|---|
-| GitHub Action | 05:23 UTC · 00:23 Colombia | Consulta SECOP y commitea `data/` |
-| Rutina principal | 14:00 UTC · 09:00 Colombia | Publica el tablero |
-| Rutina de recuperación | 18:00 UTC · 13:00 Colombia | Solo publica si el tablero quedó atrasado |
+| GitHub Action, primera pasada | 05:23 UTC · 00:23 Colombia | Consulta SECOP y commitea `data/` |
+| GitHub Action, segunda pasada | 11:23 UTC · 06:23 Colombia | Igual; con el retraso de GitHub llega a media mañana |
+| Rutina | 07:00 y 14:00 Colombia | Publica el tablero y envía el correo con los procesos más relevantes |
 
 El minuto no redondo del cron es deliberado: con `0 9` — hora en punto, la franja más congestionada de GitHub — el arranque real se corría entre 3h34 y 6h35 respecto de lo programado, y creciendo día a día. Las 05:23 UTC son lo más temprano posible que todavía cae dentro del mismo día calendario colombiano (05:00 UTC es medianoche en Bogotá); correr antes etiquetaría el dato con el día anterior. Eso deja 8h37 de margen, el máximo alcanzable.
 
