@@ -1,11 +1,20 @@
 {
   "id_proceso": "CO1.REQ.11272694",
-  "revisado_en": "2026-10-29",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
+  "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+  "revisado_en": "2026-11-06",
+  "documentos_en_el_proceso": 8,
+  "estado_analisis": "sin_seccion_identificable",
+  "documentos": [
+    {
+      "nombre": "06Invitacion.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=879861320&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
   "texto": "",
   "unspsc_exigidos": [],
+  "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-11-05"
+  "ultima_vez_en_radar": "2026-11-06"
 }
