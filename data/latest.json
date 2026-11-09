@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-08T16:07:18.485Z",
-  "dia": "2026-11-08",
+  "generated_at": "2026-11-09T13:59:27.032Z",
+  "dia": "2026-11-09",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2344,
-  "total_matched": 73,
+  "total_scanned": 2341,
+  "total_matched": 75,
   "total_destacados": 0,
-  "total_nuevos": 19,
+  "total_nuevos": 2,
   "items": [
     {
       "id_proceso": "CO1.REQ.11332172",
@@ -30,8 +30,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11332680",
@@ -55,8 +55,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11334056",
@@ -69,9 +69,9 @@
       "fecha_publicacion": "2026-11-06T00:00:00.000",
       "descripcion": "PRESTAR SERVICIOS PROFESIONALES A LA UNIDAD ADMINISTRATIVA ESPECIAL MIGRACIÓN COLOMBIA, A TRAVÉS DE LA OFICINA DE TECNOLOGÍAS DE LA INFORMACIÓN, PARA BRINDAR ACOMPAÑAMIENTO TÉCNICO EN LA IDENTIFICACIÓN, FORMULACIÓN, ESTRUCTURACIÓN, IMPLEMENTACIÓN Y SEGUIMIENTO DE INICIATIVAS Y SOLUCIONES BASADAS EN INTELIGENCIA ARTIFICIAL, ANALÍTICA AVANZADA DE DATOS Y TECNOLOGÍAS EMERGENTES, ORIENTADAS A LA OPTIMIZACIÓN DE LOS PROCESOS MISIONALES, EL FORTALECIMIENTO DE LAS CAPACIDADES INSTITUCIONALES, LA AUTOMA",
       "valor": 24000000,
-      "estado": "En aprobación",
+      "estado": "Seleccionado",
       "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/STS/Users/Login/Index",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11189686",
       "matched_groups": [
         "Analitica / BI"
       ],
@@ -80,6 +80,56 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
+      "dias_en_radar": 2,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11315163",
+      "fuente": "SECOP II",
+      "entidad": "CANAL REGIONAL DE TELEVISION S.A.S",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11120750",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-06T00:00:00.000",
+      "descripcion": "PRESTAR SERVICIOS COMO WEBMASTER JUNIOR EN EL MARCO DEL CI1159 DE 2026/FUTIC",
+      "valor": 17656800,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11192097",
+      "matched_groups": [
+        "Liferay / Portal"
+      ],
+      "matched_keywords": [
+        "webmaster"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-09",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11325272",
+      "fuente": "SECOP II",
+      "entidad": "SUPERINTENDENCIA FINANCIERA DE COLOMBIA**",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11135743",
+      "fecha_cierre": "2026-11-25T00:00:00.000",
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-06T00:00:00.000",
+      "descripcion": "Adquirir la suscripción al derecho al uso en la modalidad de software como servicio de licencias UIPath que permitan la automatización de procesos operativos de la Superintendencia Financiera de Colombia, incluido soporte para Robots y parametrización en la modalidad de bolsa de horas.",
+      "valor": 665864627,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11190297",
+      "matched_groups": [
+        "IA / Agentes"
+      ],
+      "matched_keywords": [
+        "automatizacion de procesos"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-09",
       "dias_en_radar": 1,
       "es_nuevo": true
     },
@@ -105,8 +155,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11332210",
@@ -130,8 +180,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11330486",
@@ -155,8 +205,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11324528",
@@ -180,7 +230,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -205,8 +255,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11324796",
@@ -230,8 +280,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11326665",
@@ -255,8 +305,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11324953",
@@ -280,7 +330,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -305,33 +355,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
-    },
-    {
-      "id_proceso": "CO1.REQ.11325769",
-      "fuente": "SECOP II",
-      "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11136346",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T00:00:00.000",
-      "descripcion": "3200129 - Prestar servicios profesionales a la Dirección de Gobierno Digital y a la Subdirección de Estándares y Arquitectura TI para brindar acompañamiento en el marco de la Política de Gobierno Digital, mediante el apoyo en la formulación y estructuración de estándares y lineamientos asociados a sus componentes y habilitadores transversales, así como en la prestación del soporte jurídico requerido para el desarrollo, implementación y fortalecimiento del proyecto REDAM.",
-      "valor": 23064195,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11179460",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11327312",
@@ -355,8 +380,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11326187",
@@ -380,8 +405,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11325720",
@@ -405,8 +430,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11315708",
@@ -430,8 +455,33 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11325769",
+      "fuente": "SECOP II",
+      "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11136346",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-05T00:00:00.000",
+      "descripcion": "3200129 - Prestar servicios profesionales a la Dirección de Gobierno Digital y a la Subdirección de Estándares y Arquitectura TI para brindar acompañamiento en el marco de la Política de Gobierno Digital, mediante el apoyo en la formulación y estructuración de estándares y lineamientos asociados a sus componentes y habilitadores transversales, así como en la prestación del soporte jurídico requerido para el desarrollo, implementación y fortalecimiento del proyecto REDAM.",
+      "valor": 23064195,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11179460",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-08",
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11329991",
@@ -455,8 +505,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11323255",
@@ -480,7 +530,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -505,8 +555,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11329071",
@@ -530,8 +580,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11328212",
@@ -555,8 +605,8 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11315579",
@@ -581,32 +631,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11308513",
-      "fuente": "SECOP II",
-      "entidad": "MINISTERIO DE HACIENDA Y CREDITO PUBLICO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11119080",
-      "fecha_cierre": "2026-11-23T00:00:00.000",
-      "lotes": 2,
-      "fecha_publicacion": "2026-11-04T00:00:00.000",
-      "descripcion": "Adquirir la renovación de licenciamiento con su soporte y horas de acompañamiento desarrollo para la solución de interoperabilidad CA Layer7 API Management del Ministerio de Hacienda y Crédito Público",
-      "valor": 1206705686,
-      "estado": "Publicado",
-      "modalidad": "Selección abreviada subasta inversa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11171003",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -631,7 +656,32 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11308513",
+      "fuente": "SECOP II",
+      "entidad": "MINISTERIO DE HACIENDA Y CREDITO PUBLICO",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11119080",
+      "fecha_cierre": "2026-11-23T00:00:00.000",
+      "lotes": 2,
+      "fecha_publicacion": "2026-11-04T00:00:00.000",
+      "descripcion": "Adquirir la renovación de licenciamiento con su soporte y horas de acompañamiento desarrollo para la solución de interoperabilidad CA Layer7 API Management del Ministerio de Hacienda y Crédito Público",
+      "valor": 1206705686,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11171003",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -656,6 +706,31 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 4,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11320329",
+      "fuente": "SECOP II",
+      "entidad": "BIBLIOTECA PUBLICA PILOTO DE MEDELLIN PARA AMERICA LATINA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11130644",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-04T00:00:00.000",
+      "descripcion": "Prestación de servicios de apoyo a la gestión para brindar soporte de nivel 2 (Telecomunicaciones) de mesa de ayuda, mediante el acompañamiento en la atención de incidentes y requerimientos de mayor complejidad en la plataforma tecnológica, y el apoyo técnico en el manejo y operación de los dispositivos de telecomunicaciones del área de tecnología del Sistema de Bibliotecas Públicas de Medellín.",
+      "valor": 8923242,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11173563",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "mesa de ayuda"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-07",
       "dias_en_radar": 3,
       "es_nuevo": false
     },
@@ -681,57 +756,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11320329",
-      "fuente": "SECOP II",
-      "entidad": "BIBLIOTECA PUBLICA PILOTO DE MEDELLIN PARA AMERICA LATINA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11130644",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T00:00:00.000",
-      "descripcion": "Prestación de servicios de apoyo a la gestión para brindar soporte de nivel 2 (Telecomunicaciones) de mesa de ayuda, mediante el acompañamiento en la atención de incidentes y requerimientos de mayor complejidad en la plataforma tecnológica, y el apoyo técnico en el manejo y operación de los dispositivos de telecomunicaciones del área de tecnología del Sistema de Bibliotecas Públicas de Medellín.",
-      "valor": 8923242,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11173563",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11317830",
-      "fuente": "SECOP II",
-      "entidad": "UNAD",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11128144",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T00:00:00.000",
-      "descripcion": "RECIBIR PROPUESTA PARA CONTRATACIÓN DE PROVEEDOR PARA EL DESARROLLO DE LA FASE III DEL SIA CONTRALORÍAS MODERNIZADO, QUE COMPRENDE LA INTEROPERABILIDAD Y EL SOPORTE DE LA FASE I, CON EL PROPÓSITO DE APOYAR A LAS CONTRALORÍAS TERRITORIALES, DEPARTAMENTALES Y MUNICIPALES EN LA OPTIMIZACIÓN DE SUS PROCESOS DE CONTROL FISCAL, MEDIANTE LA ADOPCIÓN DE SOLUCIONES TECNOLÓGICAS INNOVADORAS DERIVADO DEL CONTRATO INTERADMINISTRATIVO CI-2-2026 SUSCRITO CON LA AUDITORÍA GENERAL DE LA REPÚBLICA. DE CONFORMIDA",
-      "valor": 183000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11171349",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -756,7 +781,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -781,7 +806,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -806,31 +831,6 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11316216",
-      "fuente": "SECOP II",
-      "entidad": "AGENCIA DE EDUCACIÓN POSTSECUNDARIA DE MEDELLÍN -SAPIENCIA-",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11126245",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T00:00:00.000",
-      "descripcion": "Prestación de servicios profesionales de forma temporal como Profesional II en la Subdirección para la Gestión de la Educación Postsecundaria - GEP, para apoyar el diseño, implementación, integración, supervisión, operación y mejora continua de soluciones de inteligencia artificial y analítica de datos en el ecosistema digital @Medellín, garantizando su calidad, sostenibilidad, seguridad y aporte a los procesos de formación, permanencia y atención a los usuarios de la Agencia de Educación Postse",
-      "valor": 12495869,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11170934",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "analitica de datos + inteligencia artificial"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-06",
       "dias_en_radar": 3,
       "es_nuevo": false
     },
@@ -856,7 +856,32 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11316216",
+      "fuente": "SECOP II",
+      "entidad": "AGENCIA DE EDUCACIÓN POSTSECUNDARIA DE MEDELLÍN -SAPIENCIA-",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11126245",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-04T00:00:00.000",
+      "descripcion": "Prestación de servicios profesionales de forma temporal como Profesional II en la Subdirección para la Gestión de la Educación Postsecundaria - GEP, para apoyar el diseño, implementación, integración, supervisión, operación y mejora continua de soluciones de inteligencia artificial y analítica de datos en el ecosistema digital @Medellín, garantizando su calidad, sostenibilidad, seguridad y aporte a los procesos de formación, permanencia y atención a los usuarios de la Agencia de Educación Postse",
+      "valor": 12495869,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11170934",
+      "matched_groups": [
+        "IA / Agentes"
+      ],
+      "matched_keywords": [
+        "analitica de datos + inteligencia artificial"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -881,7 +906,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -906,7 +931,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -931,7 +956,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -956,7 +981,32 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11317830",
+      "fuente": "SECOP II",
+      "entidad": "UNAD",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11128144",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-04T00:00:00.000",
+      "descripcion": "RECIBIR PROPUESTA PARA CONTRATACIÓN DE PROVEEDOR PARA EL DESARROLLO DE LA FASE III DEL SIA CONTRALORÍAS MODERNIZADO, QUE COMPRENDE LA INTEROPERABILIDAD Y EL SOPORTE DE LA FASE I, CON EL PROPÓSITO DE APOYAR A LAS CONTRALORÍAS TERRITORIALES, DEPARTAMENTALES Y MUNICIPALES EN LA OPTIMIZACIÓN DE SUS PROCESOS DE CONTROL FISCAL, MEDIANTE LA ADOPCIÓN DE SOLUCIONES TECNOLÓGICAS INNOVADORAS DERIVADO DEL CONTRATO INTERADMINISTRATIVO CI-2-2026 SUSCRITO CON LA AUDITORÍA GENERAL DE LA REPÚBLICA. DE CONFORMIDA",
+      "valor": 183000000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11171349",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-07",
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -983,7 +1033,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -1008,7 +1058,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -1033,31 +1083,6 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11306969",
-      "fuente": "SECOP II",
-      "entidad": "EMPRESA SOCIAL DEL ESTADO HOSPITAL CUMBAL",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11117816",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-02T00:00:00.000",
-      "descripcion": "ADQUISICIÓN, IMPLEMENTACIÓN, PARAMETRIZACIÓN, PUESTA EN FUNCIONAMIENTO Y SOPORTE DE UN SISTEMA DE INFORMACIÓN PARA LABORATORIO CLÍNICO (LIS), CON LICENCIA PERPETUA, INTEGRACIÓN CON ANALIZADORES, INTEROPERABILIDAD CON EL SISTEMA DE INFORMACIÓN HOSPITALARIO, CAPACITACIÓN Y HERRAMIENTAS TECNOLÓGICAS PARA LA TRANSFORMACIÓN DIGITAL DEL LABORATORIO CLÍNICO DE LA E.S.E. HOSPITAL CUMBAL.",
-      "valor": 18950000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11161098",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-05",
       "dias_en_radar": 4,
       "es_nuevo": false
     },
@@ -1083,7 +1108,32 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-05",
-      "dias_en_radar": 4,
+      "dias_en_radar": 5,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11306969",
+      "fuente": "SECOP II",
+      "entidad": "EMPRESA SOCIAL DEL ESTADO HOSPITAL CUMBAL",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11117816",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-02T00:00:00.000",
+      "descripcion": "ADQUISICIÓN, IMPLEMENTACIÓN, PARAMETRIZACIÓN, PUESTA EN FUNCIONAMIENTO Y SOPORTE DE UN SISTEMA DE INFORMACIÓN PARA LABORATORIO CLÍNICO (LIS), CON LICENCIA PERPETUA, INTEGRACIÓN CON ANALIZADORES, INTEROPERABILIDAD CON EL SISTEMA DE INFORMACIÓN HOSPITALARIO, CAPACITACIÓN Y HERRAMIENTAS TECNOLÓGICAS PARA LA TRANSFORMACIÓN DIGITAL DEL LABORATORIO CLÍNICO DE LA E.S.E. HOSPITAL CUMBAL.",
+      "valor": 18950000,
+      "estado": "Publicado",
+      "modalidad": "Contratación régimen especial",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11161098",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-05",
+      "dias_en_radar": 5,
       "es_nuevo": false
     },
     {
@@ -1108,7 +1158,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-02",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1133,7 +1183,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-02",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1158,7 +1208,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-01",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1183,31 +1233,6 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-02",
-      "dias_en_radar": 7,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11298205",
-      "fuente": "SECOP II",
-      "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11108558",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-30T00:00:00.000",
-      "descripcion": "3200116 - Prestar servicios profesionales al Grupo Interno de Trabajo de \nServicios Ciudadanos Digitales para fortalecer la divulgación, adopción e \nimplementación de los Servicios Ciudadanos Digitales y del ecosistema \nGOV.CO, así como el acompañamiento a entidades públicas en Autenticación \nDigital, Carpeta Ciudadana Digital e Interoperabilidad.",
-      "valor": 28324450,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11151413",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-01",
       "dias_en_radar": 8,
       "es_nuevo": false
     },
@@ -1234,7 +1259,32 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-02",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11298205",
+      "fuente": "SECOP II",
+      "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11108558",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-30T00:00:00.000",
+      "descripcion": "3200116 - Prestar servicios profesionales al Grupo Interno de Trabajo de \nServicios Ciudadanos Digitales para fortalecer la divulgación, adopción e \nimplementación de los Servicios Ciudadanos Digitales y del ecosistema \nGOV.CO, así como el acompañamiento a entidades públicas en Autenticación \nDigital, Carpeta Ciudadana Digital e Interoperabilidad.",
+      "valor": 28324450,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11151413",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-01",
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1259,7 +1309,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-02",
-      "dias_en_radar": 7,
+      "dias_en_radar": 8,
       "es_nuevo": false
     },
     {
@@ -1286,7 +1336,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-01",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1312,7 +1362,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-01",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1337,7 +1387,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1362,7 +1412,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1387,7 +1437,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-01",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1414,6 +1464,31 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-31",
+      "dias_en_radar": 10,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11288476",
+      "fuente": "SECOP II",
+      "entidad": "MUNICIPIO DE LA PLATA",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11098895",
+      "fecha_cierre": null,
+      "lotes": 0,
+      "fecha_publicacion": "2026-10-29T00:00:00.000",
+      "descripcion": "PROPORCIONAR SERVICIOS PROFESIONALES AL DEPARTAMENTO ADMINISTRATIVO DE PLANEACIÓN MUNICIPAL PARA BRINDAR APOYO EN LA ADMINISTRACIÓN, INCORPORACIÓN, ACTUALIZACIÓN, CONTROL Y PRESENTACIÓN DE LA INFORMACIÓN DE LOS PROYECTOS DE INVERSIÓN PÚBLICA EN LA PLATAFORMA INTEGRADA DE INVERSIÓN PÚBLICA (PIIP), ASÍ COMO EN EL DESARROLLO DE ACCIONES ORIENTADAS A FACILITAR LA INTEGRACIÓN E INTEROPERABILIDAD DE LA INFORMACIÓN, CONFORME A LAS METODOLOGÍAS DE GESTIÓN Y LAS DISPOSICIONES NORMATIVAS VIGENTES APLICABL",
+      "valor": 9000000,
+      "estado": "Seleccionado",
+      "modalidad": "Contratación directa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11144504",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-01",
       "dias_en_radar": 9,
       "es_nuevo": false
     },
@@ -1439,32 +1514,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-01",
-      "dias_en_radar": 8,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11288476",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE LA PLATA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11098895",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-10-29T00:00:00.000",
-      "descripcion": "PROPORCIONAR SERVICIOS PROFESIONALES AL DEPARTAMENTO ADMINISTRATIVO DE PLANEACIÓN MUNICIPAL PARA BRINDAR APOYO EN LA ADMINISTRACIÓN, INCORPORACIÓN, ACTUALIZACIÓN, CONTROL Y PRESENTACIÓN DE LA INFORMACIÓN DE LOS PROYECTOS DE INVERSIÓN PÚBLICA EN LA PLATAFORMA INTEGRADA DE INVERSIÓN PÚBLICA (PIIP), ASÍ COMO EN EL DESARROLLO DE ACCIONES ORIENTADAS A FACILITAR LA INTEGRACIÓN E INTEROPERABILIDAD DE LA INFORMACIÓN, CONFORME A LAS METODOLOGÍAS DE GESTIÓN Y LAS DISPOSICIONES NORMATIVAS VIGENTES APLICABL",
-      "valor": 9000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11144504",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-01",
-      "dias_en_radar": 8,
+      "dias_en_radar": 9,
       "es_nuevo": false
     },
     {
@@ -1489,7 +1539,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1514,7 +1564,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1540,7 +1590,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1565,7 +1615,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1590,7 +1640,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1615,7 +1665,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1640,7 +1690,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -1665,7 +1715,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -1690,7 +1740,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1715,7 +1765,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -1740,7 +1790,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -1765,7 +1815,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -1790,7 +1840,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -1815,7 +1865,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -1840,7 +1890,7 @@
       ],
       "destacado": false,
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     }
   ],
@@ -1863,8 +1913,8 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11285367",
@@ -1884,7 +1934,7 @@
         "gobierno de datos"
       ],
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -1905,7 +1955,7 @@
         "arquitectura empresarial"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -1926,8 +1976,8 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11329954",
@@ -1947,8 +1997,8 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11324931",
@@ -1968,7 +2018,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -1989,7 +2039,7 @@
         "big data"
       ],
       "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 2,
+      "dias_en_radar": 3,
       "es_nuevo": false
     },
     {
@@ -2010,8 +2060,8 @@
         "transformacion digital"
       ],
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11276753",
@@ -2031,7 +2081,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2052,7 +2102,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-31",
-      "dias_en_radar": 9,
+      "dias_en_radar": 10,
       "es_nuevo": false
     },
     {
@@ -2073,7 +2123,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -2094,8 +2144,8 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11272694",
@@ -2115,7 +2165,7 @@
         "arquitectura empresarial"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -2136,8 +2186,8 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11315903",
@@ -2157,7 +2207,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 3,
+      "dias_en_radar": 4,
       "es_nuevo": false
     },
     {
@@ -2178,7 +2228,7 @@
         "gestion documental"
       ],
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2199,7 +2249,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -2220,8 +2270,8 @@
         "gobierno de datos"
       ],
       "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 1,
-      "es_nuevo": true
+      "dias_en_radar": 2,
+      "es_nuevo": false
     },
     {
       "id_proceso": "CO1.REQ.11270782",
@@ -2241,7 +2291,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     },
     {
@@ -2262,7 +2312,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-30",
-      "dias_en_radar": 10,
+      "dias_en_radar": 11,
       "es_nuevo": false
     },
     {
@@ -2284,7 +2334,7 @@
         "gobierno digital"
       ],
       "primera_vez_visto": "2026-10-29",
-      "dias_en_radar": 11,
+      "dias_en_radar": 12,
       "es_nuevo": false
     }
   ],
@@ -2722,7 +2772,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11253939": {
@@ -2734,7 +2784,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11265794": {
@@ -2757,7 +2807,7 @@
       "smmlv": [
         "114,23"
       ],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11266566": {
@@ -2769,7 +2819,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11267146": {
@@ -2803,7 +2853,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11267643": {
@@ -2824,7 +2874,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11270336": {
@@ -2850,7 +2900,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11270782": {
@@ -2871,7 +2921,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11271065": {
@@ -2883,7 +2933,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11272694": {
@@ -2904,7 +2954,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11273252": {
@@ -2934,7 +2984,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11275620": {
@@ -2963,7 +3013,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11276225": {
@@ -2975,7 +3025,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11276753": {
@@ -2987,7 +3037,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11277983": {
@@ -2999,7 +3049,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11279123": {
@@ -3020,7 +3070,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11279711": {
@@ -3041,7 +3091,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11280421": {
@@ -3065,7 +3115,7 @@
         "56,96",
         "99,85"
       ],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11281450": {
@@ -3086,7 +3136,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11283907": {
@@ -3113,7 +3163,7 @@
         "2.000",
         "125,82"
       ],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11284310": {
@@ -3134,7 +3184,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11284523": {
@@ -3146,7 +3196,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11284818": {
@@ -3158,7 +3208,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11284825": {
@@ -3183,7 +3233,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11285367": {
@@ -3204,7 +3254,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11285725": {
@@ -3216,7 +3266,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11286721": {
@@ -3252,7 +3302,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11287076": {
@@ -3264,7 +3314,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11288347": {
@@ -3292,7 +3342,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11288476": {
@@ -3304,7 +3354,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11289945": {
@@ -3316,7 +3366,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11289998": {
@@ -3328,7 +3378,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11290266": {
@@ -3340,7 +3390,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11297430": {
@@ -3368,7 +3418,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11298205": {
@@ -3389,7 +3439,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11298784": {
@@ -3401,7 +3451,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11298794": {
@@ -3413,7 +3463,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11299255": {
@@ -3425,7 +3475,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11300335": {
@@ -3437,7 +3487,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11300627": {
@@ -3449,7 +3499,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11306969": {
@@ -3472,7 +3522,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11306977": {
@@ -3484,7 +3534,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11308513": {
@@ -3510,7 +3560,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11310795": {
@@ -3531,7 +3581,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11310804": {
@@ -3543,7 +3593,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11310931": {
@@ -3555,7 +3605,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11313965": {
@@ -3567,7 +3617,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11314601": {
@@ -3579,7 +3629,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11314662": {
@@ -3591,7 +3641,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11314907": {
@@ -3626,8 +3676,29 @@
         "34,77",
         "26,08"
       ],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
+    },
+    "CO1.REQ.11315163": {
+      "id_proceso": "CO1.REQ.11315163",
+      "entidad": "CANAL REGIONAL DE TELEVISION S.A.S",
+      "revisado_en": "2026-11-09",
+      "documentos_en_el_proceso": 20,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "06. CERTIFICADOS EXPERIENCIAS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=887150701&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "Así mismo, mediante certificación de cumplimiento de fecha 11 de abril de 2023, suscrita por Luis Felipe\n Guzman Cardona- Coordinador Grupo Interno de Trabajo de Comisarías de Familia, en calidad de\n supervisor hizo constar:",
+      "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-11-09",
+      "recortado": false
     },
     "CO1.REQ.11315579": {
       "id_proceso": "CO1.REQ.11315579",
@@ -3649,7 +3720,7 @@
       "smmlv": [
         "30"
       ],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11315708": {
@@ -3661,7 +3732,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11315903": {
@@ -3682,7 +3753,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11315944": {
@@ -3694,7 +3765,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11316216": {
@@ -3706,7 +3777,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11317830": {
@@ -3718,7 +3789,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11319523": {
@@ -3730,7 +3801,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11319639": {
@@ -3764,7 +3835,7 @@
       "minimo_codigos": null,
       "max_contratos": 2,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11319753": {
@@ -3785,7 +3856,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11319904": {
@@ -3797,7 +3868,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11320329": {
@@ -3809,7 +3880,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11320367": {
@@ -3821,7 +3892,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11321334": {
@@ -3842,7 +3913,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11321803": {
@@ -3863,7 +3934,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11321849": {
@@ -3884,7 +3955,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11323108": {
@@ -3899,7 +3970,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11323255": {
@@ -3934,7 +4005,7 @@
         "34,77",
         "26,08"
       ],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11324506": {
@@ -3946,7 +4017,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11324528": {
@@ -3958,7 +4029,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11324736": {
@@ -3981,7 +4052,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11324796": {
@@ -4014,7 +4085,7 @@
       "smmlv": [
         "200"
       ],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11324931": {
@@ -4040,7 +4111,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11324953": {
@@ -4052,8 +4123,45 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
+    },
+    "CO1.REQ.11325272": {
+      "id_proceso": "CO1.REQ.11325272",
+      "entidad": "SUPERINTENDENCIA FINANCIERA DE COLOMBIA**",
+      "revisado_en": "2026-11-09",
+      "documentos_en_el_proceso": 7,
+      "estado_analisis": "ok",
+      "documentos": [
+        {
+          "nombre": "06. DOCUMENTO COMPLEMENTARIO PROYECTO PLIEGO CONDICIONES.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=887011146&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        },
+        {
+          "nombre": "01. ESTUDIOS PREVIOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=887011141&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+        }
+      ],
+      "texto": "2.2.2.1 EXPERIENCIA DEL PROPONENTE RELACIONADA EN EL RUP .................................................... 34\n\n2.2.2.1.2 REGLAS APLICABLES A LA EXPERIENCIA HABILITANTE DEL PROPONENTE ....................... 39\n\n2.2.2.1.3 REGLAS APLICABLES A LA EXPERIENCIA HABILITANTE DEL PROPONENTE PLURAL\n (CONSORCIO, UNIÓN TEMPORAL) .................................................................................................... 41\n\n2.2.2.1.4 CONTENIDO DE LAS CERTIFICACIONES PARA ACREDITAR EXPERIENCIA .......................... 42\n\nd. Certificación: Como quiera que en el RUP no figura toda la información\n suficiente para acreditar la experiencia, los proponentes deben adjuntar de\n los mismos contratos con los que acredita la experiencia, la certificación(es)\n\f DOCUMENTO COMPLEMENTARIO DEL PROYECTO DE PLIEGO DE\n CONDICIONES ELECTRÓNICO DE SELECCIÓN ABREVIADA PARA\n LA ADQUISICIÓN Y/O SUMINISTRO DE BIENES Y SERVICIOS DE Página 35 de 155\n CARACTERÍSTICAS TÉCNICAS UNIFORMES Y DE COMÚN\n UTILIZACIÓN\n\nNota: En el evento en que un proponente presente certificaciones de contratos\nen los cuales se haya llevado a cabo varias actividades, para la evaluación de la\nexperiencia, en cuanto al valor del contrato se refiere, sólo se tendrá en cuenta\nel valor correspondiente a las actividades relacionadas con la experiencia\nrequerida, esto con el fin de verificar que el valor de estas actividades\ncorresponde al (100)% del total del presupuesto oficial del presente proceso de\nselección expresado en SMMLV, es decir a (380,30) SMMLV.\n\n2.2.1.2.4.2.7.3 del mismo decreto, modificado por el artículo 1 del Decreto 0287\nde 2026, orientados a incentivar la participación de las Mipyme\ndomiciliadas en Colombia y a promover la inclusión de emprendimientos y\nempresas de personas con discapacidad con domicilio en \n\n[...]",
+      "unspsc_exigidos": [
+        "81000000",
+        "81110000",
+        "81111500",
+        "43000000",
+        "43220000",
+        "43221500",
+        "81111506",
+        "43221501"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": 3,
+      "smmlv": [
+        "1.750.905"
+      ],
+      "ultima_vez_en_radar": "2026-11-09",
+      "recortado": true
     },
     "CO1.REQ.11325720": {
       "id_proceso": "CO1.REQ.11325720",
@@ -4064,7 +4172,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11325769": {
@@ -4085,7 +4193,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11325771": {
@@ -4097,7 +4205,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11326187": {
@@ -4109,7 +4217,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11326665": {
@@ -4121,7 +4229,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11326917": {
@@ -4133,7 +4241,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11327312": {
@@ -4145,7 +4253,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11328212": {
@@ -4157,7 +4265,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11328418": {
@@ -4169,7 +4277,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11328781": {
@@ -4181,7 +4289,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11329071": {
@@ -4193,7 +4301,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11329123": {
@@ -4222,7 +4330,7 @@
       "minimo_codigos": null,
       "max_contratos": 5,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11329954": {
@@ -4234,7 +4342,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11329991": {
@@ -4246,7 +4354,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11330486": {
@@ -4258,7 +4366,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11331102": {
@@ -4273,7 +4381,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11331921": {
@@ -4285,7 +4393,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11332172": {
@@ -4297,7 +4405,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11332210": {
@@ -4318,7 +4426,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     },
     "CO1.REQ.11332680": {
@@ -4330,7 +4438,7 @@
       "texto": "",
       "unspsc_exigidos": [],
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": false
     },
     "CO1.REQ.11334056": {
@@ -4351,7 +4459,7 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-08",
+      "ultima_vez_en_radar": "2026-11-09",
       "recortado": true
     }
   }
