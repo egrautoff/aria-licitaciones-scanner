@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-12T13:50:48.197Z",
+  "generated_at": "2026-11-12T17:45:54.309Z",
   "dia": "2026-11-12",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2149,
-  "total_matched": 72,
+  "total_scanned": 1980,
+  "total_matched": 70,
   "total_destacados": 0,
   "total_nuevos": 12,
   "items": [
@@ -185,31 +185,6 @@
       "es_nuevo": true
     },
     {
-      "id_proceso": "CO1.REQ.11349181",
-      "fuente": "SECOP II",
-      "entidad": "SOCIEDAD FIDUCIARIA DE DESARROLLO AGROPECUARIO S.A**",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11159224",
-      "fecha_cierre": "2026-11-18T00:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T00:00:00.000",
-      "descripcion": "La Sociedad Fiduciaria de Desarrollo Agropecuario S.A. - FIDUAGRARIA S.A. invita a presentar cotización para el suministro de una solución tecnológica especializada, bajo modalidad SaaS, que incluya implementación, licenciamiento, acceso, soporte, mantenimiento y actualización permanente, destinada a la consulta, gestión y seguimiento de la normativa, obligaciones y calendarios tributarios territoriales, incluyendo los aspectos relacionados con el Impuesto de Industria y Comercio (ICA), (...)",
-      "valor": 0,
-      "estado": "Publicado",
-      "modalidad": "Solicitud de información a los Proveedores",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11203132",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 1,
-      "es_nuevo": true
-    },
-    {
       "id_proceso": "CO1.REQ.11334040",
       "fuente": "SECOP II",
       "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL -DEPARTAMENTO ADMINISTRATIVO DE DESARROLLO E INNOVACION INSTITUCIONAL",
@@ -273,6 +248,31 @@
       "estado": "Seleccionado",
       "modalidad": "Contratación directa",
       "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11202556",
+      "matched_groups": [
+        "Desarrollo / Fabrica"
+      ],
+      "matched_keywords": [
+        "desarrollo + implementacion + soporte"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-12",
+      "dias_en_radar": 1,
+      "es_nuevo": true
+    },
+    {
+      "id_proceso": "CO1.REQ.11349181",
+      "fuente": "SECOP II",
+      "entidad": "SOCIEDAD FIDUCIARIA DE DESARROLLO AGROPECUARIO S.A**",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11159224",
+      "fecha_cierre": "2026-11-18T00:00:00.000",
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-09T00:00:00.000",
+      "descripcion": "La Sociedad Fiduciaria de Desarrollo Agropecuario S.A. - FIDUAGRARIA S.A. invita a presentar cotización para el suministro de una solución tecnológica especializada, bajo modalidad SaaS, que incluya implementación, licenciamiento, acceso, soporte, mantenimiento y actualización permanente, destinada a la consulta, gestión y seguimiento de la normativa, obligaciones y calendarios tributarios territoriales, incluyendo los aspectos relacionados con el Impuesto de Industria y Comercio (ICA), (...)",
+      "valor": 0,
+      "estado": "Publicado",
+      "modalidad": "Solicitud de información a los Proveedores",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11203132",
       "matched_groups": [
         "Desarrollo / Fabrica"
       ],
@@ -410,31 +410,6 @@
       "es_nuevo": true
     },
     {
-      "id_proceso": "CO1.REQ.11334056",
-      "fuente": "SECOP II",
-      "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL MIGRACION COLOMBIA-*",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11144257",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-06T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS PROFESIONALES A LA UNIDAD ADMINISTRATIVA ESPECIAL MIGRACIÓN COLOMBIA, A TRAVÉS DE LA OFICINA DE TECNOLOGÍAS DE LA INFORMACIÓN, PARA BRINDAR ACOMPAÑAMIENTO TÉCNICO EN LA IDENTIFICACIÓN, FORMULACIÓN, ESTRUCTURACIÓN, IMPLEMENTACIÓN Y SEGUIMIENTO DE INICIATIVAS Y SOLUCIONES BASADAS EN INTELIGENCIA ARTIFICIAL, ANALÍTICA AVANZADA DE DATOS Y TECNOLOGÍAS EMERGENTES, ORIENTADAS A LA OPTIMIZACIÓN DE LOS PROCESOS MISIONALES, EL FORTALECIMIENTO DE LAS CAPACIDADES INSTITUCIONALES, LA AUTOMA",
-      "valor": 24000000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11189686",
-      "matched_groups": [
-        "Analitica / BI"
-      ],
-      "matched_keywords": [
-        "analitica avanzada"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 5,
-      "es_nuevo": false
-    },
-    {
       "id_proceso": "CO1.REQ.11315163",
       "fuente": "SECOP II",
       "entidad": "CANAL REGIONAL DE TELEVISION S.A.S",
@@ -535,24 +510,24 @@
       "es_nuevo": false
     },
     {
-      "id_proceso": "CO1.REQ.11331921",
+      "id_proceso": "CO1.REQ.11334056",
       "fuente": "SECOP II",
-      "entidad": "IGAC Sede Central *",
+      "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL MIGRACION COLOMBIA-*",
       "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11142217",
+      "id_portafolio": "CO1.BDOS.11144257",
       "fecha_cierre": null,
       "lotes": 0,
       "fecha_publicacion": "2026-11-06T00:00:00.000",
-      "descripcion": "4.2720.3.2.1.1-Prestación de servicios profesionales para brindar asistencia en la realización de pruebas de software y la documentación de procesos, reglas de negocio, especificaciones funcionales y diseño de interfaces de los sistemas de información de la Entidad en procura del mejoramiento en la disposición de información geográfica requerida para el Sistema de Administración del Territorio, a nivel nacional.",
-      "valor": 14417867,
+      "descripcion": "PRESTAR SERVICIOS PROFESIONALES A LA UNIDAD ADMINISTRATIVA ESPECIAL MIGRACIÓN COLOMBIA, A TRAVÉS DE LA OFICINA DE TECNOLOGÍAS DE LA INFORMACIÓN, PARA BRINDAR ACOMPAÑAMIENTO TÉCNICO EN LA IDENTIFICACIÓN, FORMULACIÓN, ESTRUCTURACIÓN, IMPLEMENTACIÓN Y SEGUIMIENTO DE INICIATIVAS Y SOLUCIONES BASADAS EN INTELIGENCIA ARTIFICIAL, ANALÍTICA AVANZADA DE DATOS Y TECNOLOGÍAS EMERGENTES, ORIENTADAS A LA OPTIMIZACIÓN DE LOS PROCESOS MISIONALES, EL FORTALECIMIENTO DE LAS CAPACIDADES INSTITUCIONALES, LA AUTOMA",
+      "valor": 24000000,
       "estado": "Seleccionado",
       "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11185919",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11189686",
       "matched_groups": [
-        "Desarrollo / Fabrica"
+        "Analitica / BI"
       ],
       "matched_keywords": [
-        "pruebas de software"
+        "analitica avanzada"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-08",
@@ -760,31 +735,6 @@
       "es_nuevo": false
     },
     {
-      "id_proceso": "CO1.REQ.11324953",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11135089",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T00:00:00.000",
-      "descripcion": "PRESTAR SERVICIOS PARA APOYAR EL DISEÑO, DESARROLLO, SOPORTE Y ADMINISTRACIÓN DEL SITIO WEB OFICIAL DE LA FACULTAD DE INGENIERÍA DE LA SEDE BOGOTÁ, BASADO EN EL CMS WORDPRES.",
-      "valor": 11700000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11178542",
-      "matched_groups": [
-        "Liferay / Portal"
-      ],
-      "matched_keywords": [
-        "sitio web + desarrollo"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 6,
-      "es_nuevo": false
-    },
-    {
       "id_proceso": "CO1.REQ.11323255",
       "fuente": "SECOP II",
       "entidad": "ALCALDÍA DE CHINACOTA",
@@ -954,56 +904,6 @@
       "matched_keywords": [
         "portal web + desarrollo",
         "portal web + implementacion"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 7,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11313965",
-      "fuente": "SECOP II",
-      "entidad": "AGENCIA NACIONAL DE SEGURIDAD VIAL",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11123602",
-      "fecha_cierre": "2026-11-11T00:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T00:00:00.000",
-      "descripcion": "CONTRATAR EL SERVICIO DE LICENCIAMIENTO DE USO, ALOJAMIENTO, ACCESO, IMPLEMENTACIÓN, PUESTA EN FUNCIONAMIENTO, INTEROPERABILIDAD, MANTENIMIENTO Y SOPORTE, DE UNA SOLUCIÓN TECNOLÓGICA INTEGRADA COMPUESTA POR UN SISTEMA DE PLANIFICACIÓN DE RECURSOS EMPRESARIALES (ERP), UN SISTEMA DE GESTIÓN DE DOCUMENTOS ELECTRÓNICOS DE ARCHIVO (SGDEA) Y UNA SOLUCIÓN DE PLANEACIÓN O GESTIÓN DE PROYECTOS, CON EL FIN DE FORTALECER LA GESTIÓN INSTITUCIONAL, ADMINISTRATIVA, DOCUMENTAL Y ESTRATÉGICA DE LA AGENCIA NACIO",
-      "valor": 0,
-      "estado": "Publicado",
-      "modalidad": "Solicitud de información a los Proveedores",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11170381",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 7,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11308513",
-      "fuente": "SECOP II",
-      "entidad": "MINISTERIO DE HACIENDA Y CREDITO PUBLICO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11119080",
-      "fecha_cierre": "2026-11-23T00:00:00.000",
-      "lotes": 2,
-      "fecha_publicacion": "2026-11-04T00:00:00.000",
-      "descripcion": "Adquirir la renovación de licenciamiento con su soporte y horas de acompañamiento desarrollo para la solución de interoperabilidad CA Layer7 API Management del Ministerio de Hacienda y Crédito Público",
-      "valor": 1206705686,
-      "estado": "Publicado",
-      "modalidad": "Selección abreviada subasta inversa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11171003",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
       ],
       "destacado": false,
       "primera_vez_visto": "2026-11-06",
@@ -1261,6 +1161,31 @@
       "es_nuevo": false
     },
     {
+      "id_proceso": "CO1.REQ.11313965",
+      "fuente": "SECOP II",
+      "entidad": "AGENCIA NACIONAL DE SEGURIDAD VIAL",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11123602",
+      "fecha_cierre": "2026-11-11T00:00:00.000",
+      "lotes": 0,
+      "fecha_publicacion": "2026-11-04T00:00:00.000",
+      "descripcion": "CONTRATAR EL SERVICIO DE LICENCIAMIENTO DE USO, ALOJAMIENTO, ACCESO, IMPLEMENTACIÓN, PUESTA EN FUNCIONAMIENTO, INTEROPERABILIDAD, MANTENIMIENTO Y SOPORTE, DE UNA SOLUCIÓN TECNOLÓGICA INTEGRADA COMPUESTA POR UN SISTEMA DE PLANIFICACIÓN DE RECURSOS EMPRESARIALES (ERP), UN SISTEMA DE GESTIÓN DE DOCUMENTOS ELECTRÓNICOS DE ARCHIVO (SGDEA) Y UNA SOLUCIÓN DE PLANEACIÓN O GESTIÓN DE PROYECTOS, CON EL FIN DE FORTALECER LA GESTIÓN INSTITUCIONAL, ADMINISTRATIVA, DOCUMENTAL Y ESTRATÉGICA DE LA AGENCIA NACIO",
+      "valor": 0,
+      "estado": "Publicado",
+      "modalidad": "Solicitud de información a los Proveedores",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11170381",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 7,
+      "es_nuevo": false
+    },
+    {
       "id_proceso": "CO1.REQ.11321803",
       "fuente": "SECOP II",
       "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
@@ -1308,6 +1233,31 @@
       "destacado": false,
       "primera_vez_visto": "2026-11-07",
       "dias_en_radar": 6,
+      "es_nuevo": false
+    },
+    {
+      "id_proceso": "CO1.REQ.11308513",
+      "fuente": "SECOP II",
+      "entidad": "MINISTERIO DE HACIENDA Y CREDITO PUBLICO",
+      "unspsc": "UNSPECIFIED",
+      "id_portafolio": "CO1.BDOS.11119080",
+      "fecha_cierre": "2026-11-23T00:00:00.000",
+      "lotes": 2,
+      "fecha_publicacion": "2026-11-04T00:00:00.000",
+      "descripcion": "Adquirir la renovación de licenciamiento con su soporte y horas de acompañamiento desarrollo para la solución de interoperabilidad CA Layer7 API Management del Ministerio de Hacienda y Crédito Público",
+      "valor": 1206705686,
+      "estado": "Publicado",
+      "modalidad": "Selección abreviada subasta inversa",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11171003",
+      "matched_groups": [
+        "Integracion / BUS"
+      ],
+      "matched_keywords": [
+        "interoperabilidad"
+      ],
+      "destacado": false,
+      "primera_vez_visto": "2026-11-06",
+      "dias_en_radar": 7,
       "es_nuevo": false
     },
     {
@@ -3313,18 +3263,6 @@
       "ultima_vez_en_radar": "2026-11-12",
       "recortado": true
     },
-    "CO1.REQ.11324953": {
-      "id_proceso": "CO1.REQ.11324953",
-      "revisado_en": "2026-11-07",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-12",
-      "recortado": false
-    },
     "CO1.REQ.11325272": {
       "id_proceso": "CO1.REQ.11325272",
       "entidad": "SUPERINTENDENCIA FINANCIERA DE COLOMBIA**",
@@ -3510,18 +3448,6 @@
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-12",
-      "recortado": false
-    },
-    "CO1.REQ.11331921": {
-      "id_proceso": "CO1.REQ.11331921",
-      "revisado_en": "2026-11-08",
-      "documentos_en_el_proceso": 8,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-12",
       "recortado": false
