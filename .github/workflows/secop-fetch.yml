@@ -60,3 +60,25 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: actualizar licitaciones SECOP $(TZ=America/Bogota date +%Y-%m-%d)"
           git pull --rebase
           git push
+
+      # Avisa a la rutina de Claude que publica el tablero y envia el correo, para
+      # que corra apenas hay datos nuevos en vez de a una hora fija que el retraso
+      # de GitHub hacia llegar antes que el dato. Solo corre si todo lo anterior
+      # salio bien. La URL y el token salen del "API trigger" de la rutina en
+      # claude.ai/code/routines; si los secretos no estan, se salta sin fallar.
+      - name: Avisar a la rutina que publique
+        env:
+          ROUTINE_FIRE_URL: ${{ secrets.ROUTINE_FIRE_URL }}
+          ROUTINE_FIRE_TOKEN: ${{ secrets.ROUTINE_FIRE_TOKEN }}
+        run: |
+          if [ -z "$ROUTINE_FIRE_URL" ] || [ -z "$ROUTINE_FIRE_TOKEN" ]; then
+            echo "Sin ROUTINE_FIRE_URL / ROUTINE_FIRE_TOKEN: no se avisa a la rutina."
+            exit 0
+          fi
+          DIA=$(node -e "console.log(require('./data/latest.json').dia)")
+          curl -fsS --retry 3 --retry-delay 20 -X POST "$ROUTINE_FIRE_URL" \
+            -H "Authorization: Bearer $ROUTINE_FIRE_TOKEN" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\": \"Datos de SECOP listos: dia $DIA, commit $(git rev-parse --short HEAD).\"}" \
+            -o /dev/null -w "Rutina avisada: HTTP %{http_code}\n"
