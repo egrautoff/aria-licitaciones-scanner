@@ -23,9 +23,11 @@ Aun así el retraso sigue creciendo: entre el 16 de septiembre y el 6 de noviemb
 
 El retraso afecta **solo a `schedule`**; un `workflow_dispatch` arranca de inmediato.
 
-### Por qué no hay disparo por evento
+### Disparo por evento: el Action avisa a la rutina
 
-Sería mejor que el Action avisara a la rutina en vez de confiar en un margen. Se probaron los tres caminos y los tres están cerrados:
+Desde noviembre de 2026 el último paso de `secop-fetch.yml` le hace POST al **API trigger** de la rutina principal, así que el tablero se publica apenas hay datos nuevos y no a una hora fija. El API trigger se crea solo desde la web (claude.ai/code/routines → la rutina → Edit → Trigger → **+** → API); da una Fire URL y un token que se muestra una sola vez. Viven en los secretos del repositorio `ROUTINE_FIRE_URL` y `ROUTINE_FIRE_TOKEN`. Si faltan, el paso se salta sin fallar. Límite: 30 disparos por hora por rutina.
+
+Antes de que existiera el API trigger se probaron estos tres caminos, y los tres estaban cerrados:
 
 | Camino | Resultado |
 |---|---|
@@ -35,7 +37,7 @@ Sería mejor que el Action avisara a la rutina en vez de confiar en un margen. S
 
 Tampoco sirve que la rutina traiga los datos ella misma: `datos.gov.co` responde `connect_rejected (organization policy)` desde el sandbox.
 
-Por eso las defensas son tres, todas pasivas: el margen amplio, la rutina de recuperación, y el aviso de dato atrasado que el propio tablero calcula desde `dia`.
+Además del aviso quedan tres defensas: la rutina espera hasta 4 horas si arranca y el dato no es de hoy, la rutina de recuperación, y el aviso de dato atrasado que el propio tablero calcula desde `dia`.
 
 ### Las rutinas
 
