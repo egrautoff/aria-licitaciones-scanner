@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T14:12:01.115Z",
+  "generated_at": "2026-11-18T18:15:22.655Z",
   "dia": "2026-11-18",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2371,
-  "total_matched": 87,
+  "total_scanned": 2326,
+  "total_matched": 84,
   "total_destacados": 0,
   "total_nuevos": 0,
   "items": [
@@ -2109,83 +2109,6 @@
       "primera_vez_visto": "2026-11-06",
       "dias_en_radar": 13,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11310795",
-      "fuente": "SECOP II",
-      "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11121763",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-03T15:31:35.186",
-      "descripcion": "1400084 - Prestar servicios de apoyo a la gestión en la Oficina de Tecnologías de la Información para el análisis, diseño, desarrollo, integración y mantenimiento evolutivo de soluciones de software del GIT de Gestión de Sistemas de Información, incorporando criterios de arquitectura, calidad, interoperabilidad y seguridad, así como brindar apoyo técnico a la supervisión de los contratos asociados a dichas soluciones, de conformidad con el PETI.",
-      "valor": 9122680,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11164850",
-      "matched_groups": [
-        "Desarrollo / Fabrica",
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "mantenimiento evolutivo",
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11310931",
-      "fuente": "SECOP II",
-      "entidad": "EMPRESA DE SERVICIOS PUBLICOS DE TENJO SA ESP",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11121418",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-03T14:55:36.966",
-      "descripcion": "PRESTACIÓN DE SERVICIOS PROFESIONALES ESPECIALIZADOS PARA REALIZAR LA INTEGRACIÓN, CRUCE, ANÁLISIS, DEPURACIÓN Y UNIFICACIÓN DE LA INFORMACIÓN DE LA BASE DE DATOS CATASTRAL DEL MUNICIPIO DE TENJO CON LA BASE DE DATOS COMERCIAL DE USUARIOS DE EMSERTENJO S.A. E.S.P., MEDIANTE HERRAMIENTAS DE SISTEMAS DE INFORMACIÓN GEOGRÁFICA (SIG), INTEROPERABILIDAD DE DATOS Y VALIDACIÓN TÉCNICA EN CAMPO DE LAS INCONSISTENCIAS IDENTIFICADAS EN EL CASCO URBANO, CON EL FIN DE FORTALECER LA IDENTIFICACIÓN Y CARACTER",
-      "valor": 18000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11164292",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11310804",
-      "fuente": "SECOP II",
-      "entidad": "HOSPITAL CLARITA SANTOS NARIÑO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11121186",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-03T14:25:04.244",
-      "descripcion": "PRESTACIÓN DE SERVICIOS TECNOLÓGICOS PARA LA IMPLEMENTACIÓN DE SEGURIDAD EN LA INTEROPERABILIDAD DE LA HISTORIA CLÍNICA ELECTRÓNICA (IHCE) PARA LA E.S.E. HOSPITAL CLARITA SANTOS DEL MUNICIPIO DE SANDONÁ NARIÑO",
-      "valor": 1500000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11163989",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-06",
-      "dias_en_radar": 13,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -2983,51 +2906,6 @@
       ],
       "minimo_codigos": null,
       "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-18",
-      "recortado": false
-    },
-    "CO1.REQ.11310795": {
-      "id_proceso": "CO1.REQ.11310795",
-      "entidad": "FONDO UNICO DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
-      "revisado_en": "2026-11-09",
-      "documentos_en_el_proceso": 18,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "13. CERTIFICADO DE EXPERIENCIA E IDONEIDAD ASGC.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=884678416&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "AÑO(S) MES(ES) DIAS TOTAL\n EXPERIENCIA\n REQUERIDA Experiencia laboral de 36 meses.\n 36 0 1080 1080\n (ESTUDIO PREVIO):\n\nFECHA DE INGRESO FECHA DE RETIRO EXPERIENCIA\n NOMBRE EMPRESA O ENTIDAD\n DIA/MES/AÑO DIA/MES/AÑO (DIAS)\n 1 0\n 2 FRACTALIA GROUP 9/03/2022 26/01/2026 1.420\n 3 FUNTIC CTO 916-2026 27/01/2026 27/08/2026 213\n 4 0\n 5 0\n 6 0\n 7 0\n 8 0\n 9 0\n 10 0\n 11 0\n 12 0\n 13 0\n 14 0\n 15 0\n 16 0\n 17 0\n 18 0\n 19 0\n 20 0\n 21 0\n 22 0\n 23 0\n EXPERIENCIA VERIFICADA TOTAL 1.633\n EQUIVALENCIA (Título de posgrado relacionado con el objeto a contratar por Dos (2) años de experiencia profesional)\n 1 NO APLICA\n TOTAL EQUIVALENCIA 0",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-18",
-      "recortado": false
-    },
-    "CO1.REQ.11310804": {
-      "id_proceso": "CO1.REQ.11310804",
-      "revisado_en": "2026-11-06",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-18",
-      "recortado": false
-    },
-    "CO1.REQ.11310931": {
-      "id_proceso": "CO1.REQ.11310931",
-      "revisado_en": "2026-11-06",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-18",
       "recortado": false
