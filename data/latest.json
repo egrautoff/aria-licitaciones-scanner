@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T14:30:13.560Z",
+  "generated_at": "2026-11-19T18:25:51.579Z",
   "dia": "2026-11-19",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2412,
-  "total_matched": 90,
+  "total_scanned": 2341,
+  "total_matched": 84,
   "total_destacados": 0,
   "total_nuevos": 17,
   "items": [
@@ -2108,156 +2108,6 @@
       "primera_vez_visto": "2026-11-07",
       "dias_en_radar": 13,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11320367",
-      "fuente": "SECOP II",
-      "entidad": "BIBLIOTECA PUBLICA PILOTO DE MEDELLIN PARA AMERICA LATINA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11130680",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T17:22:02.125",
-      "descripcion": "Prestación de servicios de apoyo a la gestión para el soporte de nivel 1 de mesa de ayuda, orientado a la atención y acompañamiento en la solución a fallas de baja y media complejidad, así como el desarrollo de asesorías puntuales a los usuarios internos acerca del uso de los servicios TI, para el Sistema de Bibliotecas Públicas de Medellín.",
-      "valor": 6865228,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11173597",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11320329",
-      "fuente": "SECOP II",
-      "entidad": "BIBLIOTECA PUBLICA PILOTO DE MEDELLIN PARA AMERICA LATINA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11130644",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T17:10:02.541",
-      "descripcion": "Prestación de servicios de apoyo a la gestión para brindar soporte de nivel 2 (Telecomunicaciones) de mesa de ayuda, mediante el acompañamiento en la atención de incidentes y requerimientos de mayor complejidad en la plataforma tecnológica, y el apoyo técnico en el manejo y operación de los dispositivos de telecomunicaciones del área de tecnología del Sistema de Bibliotecas Públicas de Medellín.",
-      "valor": 8923242,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11173563",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11319904",
-      "fuente": "SECOP II",
-      "entidad": "Superintendencia de Transporte**",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11129513",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T16:39:13.080",
-      "descripcion": "Prestar servicios profesionales especializados a la OTIC para apoyar la arquitectura de soluciones, promoviendo la interoperabilidad, sostenibilidad y alineación tecnológica de la Entidad.",
-      "valor": 16205951,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11172986",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11319639",
-      "fuente": "SECOP II",
-      "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL - DEPARTAMENTO ADMINISTRATIVO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11023145",
-      "fecha_cierre": "2026-11-11T15:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T16:29:22.626",
-      "descripcion": "Adquirir herramienta para habilitar y operar la mesa de servicios, con el fin de gestionar de manera integral los servicios de Tecnologías de la Información (TI) y los otros servicios transversales en la Alcaldía de Santiago de Cali.",
-      "valor": 550000000,
-      "estado": "Abierto",
-      "modalidad": "Selección Abreviada de Menor Cuantía",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11173044",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11319523",
-      "fuente": "SECOP II",
-      "entidad": "CARIBEMAR DE LA COSTA S.A.S E.S.P",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11129804",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T16:18:42.492",
-      "descripcion": "SERVICIO DE IMPLEMENTACIÓN, MIGRACIÓN Y OPERACIÓN INTEGRAL DE LA MESA DE AYUDA Y SERVICIOS ASOCIADOS DE TECNOLOGÍA DE LA INFORMACIÓN (TI REQUERIDOS PARA EL PROYECTO ATENEA, EN EL MARCO DEL PROCESO DE SEGMENTACIÓN TECNOLÓGICA DE CARIBEMAR DE LA COSTA S.A.S. E.S.P.",
-      "valor": 232994426,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11172916",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11317830",
-      "fuente": "SECOP II",
-      "entidad": "UNAD",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11128144",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-04T14:36:53.166",
-      "descripcion": "RECIBIR PROPUESTA PARA CONTRATACIÓN DE PROVEEDOR PARA EL DESARROLLO DE LA FASE III DEL SIA CONTRALORÍAS MODERNIZADO, QUE COMPRENDE LA INTEROPERABILIDAD Y EL SOPORTE DE LA FASE I, CON EL PROPÓSITO DE APOYAR A LAS CONTRALORÍAS TERRITORIALES, DEPARTAMENTALES Y MUNICIPALES EN LA OPTIMIZACIÓN DE SUS PROCESOS DE CONTROL FISCAL, MEDIANTE LA ADOPCIÓN DE SOLUCIONES TECNOLÓGICAS INNOVADORAS DERIVADO DEL CONTRATO INTERADMINISTRATIVO CI-2-2026 SUSCRITO CON LA AUDITORÍA GENERAL DE LA REPÚBLICA. DE CONFORMIDA",
-      "valor": 183000000,
-      "estado": "Evaluación",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11171349",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-07",
-      "dias_en_radar": 13,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -3045,59 +2895,6 @@
       "ultima_vez_en_radar": "2026-11-19",
       "recortado": false
     },
-    "CO1.REQ.11317830": {
-      "id_proceso": "CO1.REQ.11317830",
-      "revisado_en": "2026-11-14",
-      "documentos_en_el_proceso": 2,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-19",
-      "recortado": false
-    },
-    "CO1.REQ.11319523": {
-      "id_proceso": "CO1.REQ.11319523",
-      "revisado_en": "2026-11-07",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-19",
-      "recortado": false
-    },
-    "CO1.REQ.11319639": {
-      "id_proceso": "CO1.REQ.11319639",
-      "entidad": "SANTIAGO DE CALI DISTRITO ESPECIAL - DEPARTAMENTO ADMINISTRATIVO DE TECNOLOGIAS DE LA INFORMACION Y LAS COMUNICACIONES",
-      "revisado_en": "2026-11-13",
-      "documentos_en_el_proceso": 48,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "16. Pliego de condiciones definitivo.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=885491643&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "La propuesta debe contener los documentos que se indican a continuación, los\ncuales son necesarios para la verificación de la capacidad jurídica, financiera,\norganizacional y su experiencia, advirtiendo que esta enumeración no es taxativa y,\nen consecuencia, los demás documentos que se encuentren requeridos en otras\npartes del pliego también deberán ser aportados. Al respecto los requisitos\nhabilitantes serán verificados a través del Registro Único de Proponentes- RUP\nexpedido por la respectiva Cámara de Comercio del domicilio del oferente.\n\nEl artículo 2.2.1.2.4.2.7.3. del Decreto 0287 del 2026, señaló que en los procesos\nde licitación pública, selección abreviada y concurso de méritos, así como en los\nprocesos competitivos adelantados por entidades no sometidas al Estatuto General\nde Contratación de la Administración Pública, deberán establecer requisitos\nhabilitantes diferenciales o ajustados en materia de experiencia, capacidad\nfinanciera u organizacional, o el valor de la garantía de seriedad de la oferta, con el\nfin de promover la participación de emprendimientos y empresas de personas con\ndiscapacidad con domicilio en el territorio nacional, por lo anterior, el artículo\n\nAsí las cosas, de acuerdo con el artículo 2.2.1.1.1.5.6 del Decreto 1082 de 2015 “El\ncertificado del Registro Único de Proponentes (RUP) debe contener: (a) los bienes,\nobras y servicios para los cuales está inscrito el proponente de acuerdo con el\nClasificador de Bienes y Servicios; (b) los requisitos e indicadores a los que se\nrefiere el artículo 2.2.1.1.1.5.3 del mencionado decreto; (c) la información relativa a\ncontratos, multas, sanciones e inhabilidades; y (d) la información histórica de\nexperiencia que el proponente ha inscrito en el RUP. Las cámaras de comercio\nexpedirán el certificado del\n\n[...]",
-      "unspsc_exigidos": [
-        "43231500",
-        "43231501",
-        "81111800",
-        "43232800",
-        "81112200",
-        "81112500",
-        "43232300"
-      ],
-      "minimo_codigos": null,
-      "max_contratos": 2,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-19",
-      "recortado": true
-    },
     "CO1.REQ.11319753": {
       "id_proceso": "CO1.REQ.11319753",
       "entidad": "AREA METROPOLITANA DEL VALLE DE ABURRA",
@@ -3115,42 +2912,6 @@
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-19",
-      "recortado": false
-    },
-    "CO1.REQ.11319904": {
-      "id_proceso": "CO1.REQ.11319904",
-      "revisado_en": "2026-11-08",
-      "documentos_en_el_proceso": 13,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-19",
-      "recortado": false
-    },
-    "CO1.REQ.11320329": {
-      "id_proceso": "CO1.REQ.11320329",
-      "revisado_en": "2026-11-16",
-      "documentos_en_el_proceso": 9,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-19",
-      "recortado": false
-    },
-    "CO1.REQ.11320367": {
-      "id_proceso": "CO1.REQ.11320367",
-      "revisado_en": "2026-11-16",
-      "documentos_en_el_proceso": 6,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-19",
       "recortado": false
