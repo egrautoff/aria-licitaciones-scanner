@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T14:06:35.217Z",
+  "generated_at": "2026-11-20T17:55:35.898Z",
   "dia": "2026-11-20",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2204,
-  "total_matched": 77,
+  "total_scanned": 2120,
+  "total_matched": 72,
   "total_destacados": 0,
   "total_nuevos": 0,
   "items": [
@@ -1808,131 +1808,6 @@
       "primera_vez_visto": "2026-11-08",
       "dias_en_radar": 13,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11329071",
-      "fuente": "SECOP II",
-      "entidad": "ESE JUAN FRANCISCO BERBEO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11139617",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T17:34:34.610",
-      "descripcion": "PRESTAR LOS SERVICIOS DE APOYO A LA GESTIÓN COMO FACTURADOR EN LOS SERVICIOS DE SALUD, ELABORACIÓN DE INFORMES, GENERACIÓN DE RIPS, VALIDACIÓN DE CUENTAS MÉDICAS Y RESPUESTA A GLOSA QUE SEAN REQUERIDOS E IMPLEMENTACIÓN DEL PROCESO DE INTEROPERABILIDAD DE LA HISTORIA CLÍNICA ELECTRÓNICA  IHCE, SEGÚN RESOLUCIÓN 1888 DE 2025  EN LA ESE CENTRO DE SALUD JUAN FRANCISCO BERBEO",
-      "valor": 1800000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11182680",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11315708",
-      "fuente": "SECOP II",
-      "entidad": "HOSPITAL UNIVERSITARIO DEPARTAMENTAL DE NARIÑO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11126035",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T17:04:35.496",
-      "descripcion": "Contratar la prestación de servicios profesionales de un ingeniero de Sistemas para formular e implementar los procesos relacionados con analítica, minería de datos e inteligencia de negocios como soporte para la toma de decisiones del Hospital Universitario Departamental de Nariño.",
-      "valor": 3717655,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11182509",
-      "matched_groups": [
-        "Analitica / BI"
-      ],
-      "matched_keywords": [
-        "inteligencia de negocios"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11328212",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11138546",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T16:19:35.517",
-      "descripcion": "Prestación de servicios profesionales para dictar el curso de Business Intelligence en modalidad virtual, del centro de educación continua y permanente de la Universidad Nacional De Colombia, Sede Medellín.",
-      "valor": 4320000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11181806",
-      "matched_groups": [
-        "Analitica / BI"
-      ],
-      "matched_keywords": [
-        "business intelligence"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11324796",
-      "fuente": "SECOP II",
-      "entidad": "PATRIMONIO AUTÓNOMO P.A.P. MINDEFENSA NACIONAL  FONDETEC",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11135173",
-      "fecha_cierre": null,
-      "lotes": 4,
-      "fecha_publicacion": "2026-11-05T16:14:11.214",
-      "descripcion": "CONTRATAR LA RENOVACIÓN, SUSCRIPCIÓN, ADQUISICIÓN A TODO COSTO DE LAS SIGUIENTES PLATAFORMAS TECNOLÓGICAS DEL FONDO DE DEFENSA TÉCNICA Y ESPECIALIZADA DE LOS MIEMBROS DE LA FUERZA PÚBLICA - FONDETEC- DE ACUERDO CON LAS ESPECIFICACIONES TÉCNICAS. ALCANCE DEL OBJETO: El objeto contractual se desarrollará a través de los siguientes ítems:1). RENOVACIÓN SUSCRIPCIÓN LICENCIAS MICROSOFT 365 - E5 (CSP); 2). ADQUISICIÓN DE CRÉDITOS AZURE BAJO LICENCIAS OPEN VALUE. 3). SUSCRIPCION, INSTALACION, CONFIGURA",
-      "valor": 547687404,
-      "estado": "Cancelado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11181376",
-      "matched_groups": [
-        "Nube / Plataforma"
-      ],
-      "matched_keywords": [
-        "azure"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11326665",
-      "fuente": "SECOP II",
-      "entidad": "AGUAS DE LA MIEL S.A. E.S.P EMPRESA DE SERVICIOS PUBLICOS",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11136891",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T14:53:47.586",
-      "descripcion": "PRESTAR SERVICIOS TECNICOS Y/O TECNOLOGICOS PARA EL MANTENIMIENTO PREVENTIVO Y CORRECTIVO DEL PARQUE INFORMATICO DE AGUAS DE LA MIEL SA ESP, INCLUYENDO EL SUMINISTRO E INSTALACION DE UNIDADES DE ALMACENAMIENTO DE ESTADO SOLIDO SSD COMO COMPONENTE ACCESORIO AL SERVICIO, ASI COMO LA CAPACITACION DEL PERSONAL DE LA ENTIDAD EN LA ADMINISTRACION, GESTION DOCUMENTAL Y ACTUALIZACION DE LA SEDE ELECTRONICA DE AGUAS DE LA MIEL SA ESP.",
-      "valor": 3760000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11180254",
-      "matched_groups": [
-        "Liferay / Portal"
-      ],
-      "matched_keywords": [
-        "sede electronica"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -2042,27 +1917,6 @@
       "es_nuevo": false
     },
     {
-      "id_proceso": "CO1.REQ.11328781",
-      "fuente": "SECOP II",
-      "entidad": "CONTRALORIA GENERAL DEL DEPARTAMENTO DEL PUTUMAYO",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11139332",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T17:30:50.152",
-      "descripcion": "ADQUISICION -CONVERSION A LA NUEVA VERSION DE LA LICENCIA FINANCIERA ERP.GOV. QUE INCLUYE RENOVACION DEL MANTENIMIENTO Y SOPORTE TECNICO PARA LA TRANSFORMACION DIGITAL DE LA CONTRALORIA GENERAL DEL DEPARTAMENTO DEL PUTUMAYO",
-      "valor": 109950000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11182834",
-      "matched_broad_keywords": [
-        "transformacion digital"
-      ],
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
       "id_proceso": "CO1.REQ.11356527",
       "fuente": "SECOP II",
       "entidad": "MUNICIPIO DE PUERTO GAITAN",
@@ -2084,27 +1938,6 @@
       "es_nuevo": false
     },
     {
-      "id_proceso": "CO1.REQ.11329123",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE URIBIA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11139454",
-      "fecha_cierre": "2026-11-10T08:45:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T17:30:19.710",
-      "descripcion": "SERVICIOS DE APOYO PARA EL FOMENTO Y DESARROLLO DE LA GESTIÓN TIC, MEDIANTE ACOMPAÑAMIENTO TÉCNICO Y JORNADAS DE FORMACIÓN DIRIGIDAS A SERVIDORES PÚBLICOS Y CONTRATISTAS, EN EL MARCO DE LA POLÍTICA DE GOBIERNO DIGITAL DEL MUNICIPIO DE URIBIA, LA GUAJIRA.",
-      "valor": 60000000,
-      "estado": "Seleccionado",
-      "modalidad": "Mínima cuantía",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11183006",
-      "matched_broad_keywords": [
-        "gobierno digital"
-      ],
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
       "id_proceso": "CO1.REQ.11356586",
       "fuente": "SECOP II",
       "entidad": "PATRIMONIO AUTÓNOMO FONDO NACIONAL DEL TURISMO FONTUR",
@@ -2123,27 +1956,6 @@
       ],
       "primera_vez_visto": "2026-11-13",
       "dias_en_radar": 8,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11325771",
-      "fuente": "SECOP II",
-      "entidad": "ESE HOSPITAL LOCAL DE MALAMBO SANTA MARÍA MAGDALENA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11136166",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-05T14:11:02.366",
-      "descripcion": "PRESTACION DE SERVICIOS PROFESIONALES Y DE APOYO A LA GESTION PARA EL FORTALECIMIENTO INSTITUCIONAL CONSISTENTE EN LA ELABORACION  DEL MANUAL DE TESORERIA Y GESTION DOCUMENTAL  DE LA ESE HOSPITAL LOCAL DE MALAMBO SANTA MARIA MAGDALENA",
-      "valor": 40000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11180029",
-      "matched_broad_keywords": [
-        "gestion documental"
-      ],
-      "primera_vez_visto": "2026-11-08",
-      "dias_en_radar": 13,
       "es_nuevo": false
     },
     {
@@ -2666,18 +2478,6 @@
       "ultima_vez_en_radar": "2026-11-20",
       "recortado": false
     },
-    "CO1.REQ.11315708": {
-      "id_proceso": "CO1.REQ.11315708",
-      "revisado_en": "2026-11-08",
-      "documentos_en_el_proceso": 3,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": false
-    },
     "CO1.REQ.11323108": {
       "id_proceso": "CO1.REQ.11323108",
       "entidad": "RED DE SALUD DEL NORTE EMPRESA SOCIAL DEL ESTADO",
@@ -2713,39 +2513,6 @@
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": true
-    },
-    "CO1.REQ.11324796": {
-      "id_proceso": "CO1.REQ.11324796",
-      "entidad": "PATRIMONIO AUTÓNOMO P.A.P. MINDEFENSA NACIONAL  FONDETEC",
-      "revisado_en": "2026-11-08",
-      "documentos_en_el_proceso": 7,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "006.000 INVITACION ABIERTA No. 06-2026 LICENCIAS 2.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=886277028&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        },
-        {
-          "nombre": "005.000 AVISO DE CONVOCATORIA INVITACION ABIERTA No. 06-2026.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=886277026&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "Los anexos que conforman la invitación son los siguientes:\n [TipoSeguridad]\n FONDETEC: Fondo de Defensa Técnica y Especializada\n de los Miembros de la Fuerza Pública.\n Dirección: Av. Calle 72 No. 6-30 · Piso 15 Edificio Fernando Mazuera, Bogotá D.C.\n PBX: (57-601) 315 0111 Ext. 40626 · 40906\n Celular: 321 976 85 63 Página 3 | 100\n Correo electrónico: fondetec@mindefensa.gov.co\n\fAnexo No. 1: Carta de presentación de la propuesta\n Carta de aceptación de las condiciones o especificaciones técnicas\nAnexo No. 2:\n exigidas.\nAnexo No. 3: Especificaciones técnicas mínimas.(Obligaciones futuro contrato).\nAnexo No. 4: Descripción de elementos, insumos o servicios.\nAnexo No. 5: Propuesta económica.\nAnexo No. 6: Formulario SARLAFT (Proponente adjudicatario)\nAnexo No. 7: Compromiso anticorrupción.\nAnexo No. 8: Manifestación sobre inhabilidades e incompatibilidades\nAnexo No. 9: Compromiso de confidencialidad.\nAnexo No. 10: Certificación para acreditar la capacidad financiera.\nAnexo No.10 A: Certificación para acreditar la capacidad organizacional.\nAnexo No. 11: Certificado de participación independiente del proponente.\n Pacto de integridad para fortalecer la transparencia en el proceso de\nAnexo No. 12:\n selección.\n Ofrecimiento adicional por parte del oferente para obtener la\nAnexo No. 13:\n ponderación técnica.\n Manifestación del oferente sobre el Sistema de Gestión en Seguridad\nAnexo No. 14:\n y Salud en el Trabajo (SGSST)\n Incentivos procesos de contratación para obtener ponderación (No\nAnexo No. 15:\n aplica).\nAnexo No. 16: Plan Ambiental.(No aplica)\n\n3. Oferente que acredite en las condiciones Carné de afiliado al Sistema de Seguridad en\n establecidas en la Ley que por lo menos el diez Salud5, ya sea el régimen contributivo o\n por ciento (10%) de su nómina está en condición subsidi\n\n[...]",
-      "unspsc_exigidos": [
-        "43232105",
-        "43231513",
-        "43232202",
-        "81112501"
-      ],
-      "minimo_codigos": null,
-      "max_contratos": 3,
-      "smmlv": [
-        "200"
-      ],
       "ultima_vez_en_radar": "2026-11-20",
       "recortado": true
     },
@@ -2786,42 +2553,6 @@
       "ultima_vez_en_radar": "2026-11-20",
       "recortado": true
     },
-    "CO1.REQ.11325771": {
-      "id_proceso": "CO1.REQ.11325771",
-      "revisado_en": "2026-11-08",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": false
-    },
-    "CO1.REQ.11326665": {
-      "id_proceso": "CO1.REQ.11326665",
-      "revisado_en": "2026-11-08",
-      "documentos_en_el_proceso": 4,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": false
-    },
-    "CO1.REQ.11328212": {
-      "id_proceso": "CO1.REQ.11328212",
-      "revisado_en": "2026-11-14",
-      "documentos_en_el_proceso": 3,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": false
-    },
     "CO1.REQ.11328418": {
       "id_proceso": "CO1.REQ.11328418",
       "revisado_en": "2026-11-13",
@@ -2833,59 +2564,6 @@
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-20",
       "recortado": false
-    },
-    "CO1.REQ.11328781": {
-      "id_proceso": "CO1.REQ.11328781",
-      "revisado_en": "2026-11-14",
-      "documentos_en_el_proceso": 21,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": false
-    },
-    "CO1.REQ.11329071": {
-      "id_proceso": "CO1.REQ.11329071",
-      "revisado_en": "2026-11-08",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": false
-    },
-    "CO1.REQ.11329123": {
-      "id_proceso": "CO1.REQ.11329123",
-      "entidad": "MUNICIPIO DE URIBIA",
-      "revisado_en": "2026-11-19",
-      "documentos_en_el_proceso": 27,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "1. Estudio previo.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=886365267&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        },
-        {
-          "nombre": "4. Documento respaldo Invitacion Publica.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=886365274&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "En desarrollo del objeto contractual, el CONTRATISTA deberá ejecutar las\n siguientes actividades:\n 1. Conformar y disponer el equipo de trabajo requerido para la\n ejecución del proyecto, quienes deberán contar con la formación y\n experiencia requeridas para el adecuado desarrollo de las\n actividades.\n 2. Realizar la planeación, coordinación, articulación y seguimiento\n técnico y operativo del proyecto, garantizando la programación y\n ejecución oportuna de las actividades, la articulación con las\n dependencias de la Administración Municipal y el cumplimiento de\n las metas y productos previstos.\n 3. Brindar acompañamiento técnico a la Administración Municipal para\n la apropiación y aplicación de los lineamientos de la Política de\n Gobierno Digital, relacionando sus contenidos con las funciones,\n procesos y necesidades propias de la gestión institucional.\n 4. Preparar y desarrollar los contenidos pedagógicos y materiales de\n apoyo necesarios para las jornadas de formación, de acuerdo con\n los objetivos del proyecto y con los lineamientos aplicables en\n materia de Gobierno Digital, gestión TIC, seguridad de la\n información, protección de datos y aprovechamiento de\n herramientas tecnológicas.\n 5. Desarrollar seis (6) jornadas presenciales de formación y\n apropiación de herramientas TIC y lineamientos de Gobierno\n Digital, dirigidas a ciento veinte (120) servidores públicos y\n contratistas del Municipio de Uribia, organizados en tres (3) grupos\n de cuarenta (40) participantes, correspondiendo dos (2) jornadas\n de formación a cada grupo.\n 6. Desarrollar, en la primera jornada de cada grupo, los contenidos\n correspondientes a apropiación de la Política de Gobierno Digital\n y gestión TIC, abordando como mínimo los siguientes temas:\n - Conceptos básicos, principios y propósitos d\n\n[...]",
-      "unspsc_exigidos": [
-        "86101705",
-        "80101511"
-      ],
-      "minimo_codigos": null,
-      "max_contratos": 5,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-20",
-      "recortado": true
     },
     "CO1.REQ.11329164": {
       "id_proceso": "CO1.REQ.11329164",
