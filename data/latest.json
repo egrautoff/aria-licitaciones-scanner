@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T15:59:15.516Z",
+  "generated_at": "2026-11-24T20:16:41.688Z",
   "dia": "2026-11-24",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2210,
-  "total_matched": 75,
+  "total_scanned": 2163,
+  "total_matched": 67,
   "total_destacados": 1,
   "total_nuevos": 0,
   "items": [
@@ -1684,207 +1684,6 @@
       "primera_vez_visto": "2026-11-12",
       "dias_en_radar": 13,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11337125",
-      "fuente": "SECOP II",
-      "entidad": "DEPARTAMENTO ADMINISTRATIVO NACIONAL DE ESTADISTICA (DANE)",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11147531",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T18:47:21.736",
-      "descripcion": "10358101526 FORT_DIFUSION_2026_SDIE_TH Prestación de servicios profesionales para realizar la\nimplementación, actualización y optimización del portal web del DANE, orientado al Servicio de difusión de la\ninformación estadística, incorporando mejoras de diseño, pruebas de usabilidad y ajustes que fortalezcan la\naccesibilidad y experiencia de los usuarios.",
-      "valor": 13300000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11202871",
-      "matched_groups": [
-        "Liferay / Portal"
-      ],
-      "matched_keywords": [
-        "portal web + implementacion"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11349181",
-      "fuente": "SECOP II",
-      "entidad": "SOCIEDAD FIDUCIARIA DE DESARROLLO AGROPECUARIO S.A**",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11159224",
-      "fecha_cierre": "2026-11-20T23:59:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T18:14:44.581",
-      "descripcion": "La Sociedad Fiduciaria de Desarrollo Agropecuario S.A. - FIDUAGRARIA S.A. invita a presentar cotización para el suministro de una solución tecnológica especializada, bajo modalidad SaaS, que incluya implementación, licenciamiento, acceso, soporte, mantenimiento y actualización permanente, destinada a la consulta, gestión y seguimiento de la normativa, obligaciones y calendarios tributarios territoriales, incluyendo los aspectos relacionados con el Impuesto de Industria y Comercio (ICA), (...)",
-      "valor": 0,
-      "estado": "Evaluación",
-      "modalidad": "Solicitud de información a los Proveedores",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11203132",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "desarrollo + implementacion + soporte"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11349286",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11159378",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T18:12:24.754",
-      "descripcion": "PRESTACION DE SERVICIOS DE UN INGENIERO DE SISTEMAS PARA REALIZAR ACTIVIDADES COMO DESARROLLADOR DE UN ASISTENTE VIRTUAL BASADO EN INTELIGENCIA ARTIFICIAL QUE BRINDE SOPORTE EFICIENTE, ACCESIBLE Y AUTOMATIZADO A LOS PROCESOS Y PROCEDIMIENTOS GESTIONADOS POR LA OFICINA DE ADMISIONES Y REGISTRO ACADÉMICO DE LA UNIVERSIDAD FRANCISCO DE PAULA SANTANDER. FORMA DE PAGO: UN PAGO INICIAL DE $3.684.211 (TRES MILLONES SEISCIENTOS OCHENTA Y CUATRO MIL DOSCIENTOS ONCE PESOS) Y UN SEGUNDO PAGO POR $3.315.789",
-      "valor": 7000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11202827",
-      "matched_groups": [
-        "IA / Agentes"
-      ],
-      "matched_keywords": [
-        "asistente virtual"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11347196",
-      "fuente": "SECOP II",
-      "entidad": "DAPRE",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11157610",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T18:10:55.668",
-      "descripcion": "Prestar servicios de apoyo a la gestión para la operación de la Mesa de Ayuda mediante la atención telefónica a los usuarios internos y externos, realizando el registro, clasificación, diagnóstico inicial, escalamiento, seguimiento y cierre de incidentes y requerimientos tecnológicos, de conformidad con los procedimientos y niveles de servicio establecidos.",
-      "valor": 10600000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11203126",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11348959",
-      "fuente": "SECOP II",
-      "entidad": "INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11158688",
-      "fecha_cierre": "2026-11-12T15:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T18:04:27.501",
-      "descripcion": "ADQUISICIÓN DE NUBE PÚBLICA PARA EL ANÁLISIS DE DATOS, INTELIGENCIA DE NEGOCIO E NFRAESTRUCTURA DATACENTER PARA EL INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES",
-      "valor": 0,
-      "estado": "Evaluación",
-      "modalidad": "Solicitud de información a los Proveedores",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11202934",
-      "matched_groups": [
-        "Nube / Plataforma"
-      ],
-      "matched_keywords": [
-        "nube publica"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11346609",
-      "fuente": "SECOP II",
-      "entidad": "DAPRE",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11156610",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T17:37:05.066",
-      "descripcion": "Prestar servicios de apoyo a la gestión para la operación de la Mesa de Ayuda mediante la atención telefónica a los usuarios internos y externos, realizando el registro, clasificación, diagnóstico inicial, escalamiento, seguimiento y cierre de incidentes y requerimientos tecnológicos, de conformidad con los procedimientos y niveles de servicio establecidos.",
-      "valor": 10600000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11202431",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11346506",
-      "fuente": "SECOP II",
-      "entidad": "DAPRE",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11156367",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T17:29:53.607",
-      "descripcion": "Prestar servicios de apoyo a la gestión para el desarrollo de actividades administrativas y operativas de soporte a la Mesa de Ayuda de la entidad, incluyendo la gestión, validación, seguimiento, documentación, escalamiento y cierre de solicitudes, requerimientos e incidentes tecnológicos, así como la elaboración de reportes, actualización de bases de datos y control de información relacionada con la prestación de los servicios de atención a usuarios.",
-      "valor": 10505430,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11202416",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11348221",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE PAMPLONA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11158332",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-09T16:45:49.726",
-      "descripcion": "PRESTAR SERVICIOS DE APOYO A LA GESTIÓN COMO WEBMASTER PARA LA ACTUALIZACIÓN, ADMINISTRACIÓN Y DESARROLLO DE CONTENIDOS DIGITALES EN EL SITIO WEB DE LA ALCALDÍA DE PAMPLONA, NORTE DE SANTANDER.",
-      "valor": 5600000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11201598",
-      "matched_groups": [
-        "Liferay / Portal"
-      ],
-      "matched_keywords": [
-        "webmaster",
-        "sitio web + desarrollo"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-12",
-      "dias_en_radar": 13,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -2581,63 +2380,6 @@
       "ultima_vez_en_radar": "2026-11-24",
       "recortado": false
     },
-    "CO1.REQ.11337125": {
-      "id_proceso": "CO1.REQ.11337125",
-      "entidad": "DEPARTAMENTO ADMINISTRATIVO NACIONAL DE ESTADISTICA (DANE)",
-      "revisado_en": "2026-11-19",
-      "documentos_en_el_proceso": 23,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "02CertificaciónIdoneidadyExperiencia.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=888056180&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "Certificación del cumplimiento de idoneidad y experiencia para Código: GCO-050-PDT-001-f-012\n contratos de prestación de servicios profesionales y de apoyo a la gestión Versión: 3\n\n1. Verificación de idoneidad y experiencia\nEstudios y Documentos Previos - EDP 3313 de 2026 del DANE\n\nPerfil: El perfil que se requiere contratar corresponde a Profesional Senior I nivel 13, de conformidad con lo perfiles definidos en la tabla de honorarios para los contratos de prestación de servicios profesionales y de apoyo a la\ngestión del DANE FONDANE, establecida en la Resolución No. 1106 de 2025\nRequisitos mínimos de formación: Título profesional en el área del conocimiento de bellas artes, Ciencias de la Educación, Ciencias Sociales y humanas, Economía, Administración, Contaduría y Afines e ingeniería, arquitectura,\nurbanismo y afines, Con tarjeta o matricula profesional en los casos de ley.\nRequisitos mínimos de experiencia: Se requiere un mínimo treinta (30) meses de experiencia profesional relacionada.\nEn caso de ser necesario se aplicará el artículo 4 \" Equivalencias\" de la resolución 1106 de 2025\nValor de honorarios: La tabla de honorarios para los contratos de prestación de servicios profesionales y de apoyo a la gestión del DANE–FONDANE, establecida en la Resolución No. 1106 de 2025, fija para el perfil Profesional\nSenior I nivel 13 un valor de honorarios de $7.000.000 mcte.\n Nombre del aspirante a contratar Alfredo Arturo Miranda Daconte Tipo de documento de identificación c.c. Número 1.140.817.213\n\nFormación académica\n Fecha de ¿Está dentro del área o\n Tipo de formación Título acreditado acreditación o núcleo básico del\n conocimiento definido?\n grado\n 1 TP - Título profesional X Diseñador Industrial 11/06/2015 SI\n 2 DOC - Título de doctorado o posdoctorado\n 3 MA - Título de m\n\n[...]",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": true
-    },
-    "CO1.REQ.11346506": {
-      "id_proceso": "CO1.REQ.11346506",
-      "revisado_en": "2026-11-16",
-      "documentos_en_el_proceso": 15,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": false
-    },
-    "CO1.REQ.11346609": {
-      "id_proceso": "CO1.REQ.11346609",
-      "revisado_en": "2026-11-22",
-      "documentos_en_el_proceso": 16,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": false
-    },
-    "CO1.REQ.11347196": {
-      "id_proceso": "CO1.REQ.11347196",
-      "revisado_en": "2026-11-22",
-      "documentos_en_el_proceso": 15,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": false
-    },
     "CO1.REQ.11347781": {
       "id_proceso": "CO1.REQ.11347781",
       "revisado_en": "2026-11-13",
@@ -2646,21 +2388,6 @@
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": false
-    },
-    "CO1.REQ.11348221": {
-      "id_proceso": "CO1.REQ.11348221",
-      "entidad": "MUNICIPIO DE PAMPLONA",
-      "revisado_en": "2026-11-12",
-      "documentos_en_el_proceso": 11,
-      "estado_analisis": "documentos_escaneados",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-24",
       "recortado": false
@@ -2685,51 +2412,6 @@
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-24",
       "recortado": true
-    },
-    "CO1.REQ.11348959": {
-      "id_proceso": "CO1.REQ.11348959",
-      "revisado_en": "2026-11-12",
-      "documentos_en_el_proceso": 3,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": false
-    },
-    "CO1.REQ.11349181": {
-      "id_proceso": "CO1.REQ.11349181",
-      "entidad": "SOCIEDAD FIDUCIARIA DE DESARROLLO AGROPECUARIO S.A**",
-      "revisado_en": "2026-11-22",
-      "documentos_en_el_proceso": 10,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "1. INVITACION_A_PRESENTAR_COTIZACION_PARA_ESTUDIO_DE_MERCADO_013_2026.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=888034712&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "El interesado deberá relacionar experiencia en la ejecución de contratos relacionados con el objeto de la presente invitación,\n preferiblemente con entidades del sector financiero, fiduciario, asegurador o con entidades del orden nacional. Para tal efec to, deberá\n relacionar en el MODELO PARA PRESENTACIÓN DE COTIZACIÓN mínimo tres (3) contratos ejecutados y terminados durante los últimos\n cinco (5) años, cuyo alcance se encuentre relacionado con una o varias de las siguientes actividades:\n\nExperiencia Suministro, licenciamiento, implementación, soporte o mantenimiento de plataformas tecnológicas para la gestión de\n información tributaria.\n Consulta, actualización y seguimiento de normativa tributaria territorial.\n Gestión de obligaciones relacionadas con el Impuesto de Industria y Comercio (ICA), retenciones, autorretenciones,\n información exógena, registros tributarios y demás obligaciones tributarias territoriales.\n Soluciones tecnológicas orientadas al cumplimiento de obligaciones tributarias, fiscales o regulatorias.\n Se prevé una duración contractual de doce (12) meses. No obstante, con base en los resultados del estudio de mercado, FIDUAGRARIA\nDuración S.A. podrá evaluar la conveniencia de establecer una vigencia superior, de acuerdo con las necesidades del servicio y las condiciones\n identificadas durante la etapa de planeación.\n FIDUAGRARIA S.A. realizará los pagos contra la efectiva prestación de los servicios contratados y el cumplimiento de las obligaciones a\n cargo del proveedor, previa presentación de la factura o documento equivalente, acompañada de los soportes que acrediten la ejecución\n de las actividades y el cumplimiento de los requisitos legales y contractuales aplicables.\nForma de pago\n El proveedor deberá indicar en su cotización la forma de pago \n\n[...]",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": true
-    },
-    "CO1.REQ.11349286": {
-      "id_proceso": "CO1.REQ.11349286",
-      "revisado_en": "2026-11-12",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-24",
-      "recortado": false
     },
     "CO1.REQ.11349683": {
       "id_proceso": "CO1.REQ.11349683",
