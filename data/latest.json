@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T15:47:23.939Z",
+  "generated_at": "2026-11-25T19:28:10.098Z",
   "dia": "2026-11-25",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2104,
-  "total_matched": 67,
+  "total_scanned": 2053,
+  "total_matched": 66,
   "total_destacados": 1,
   "total_nuevos": 5,
   "items": [
@@ -1659,31 +1659,6 @@
       "primera_vez_visto": "2026-11-14",
       "dias_en_radar": 12,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11352621",
-      "fuente": "SECOP II",
-      "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE LA JUSTICIA PENAL MILITAR Y POLICIAL",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11162509",
-      "fecha_cierre": "2026-11-18T23:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-10T16:26:00.239",
-      "descripcion": "Prestación del servicio de soporte técnico en sitio y por demanda, el mantenimiento preventivo y correctivo de equipos tecnológicos y gestión de servicios de la plataforma tecnológica a través de una mesa de ayuda para la Unidad Administrativa Especia de la Justicia Penal Militar y Policial.",
-      "valor": 0,
-      "estado": "Evaluación",
-      "modalidad": "Solicitud de información a los Proveedores",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11208918",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-13",
-      "dias_en_radar": 13,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -1814,27 +1789,6 @@
       "es_nuevo": false
     },
     {
-      "id_proceso": "CO1.REQ.11356527",
-      "fuente": "SECOP II",
-      "entidad": "MUNICIPIO DE PUERTO GAITAN",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11165897",
-      "fecha_cierre": "2026-11-13T15:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-10T18:13:53.337",
-      "descripcion": "ADQUIRIR, IMPLEMENTAR Y PONER EN OPERACIÓN UNA SOLUCIÓN TECNOLÓGICA WEB BASADA EN ESTÁNDARES Y COMPONENTES GOV.CO, ALOJADA EN LA INFRAESTRUCTURA TECNOLÓGICA Y EN LOS SERVIDORES DE LA ALCALDÍA MUNICIPAL DE PUERTO GAITAN, ORIENTADA A LA ESTANDARIZACION, FORTALECIMIENTO Y EVOLUCIÓN DE LOS SISTEMAS DE INFORMACIÓN DE DESARROLLO PROPIO DE LA ENTIDAD Y A LA IMPLEMENTACIÓN DE UNA BASE TECNOLOGICA COMUN QUE FACILITE LA ADOPCIÓN DE LOS LINEAMIENTOS DE GOBIERNO DIGITAL",
-      "valor": 93600000,
-      "estado": "Seleccionado",
-      "modalidad": "Mínima cuantía",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11210111",
-      "matched_broad_keywords": [
-        "gobierno digital"
-      ],
-      "primera_vez_visto": "2026-11-13",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
       "id_proceso": "CO1.REQ.11388686",
       "fuente": "SECOP II",
       "entidad": "MUNICIPIO DE UBATE",
@@ -1853,27 +1807,6 @@
       ],
       "primera_vez_visto": "2026-11-21",
       "dias_en_radar": 5,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11356586",
-      "fuente": "SECOP II",
-      "entidad": "PATRIMONIO AUTÓNOMO FONDO NACIONAL DEL TURISMO FONTUR",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11166373",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-10T18:36:22.163",
-      "descripcion": "PRESTAR SERVICIOS PROFESIONALES AL P.A. FONTUR PARA FORTALECER LOS PROCESOS DE EXTRACCION, TRANSFORMACIÓN, CARGA, INTEGRACIÓN Y CALIDAD DE DATOS DE LAS FUENTES DE INFORMACION DEL P.A. FONTUR.",
-      "valor": 48000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11210156",
-      "matched_broad_keywords": [
-        "calidad de datos"
-      ],
-      "primera_vez_visto": "2026-11-13",
-      "dias_en_radar": 13,
       "es_nuevo": false
     },
     {
@@ -2380,32 +2313,6 @@
       "ultima_vez_en_radar": "2026-11-25",
       "recortado": false
     },
-    "CO1.REQ.11352621": {
-      "id_proceso": "CO1.REQ.11352621",
-      "entidad": "UNIDAD ADMINISTRATIVA ESPECIAL DE LA JUSTICIA PENAL MILITAR Y POLICIAL",
-      "revisado_en": "2026-11-13",
-      "documentos_en_el_proceso": 9,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "ANEXO TÉCNICO No. 2  MANTENIMIENTO PREVENTIVO Y CORRECTIVO.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=888654034&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        },
-        {
-          "nombre": "ANEXO TÉCNICO No. 1  MESA DE AYUDA.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=888654033&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "7.1.1. Verificación de idoneidad del personal estratégico y crítico: Con\n el propósito de mitigar riesgos de desabastecimiento operativo,\n asegurar la disponibilidad inmediata del servicio y evitar dilaciones\n durante las etapas de aprovisionamiento, perfeccionamiento y\n empalme contractual, la idoneidad del personal estratégico de\n gerencia, coordinación, administración de plataforma y\n especialistas (Nivel III) será evaluada y verificada en la fase\n de selección como Requisito Técnico Habilitante.En\n consecuencia, el proponente deberá aportar junto con su\n propuesta la totalidad de los soportes documentales (hojas de\n vida, títulos, tarjetas profesionales, certificaciones de experiencia\n y certificaciones de fabricante/metodología) junto con la carta de\n intención de vinculación firmada por cada uno de los profesionales\n propuestos para dichos roles, conforme a las exigencias del pliego\n de condiciones. La entrega posterior a la adjudicación únicamente\n aplicará para los roles operativos de primer nivel (Agentes) y\n soporte en sitio Bogotá, en los plazos estipulados en la tabla de\n aprovisionamiento.\"\n\nExperiencia profesional: Se cuenta a partir de la fecha de\nexpedición de la matricula profesional, para el caso de ingenieros\nen virtud del artículo 6º de la Ley 842 de 2003. Requisitos para\nejercer la profesión. Para poder ejercer legalmente la Ingeniería,\nsus profesiones afines o sus profesiones auxiliares en el territorio\nnacional, en las ramas o especialidades regidas por la presente ley,\nse requiere estar matriculado o inscrito en el Registro Profesional\nrespectivo, que seguirá llevando el COPNIA, lo cual se acreditará\ncon la presentación de la tarjeta o documento adoptado por este\npara tal fin.\n\nAsí mismo, las certificaciones de experiencia que se utilicen para\nha\n\n[...]",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-25",
-      "recortado": true
-    },
     "CO1.REQ.11354620": {
       "id_proceso": "CO1.REQ.11354620",
       "entidad": "EMPRESA SOCIAL DEL ESTADO POPAYAN ESE",
@@ -2417,33 +2324,6 @@
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-25",
-      "recortado": false
-    },
-    "CO1.REQ.11356527": {
-      "id_proceso": "CO1.REQ.11356527",
-      "entidad": "MUNICIPIO DE PUERTO GAITAN",
-      "revisado_en": "2026-11-22",
-      "documentos_en_el_proceso": 9,
-      "estado_analisis": "documentos_escaneados",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-25",
-      "recortado": false
-    },
-    "CO1.REQ.11356586": {
-      "id_proceso": "CO1.REQ.11356586",
-      "revisado_en": "2026-11-20",
-      "documentos_en_el_proceso": 6,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-25",
       "recortado": false
