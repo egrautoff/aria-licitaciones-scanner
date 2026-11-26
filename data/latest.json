@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T14:56:04.627Z",
+  "generated_at": "2026-11-26T15:25:45.415Z",
   "dia": "2026-11-26",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2302,
-  "total_matched": 74,
+  "total_scanned": 2298,
+  "total_matched": 73,
   "total_destacados": 1,
   "total_nuevos": 19,
   "items": [
@@ -1838,31 +1838,6 @@
       "primera_vez_visto": "2026-11-14",
       "dias_en_radar": 13,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11361015",
-      "fuente": "SECOP II",
-      "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11170754",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-11T14:58:33.018",
-      "descripcion": "PRESTAR SERVICIOS DE SOPORTE TECNICO Y MESA DE AYUDA ASI COMO REALIAR LA TRANSFERENCIA DE CONOCIMIENTO TECNICO EN EL USO Y APROPIACION DE SOFTWARE DE TELEMEDICINA A LA UNIVERSIDAD",
-      "valor": 41330002,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11214468",
-      "matched_groups": [
-        "Desarrollo / Fabrica"
-      ],
-      "matched_keywords": [
-        "mesa de ayuda"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-14",
-      "dias_en_radar": 13,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -2536,18 +2511,6 @@
       ],
       "minimo_codigos": null,
       "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
-    },
-    "CO1.REQ.11361015": {
-      "id_proceso": "CO1.REQ.11361015",
-      "revisado_en": "2026-11-14",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": false
@@ -3819,12 +3782,11 @@
       "ocr": true,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11405402": {
-      "hash": "01e161478dac",
-      "partes": 2,
-      "kb": 272,
-      "documentos": 14,
-      "ocr": true,
+    "CO1.REQ.11364836": {
+      "hash": "fa241a63a208",
+      "partes": 1,
+      "kb": 123,
+      "documentos": 16,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11382805": {
@@ -3834,33 +3796,27 @@
       "documentos": 1,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11364836": {
-      "hash": "fa241a63a208",
-      "partes": 1,
-      "kb": 123,
-      "documentos": 16,
-      "generado": "2026-11-26"
-    },
     "CO1.REQ.11374458": {
-      "hash": "5b0016723070",
+      "hash": "1f3c82b33739",
       "partes": 1,
-      "kb": 91,
-      "documentos": 15,
+      "kb": 99,
+      "documentos": 17,
+      "ocr": true,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11381790": {
-      "hash": "2a3893a712d5",
+      "hash": "ffcd588570ab",
       "partes": 1,
-      "kb": 70,
-      "documentos": 14,
+      "kb": 191,
+      "documentos": 15,
+      "ocr": true,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11407081": {
-      "hash": "cf421e282822",
+    "CO1.REQ.11381902": {
+      "hash": "07e47b1ab6fc",
       "partes": 1,
-      "kb": 104,
-      "documentos": 26,
-      "ocr": true,
+      "kb": 137,
+      "documentos": 22,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11365392": {
@@ -3870,6 +3826,22 @@
       "documentos": 7,
       "generado": "2026-11-26"
     },
+    "CO1.REQ.11405402": {
+      "hash": "867b364e8e08",
+      "partes": 2,
+      "kb": 413,
+      "documentos": 18,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11412524": {
+      "hash": "d5c39ae47d51",
+      "partes": 1,
+      "kb": 40,
+      "documentos": 5,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
     "CO1.REQ.11368260": {
       "hash": "0079a0a2c413",
       "partes": 1,
@@ -3877,11 +3849,12 @@
       "documentos": 2,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11381902": {
-      "hash": "07e47b1ab6fc",
+    "CO1.REQ.11407081": {
+      "hash": "3b18ecf00dd8",
       "partes": 1,
-      "kb": 137,
-      "documentos": 22,
+      "kb": 113,
+      "documentos": 26,
+      "ocr": true,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11369006": {
@@ -3895,6 +3868,13 @@
       "hash": "7320f6f29945",
       "partes": 1,
       "kb": 34,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11402751": {
+      "hash": "1dcd1337dbe2",
+      "partes": 1,
+      "kb": 19,
       "documentos": 2,
       "generado": "2026-11-26"
     },
@@ -3912,11 +3892,11 @@
       "documentos": 2,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11402751": {
-      "hash": "1dcd1337dbe2",
-      "partes": 1,
-      "kb": 19,
-      "documentos": 2,
+    "CO1.REQ.10541394": {
+      "hash": "4cab8ae22a8b",
+      "partes": 2,
+      "kb": 321,
+      "documentos": 7,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11399805": {
@@ -3927,24 +3907,11 @@
       "generado": "2026-11-26"
     },
     "CO1.REQ.11407219": {
-      "hash": "c85235e47a91",
+      "hash": "15b884a65cec",
       "partes": 1,
-      "kb": 77,
-      "documentos": 20,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.10541394": {
-      "hash": "4cab8ae22a8b",
-      "partes": 2,
-      "kb": 321,
-      "documentos": 7,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11388686": {
-      "hash": "4170eba2b9f5",
-      "partes": 2,
-      "kb": 320,
-      "documentos": 5,
+      "kb": 83,
+      "documentos": 21,
+      "ocr": true,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11397178": {
@@ -3954,25 +3921,25 @@
       "documentos": 4,
       "generado": "2026-11-26"
     },
+    "CO1.REQ.11388686": {
+      "hash": "4170eba2b9f5",
+      "partes": 2,
+      "kb": 320,
+      "documentos": 5,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11392389": {
+      "hash": "26f34e5be5d8",
+      "partes": 2,
+      "kb": 348,
+      "documentos": 13,
+      "generado": "2026-11-26"
+    },
     "CO1.REQ.11384314": {
       "hash": "4fd7d8cecdc4",
       "partes": 1,
       "kb": 113,
       "documentos": 7,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11365933": {
-      "hash": "31ff7676fa26",
-      "partes": 1,
-      "kb": 26,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11309115": {
-      "hash": "5d381bda6c11",
-      "partes": 1,
-      "kb": 141,
-      "documentos": 5,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11407215": {
@@ -3982,6 +3949,13 @@
       "documentos": 5,
       "generado": "2026-11-26"
     },
+    "CO1.REQ.11365933": {
+      "hash": "31ff7676fa26",
+      "partes": 1,
+      "kb": 26,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    },
     "CO1.REQ.11393640": {
       "hash": "f1c46d7813e7",
       "partes": 2,
@@ -3989,11 +3963,11 @@
       "documentos": 2,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11392389": {
-      "hash": "26f34e5be5d8",
-      "partes": 2,
-      "kb": 348,
-      "documentos": 13,
+    "CO1.REQ.11309115": {
+      "hash": "5d381bda6c11",
+      "partes": 1,
+      "kb": 141,
+      "documentos": 5,
       "generado": "2026-11-26"
     }
   }
