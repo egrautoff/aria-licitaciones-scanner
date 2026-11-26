@@ -148,6 +148,9 @@ const sh = (cmd, args, opts = {}) =>
   execFileSync(cmd, args, { encoding: "utf8", maxBuffer: 256 * 1024 * 1024, stdio: ["ignore", "pipe", "ignore"], ...opts });
 
 let paginasOcr = 0;
+// Si el tope de OCR de la corrida se agoto, hay paginas sin leer: el proceso no
+// se da por terminado y se vuelve a armar en la corrida siguiente.
+let ocrAgotado = false;
 function ocrImagen(img) {
   try {
     return sh("tesseract", [img, "-", "-l", "spa", "--psm", "6"], { timeout: 120000 });
@@ -170,6 +173,7 @@ function textoPdf(archivo, tmp, nota) {
     if (p.texto.replace(/\s/g, "").length >= 40) continue;
     if (paginasOcr >= P.max_paginas_ocr) {
       nota.ocr_incompleto = true;
+      ocrAgotado = true;
       continue;
     }
     const base = path.join(tmp, `ocr-${p.num}`);
@@ -246,6 +250,10 @@ function leerArchivo(archivo, nombre, ext, tmp, profundidad = 0) {
   if (ext === "xlsx" || ext === "xlsm") return [{ nombre, paginas: [{ num: null, texto: textoXlsx(archivo) }], nota }];
   if (ext === "txt" || ext === "csv") return [{ nombre, paginas: [{ num: null, texto: readFileSync(archivo, "utf8") }], nota }];
   if (["jpg", "jpeg", "png", "tif", "tiff"].includes(ext)) {
+    if (paginasOcr >= P.max_paginas_ocr) {
+      ocrAgotado = true;
+      return [{ nombre, paginas: [], nota: { no_legible: "imagen pendiente de OCR" } }];
+    }
     nota.ocr_paginas = 1;
     paginasOcr++;
     return [{ nombre, paginas: [{ num: 1, texto: ocrImagen(archivo) }], nota }];
@@ -390,7 +398,10 @@ async function armar(it, docs) {
     for (const sub of leerArchivo(archivo, d.nombre, d.ext, tmp)) {
       const paginas = limpiar(sub.paginas);
       if (!paginas.length) {
-        problemas.push({ nombre: sub.nombre, motivo: sub.nota.no_legible || "sin texto legible" });
+        problemas.push({
+          nombre: sub.nombre,
+          motivo: sub.nota.no_legible || (sub.nota.ocr_incompleto ? "pendiente de OCR (se agoto el tope de la corrida)" : "sin texto legible"),
+        });
         continue;
       }
       leidos.push({
@@ -506,7 +517,11 @@ async function main() {
       }
       try {
         const paq = await armar(it, docs);
-        paq.firma = firma;
+        const incompleto =
+          paq.documentos.some((d) => d.ocr_incompleto) || paq.problemas.some((x) => /pendiente de OCR/.test(x.motivo));
+        // Sin firma, la proxima corrida lo vuelve a armar.
+        paq.firma = incompleto ? null : firma;
+        if (incompleto) paq.ocr_pendiente = true;
         paq.ultima_vez_en_radar = hoy;
         writeFileSync(archivo, JSON.stringify(paq));
         if (paq.partes.length) manifiesto[it.id_proceso] = resumen(paq);
