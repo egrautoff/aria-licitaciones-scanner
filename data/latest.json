@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T15:25:45.415Z",
+  "generated_at": "2026-11-26T18:17:35.945Z",
   "dia": "2026-11-26",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2298,
-  "total_matched": 73,
+  "total_scanned": 2257,
+  "total_matched": 70,
   "total_destacados": 1,
   "total_nuevos": 19,
   "items": [
@@ -1763,81 +1763,6 @@
       "primera_vez_visto": "2026-11-14",
       "dias_en_radar": 13,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11363136",
-      "fuente": "SECOP II",
-      "entidad": "INSTITUTO AMAZÓNICO DE INVESTIGACIONES CIENTÍFICAS SINCHI",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11172729",
-      "fecha_cierre": "2026-11-20T12:00:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-11T17:58:17.727",
-      "descripcion": "Suministro y aprovisionamiento de créditos de computación en la nube de Google Cloud Platform (GCP)",
-      "valor": 0,
-      "estado": "Evaluación",
-      "modalidad": "Solicitud de información a los Proveedores",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11216380",
-      "matched_groups": [
-        "Nube / Plataforma"
-      ],
-      "matched_keywords": [
-        "nube publica"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-14",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11309115",
-      "fuente": "SECOP II",
-      "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11119624",
-      "fecha_cierre": "2026-11-12T11:59:00.000",
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-11T17:00:17.891",
-      "descripcion": "Renovar la suscripción de soporte e implementar desarrollos en la plataforma I/CAD para el fortalecimiento de la operatividad e interoperabilidad del SIES-M.",
-      "valor": 3503313418,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación Directa (con ofertas)",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11215913",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-14",
-      "dias_en_radar": 13,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11361050",
-      "fuente": "SECOP II",
-      "entidad": "AREA METROPOLITANA CENTRO OCCIDENTE",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11170875",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-11T15:47:26.399",
-      "descripcion": "PRESTAR LOS SERVICIOS DE MODERNIZACIÓN Y ACTUALIZACIÓN TECNOLÓGICA DE LA SOLUCIÓN DE FACTURACIÓN ELECTRÓNICA ACTUALMENTE UTILIZADA POR EL ÁREA METROPOLITANA CENTRO OCCIDENTE AMCO, MEDIANTE SU TRANSICIÓN A PLATAFORMA EN\nLA NUBE Y LA IMPLEMENTACIÓN DE LA INTEROPERABILIDAD CON EL ERP SIIFWEB, INCLUYENDO SOPORTE TÉCNICO Y SUMINISTRO DE UN PAQUETE DE TRANSACCIONES ELECTRÓNICAS PARA SU TRANSMISIÓN A LA DIAN.",
-      "valor": 30700000,
-      "estado": "Seleccionado",
-      "modalidad": "Contratación directa",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11214961",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-14",
-      "dias_en_radar": 13,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -2445,32 +2370,268 @@
       "max_paginas_ocr": 200
     }
   },
+  "paquetes": {
+    "CO1.REQ.11375414": {
+      "hash": "c5844f08f6e4",
+      "partes": 2,
+      "kb": 331,
+      "documentos": 10,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11383898": {
+      "hash": "e1b1122f0850",
+      "partes": 4,
+      "kb": 698,
+      "documentos": 9,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11364836": {
+      "hash": "fa241a63a208",
+      "partes": 1,
+      "kb": 123,
+      "documentos": 16,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11382805": {
+      "hash": "a98d85f71ebd",
+      "partes": 1,
+      "kb": 11,
+      "documentos": 1,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11374458": {
+      "hash": "1f3c82b33739",
+      "partes": 1,
+      "kb": 99,
+      "documentos": 17,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11381790": {
+      "hash": "ffcd588570ab",
+      "partes": 1,
+      "kb": 191,
+      "documentos": 15,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11381902": {
+      "hash": "07e47b1ab6fc",
+      "partes": 1,
+      "kb": 137,
+      "documentos": 22,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11365392": {
+      "hash": "dacb10eb85fb",
+      "partes": 1,
+      "kb": 124,
+      "documentos": 7,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11412524": {
+      "hash": "4b3a12f26b30",
+      "partes": 1,
+      "kb": 45,
+      "documentos": 8,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11405402": {
+      "hash": "128883c35f38",
+      "partes": 2,
+      "kb": 417,
+      "documentos": 18,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11368260": {
+      "hash": "822356aef94e",
+      "partes": 1,
+      "kb": 50,
+      "documentos": 3,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11382343": {
+      "hash": "b1d74fcc15e4",
+      "partes": 1,
+      "kb": 35,
+      "documentos": 4,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11407219": {
+      "hash": "f975629e03f7",
+      "partes": 1,
+      "kb": 87,
+      "documentos": 24,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11407081": {
+      "hash": "32be93a31514",
+      "partes": 1,
+      "kb": 121,
+      "documentos": 28,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11369006": {
+      "hash": "2eb00aa01da7",
+      "partes": 1,
+      "kb": 83,
+      "documentos": 5,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11402751": {
+      "hash": "1dcd1337dbe2",
+      "partes": 1,
+      "kb": 19,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11381744": {
+      "hash": "733005ae2621",
+      "partes": 1,
+      "kb": 68,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11406828": {
+      "hash": "7320f6f29945",
+      "partes": 1,
+      "kb": 34,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.10541394": {
+      "hash": "4cab8ae22a8b",
+      "partes": 2,
+      "kb": 321,
+      "documentos": 7,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11399805": {
+      "hash": "28897e3adb19",
+      "partes": 2,
+      "kb": 260,
+      "documentos": 3,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11410175": {
+      "hash": "47025cf7a8b9",
+      "partes": 1,
+      "kb": 11,
+      "documentos": 5,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11365933": {
+      "hash": "31ff7676fa26",
+      "partes": 1,
+      "kb": 26,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11392389": {
+      "hash": "26f34e5be5d8",
+      "partes": 2,
+      "kb": 348,
+      "documentos": 13,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11384314": {
+      "hash": "4fd7d8cecdc4",
+      "partes": 1,
+      "kb": 113,
+      "documentos": 7,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11397178": {
+      "hash": "839cb7a23c08",
+      "partes": 1,
+      "kb": 94,
+      "documentos": 4,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11407215": {
+      "hash": "277a3d843d5c",
+      "partes": 1,
+      "kb": 105,
+      "documentos": 5,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11388686": {
+      "hash": "4170eba2b9f5",
+      "partes": 2,
+      "kb": 320,
+      "documentos": 5,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11393640": {
+      "hash": "f1c46d7813e7",
+      "partes": 2,
+      "kb": 360,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    }
+  },
   "requisitos": {
     "CO1.REQ.10541394": {
       "id_proceso": "CO1.REQ.10541394",
       "entidad": "DAPRE",
-      "revisado_en": "2026-11-23",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 10,
-      "estado_analisis": "sin_seccion_identificable",
+      "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
         {
           "nombre": "9. Anexos del Proyecto de Pliego SASI06-2026.docx",
           "extension": "docx",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=893770761&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11252601"
         },
         {
           "nombre": "8. Proyecto de Pliego de Condiciones SASI06-2026.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=893770760&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11252601"
+        },
+        {
+          "nombre": "2. F-BS-87 Estudios Previos Antivirus Firmado.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11252601"
+        },
+        {
+          "nombre": "3. Anexo Tecnico_RENOVACION.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11252601"
+        },
+        {
+          "nombre": "7. Aviso de Convocatoria SASI06-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11252601"
+        },
+        {
+          "nombre": "6. OFERTA ECONOMICA - ANTIVIRUS.xlsx",
+          "extension": "xlsx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11252601"
+        },
+        {
+          "nombre": "4.1. Promedio Valor Proceso Renovacion Antivirus .xlsx",
+          "extension": "xlsx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11252601"
         }
       ],
-      "texto": "",
+      "texto": "50 de la Ley 789 de 2002 y la Ley 1150 de 2007. Revisor Fiscal: ________________________ C.C. No. _______________ Tarjeta No. _________ O Representante Legal: ________________________ C.C. No. _______________ ANEXO 5 EXPERIENCIA GENERAL PROPONENTES EXTRANJEROS Proponente: __________________________________________ No. del contrato | Contratante | Objeto | Clasificador de bienes, obras y servicios en el tercer nivel que corresponda al objeto del contrato | Valor en SMMLV a la fecha de terminación | Experiencia acreditada como integrante de consorcio o unión temporal | Porcentaje de participación en el valor ejecutado en caso de consorcio o unión temporal | Fue objeto de multa o sanción.\n\nSI o NO | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Nombre Representante Legal: ________________________ Firma Representante Legal: ________________________ Nota: El código o los códigos del clasificador de bienes y servicios que el proponente debe diligenciar en el presente anexo, DEBERÁN corresponder a los requeridos en el numeral 2.3.1 “EXPERIENCIA GENERAL” del documento de términos y condiciones adicionales publicado en el SECOP II. ANEXO 6 MANIFESTACIÓN DEL OFERENTE SOBRE INHABILIDADES E INCOMPATIBILIDADES Yo______________________, actuando en calidad de _________________ (persona natural oferente, o el representante legal, o apoderado), de _______________, manifiesto bajo la gravedad del juramento de forma clara e inequívoca, que ni el proponente, ni sus representantes legales, ni su apoderado, ni sus socios, nos encontramos incursos en las causales de inhabilidad e incompatibilidad previstas en la Constitución y en la Ley, en especial las contempladas en las Leyes 80 de 1993, 1150 de 2007, 610 de 2000, 789 de 2002, 1474 de 2011, 1778 de 2016, 1955 de 2019, 20\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": 3,
-      "smmlv": [],
+      "smmlv": [
+        "250"
+      ],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
     },
     "CO1.REQ.11298833": {
       "id_proceso": "CO1.REQ.11298833",
@@ -2480,70 +2641,6 @@
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
-    },
-    "CO1.REQ.11309115": {
-      "id_proceso": "CO1.REQ.11309115",
-      "entidad": "DISTRITO ESPECIAL DE CIENCIA TECNOLOGIA E INNOVACION DE MEDELLIN",
-      "revisado_en": "2026-11-22",
-      "documentos_en_el_proceso": 21,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "1. ESTUDIO PREVIO 42028.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=889643891&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        },
-        {
-          "nombre": "6.1 ALCANCE A LA INVITACION.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=889643898&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "TIPO REQUISITO DESCRIPCIÓN REQUERIDO\nREQUISITO\n LA ENTIDAD.\nTECNICA 0024 Certificados de experiencia DOS (02) AÑOS\n EN\n CONTRATOS\n CUYO OBJETO,\n\n2. Certificado expedido por SISGRAPH\n Ltda, empresa de OCTAVE\n INTELLIGENCE y empresa matriz\n controladora de Intergraph Colombia.\n Dos (02) años en contratos cuyo objeto,\n alcance o actividades se encuentre\n Certificados de experiencia\n relacionado con el objeto del presente\n proceso contractual..\n Fotocopia de la Cedula del Representante Legal Fotocopia Legible\n Compromiso Anticorrupción Carta firmada por el representante legal\n Certificado firmado por el representante\n Certificado de Inhabilidades e incompatibilidades\n legal o quien haga sus veces\n Certificado firmado por el representante\n Certificado de no sanciones o incumplimiento\n legal o quien haga sus veces\n Fotocopia del Registro Único Tributario (RUT) Documento con fecha de generación no\n Actualizado superior a 30 días calendario\n Certificado de antecedentes\n Certificado de antecedentes disciplinarios de la empresa\n disciplinarios de la empresa y\n y del representante legal.\n del representante legal\n Certificado de Responsabilidad Fiscal de la empresa y Certificado de responsabilidad fiscal de la\n del representante legal. empresa y del representante legal",
-      "unspsc_exigidos": [
-        "43231500",
-        "80101600",
-        "81111500",
-        "92121700"
-      ],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
-    },
-    "CO1.REQ.11361050": {
-      "id_proceso": "CO1.REQ.11361050",
-      "revisado_en": "2026-11-19",
-      "documentos_en_el_proceso": 23,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
-    },
-    "CO1.REQ.11363136": {
-      "id_proceso": "CO1.REQ.11363136",
-      "entidad": "INSTITUTO AMAZÓNICO DE INVESTIGACIONES CIENTÍFICAS SINCHI",
-      "revisado_en": "2026-11-22",
-      "documentos_en_el_proceso": 2,
-      "estado_analisis": "sin_seccion_identificable",
-      "documentos": [
-        {
-          "nombre": "Anexo técnico.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=889703435&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": false
@@ -2563,22 +2660,93 @@
     "CO1.REQ.11364836": {
       "id_proceso": "CO1.REQ.11364836",
       "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
-      "revisado_en": "2026-11-14",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 20,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
         {
           "nombre": "07Invitacion.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=889903965&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
         },
         {
           "nombre": "05Correo1Invitacion.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=889903956&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "08AnexoInvitacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "06Correo2Invitacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "11PolizaAnexo1.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "26ComunicacionAsignacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "28Poliza.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "04DirectizTecnicaEstaciones.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "08ComunicadoAsignacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "19InformePreliminar.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "22InformeFinal.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "30LegalizacionSupervisor.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "01Odc1140132023Sol18515.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "14LegalizacionSupervisor.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "01PCP1ODC1140132023.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
+        },
+        {
+          "nombre": "11CorreoRecepcionOferta2.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218244"
         }
       ],
-      "texto": "7.2 Adicionalmente, para el caso de personas naturales:\na. Fotocopia cedula ciudadanía del oferente.\nb. Certificado de inscripción en el Registro Mercantil de la Cámara de Comercio, con expedición inferior a 90 días contados a partir de la presentación de la oferta (Para persona\nnatural con establecimiento de comercio).\nc. Copia del certificado del registro único tributario (RUT), expedido por la DIAN donde conste el regimen al cual pertenece.\nd. Formato Carta de Presentación de Oferta (Obligatorio para contrataciones superiores a 160 SMLMV).\nNotas:\n1). La no presentación de los documentos requeridos en los literales \"a\" y \"b\" (si aplica) y \"c\" (si aplica) del numeral 7.2 de la presente invitación, será causal de rechazo de la\npropuesta. Estos documentos serán subsanables en su contenido, para tal efecto, la UNIVERSIDAD podrá solicitarlo en cualquier momento antes de la evaluación definitiva; si el\nOFERENTE no responde a la solicitud dentro del plazo estipulado por la UNIVERSIDAD, se configurará causal de rechazo de la PROPUESTA. No será subsanable lo siguiente:\ni. En el caso del Registro Mercantil de la Cámara de Comercio, no será subsanable la actividad comercial.\nii.En el caso del Formato Carta de Presentación de Oferta, no será subsanable la falta de la firma del representante legal.\n2). En caso de no presentarse con la oferta los documentos exigidos en los literales \"d\" y \"e\" del presente numeral, la UNIVERSIDAD podrá requerirlos en cualquier momento o\nsubsanarse en su contenido, antes de la evaluación definitiva; si el OFERENTE no responde a la solicitud dentro de plazo estipulado por la UNVERSIDAD, se configurará causal\nde rechazo de la propuesta. No obstante lo anterior, la formación académica y la experiencia certificada NO será subsanable en su presentación, e\n\n[...]",
+      "texto": "No obstante lo anterior, la formación académica y la experiencia certificada NO será subsanable en su presentación, en los casos que dicha información corresponda a un criterio de asignación de puntaje. 3). Al oferente seleccionado se le exigirá para su contratación la presentación de documentos adicionales y/o la actualización de los presentados, según la normatividad contractual vigente en la Universidad, y según corresponda en cada caso. 7.3. Adicionalmente, las personas jurídicas deberán presentar con la propuesta:\n\n5.0 FORMATO: INVITACIÓN A PRESENTAR OFERTA PARA ORDEN CONTRACTUAL Página: 2 de 2 e. f. Certificaciones que acrediten la experiencia exigida, relacionada con el objeto a contratar (Según aplique en cada caso). Notas: 1). La no presentación de los documentos requeridos en los literales \"a\", \"b\", \"c\" y \"d\" (si aplica \"d\") de la presente invitación, será causal de rechazo de la propuesta. Estos serán subsanables en su contenido, para tal efecto, la UNIVERSIDAD podrá solicitarlo en cualquier momento y antes de la evaluación definitiva;\n\nNo obstante lo anterior, la experiencia certificada NO será subsanable en su presentación, en los casos que dicha información corresponda a un criterio de asignación de puntaje. 3). 8. LUGAR DE PRESENTACIÓN DE LA OFERTA La oferta junto con todos los documentos soporte requeridos en la presente invitación, deberán ser enviados al correo electrónico dima_man@unal.edu.co o radicados físicamente en la Oficina No. N/A del edificio N/A ubicada en la N/A de MANIZALES o via fax al 8879300 Ext 50183 9. PLAZO PARA PRESENTACIÓN DE LA OFERTA HASTA EL 08 06 2023 HORA:\n\nSin embargo, se deberá acreditar su afiliación a salud como independiente. 3.1.9. TARJETA PROFESIONAL Y CERTIFICACIÓN DE VIGENCIA DE INSCRIPCIÓN Y ANTECEDENTES DISCIPLINARIO\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
@@ -2589,33 +2757,59 @@
     "CO1.REQ.11365392": {
       "id_proceso": "CO1.REQ.11365392",
       "entidad": "HOSPITAL VENANCIO DIAZ DIAZ",
-      "revisado_en": "2026-11-14",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 8,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
-        {
-          "nombre": "ESTUDIOS PREVIOS.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=890014284&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        },
         {
           "nombre": "INVITACION A PRESENTAR PROPUESTA.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=890014285&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218754"
+        },
+        {
+          "nombre": "ADVISING_DOCUMENTOS_INVITACION_SOPORTE_OCT2026 (1).pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218754"
+        },
+        {
+          "nombre": "ESTUDIOS PREVIOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218754"
+        },
+        {
+          "nombre": "POLIZA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218754"
+        },
+        {
+          "nombre": "801-817.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218754"
+        },
+        {
+          "nombre": "ANALISIS Y ACEPTACION DE LA OFERTA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218754"
+        },
+        {
+          "nombre": "CONTRATO 0297.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11218754"
         }
       ],
-      "texto": "OTRO SI (EN CASO NECESARIO)\nCOMPROMISO PRESUPUESTAL\npOlizadecumplimiento_____\npOliza de responsabilidad civil\nACTA DE POLIZAS\nACTA DE INICIO\n___________________ 2.1. ETAPA CONTRACTUAL - Requisitos del contrato\nHOJA DE VIDA FUNClON PUBLICA - Persona Jun'dica X\nCAMARA DE COMERCIO X\nRUT (No inferior a un mes) X\nFOTOCOPIA CEDULA AL 150% Del representante legal X\nDECLARACION DE BIENES Y RENTAS ANO ANTERIOR X\nCARNET DE VACUNAClON COVID -19 X\nCERTIFICADO DE EXPERIENCE LABORAL X\nCERTIFICADO DE ANTECEDENTES FISCALES X\n(CONTRALORIA)__________________________________\nCERTIFICADO DE ANTECEDENTES JUDICIALES. (POLICIA) X\nCERTIFICADO NACIONAL DE MEDIDAS CORRECTIVAS X\nCERTIFICADO DE ANTECEDENTES DISCIPLINARIOS X\n(PROCURADURIA)________________________________\nHOJA DE VIDA TRABAJADORES (Que acrediten idoneidad: X\nEstudios, Experiencia)_________________________________\nCERTIFICADO DE REGISTRO DE DEUDORES ALIMENTARIOS X\nMOROSOS - REDAM_______________________________\nCEERTIFICADO DE CONSULTA DE INHABILIDADES - LEY X\n1918 DE 2018.___________________________________\nCERTIFICADO DE CUENTA BANCARIA X\nCERTIFICADO DE AFILIAClON A SEGURIDAD SOCIAL X\n(SALUD, PENSIONES Y ARL)\n 3. ETAPA POS CONTRACTUAL\nactadeterminaciOn\nACTA DE LIQUIDAClbN",
+      "texto": "(POLICIA) X CERTIFICADO NACIONAL DE MEDIDAS CORRECTIVAS X CERTIFICADO DE ANTECEDENTES DISCIPLINARIOS X (PROCURADURIA)________________________________ HOJA DE VIDA TRABAJADORES (Que acrediten idoneidad: X Estudios, Experiencia)_________________________________ CERTIFICADO DE REGISTRO DE DEUDORES ALIMENTARIOS X MOROSOS - REDAM_______________________________ CEERTIFICADO DE CONSULTA DE INHABILIDADES - LEY X 1918 DE 2018.___________________________________ CERTIFICADO DE CUENTA BANCARIA X CERTIFICADO DE AFILIAClON A SEGURIDAD SOCIAL X (SALUD, PENSIONES Y ARL) 3.\n\n2. Experiencia del servicio prestado. 3. La propuesta econdmica presentada por el proponente. Carrera 46B # 77 sur - 36 / Barrio Prados de Sabaneta - Teldfono: 57 (4) 2889701\n\nUn (1) MES. El ordenador de gasto, luego de verificada la propuesta comercial, la justificacidn y las condiciones tecnicas solicitadas en el numeral 5 del estudio previo, las cuales coinciden con el servicio requerido por la ESE HOSPITAL VENANCIO DIAZ DIAZ y fue presentada por la empresa ADVISING TECHNOLOGY S.A.S.- identificada con NIT. 900.376.369-0, cumple con los criterios que se solicitaron para la selection de la oferta: 1. Calidad del servicio. 2. Experiencia del servicio prestado. 3. La propuesta tecnica y economica presentada por el proponente.\n\n8. PLAZO Desdo acta do inicio hasta ol 31 do dictombro do 2026. 9. LUGAR DE EJECUCION instalacioncs do la E.S.E. Hospital Vonancio Diaz Diaz - Sabaneta. Antioquia. De acuerdo, con Io anterior, se certifica que el CONTRATISTA posee la, experiencia e idoneidad para llevar a cabo la realizacion del objeto contractual requerido. Sabaneta, 1 del mes de octubre de 2026. Atentamente, LUIS FERNANDO RESTREPO VELASQUEZ. Gerente. ESE HOSPITAL VENANCIO DIAZ DIAZ. Carrera 46B # 77 sur - 36 / Barrio Prados \n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
     },
     "CO1.REQ.11365933": {
       "id_proceso": "CO1.REQ.11365933",
       "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
-      "revisado_en": "2026-11-16",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 7,
       "estado_analisis": "ok",
       "documentos": [
@@ -2652,7 +2846,7 @@
     },
     "CO1.REQ.11368260": {
       "id_proceso": "CO1.REQ.11368260",
-      "revisado_en": "2026-11-20",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 3,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
@@ -2665,17 +2859,38 @@
     "CO1.REQ.11369006": {
       "id_proceso": "CO1.REQ.11369006",
       "entidad": "COLEGIO BRAZUELOS I,.E.D.",
-      "revisado_en": "2026-11-19",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 10,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
+        {
+          "nombre": "Evaluacion Definitiva.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11236094"
+        },
         {
           "nombre": "Estudios Previos.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=891851428&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11236094"
+        },
+        {
+          "nombre": "Contrato.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11236094"
+        },
+        {
+          "nombre": "Llamado Ofertas.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11236094"
+        },
+        {
+          "nombre": "Evaluacion Preliminar.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11236094"
         }
       ],
-      "texto": "El valor del contrato será cancelado a través de transferencia electronica, a nombre del primer beneficiario (Contratista) en\n Un (1) solo pago dentro los diez (10) días hábiles siguientes al cumplimiento a satisfacción del objeto del presente contrato,\n lo cual certificara el supervisor del contrato con la respectiva certificación de recibido a satisfaccion y/o ingreso a almacen y\n : a) Las personas Naturales deberá presentar: a) planilla de pago de los aportes correspondientes al sistema de seguridad\n social integral (Salud, Pensión y ARL) de los meses en el cual se ejecuto el contrato, la cual deberá cumplir las previsiones\n legales de la resolución 209 de 2020 de la UGPP. Por la cual de adopta el esquema de presunción de costos para los\n trabajadores independientes por cuenta propia y los trabajadores independientes con contratos diferentes a prestación de\n servicios personales, conforme a su actividad económica. y demas disposiciones legales vigentes frente al tema. Las\n persona Jurídicas deberá acreditar el cumplimiento de sus obligaciones correspondientes al sistema de seguridad social y\n parafiscal, con planilla de pago y certificación expedida por el Revisor Fiscal en los casos que corresponda o por el\n representante legal de los meses en los cuales se ejecutó el contrato. b) Presentación de factura(s) o documento\n equivalente. c) Certificación bancaria a nombre del contratista con expedición no mayor a tres (3) meses.\n\n3 - Certificación de cumplimiento artículo 50 ley 789 de 2002 y ley 828 de 2003, según (Anexo 3), si es firmado por el revisor\n fiscal debe anexar cedula de ciudadanía, tarjeta profesional y certificación de antecedentes disciplinarios vigente expedido\n por la JCC. Únicamente personas jurídicas.\n 4 - Copia del último pago obligatorio de segurida\n\n[...]",
+      "texto": "Por la cual de adopta el esquema de presunción de costos para los trabajadores independientes por cuenta propia y los trabajadores independientes con contratos diferentes a prestación de servicios personales, conforme a su actividad económica. y demas disposiciones legales vigentes frente al tema. Las persona Jurídicas deberá acreditar el cumplimiento de sus obligaciones correspondientes al sistema de seguridad social y parafiscal, con planilla de pago y certificación expedida por el Revisor Fiscal en los casos que corresponda o por el representante legal de los meses en los cuales se ejecutó el contrato.\n\nlegible de la cedula de ciudadanía del proponente (persona natural) o representante legal (persona jurídica). 6 - Fotocopia de la Libreta Militar o certificación de haber definido la situación militar (para representantes legales y personas naturales, varones, hasta los 50 años). 7 - Certificado Cámara de Comercio o existencia y representación legal, donde la actividad económica tenga relación con el servicio y/o bien a ofrecer, además la fecha de expedición no sea superior a treinta (30) días calendario contados a partir de la -fecha 8 de cierre Certificado de de la Invitación matrícula de a ofertar persona y se expedido natural encuentrepor la renovado, cuando Cámara de a esto último Comercio, dondese la actividadobligado.\n\nRepresentante legal y persona natural. 16 - Autorización para consulta de Inhabilidades Delitos sexuales cometidos contra menores de 18 años. Ley 1918 de 2018, de la Policía Nacional de Colombia con fecha de expedición no mayor a un (1) mes. Representante legal y persona natural (Anexo 4) 17 - Certificación bancaria a nombre del proponente con fecha de expedición inferior a un mes. 18 - Certificado Registro de Deudores Alimentarios Morosos REDAM \n\n[...]",
       "unspsc_exigidos": [
         "72154000",
         "81112300",
@@ -2684,7 +2899,9 @@
       ],
       "minimo_codigos": null,
       "max_contratos": 3,
-      "smmlv": [],
+      "smmlv": [
+        "20"
+      ],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": true
     },
@@ -2754,15 +2971,105 @@
     },
     "CO1.REQ.11374458": {
       "id_proceso": "CO1.REQ.11374458",
-      "revisado_en": "2026-11-22",
+      "entidad": "PATRIMONIO AUTÓNOMO FONDO NACIONAL DEL TURISMO FONTUR",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 5,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
+      "estado_analisis": "ok",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/8.Certificaciones y soportes de experiencia.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/3. PROPUESTA DE SERVICIOS - (1).pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DESIGNACION SUPERVISION CPS  LICETH MARTINEZ CARDENAS .pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/14.Consulta Antecedentes Fiscales.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/15.Consulta Antecedentes Disciplinarios.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/16.Consulta Antecedentes Judiciales de Policía.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/18.Consulta REDAM.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/4.Documento de Disponibilidad PresupuestalL.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/8. Certificado de afiliación de salud y pensión.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "APROBACION POLIZAS FNTC-412-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/10.Declaración de conflicto de interés.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/16.Consulta RNMC.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/17.Consulta de inhabilidades por delitos sexuales.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/3.Registro Único Tributario - RUT.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "DOC. ETAPA PRECONTRACTUAL.zip > DOC. ETAPA PRECONTRACTUAL/6.Soportes de formación académica.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "FNTC-412-2026 CONTRATO.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        },
+        {
+          "nombre": "AFILIACION ARL POSITIVA - LUISA MARTINEZ.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11228123"
+        }
+      ],
+      "texto": "13. Que, la contratación de servicios de apoyo a la gestión resulta necesaria para fortalecer las actividades operativas asociadas a la administración de los canales digitales del P.A. FONTUR, contribuyendo al mantenimiento y actualización permanente de la información institucional, al mejoramiento de la experiencia de los usuarios y al cumplimiento de los objetivos de comunicación y gestión de la información del Patrimonio Autónomo. 14. Que, teniendo en cuenta que el valor del contrato no supera los cincuenta (50) SMLMV, no se requiere presentar la solicitud de contratación ante el Comité de Contratación para su aprobación.\n\n15. Que, la Directora de Estructuración Precontractual del P.A. FONTUR, a través de memorando del 6 de noviembre de 2026, solicitó adelantar la contratación directa de LUISA LICETH MARTÍNEZ CÁRDENAS, en consideración a su perfil y experiencia especifica, en la materia objeto del presente contrato, teniendo en cuenta la siguiente justificación: “ La contratación de LUISA LICETH MARTINEZ CARDENAS se justifica al acreditar título como Tecnóloga en Diseño Gráfico otorgado por la Corporación Universal de Investigación y Tecnología -CORUNIVERSITEC- Calle 28 # 13 A 24 Edificio Museo Parque Central Página 3 de 20\n\nel 20 de octubre de 2006, título; y experiencia laboral certificada que se relaciona a continuación: Que conforme lo señalado en precedencia, le otorga a LUISA LICETH MARTINEZ CARDENAS, la capacidad e idoneidad académica y experiencia, para la realización de las actividades y obligaciones objeto del contrato.” 16. Que, dada la naturaleza del objeto a contratar, el presente Contrato se enmarca en el Capítulo III “Modalidades de Contratación para la selección o escogencia de Contratistas” del Manual de Contratación de FONTUR, el cual establece:\n\na.\n\n[...]",
       "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
     },
     "CO1.REQ.11374979": {
       "id_proceso": "CO1.REQ.11374979",
@@ -2779,7 +3086,7 @@
     "CO1.REQ.11375242": {
       "id_proceso": "CO1.REQ.11375242",
       "entidad": "UNIDAD DE SALUD DE IBAGUE U.S.I. - E.S.E.",
-      "revisado_en": "2026-11-22",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 34,
       "estado_analisis": "documentos_escaneados",
       "documentos": [],
@@ -2794,22 +3101,63 @@
     "CO1.REQ.11375414": {
       "id_proceso": "CO1.REQ.11375414",
       "entidad": "MINISTERIO DE HACIENDA Y CREDITO PUBLICO",
-      "revisado_en": "2026-11-22",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 31,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
         {
-          "nombre": "CONDICIONES_GENERALES_Y PARTICULARES_PROYECTO DE PLIEGO MHCP-SIE-09-2026.pdf",
+          "nombre": "ADENDA_01_MHCP-SIE-09-2026..pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=885302934&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "Respuestas_Observaciones_MHCP-SIE-09-2026vf.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
         },
         {
           "nombre": "CONDICIONES_GENERALES_Y_PARTICULARES_PLIEGODEFINITIVO MHCP-SIE-09-2026.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=891242063&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "ESTUDIOS_PREVIOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "ANEXOS_PARA_DILIGENCIAR_MHCP_SIE_09_2026.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "ALCANCE_MEMORANDO_INDICADORES_FINANCIEROS_CAPACIDAD_ORGANIZACIONAL.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "MEMORANDO_INDICADORES_FINANCIEROS_CAPACIDAD_ORGANIZACIONAL.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "ACTO_APERTURA_MHCP-SIE-09-2026 (2).pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "AVISO_DE_CONVOCATORIA VF.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
+        },
+        {
+          "nombre": "CONDICIONES_GENERALES_Y PARTICULARES_PROYECTO DE PLIEGO MHCP-SIE-09-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11229432"
         }
       ],
-      "texto": "2.9. VERIFICACIÓN DE REQUISITOS HABILITANTES Y DE LA OFERTA:\nDentro de la fecha y hora señaladas en el cronograma del presente proceso de selección, EL MINISTERIO\nverificará la capacidad jurídica, capacidad financiera, capacidad organizacional, experiencia, la oferta\ntécnica mínima, la presentación de la OFERTA en la plataforma de SECOP II.\n\nEl PROPONENTE debe elaborar su OFERTA por su cuenta y riesgo, de acuerdo con lo solicitado en el Pliego\n de Condiciones electrónico, el documento de condiciones generales y particulares y sus modificaciones, e\n incluir dentro de esta, toda la información exigida. La OFERTA junto con los ajustes que se puedan presentar\n por solicitud de la entidad formarán parte integral del contrato.\n 5. FASE I: VERIFICACIÓN REQUISITOS MÍNIMOS HABILITANTES\n Serán objeto de verificación de cumplimiento como requisitos habilitantes para la participación en el\n proceso de selección y no otorgarán puntaje, los siguientes:\n - CAPACIDAD JURÍDICA\n - CONDICIONES DE EXPERIENCIA\n - CAPACIDAD FINANCIERA\n - CAPACIDAD ORGANIZACIONAL\n\n5.2.1. EXPERIENCIA ACREDITADA DEL PROPONENTE:\nLa experiencia se verificará de manera independiente para cada grupo. El proponente que participe en\nambos deberá acreditar los requisitos de cada uno, sin sumar los presupuestos para establecer un único\nrequisito.\n\nCANTIDAD: CANTIDAD *:\n NO CLASIFICADOS SÍ CLASIFICADOS VR MÍNIMO\n COMO MIPYME o COMO MIPYME o ACUMULADO\n Grupo Experiencia específica EMPRENDIMIENTOS EMPRENDIMIENTOS EN SMMLV\n Y EMPRESAS DE Y EMPRESAS DE (Para ambos\n PERSONAS CON PERSONAS CON casos)\n DISCAPACIDAD DISCAPACIDAD:.\n Grupo Acreditar experiencia en Hasta 3 Hasta 4 550,99\n 1 contratos ejecutados al 100% en Certificaciones Certificaciones\n el momento de presentación de\n las ofertas, cuyo objeto, alcance\n u obligacion\n\n[...]",
+      "texto": "De igual manera dichas respuestas y aclaraciones sólo serán recibidas de manera electrónica a través de la plataforma SECOP II. 2.9. VERIFICACIÓN DE REQUISITOS HABILITANTES Y DE LA OFERTA: Dentro de la fecha y hora señaladas en el cronograma del presente proceso de selección, EL MINISTERIO verificará la capacidad jurídica, capacidad financiera, capacidad organizacional, experiencia, la oferta técnica mínima, la presentación de la OFERTA en la plataforma de SECOP II. Dentro de dicho término se podrán solicitar a los PROPONENTES, en los términos señalados en el pliego de condiciones electrónico y en el documento de condiciones generales y particulares, las aclaraciones, explicaciones y documentos que se estimen indispensables, sin que por ello el PROPONENTE pueda adicionar, modificar o mejorar su OFERTA.\n\nGrupo 1: no es susceptible de limitación a Mipyme, porque su presupuesto de $964.730.694 supera el umbral. Grupo 2: 4. FASES DE LA SELECCIÓN 4.1. FASES PROCESO DE SELECCIÓN: El proceso de selección se efectuará teniendo en cuenta las siguientes fases: FASES CONDICIONES GENERALES PONDERACIÓN / PUNTAJE Capacidad jurídica Condiciones de Experiencia Verificación Requisitos Fase I Capacidad Técnica Habilitado o No Habilitado Mínimos Habilitantes Capacidad financiera Capacidad organizacional Oferta Técnica Mínima Cumple o no Cumple Verificación de la Fase II Presenta o no propuesta Oferta Económica Inicial Presenta Subasta Inversa Mejora de oferta Fase III Menor precio ofertado Electrónica Económica Inicial Lances 4.2.\n\nLa OFERTA junto con los ajustes que se puedan presentar por solicitud de la entidad formarán parte integral del contrato. 5. FASE I: VERIFICACIÓN REQUISITOS MÍNIMOS HABILITANTES Serán objeto de verificación de cumplimiento como requisitos habilitantes para la p\n\n[...]",
       "unspsc_exigidos": [
         "81112501",
         "81112200",
@@ -2839,50 +3187,256 @@
     },
     "CO1.REQ.11381744": {
       "id_proceso": "CO1.REQ.11381744",
-      "revisado_en": "2026-11-19",
+      "entidad": "(Secretaría Distrital de Integración Social)",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 2,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
-    },
-    "CO1.REQ.11381790": {
-      "id_proceso": "CO1.REQ.11381790",
-      "entidad": "MUNICIPIO DE SOACHA..",
-      "revisado_en": "2026-11-19",
-      "documentos_en_el_proceso": 8,
-      "estado_analisis": "documentos_escaneados",
-      "documentos": [],
-      "texto": "",
+      "estado_analisis": "ok",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "FORMATO COTIZACION - BUSINESS APPS .xlsx",
+          "extension": "xlsx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235259"
+        },
+        {
+          "nombre": "DOCUMENTO TECNICO PARA COTIZACION - BUSINESS APPS  (1).pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235259"
+        }
+      ],
+      "texto": "A través de este análisis, se reconocen las barreras que enfrentan ciertos grupos poblacionales o tipos de oferentes, permitiendo estructurar estrategias que fomenten la pluralidad de proponentes, la inclusión y la competencia efectiva. De esta manera, el estudio de mercado no solo cumple una función técnica de análisis de oferta y demanda, sino que también integra un enfoque diferencial alineado con los principios de igualdad material, transparencia y responsabilidad social en la gestión pública.\n\nEsta circunstancia se acreditará mediante certificación expedida por el representante legal. No aplica DECRETO 287 DE 2026 ARTÍCULO 2.2.1.2.4.2.7.3. INCORPORACIÓN DE CRITERIOS HABILITANTES DIFERENCIALES EN FAVOR DE LOS EMPRENDIMIENTOS Y EMPRESAS DE PERSONAS CON DISCAPACIDAD 1) Personas naturales con discapacidad que ejerzan una profesión liberal. Esta circunstancia se acreditará mediante la copia de cédula de ciudadanía, la cédula de extranjería o el pasaporte, el certificado de discapacidad expedido de acuerdo con la normativa del Ministerio de Salud y Protección Social, así como el título profesional correspondiente.\n\nPágina: 7 de 30 ▪ Microsoft Fabric (ingesta, transformación, orquestación, lakehouse/warehouse, pipelines, dataflows, modelos semánticos, notebooks). - Construcción de componentes de integración o extensión que complementen el Sistema de Información Misional: - Servicios/API en .NET Core cuando la solución requiera exponer capacidades adicionales o adaptadores. - Integración con el Front Angular cuando se requiera embebido, navegación, consumo de servicios, o componentes de experiencia de usuario.\n\n2.7.2. REQUISITOS MÍNIMOS DEL TALENTO HUMANO Los perfiles mínimos requeridos para la ejecución de la operación, en función de la ejecución de la bolsa de horas requ\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
+    },
+    "CO1.REQ.11381790": {
+      "id_proceso": "CO1.REQ.11381790",
+      "entidad": "MUNICIPIO DE SOACHA..",
+      "revisado_en": "2026-11-26",
+      "documentos_en_el_proceso": 8,
+      "estado_analisis": "ok",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 01 CARTA DE PRESENTACION DE LA OFERTA.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 02 DOCUMENTO CONSORCIAL.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 03 DOCUMENTO UNION TEMPORAL.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 05 DECLARACION DE MULTAS Y SANCIONES.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 06 CUMPLIMIENTO ARTICULO 50 LEY 789 DE 2002.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 07 COMPROMISO ANTICORRUPCION.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 08 DECLARACION JURAMENTADA SOBRE INHABILIDADES.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 09 DECLARACION JURAMENTADA SOBRE INHABILIDADES PERSONA NATURAL.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 10 ACEPTACION DE LA OFERTA.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > OFERTA ECONOMICA DMC SISBEN.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "INVITACIÓN MC-061-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "--- ANEXOS 1 A 10 INVITACION DMC SISBEN.zip > ANEXO 04 EXPERIENCIA DEL PROPONENTE.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "OFERTA ECONOMICA DMC SISBEN.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "PAA - DMC (1).pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        },
+        {
+          "nombre": "BANCO DE PROYECTOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237003"
+        }
+      ],
+      "texto": "Por último, se aclara que en caso de que, por mandato legal, se deban aportar documentos apostillados o legalizados, el proponente adjudicatario deberá prever los términos que establece el Ministerio de Relaciones Exteriores, para dichos trámites y deberá presentar estos documentos como máximo el último día de traslado del informe de evaluación. 15.4.EXPERIENCIA DEL PROPONENTE EXTRANJERO SIN SUCURSAL O DOMICILIO EN COLOMBIA En cumplimiento de lo ordenado por el Parágrafo 2* del articulo 6 de la Ley 1150 de 2007, modificado por el articulo 221 del Decreto - Ley 019 de 2012, el oferente extranjero, persona natural sin domicilio en Colombia o persona juridica extranjera que no tenga establecida sucursal en el país, NO se encuentra obligado a inscribirse ni calificarse en el RUP.\n\n22% Alcaldíade | Secretaríade 1 0 Le y Ordenamiento Territorial El oferente extranjero deberá relacionar y certificar la experiencia exigida en este proceso a través de certificaciones de experiencia cuyo objeto guarde relación con el objeto del contrato que se pretende suscribir. En el evento en que dicha experiencia se haya obtenido en país distinto a Colombia, para efectos de certificarla deberá adjuntar la certificación respectiva que deberá cumplir con los requisitos establecidos en este documento.\n\n16. REQUISITOS FINANCIEROS HABILITANTES N/A 17. REQUISITOS TÉCNICOS HABILITANTES EXPERIENCIA DEL PROPONENTE Mi pa 00000 iaiúntesoa | pax (so1T305500Ext.220 | AE icontec OPT www.alcaldiasoacha.gov.co | Dirección: Calle 13 + 7-30 | CALAS: contactenosGalcaldiasoacha.gov.co | SPP —\n\n+ = Alcaldíade | Secretaría de A E\" SOACHA | Planeación... 2200000 Le y Ordenamiento Territorial EXPERIENCIA GENERAL DEL PROPONENTE De conformidad con lo requerido por la administración municipal, el proponente deberá acre\n\n[...]",
+      "unspsc_exigidos": [
+        "43190000",
+        "43191500",
+        "43191501",
+        "43230000",
+        "43233200",
+        "43000000",
+        "43233700",
+        "43233400",
+        "81112501",
+        "81000000",
+        "81110000",
+        "81111500"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
+      "smmlv": [],
+      "ultima_vez_en_radar": "2026-11-26",
+      "recortado": true
     },
     "CO1.REQ.11381902": {
       "id_proceso": "CO1.REQ.11381902",
       "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
-      "revisado_en": "2026-11-19",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 29,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
         {
           "nombre": "08InvitacionDirecta.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=891648048&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
         },
         {
           "nombre": "10CorreoInvitacion.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=891648050&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "03Anexo.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "29ActaLiquidacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "25Encuesta.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "26ARL.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "23ComunicacionAsignacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "38Soportes3.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "33NotaDebito2.PDF",
+          "extension": "PDF",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "36NotaDebito3.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "01OSE35030642022.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "32Soportes1.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "37OrdenPago3.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "24CorreoAsignacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "21InformeEvaluacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "27ComunicacionLegalizacion (1).pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "30NotaDebito1.PDF",
+          "extension": "PDF",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "35Soportes2.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "34OrdenPago2.PDF",
+          "extension": "PDF",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "22ListaChequeo.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "31OrdenPago1.PDF",
+          "extension": "PDF",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
+        },
+        {
+          "nombre": "28CorreoLegalizacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11235202"
         }
       ],
-      "texto": "7.2. Adicionalmente, las personas naturales deberán presentar con la propuesta:\na. Fotocopia cedula ciudadanía del oferente.\nb. Certificado de inscripción en el Registro Mercantil de la Cámara de Comercio, con expedición inferior a 90 días contados a partir de la presentación de la oferta (Para persona natural con\nestablecimiento de comercio).\nc. Formato Carta de Presentación de Oferta (Obligatorio para contrataciones superiores a 160 SMLMV).\nd. Copia del certificado del registro único tributario (RUT), expedido por la DIAN.\ne. Documentos que demuestren la formación académica requerida y Certificaciones que acrediten la experiencia exigida (Según aplique en cada caso)\nNotas:\n1) La no presentación de los documentos requeridos en los literales \"a\" y \"b\" (si aplica) y \"c\" (si aplica) del numeral 7.2 de la presente invitación, será causal de rechazo de la propuesta. Estos\ndocumentos serán subsanables en su contenido, para tal efecto, la UNIVERSIDAD podrá solicitarlo en cualquier momento antes de la evaluación definitiva; si el OFERENTE no responde a la solicitud\ndentro del plazo estipulado por la UNIVERSIDAD, se configurará causal de rechazo de la PROPUESTA. No será subsanable lo siguiente:\ni. En el caso del Registro Mercantil de la Cámara de Comercio, no será subsanable la actividad comercial.\nii. En el caso del Formato Carta de Presentación de Oferta, no será subsanable la falta de la firma del representante legal.\n2) En caso de no presentarse con la oferta los documentos exigidos en los literales \"d\" y \"e\" del presente numeral, la UNIVERSIDAD podrá requerirlos en cualquier momento o subsanarse en su\ncontenido, antes de la evaluación definitiva; si el OFERENTE no responde a la solicitud dentro de plazo estipulado por la UNVERSIDAD, se configurará causal de rechazo de la p\n\n[...]",
+      "texto": "Macroproceso: Gestión Administrativa y Financiera Nombre formato: Invitación directa a presentar oferta (s) para orden contractual I. IDENTIFICACIÓN DE LA INVITACIÓN 26 8 2022 FECHA DE INVITACIÓN CONSECUTIVO M.UAFCHE-780 DÍA MES AÑO II. TERMINOS DE LA INVITACIÓN 1. PERFIL/ OBJETO SOCIAL REQUERIDO DEL OFERENTE profesional o técnico en sistemas o áreas relacionadas para desempeñarse como Web Master, con mínimo un año de experiencia. 2. OBJETO GENERAL A CONTRATAR Prestación servicios profesionales como Web Master en el proyecto \"Plan de formación docente de maestros y maestras del departamento de Antioquia, en el marco del Plan de Desarrollo Unidos por la Vida, 2020-2023, de la Gobernación de Antioquia, componente 2 ‘Maestros y Maestras Para la Vida’\" en el marco del contrato interadministrativo 4600013945 suscrito entre la Gobernación de Antioquia y la Universidad Nacional de Colombia Sede Medellín 3.\n\nc. Formato Carta de Presentación de Oferta (Obligatorio para contrataciones superiores a 160 SMLMV). d. Copia del certificado del registro único tributario (RUT), expedido por la DIAN. e. Documentos que demuestren la formación académica requerida y Certificaciones que acrediten la experiencia exigida (Según aplique en cada caso) Notas: 1) La no presentación de los documentos requeridos en los literales \"a\" y \"b\" (si aplica) y \"c\" (si aplica) del numeral 7.2 de la presente invitación, será causal de rechazo de la propuesta.\n\n2) En caso de no presentarse con la oferta los documentos exigidos en los literales \"d\" y \"e\" del presente numeral, la UNIVERSIDAD podrá requerirlos en cualquier momento o subsanarse en su contenido, antes de la evaluación definitiva; si el OFERENTE no responde a la solicitud dentro de plazo estipulado por la UNVERSIDAD, se configurará causal de rechazo \n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
@@ -2893,7 +3447,7 @@
     "CO1.REQ.11382343": {
       "id_proceso": "CO1.REQ.11382343",
       "entidad": "EMPOBOSCONIA ESP",
-      "revisado_en": "2026-11-23",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 11,
       "estado_analisis": "documentos_escaneados",
       "documentos": [],
@@ -2907,12 +3461,22 @@
     },
     "CO1.REQ.11382805": {
       "id_proceso": "CO1.REQ.11382805",
-      "revisado_en": "2026-11-19",
+      "entidad": "HOCOL S.A",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 1,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
+      "estado_analisis": "sin_seccion_identificable",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "110042956 - SONEPAR COLOMBIA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11236552"
+        }
+      ],
       "texto": "",
       "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": false
@@ -2920,21 +3484,74 @@
     "CO1.REQ.11383898": {
       "id_proceso": "CO1.REQ.11383898",
       "entidad": "MUNICIPIO DE MIRANDA",
-      "revisado_en": "2026-11-22",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 24,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
+        {
+          "nombre": "11- PLIEGOS DEFINITIVOS -CMA-001-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
+        {
+          "nombre": "14 - ESTUDIO PREVIO CONSULTORIA MIRANDA final.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
+        {
+          "nombre": "03 ESTUDIO PREVIO.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
+        {
+          "nombre": "10-AVISO-CONVOCATORIA CMA-001-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
+        {
+          "nombre": "16-RESOL 1756 APERTURA - CMA-001-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
+        {
+          "nombre": "02 CONCEPTO DE VIABILIDAD.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
+        {
+          "nombre": "15-ANEXOS Y FORMATOS PLIEGO finales.docx",
+          "extension": "docx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
+        {
+          "nombre": "08-PROYECTO DE PLIEGOS-CMA-001-2026.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
+        },
         {
           "nombre": "9-ANEXOS Y FORMATOS PLIEGO.docx",
           "extension": "docx",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=886860264&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237663"
         }
       ],
-      "texto": "Profesional en ingeniería de sistemas, ingeniería de software, ingeniería informática, telemática o áreas afines, con posgrado en Gestion estratégica de tecnología dela información, arquitectura empresarial, transformación digital, gobierno TI, , con mínimo diez (10) años de experiencia profesional general y experiencia específica en consultorías de software institucional, transformación digital, modernización de sistemas de información o arquitectura empresarial en entidades públicas o privadas.\n\nIngeniero de sistemas, ingeniero de software o profesional afín con mínimo tres (3) años de experiencia en seguridad de la información, gestión de riesgos tecnológicos, controles de acceso o gobierno de TI.\n\nIngeniero de sistemas, ingeniero de software o profesional afín con posgrado en gerencia informática, arquitectura empresarial, Gestión de Información y Telecomunicaciones o afines, con mínimo tres (3) años de experiencia liderando equipos de tecnología y consultoría, conocimientos en planeación y ejecución de proyectos TI, definición de requisitos, arquitectura de soluciones, integración de aplicaciones, gobierno de datos y transformación digital. NBC: gestión de tecnologías de la información, desarrollo y mantenimiento de software, arquitectura de software, interoperabilidad, bases de datos y ciencias de la computación.\n\nIngeniero de sistemas, ingeniero de software, Contaduría Pública, Administración Financiera o profesional afín con posgrado en economía, Gerencia Financiera, Finanzas o afines, con mínimo diez (10) años de experiencia gestión financiera, análisis y evaluación de procesos financieros, contables y presupuestales, evaluación de procesos, identificación de brechas, optimización de procedimientos y formulación de recomendaciones para el fortalecimiento y mode\n\n[...]",
-      "unspsc_exigidos": [],
+      "texto": "~ Miranda _- Fecha: 24-01-2025 Pliego de Condiciones Página 27 de 84 La entidad verificará los requisitos Habilitantes dentro del término señalado en el cronograma del presente Pliego de Condiciones, de acuerdo con los soportes documentales que acompañan la propuesta presentada. Los Requisitos Habilitantes serán objeto de verificación, por lo tanto, si la propuesta cumple todos los aspectos se evaluarán como \"cumple\". En caso contrario se evaluará como \"no cumple\". REQUISITO FACTORES - CALIFICACIÓN Análisis de Capacidad jurídica Cumple / No Cumple Análisis de capacidad financiera y organizacional Cumple / No Cumple HABILITACIÓN Análisis de experiencia especifica Cumple / No Cumple Análisis de capacidad Técnica Cumple / No Cumple El proponente deberá presentar con la oferta todos los documentos que a continuación se relacionan y teniendo en cuenta lo indicado en el pliego de condiciones, el cuestionario y formulario electrónico dispuesto en la plataforma SECOP II:\n\n$150.000.000. Se incorpora el trabajo aplica aplica aplica criterio ya previsto en el análisis del sector y se verifica con las partidas del RUP. 5.2. Experiencia del proponente. Los proponentes acreditaran su experiencia de conformidad con la documentación aportada para lo cual Se tendrá en cuenta: (602) 8274127 Código Postal: 191520, Web: www.miranda-cauca.gov.col Correo electrónico: contactenasCa~mira~nda Cauca.q ov co, , caIdaDeMirandaCau.a Alcald,aDeMirandaCauca caidiaMiranda íDAlcaldiaMiranda\n\nLa sumatoria de sus valores ejecutados acreditables deberá ser igual o superior al cien por ciento (100%) del presupuesto oficial, expresado en SMMLV. Los contratos deberán estar inscritos en el Registro Único de Proponentes vigente y en firme, en las clases del clasificador de bienes y servicios: 43231500, 8111180\n\n[...]",
+      "unspsc_exigidos": [
+        "43231500",
+        "81111900",
+        "43232300",
+        "43232400",
+        "81111500",
+        "81112000",
+        "81112200",
+        "81111800",
+        "43232200"
+      ],
       "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
+      "max_contratos": 2,
+      "smmlv": [
+        "6375"
+      ],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": true
     },
@@ -2952,15 +3569,57 @@
     },
     "CO1.REQ.11384314": {
       "id_proceso": "CO1.REQ.11384314",
-      "revisado_en": "2026-11-25",
+      "entidad": "UNIDAD CENTRAL DEL VALLE DEL CAUCA",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 4,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
+      "estado_analisis": "ok",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "cd120documentos.zip > 26 CDP 402 Y 428.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237871"
+        },
+        {
+          "nombre": "cd120documentos.zip > 1 PAA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237871"
+        },
+        {
+          "nombre": "cd120documentos.zip > 2 BANCO DE PROYECTOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237871"
+        },
+        {
+          "nombre": "cd120documentos.zip > 2026-11-17 AS ODILO CD-120.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237871"
+        },
+        {
+          "nombre": "cd120documentos.zip > 2026-11-17 EP ODILO CD-120.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237871"
+        },
+        {
+          "nombre": "cd120documentos.zip > 27 VIABLIDAD.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237871"
+        },
+        {
+          "nombre": "cd120documentos.zip > 7.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11237871"
+        }
+      ],
+      "texto": "EDPUZZLE y NEXBIT cuentan conjuntamente con un presupuesto de $64.405.991, conforme a los CDP y la cotización utilizada en la planeación. Desde el punto de vista técnico, la propuesta para 2026 contempla una plataforma inteligente personalizada, multidispositivo, multiusuario, multidisciplinar, multiformato y multilingüe; acceso al catálogo digital de lanzamiento con más de 55.000 títulos multidisciplinares; integración de recursos propios con capacidad de almacenamiento de 10 GB; experiencias de aprendizaje mediante rutas formativas y clubes de lectura;\n\n$39.815,80 miles de pesos en 2022 a $577.768,73 miles de pesos en 2025. De igual manera, para 2025 la empresa registró una razón de liquidez de 3,19 veces y un capital de trabajo de $1.358.410,68 miles de pesos, indicadores que pueden ser considerados dentro del análisis de capacidad financiera del proveedor. En materia de rentabilidad, EMIS reporta para 2025 un ROA de 28,96 %, un ROE de 49,04 %, un margen de ganancia bruta de 53,14 %, un margen operacional de 21,89 % y un margen neto de 16,30 %.\n\npara suministrarlas, de acuerdo con las especificaciones, licenciamientos, condiciones de acceso, soporte e integración establecidos para cada una de las soluciones que conforman el objeto contractual. 2.3. ASPECTOS LEGALES El proveedor presenta experiencia relacionada con el objeto y autorizaciones para distribuir y comercializar las soluciones ODILO, EDPUZZLE y NEXBIT, según los documentos de sus respectivos titulares o desarrolladores. El licenciamiento respeta los derechos de propiedad intelectual y las condiciones comerciales consignadas en las autorizaciones incorporadas al expediente.\n\ncuenta con una experiencia de un (1) año en la prestación y suministro de soluciones relacionadas con recursos y servicios de informaci\n\n[...]",
+      "unspsc_exigidos": [
+        "55111506"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
     },
     "CO1.REQ.11384484": {
       "id_proceso": "CO1.REQ.11384484",
@@ -2992,7 +3651,7 @@
     "CO1.REQ.11388686": {
       "id_proceso": "CO1.REQ.11388686",
       "entidad": "MUNICIPIO DE UBATE",
-      "revisado_en": "2026-11-22",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 19,
       "estado_analisis": "ok",
       "documentos": [
@@ -3051,24 +3710,89 @@
     "CO1.REQ.11392389": {
       "id_proceso": "CO1.REQ.11392389",
       "entidad": "AGENCIA NACIONAL DE TIERRAS - ANT",
-      "revisado_en": "2026-11-22",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 21,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
         {
           "nombre": "1. Estudios previos vbo.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=893123264&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "anexotecnico ok.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "Analisisdel Sectorok.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "7. Matriz de riesgos CInteradministrativo.xlsx",
+          "extension": "xlsx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "CotizacionColombiaDigital.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "CotizacionCORPODESARROLLO.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "Cotizaciondistrital.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "4. Constancia Idoneidad Colombia Digital.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "1. Solicitud Contratacion.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "CDP.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "Constancia envio SIP.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "Resjustificacion contratacion .pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
+        },
+        {
+          "nombre": "Cuadro de Costosok.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247229"
         }
       ],
-      "texto": "De acuerdo con el artículo 4° de sus estatutos, la CCD tiene por objeto social,\n entre otros: (i) el desarrollo de las herramientas necesarias para realizar\n proyectos de base tecnológica en todo el territorio nacional; (ii) la vinculación\n creciente del componente tecnológico a la política de desarrollo y la cualificación\n del capital humano como sustento de la política de productividad y\n competitividad empresarial, y (iii) el acceso al desarrollo de proyectos de\n innovación tecnológica e investigación según las necesidades del país, como\n contribución a la política nacional de tecnologías de la información. La CCD\n cuenta, además, con idoneidad técnica, financiera y jurídica para ejecutar el\n contrato, dada su experiencia en el desarrollo e implementación de soluciones\n tecnológicas y en la ejecución de contratos de Ingeniería de software con\n entidades públicas, según se verifica en el numeral 6.2 del presente documento.\n\f FORMA JUSTIFICACIÓN CONTRATO INTERADMINISTRATIVO CÓDIGO ADQBS-F-014\n\nDe conformidad con el Clasificador de Bienes y Servicios de las Naciones\n Unidas (UNSPSC), adoptado por la Agencia Nacional de Contratación Pública\n – Colombia Compra Eficiente, y teniendo en cuenta el objeto del contrato y las\n actividades que comprende, los servicios requeridos se clasifican de la siguiente\n forma:\n\n3. Presentar, antes de la activación de cada perfil, los candidatos con sus\n respectivos soportes de formación y experiencia, de acuerdo con los\n requisitos establecidos en el Anexo Técnico. Así mismo, garantizar la\n disponibilidad de personal de respaldo y realizar los reemplazos previa\n aprobación de la supervisión, por personal que acredite competencias\n iguales o superiores.\n\f FORMA JUSTIFICACIÓN CONTRATO INTERADMINISTRATIVO CÓDIGO ADQBS-F-014\n\nLa CORPORACIÓN CO\n\n[...]",
+      "texto": "(ii) la vinculación creciente del componente tecnológico a la política de desarrollo y la cualificación del capital humano como sustento de la política de productividad y competitividad empresarial, y (iii) el acceso al desarrollo de proyectos de innovación tecnológica e investigación según las necesidades del país, como contribución a la política nacional de tecnologías de la información. La CCD cuenta, además, con idoneidad técnica, financiera y jurídica para ejecutar el contrato, dada su experiencia en el desarrollo e implementación de soluciones tecnológicas y en la ejecución de contratos de Ingeniería de software con entidades públicas, según se verifica en el numeral 6.2 del presente documento.\n\nEn el presente proceso, el cumplimiento de estas condiciones se desarrolla en el numeral 6.1 de este documento, en el cual se sustenta la naturaleza jurídica de la Corporación Colombia Digital, la relación directa entre las obligaciones contractuales y su objeto social, así como la no configuración de las exclusiones legales aplicables. Adicionalmente, la Agencia Nacional de Tierras elaboró el correspondiente análisis del sector y estudio de mercado, con el propósito de examinar las condiciones técnicas y económicas de los servicios requeridos, verificar la idoneidad y experiencia de la entidad ejecutora y establecer la razonabilidad del presupuesto oficial frente a las condiciones del mercado.\n\nEl registro de horas por sí solo no constituye soporte suficiente para su reconocimiento económico. 3. Presentar, antes de la activación de cada perfil, los candidatos con sus respectivos soportes de formación y experiencia, de acuerdo con los requisitos establecidos en el Anexo Técnico. Así mismo, garantizar la disponibilidad de personal de respaldo y realizar los reemplazos previ\n\n[...]",
       "unspsc_exigidos": [
-        "81000000",
         "81110000",
         "81111500",
         "81111700",
+        "81000000",
         "81111800",
-        "81112000"
+        "81112000",
+        "81112200",
+        "81111600",
+        "43231500",
+        "43232300"
       ],
       "minimo_codigos": null,
       "max_contratos": null,
@@ -3078,15 +3802,34 @@
     },
     "CO1.REQ.11393640": {
       "id_proceso": "CO1.REQ.11393640",
-      "revisado_en": "2026-11-22",
+      "entidad": "CGR-NIVEL CENTRAL",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 8,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
+      "estado_analisis": "ok",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "2- RESOLUCION CONTRATO CGR-310-2026 - ARCHIVOS DEL ESTADO.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247352"
+        },
+        {
+          "nombre": "3- DOC PRECONTRACTUALES CGR-310-2026 ARCHIVOS DEL ESTADO.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11247352"
+        }
+      ],
+      "texto": "Se certifica que las personas enunciadas cumplen con la idoneidad y experiencia requeridas en el estudio previo, para la contratación. CONTRATISTA: ARCHIVOS DEL ESTADO Y TECNOLOGIAS DE LA INFORMACION S.A.S OBJETO: “CONTRATAR SERVICIOS ARCHIVISTICOS PARA EL FORTALECIMIENTO DE LA GESTIÓN DOCUMENTAL QUE CONTRIBUYA AL MEJORAMIENTO DE LAS CONDICIONES DE ACCESO, USO Y CONSULTA DE LA DOCUMENTACIÓN E INFORMACIÓN GENERADA POR LA CONTRALORÍA GENERAL DE LA REPÚBLICA - VIGENCIA 2026.” OBLIGACIONES ESPECÍFICAS:\n\nexisten o existen parcialmente; razón por la cual se hace necesario analizar, en el presente caso, la política de gestión documental a la luz de los cinco componentes: Ø Componente estratégico Ø Componente de administración de archivos Ø Componente documental Ø Componente tecnológico Ø Componente cultural Desde el componente estratégico de la política de gestión documental, se validarán las condiciones habilitantes relacionadas con los siguientes instrumentos y programas: Ø Diagnóstico de archivos Ø Política de Gestión Documental Ø Programa de Gestión Documental – PGD Ø Plan Institucional de Archivos – PINAR Ø Sistema Integrado de Conservación – SIC Ø Plan de análisis de procesos y procedimientos de la producción documental Ø Matriz de riesgos en gestión documental Ø Articulación de la gestión documental con el Plan Estratégico Institucional Ø Articulación de la gestión documental con las políticas del Modelo Integrado de Planeación y Gestión – MIPG Ø Indicadores de gestión Ø Informes de gestión Ø Programa de auditoría y control Desde el componente de Administración de Archivos de la política de gestión documental, se validarán las condiciones habilitantes relacionadas con los siguientes instrumentos y programas:\n\nEn consideración a lo anterior y a los antecedentes de experi\n\n[...]",
+      "unspsc_exigidos": [
+        "80161506",
+        "81112005",
+        "81112002"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
     },
     "CO1.REQ.11393695": {
       "id_proceso": "CO1.REQ.11393695",
@@ -3148,7 +3891,7 @@
     "CO1.REQ.11397178": {
       "id_proceso": "CO1.REQ.11397178",
       "entidad": "E.S.E HOSPITAL SAN CARLOS",
-      "revisado_en": "2026-11-23",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 7,
       "estado_analisis": "ok",
       "documentos": [
@@ -3195,27 +3938,46 @@
     "CO1.REQ.11399805": {
       "id_proceso": "CO1.REQ.11399805",
       "entidad": "CORPORACION AUTONOMA REGIONAL DE RISARALDA",
-      "revisado_en": "2026-11-23",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 6,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
         {
           "nombre": "CM 072-2026 PROYECTO DE PLIEGO DE CONDICIONES.pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=894346628&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11256677"
+        },
+        {
+          "nombre": "CM 072-2026 ESTUDIOS PREVOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11256677"
+        },
+        {
+          "nombre": "CM 072-2026 AVISO DE CONVOCATORIA.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11256677"
         }
       ],
-      "texto": "1. La Entidad Estatal en los pliegos de condiciones debe indicar la forma como\ncalificará, entre otros, los siguientes criterios: a) la experiencia del interesado y del\nequipo de trabajo y b) la formación académica del equipo de trabajo.\n2. La Entidad Estatal debe publicar durante tres (3) días hábiles el informe de\nevaluación, el cual debe contener la evaluación de las ofertas frente a todos los\nrequisitos exigidos en el pliego de condiciones, incluyendo los requisitos\nhabilitantes y los de asignación de puntaje.\n3. Una vez resueltas las observaciones al informe de evaluación, la entidad adjudicará\nel contrato mediante acto administrativo al oferente que haya cumplido todos los\nrequisitos exigidos en el pliego de condiciones y haya obtenido el mayor puntaje\".\n\nLos requisitos habilitantes para participar y que serán objeto de verificación en el\nRegistro Único de Proponentes (RUP), son: Idoneidad y experiencia, capacidad jurídica,\ncapacidad financiera, capacidad de organización, estados financieros con corte al 31 de\ndiciembre de 2025. En todo caso el RUP debe encontrarse en firme, al momento de la\nadjudicación.\n\n8.1.1. Factor técnico (Experiencia adicional del 40 Puntos\n proponente)\n\n8.1.1. Factor técnico (Experiencia adicional del proponente) – 40 Puntos.\n\nLas certificaciones de experiencia adicional se deberán adjuntar en un archivo\ndenominado “experiencia adicional del Proponente” o de nombre similar. Con el\nobjetivo de diferenciar los documentos relacionados con los criterios habilitantes del\nnumeral 6.5 de los estudios previos y cuales con los criterios de calificación.\n\nREQUISITO PUNTOS\n Quien presente tres (3) certificaciones ADICIONALES de\n contratos que cumplan con las condiciones establecidas para la\n EXPERIENCIA ESPECÍFICA del numeral 6.5 de los Estudios\n Pre\n\n[...]",
+      "texto": "Si el oferente no presenta con su propuesta la copia pertinente de los estatutos, la CARDER requerirá al proponente a fin de que aporte dicho(s) documento(s) dentro del plazo que le señale para el efecto. Los consorcios y uniones temporales deberán acreditar que su duración no será inferior a la del plazo del contrato y hasta la liquidación del contrato. Los requisitos habilitantes para participar y que serán objeto de verificación en el Registro Único de Proponentes (RUP), son: Idoneidad y experiencia, capacidad jurídica, capacidad financiera, capacidad de organización, estados financieros con corte al 31 de diciembre de 2025.\n\nIncentivo a la participación de 0,25 Puntos emprendimientos y empresas de mujeres 8.1.6. Incentivo a la participación de MiPymes 0,25 Puntos domiciliadas en Colombia TOTAL PUNTOS POSIBLES 100 PUNTOS 8.1.1. Factor técnico (Experiencia adicional del proponente) – 40 Puntos. Las certificaciones de experiencia adicional se deberán adjuntar en un archivo denominado “experiencia adicional del Proponente” o de nombre similar. Con el objetivo de diferenciar los documentos relacionados con los criterios habilitantes del numeral 6.5 de los estudios previos y cuales con los criterios de calificación.\n\nREQUISITO PUNTOS Quien presente tres (3) certificaciones ADICIONALES de contratos que cumplan con las condiciones establecidas para la EXPERIENCIA ESPECÍFICA del numeral 6.5 de los Estudios Previos. Los contratos aportados para acreditar la experiencia adicional deberán estar debidamente certificados e inscritos en el Registro Único de Proponentes (RUP), cada contrato deberá contar con al menos dos (02) de los siguientes códigos de clasificación de Bienes y Servicios de Naciones Unidas UNSPSC: 40 Puntos 801615:\n\nServicio de archivo de datos. 801015: Servicios\n\n[...]",
       "unspsc_exigidos": [
         "80000000",
         "80160000",
         "80161506",
         "80100000",
         "80101500",
-        "80101507"
+        "80101507",
+        "81000000",
+        "80101600",
+        "80101604",
+        "81110000",
+        "81111900",
+        "81111902",
+        "81111700",
+        "81111703"
       ],
       "minimo_codigos": null,
-      "max_contratos": null,
+      "max_contratos": 3,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": true
@@ -3263,15 +4025,32 @@
     },
     "CO1.REQ.11402751": {
       "id_proceso": "CO1.REQ.11402751",
-      "revisado_en": "2026-11-23",
+      "entidad": "ESAP SEDE CENTRAL (Cuenta Oficial)",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 2,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
+      "estado_analisis": "ok",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "ANEXO DE CONDICIONES TÉCNICAS - PORTAL WEB DE EMPLEO.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11256773"
+        },
+        {
+          "nombre": "GF-FO-041PLANTILLACOTIZACION-PORTAL WEB EMPLEO.xlsx",
+          "extension": "xlsx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11256773"
+        }
+      ],
+      "texto": "2. CLASIFICACIÓN UNSPSC El objeto contractual se clasifica en el siguiente código del Clasificador de Bienes y Servicios: 1. Segmento 2. Familia 3. Clase 4. Producto 5. Descripción 43 23 15 05 Software de recursos humanos 3. ESPECIFICACIONES TÉCNICAS DEL OBJETO A CONTRATAR: En el marco de las funcionalidades técnicas con las que deberá contar el sistema informático en ambiente web de empleo, se debe facilitar la experiencia del usuario desde una perspectiva funcional, logrando de manera simple, su manipulación y navegación por parte de los distintos actores que van a interactuar con el mismo.\n\nFiltros por País, departamento y municipio, rango de 13 Búsqueda experiencia, sector, tipo de vinculación, rango salarial y nivel educativo, entre otros. Hoja de vida digital estructurada y descargable, con 14 Hoja de vida certificaciones, trayectoria pública y privada, portafolios y habilidades Algoritmo que clasifica candidatos según requisitos 15 Matching ocupacionales y sugiere vacantes compatibles Remisión segura de hojas de vida a los empleadores, 16 Postulación con trazabilidad por estado:\n\nCapacidades Funciones Analiza perfil, trayectoria, competencias y categoría. Recomienda vacantes públicas y Graduados privadas según la ubicación geográfica de la vacante a nivel nacional. Búsqueda predictiva en el banco de talento. Clasificación de postulados por ajuste a Entidades y empleadores requisitos, competencias y experiencia. Sugerencia de candidatos idóneos a entidades territoriales Consultas en lenguaje natural sobre el estado de la plataforma. Tableros y reportes de Administrador ESAP (GAGAG y colocación, demanda territorial y salarios administradores) promedio, para los factores del CNA y el PDDI 2023-2033.\n\n° El proponente deberá indicar expresamente si el servicio cotizad\n\n[...]",
+      "unspsc_exigidos": [
+        "43231505"
+      ],
+      "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
     },
     "CO1.REQ.11404173": {
       "id_proceso": "CO1.REQ.11404173",
@@ -3371,12 +4150,27 @@
     },
     "CO1.REQ.11406828": {
       "id_proceso": "CO1.REQ.11406828",
-      "revisado_en": "2026-11-23",
+      "entidad": "AGENCIA NACIONAL DE SEGURIDAD VIAL",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 2,
-      "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
+      "estado_analisis": "sin_seccion_identificable",
+      "fuente": "paquete",
+      "documentos": [
+        {
+          "nombre": "Anexo_Cotizacion_ANSV_APP_Observatorio.xlsx",
+          "extension": "xlsx",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260094"
+        },
+        {
+          "nombre": "ANSV-CON-FO-54_ plataforma Observatorio.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260094"
+        }
+      ],
       "texto": "",
       "unspsc_exigidos": [],
+      "minimo_codigos": null,
+      "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": false
@@ -3404,7 +4198,7 @@
     },
     "CO1.REQ.11407081": {
       "id_proceso": "CO1.REQ.11407081",
-      "revisado_en": "2026-11-23",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 31,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
@@ -3417,27 +4211,48 @@
     "CO1.REQ.11407215": {
       "id_proceso": "CO1.REQ.11407215",
       "entidad": "Empresa Distrital de Desarrollo y Renovación Urbano Sostenible de Santa Marta- EDUS",
-      "revisado_en": "2026-11-25",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 8,
       "estado_analisis": "ok",
+      "fuente": "paquete",
       "documentos": [
         {
           "nombre": "ESTUDIOS PREVIOS - SERVIDORES (2).pdf",
           "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=894784537&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260768"
+        },
+        {
+          "nombre": "CONTRATO SERVIDORES.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260768"
+        },
+        {
+          "nombre": "COT_003_SERVIDOR WEB Y CORREOS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260768"
+        },
+        {
+          "nombre": "ESTUDIO DEL SECTOR.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260768"
+        },
+        {
+          "nombre": "COT_ 4567_ SOLUREDYS.pdf",
+          "extension": "pdf",
+          "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260768"
         }
       ],
-      "texto": "EL CONTRATANTE, en cumplimiento de lo estipulado en el artículo 60 de la Ley 610 de 2000, se abstendrá de\ncelebrar el contrato con las personas que se encuentren registradas en el Boletín de responsables Fiscales de\nla Contraloría General de la República, para lo cual harán las consultas que en tal sentido les corresponde. Así\nmismo, EL CONTRATANTE se abstendrá de celebrar el contrato cuando el oferente, sus accionistas, asociados\no socios, sus representantes legales o miembros de Junta Directiva, estén reportados en alguna de las listas\nasociadas al Lavado de Activos y Financiación de Terrorismo LA/FT, lista internacional vinculante para Colombia\nde conformidad con el derecho internacional (listas de las Naciones Unidas) o en la lista emitida por la Oficina\nde Activos Extranjeros del Departamento del Tesoro de los Estados Unidos (Lista OFAC) o en la lista de\norganizaciones terroristas emitida por el Consejo de Seguridad Nacional, o cuando se encuentren en el “Listado\nde firmas y personas naturales inhabilitadas por el Banco Mundial” por haber transgredido las disposiciones\nsobre fraude y corrupción o en la “Lista de empresas y personas sancionadas por el Grupo BID (Banco\nInteramericano de Desarrollo)” para lo cual se harán las consultas que en tal sentido correspondan\n IDONEIDAD Y EXPERIENCIA",
+      "texto": "Así mismo, EL CONTRATANTE se abstendrá de celebrar el contrato cuando el oferente, sus accionistas, asociados o socios, sus representantes legales o miembros de Junta Directiva, estén reportados en alguna de las listas asociadas al Lavado de Activos y Financiación de Terrorismo LA/FT, lista internacional vinculante para Colombia de conformidad con el derecho internacional (listas de las Naciones Unidas) o en la lista emitida por la Oficina de Activos Extranjeros del Departamento del Tesoro de los Estados Unidos (Lista OFAC) o en la lista de organizaciones terroristas emitida por el Consejo de Seguridad Nacional, o cuando se encuentren en el “Listado de firmas y personas naturales inhabilitadas por el Banco Mundial” por haber transgredido las disposiciones sobre fraude y corrupción o en la “Lista de empresas y personas sancionadas por el Grupo BID (Banco Interamericano de Desarrollo)” para lo cual se harán las consultas que en tal sentido correspondan IDONEIDAD Y EXPERIENCIA La idoneidad del CONTRATISTA se acredita con los soportes de la propuesta presentada.\n\nDicho análisis permitió establecer las condiciones económicas del servicio y determinar un presupuesto oficial estimado de DOSCIENTOS VEINTE MILLONES DE PESOS ($220.000.000) M/CTE., para un plazo de ejecución de doce (12) meses. La selección del proveedor deberá atender la idoneidad, experiencia, capacidad técnica y operativa, correspondencia de la propuesta con las especificaciones requeridas y razonabilidad económica de la oferta, de manera que la contratación recaiga en un prestador que demuestre contar con los recursos humanos, tecnológicos y de infraestructura necesarios para ejecutar integralmente el objeto contractual.\n\n9. Que la sociedad INGENIERÍA, IDEAS & SOLUCIONES INTEGRALES S.A.S., identificada con NIT\n\n[...]",
       "unspsc_exigidos": [],
       "minimo_codigos": null,
       "max_contratos": null,
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
-      "recortado": false
+      "recortado": true
     },
     "CO1.REQ.11407219": {
       "id_proceso": "CO1.REQ.11407219",
-      "revisado_en": "2026-11-23",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 25,
       "estado_analisis": "sin_documentos_de_requisitos",
       "documentos": [],
@@ -3483,7 +4298,7 @@
     "CO1.REQ.11410175": {
       "id_proceso": "CO1.REQ.11410175",
       "entidad": "IE NACIONALIZADA DE EL PASO",
-      "revisado_en": "2026-11-25",
+      "revisado_en": "2026-11-26",
       "documentos_en_el_proceso": 19,
       "estado_analisis": "documentos_escaneados",
       "documentos": [],
@@ -3764,211 +4579,6 @@
       "smmlv": [],
       "ultima_vez_en_radar": "2026-11-26",
       "recortado": false
-    }
-  },
-  "paquetes": {
-    "CO1.REQ.11375414": {
-      "hash": "c5844f08f6e4",
-      "partes": 2,
-      "kb": 331,
-      "documentos": 10,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11383898": {
-      "hash": "e1b1122f0850",
-      "partes": 4,
-      "kb": 698,
-      "documentos": 9,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11364836": {
-      "hash": "fa241a63a208",
-      "partes": 1,
-      "kb": 123,
-      "documentos": 16,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11382805": {
-      "hash": "a98d85f71ebd",
-      "partes": 1,
-      "kb": 11,
-      "documentos": 1,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11374458": {
-      "hash": "1f3c82b33739",
-      "partes": 1,
-      "kb": 99,
-      "documentos": 17,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11381790": {
-      "hash": "ffcd588570ab",
-      "partes": 1,
-      "kb": 191,
-      "documentos": 15,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11381902": {
-      "hash": "07e47b1ab6fc",
-      "partes": 1,
-      "kb": 137,
-      "documentos": 22,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11365392": {
-      "hash": "dacb10eb85fb",
-      "partes": 1,
-      "kb": 124,
-      "documentos": 7,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11405402": {
-      "hash": "867b364e8e08",
-      "partes": 2,
-      "kb": 413,
-      "documentos": 18,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11412524": {
-      "hash": "d5c39ae47d51",
-      "partes": 1,
-      "kb": 40,
-      "documentos": 5,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11368260": {
-      "hash": "0079a0a2c413",
-      "partes": 1,
-      "kb": 49,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11407081": {
-      "hash": "3b18ecf00dd8",
-      "partes": 1,
-      "kb": 113,
-      "documentos": 26,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11369006": {
-      "hash": "2eb00aa01da7",
-      "partes": 1,
-      "kb": 83,
-      "documentos": 5,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11406828": {
-      "hash": "7320f6f29945",
-      "partes": 1,
-      "kb": 34,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11402751": {
-      "hash": "1dcd1337dbe2",
-      "partes": 1,
-      "kb": 19,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11381744": {
-      "hash": "733005ae2621",
-      "partes": 1,
-      "kb": 68,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11363136": {
-      "hash": "e5764bd90d7f",
-      "partes": 1,
-      "kb": 38,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.10541394": {
-      "hash": "4cab8ae22a8b",
-      "partes": 2,
-      "kb": 321,
-      "documentos": 7,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11399805": {
-      "hash": "28897e3adb19",
-      "partes": 2,
-      "kb": 260,
-      "documentos": 3,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11407219": {
-      "hash": "15b884a65cec",
-      "partes": 1,
-      "kb": 83,
-      "documentos": 21,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11397178": {
-      "hash": "839cb7a23c08",
-      "partes": 1,
-      "kb": 94,
-      "documentos": 4,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11388686": {
-      "hash": "4170eba2b9f5",
-      "partes": 2,
-      "kb": 320,
-      "documentos": 5,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11392389": {
-      "hash": "26f34e5be5d8",
-      "partes": 2,
-      "kb": 348,
-      "documentos": 13,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11384314": {
-      "hash": "4fd7d8cecdc4",
-      "partes": 1,
-      "kb": 113,
-      "documentos": 7,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11407215": {
-      "hash": "277a3d843d5c",
-      "partes": 1,
-      "kb": 105,
-      "documentos": 5,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11365933": {
-      "hash": "31ff7676fa26",
-      "partes": 1,
-      "kb": 26,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11393640": {
-      "hash": "f1c46d7813e7",
-      "partes": 2,
-      "kb": 360,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11309115": {
-      "hash": "5d381bda6c11",
-      "partes": 1,
-      "kb": 141,
-      "documentos": 5,
-      "generado": "2026-11-26"
     }
   }
 }
