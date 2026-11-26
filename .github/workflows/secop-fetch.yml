@@ -1,22 +1,18 @@
 name: SECOP fetch
 
 on:
+  # Las dos corridas del dia (6:00 y 14:00 Bogota) las dispara cron-job.org con
+  # workflow_dispatch, que arranca al instante: el schedule de GitHub llegaba con
+  # 8 a 16 horas de atraso. Erwin necesita las dos publicaciones: la de la manana
+  # para ver temprano las licitaciones y la de la tarde para revisar lo que salio
+  # ese dia.
+  #
+  # Este schedule es solo el RESPALDO de la corrida de la manana: si ya hay dato
+  # de hoy, el paso "Respaldo" lo detecta y no hace nada. Va a las 13:23 UTC
+  # (8:23 Bogota) y no de madrugada: si GitHub algun dia lo arranca puntual, no
+  # debe adelantarse a la corrida de las 6:00 y duplicar el correo.
   schedule:
-    # 05:23 UTC = 00:23 America/Bogota. Dos decisiones deliberadas:
-    # - El minuto no redondo: GitHub encola las tareas programadas de la hora
-    #   en punto y con "0 9" el arranque real se corria entre 3h34 y 6h35.
-    # - La hora: es lo mas temprano posible que todavia cae dentro del mismo
-    #   dia calendario colombiano (05:00 UTC es medianoche en Bogota). Correr
-    #   antes etiquetaria el dato con el dia anterior. Asi el margen contra el
-    #   retraso de GitHub es el maximo alcanzable: 8h37 hasta la rutina de las
-    #   09:00 Bogota. Entre sep y nov 2026 el arranque real cayo entre las 04:35
-    #   y las 08:36 Bogota, creciendo; por eso la rutina no puede ir a las 07:00.
-    - cron: "23 5 * * *"
-    # Segunda pasada: 09:23 UTC = 04:23 Bogota. Con el peor retraso visto (~8h)
-    # llega hacia las 12:40, antes de la rutina de las 14:00 Bogota, que asi ve
-    # los procesos publicados durante la manana. A las 11:23 UTC podia llegar
-    # despues de esa rutina.
-    - cron: "23 9 * * *"
+    - cron: "23 13 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -34,16 +30,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Solo en el respaldo programado: si cron-job.org ya corrio hoy, no se hace
+      # nada (ni datos, ni publicacion, ni correo). En los arranques manuales y de
+      # cron-job.org (workflow_dispatch) este paso no corre.
+      - name: Respaldo - saltar si ya hay dato de hoy
+        id: guardia
+        if: github.event_name == 'schedule'
+        run: |
+          HOY=$(TZ=America/Bogota date +%F)
+          DIA=$(node -e "console.log(require('./data/latest.json').dia)")
+          if [ "$DIA" = "$HOY" ]; then
+            echo "saltar=si" >> "$GITHUB_OUTPUT"
+            echo "Ya hay dato de hoy ($DIA): el respaldo no corre."
+          else
+            echo "No hay dato de hoy (ultimo: $DIA): el respaldo corre."
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.guardia.outputs.saltar != 'si'
         with:
           node-version: 22
 
       - name: Fetch and filter SECOP II
+        if: steps.guardia.outputs.saltar != 'si'
         run: node scripts/fetch-secop.mjs
 
       # pdftotext lee los pliegos en PDF. Se instala un paquete del sistema en vez
       # de agregar dependencias npm, que el repositorio no tiene ni necesita.
       - name: Instalar poppler para leer PDFs
+        if: steps.guardia.outputs.saltar != 'si'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends poppler-utils
 
 
@@ -54,9 +69,11 @@ jobs:
       # minutos: lo que no alcance sigue en la corrida siguiente. Si este paso
       # falla, el resto del radar se publica igual.
       - name: Instalar OCR para paginas escaneadas
+        if: steps.guardia.outputs.saltar != 'si'
         run: sudo apt-get install -y -qq --no-install-recommends tesseract-ocr tesseract-ocr-spa
 
       - name: Armar paquetes de lectura para la IA
+        if: steps.guardia.outputs.saltar != 'si'
         continue-on-error: true
         timeout-minutes: 45
         run: node scripts/paquetes.mjs
@@ -66,9 +83,11 @@ jobs:
       # nada. Solo descarga los que no tienen paquete (contratacion directa).
       # El cache es permanente: en regimen estable son pocos procesos por dia.
       - name: Analizar requisitos de experiencia
+        if: steps.guardia.outputs.saltar != 'si'
         run: node scripts/requisitos.mjs
 
       - name: Commit updated data
+        if: steps.guardia.outputs.saltar != 'si'
         run: |
           git config user.name "secop-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -83,6 +102,7 @@ jobs:
       # salio bien. La URL y el token salen del "API trigger" de la rutina en
       # claude.ai/code/routines; si los secretos no estan, se salta sin fallar.
       - name: Avisar a la rutina que publique
+        if: steps.guardia.outputs.saltar != 'si'
         env:
           ROUTINE_FIRE_URL: ${{ secrets.ROUTINE_FIRE_URL }}
           ROUTINE_FIRE_TOKEN: ${{ secrets.ROUTINE_FIRE_TOKEN }}
