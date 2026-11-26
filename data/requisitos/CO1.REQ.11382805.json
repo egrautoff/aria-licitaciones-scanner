@@ -1,11 +1,21 @@
 {
   "id_proceso": "CO1.REQ.11382805",
-  "revisado_en": "2026-11-19",
+  "entidad": "HOCOL S.A",
+  "revisado_en": "2026-11-26",
   "documentos_en_el_proceso": 1,
-  "estado_analisis": "sin_documentos_de_requisitos",
-  "documentos": [],
+  "estado_analisis": "sin_seccion_identificable",
+  "fuente": "paquete",
+  "documentos": [
+    {
+      "nombre": "110042956 - SONEPAR COLOMBIA.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11236552"
+    }
+  ],
   "texto": "",
   "unspsc_exigidos": [],
+  "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": [],
   "ultima_vez_en_radar": "2026-11-26"
 }

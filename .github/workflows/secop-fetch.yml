@@ -46,11 +46,6 @@ jobs:
       - name: Instalar poppler para leer PDFs
         run: sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends poppler-utils
 
-      # Solo baja documentos de procesos abiertos, dentro del plazo y por encima
-      # del piso de valor --- hoy son cuatro de 218 --- y cachea el resultado,
-      # asi que en regimen estable son uno o dos procesos nuevos por dia.
-      - name: Analizar requisitos de experiencia
-        run: node scripts/requisitos.mjs
 
       # Paquetes de lectura para el boton "Analizar con IA" del tablero: todos los
       # documentos que fijan requisitos, completos, partidos en bloques que caben en
@@ -65,6 +60,13 @@ jobs:
         continue-on-error: true
         timeout-minutes: 45
         run: node scripts/paquetes.mjs
+
+      # Va DESPUES de los paquetes: si el proceso ya tiene paquete, extrae los
+      # requisitos de ese texto (pliego completo, con OCR) sin volver a bajar
+      # nada. Solo descarga los que no tienen paquete (contratacion directa).
+      # El cache es permanente: en regimen estable son pocos procesos por dia.
+      - name: Analizar requisitos de experiencia
+        run: node scripts/requisitos.mjs
 
       - name: Commit updated data
         run: |

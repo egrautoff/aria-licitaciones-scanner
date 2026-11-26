@@ -23,6 +23,49 @@ const raiz = new URL("../", import.meta.url).pathname;
 const CFG = JSON.parse(readFileSync(path.join(raiz, "config/parametros.json"), "utf8"));
 const REQ = CFG.requisitos;
 const dirCache = path.join(raiz, "data/requisitos");
+const dirPaquetes = path.join(raiz, "data/paquetes");
+
+// Si el proceso ya tiene paquete de lectura (lo arma scripts/paquetes.mjs, que
+// corre antes), se usa ese texto en vez de bajar los documentos otra vez. Es el
+// pliego COMPLETO, con OCR de las paginas escaneadas, no solo dos documentos.
+// El paquete trae el texto compactado (sin parrafos), asi que se rearman
+// parrafos de ~500 caracteres para que recorte() pueda puntuarlos.
+function textoDePaquete(id, urlProceso) {
+  const archivo = path.join(dirPaquetes, `${id}.json`);
+  if (!existsSync(archivo)) return null;
+  let paq;
+  try {
+    paq = JSON.parse(readFileSync(archivo, "utf8"));
+  } catch {
+    return null;
+  }
+  // Un paquete con OCR pendiente esta incompleto: mejor el camino de siempre.
+  if (!paq.partes?.length || paq.ocr_pendiente) return null;
+  const parrafos = [];
+  for (const parte of paq.partes) {
+    const sinMarcas = parte.replace(/^##### DOCUMENTO: .*$/gm, "\n").replace(/^\[pág\. \d+\]$/gm, "\n");
+    for (const bloque of sinMarcas.split(/\n\s*\n/)) {
+      let actual = "";
+      for (const frase of bloque.replace(/\s*\n\s*/g, " ").split(/(?<=[.;:])\s+/)) {
+        // Un encabezado numerado ("2.3.1 Experiencia") abre parrafo nuevo.
+        if (actual && (actual.length > 500 || /^\d+(\.\d+)+\.?\s/.test(frase))) {
+          parrafos.push(actual);
+          actual = "";
+        }
+        actual += (actual ? " " : "") + frase;
+      }
+      if (actual.trim()) parrafos.push(actual);
+    }
+  }
+  return {
+    texto: parrafos.join("\n\n"),
+    documentos: (paq.documentos || []).map((d) => ({
+      nombre: d.nombre,
+      extension: (d.nombre.match(/\.(\w+)$/) || [])[1] || "",
+      url: d.url || urlProceso || "",
+    })),
+  };
+}
 const datosPath = path.join(raiz, "data/latest.json");
 
 // El portal de SECOP esta detras de un Azure Application Gateway que responde
@@ -265,6 +308,30 @@ async function main() {
         ),
       );
       sinDocumentos++;
+      continue;
+    }
+
+    const delPaquete = textoDePaquete(it.id_proceso, it.url);
+    if (delPaquete) {
+      const textoTotal = delPaquete.texto;
+      const extracto = recorte(textoTotal);
+      const salida = {
+        id_proceso: it.id_proceso,
+        entidad: it.entidad,
+        revisado_en: datos.dia,
+        documentos_en_el_proceso: total,
+        estado_analisis: extracto ? "ok" : "sin_seccion_identificable",
+        fuente: "paquete",
+        documentos: delPaquete.documentos,
+        texto: extracto,
+        unspsc_exigidos: codigosUnspsc(textoTotal),
+        minimo_codigos: minimoCodigos(textoTotal),
+        max_contratos: maxContratos(textoTotal),
+        smmlv: smmlv(textoTotal),
+      };
+      writeFileSync(destino, JSON.stringify(salida, null, 2));
+      console.log(`  ${it.id_proceso}: del paquete -> ${salida.estado_analisis} · UNSPSC ${salida.unspsc_exigidos.length} · SMMLV ${salida.smmlv.join(", ") || "-"}`);
+      analizados++;
       continue;
     }
 

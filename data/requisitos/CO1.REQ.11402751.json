@@ -1,11 +1,28 @@
 {
   "id_proceso": "CO1.REQ.11402751",
-  "revisado_en": "2026-11-23",
+  "entidad": "ESAP SEDE CENTRAL (Cuenta Oficial)",
+  "revisado_en": "2026-11-26",
   "documentos_en_el_proceso": 2,
-  "estado_analisis": "sin_documentos_de_requisitos",
-  "documentos": [],
-  "texto": "",
-  "unspsc_exigidos": [],
+  "estado_analisis": "ok",
+  "fuente": "paquete",
+  "documentos": [
+    {
+      "nombre": "ANEXO DE CONDICIONES TÉCNICAS - PORTAL WEB DE EMPLEO.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11256773"
+    },
+    {
+      "nombre": "GF-FO-041PLANTILLACOTIZACION-PORTAL WEB EMPLEO.xlsx",
+      "extension": "xlsx",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11256773"
+    }
+  ],
+  "texto": "2. CLASIFICACIÓN UNSPSC El objeto contractual se clasifica en el siguiente código del Clasificador de Bienes y Servicios: 1. Segmento 2. Familia 3. Clase 4. Producto 5. Descripción 43 23 15 05 Software de recursos humanos 3. ESPECIFICACIONES TÉCNICAS DEL OBJETO A CONTRATAR: En el marco de las funcionalidades técnicas con las que deberá contar el sistema informático en ambiente web de empleo, se debe facilitar la experiencia del usuario desde una perspectiva funcional, logrando de manera simple, su manipulación y navegación por parte de los distintos actores que van a interactuar con el mismo.\n\nFiltros por País, departamento y municipio, rango de 13 Búsqueda experiencia, sector, tipo de vinculación, rango salarial y nivel educativo, entre otros. Hoja de vida digital estructurada y descargable, con 14 Hoja de vida certificaciones, trayectoria pública y privada, portafolios y habilidades Algoritmo que clasifica candidatos según requisitos 15 Matching ocupacionales y sugiere vacantes compatibles Remisión segura de hojas de vida a los empleadores, 16 Postulación con trazabilidad por estado:\n\nCapacidades Funciones Analiza perfil, trayectoria, competencias y categoría. Recomienda vacantes públicas y Graduados privadas según la ubicación geográfica de la vacante a nivel nacional. Búsqueda predictiva en el banco de talento. Clasificación de postulados por ajuste a Entidades y empleadores requisitos, competencias y experiencia. Sugerencia de candidatos idóneos a entidades territoriales Consultas en lenguaje natural sobre el estado de la plataforma. Tableros y reportes de Administrador ESAP (GAGAG y colocación, demanda territorial y salarios administradores) promedio, para los factores del CNA y el PDDI 2023-2033.\n\n° El proponente deberá indicar expresamente si el servicio cotizado se encuentra gravado con IVA. En caso afirmativo, deberá informarlo. Indicadores Financieros | INFORMACIÓN FINANCIERA Fecha información Financiera | DD/MM/AAAA Activo Corriente | 0 Activo Total | 0 Pasivo Corriente | 0 Pasivo Total | 0 Patrimonio Total | 0 Activo total - Pasivo total - Patrimonio | 0 Utilidad/ Pérdida Operacional | 0 Gastos de Intereses | 0 Empresa o Razón Social No. Identificación Nombre del contacto comercial Correo electrónico del contacto comercial Número de teléfono del contacto Comercial == sheet2 == Item | Actividad | Revisión 1 | Objeto:",
+  "unspsc_exigidos": [
+    "43231505"
+  ],
+  "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": [],
   "ultima_vez_en_radar": "2026-11-26"
 }

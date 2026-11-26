@@ -1,11 +1,26 @@
 {
   "id_proceso": "CO1.REQ.11406828",
-  "revisado_en": "2026-11-23",
+  "entidad": "AGENCIA NACIONAL DE SEGURIDAD VIAL",
+  "revisado_en": "2026-11-26",
   "documentos_en_el_proceso": 2,
-  "estado_analisis": "sin_documentos_de_requisitos",
-  "documentos": [],
+  "estado_analisis": "sin_seccion_identificable",
+  "fuente": "paquete",
+  "documentos": [
+    {
+      "nombre": "Anexo_Cotizacion_ANSV_APP_Observatorio.xlsx",
+      "extension": "xlsx",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260094"
+    },
+    {
+      "nombre": "ANSV-CON-FO-54_ plataforma Observatorio.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11260094"
+    }
+  ],
   "texto": "",
   "unspsc_exigidos": [],
+  "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": [],
   "ultima_vez_en_radar": "2026-11-26"
 }
