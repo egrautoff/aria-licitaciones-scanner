@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T18:17:35.945Z",
+  "generated_at": "2026-11-26T20:01:18.258Z",
   "dia": "2026-11-26",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2257,
+  "total_scanned": 2249,
   "total_matched": 70,
   "total_destacados": 1,
   "total_nuevos": 19,
@@ -2371,11 +2371,12 @@
     }
   },
   "paquetes": {
-    "CO1.REQ.11375414": {
-      "hash": "c5844f08f6e4",
+    "CO1.REQ.11405402": {
+      "hash": "128883c35f38",
       "partes": 2,
-      "kb": 331,
-      "documentos": 10,
+      "kb": 417,
+      "documentos": 18,
+      "ocr": true,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11383898": {
@@ -2438,14 +2439,6 @@
       "ocr": true,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11405402": {
-      "hash": "128883c35f38",
-      "partes": 2,
-      "kb": 417,
-      "documentos": 18,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
     "CO1.REQ.11368260": {
       "hash": "822356aef94e",
       "partes": 1,
@@ -2454,27 +2447,18 @@
       "ocr": true,
       "generado": "2026-11-26"
     },
+    "CO1.REQ.11375414": {
+      "hash": "c5844f08f6e4",
+      "partes": 2,
+      "kb": 331,
+      "documentos": 10,
+      "generado": "2026-11-26"
+    },
     "CO1.REQ.11382343": {
-      "hash": "b1d74fcc15e4",
+      "hash": "23aec17ae190",
       "partes": 1,
-      "kb": 35,
-      "documentos": 4,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11407219": {
-      "hash": "f975629e03f7",
-      "partes": 1,
-      "kb": 87,
-      "documentos": 24,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11407081": {
-      "hash": "32be93a31514",
-      "partes": 1,
-      "kb": 121,
-      "documentos": 28,
+      "kb": 59,
+      "documentos": 5,
       "ocr": true,
       "generado": "2026-11-26"
     },
@@ -2483,6 +2467,13 @@
       "partes": 1,
       "kb": 83,
       "documentos": 5,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11406828": {
+      "hash": "7320f6f29945",
+      "partes": 1,
+      "kb": 34,
+      "documentos": 2,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11402751": {
@@ -2496,13 +2487,6 @@
       "hash": "733005ae2621",
       "partes": 1,
       "kb": 68,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11406828": {
-      "hash": "7320f6f29945",
-      "partes": 1,
-      "kb": 34,
       "documentos": 2,
       "generado": "2026-11-26"
     },
@@ -2520,19 +2504,28 @@
       "documentos": 3,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11410175": {
-      "hash": "47025cf7a8b9",
+    "CO1.REQ.11397178": {
+      "hash": "cfeed2f9f914",
       "partes": 1,
-      "kb": 11,
-      "documentos": 5,
+      "kb": 112,
+      "documentos": 7,
       "ocr": true,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11365933": {
-      "hash": "31ff7676fa26",
+    "CO1.REQ.11410175": {
+      "hash": "e7ba1e8ce799",
       "partes": 1,
-      "kb": 26,
-      "documentos": 2,
+      "kb": 58,
+      "documentos": 19,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11388686": {
+      "hash": "8d970339cf64",
+      "partes": 2,
+      "kb": 323,
+      "documentos": 6,
+      "ocr": true,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11392389": {
@@ -2549,13 +2542,6 @@
       "documentos": 7,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11397178": {
-      "hash": "839cb7a23c08",
-      "partes": 1,
-      "kb": 94,
-      "documentos": 4,
-      "generado": "2026-11-26"
-    },
     "CO1.REQ.11407215": {
       "hash": "277a3d843d5c",
       "partes": 1,
@@ -2563,11 +2549,28 @@
       "documentos": 5,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11388686": {
-      "hash": "4170eba2b9f5",
-      "partes": 2,
-      "kb": 320,
+    "CO1.REQ.11365933": {
+      "hash": "c8ab669fb597",
+      "partes": 1,
+      "kb": 53,
       "documentos": 5,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11407219": {
+      "hash": "0e6c40be3546",
+      "partes": 1,
+      "kb": 87,
+      "documentos": 25,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11407081": {
+      "hash": "b08c3af20b8a",
+      "partes": 1,
+      "kb": 125,
+      "documentos": 31,
+      "ocr": true,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11393640": {
@@ -2575,6 +2578,14 @@
       "partes": 2,
       "kb": 360,
       "documentos": 2,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11375242": {
+      "hash": "a6f1dff02dda",
+      "partes": 1,
+      "kb": 138,
+      "documentos": 13,
+      "ocr": true,
       "generado": "2026-11-26"
     }
   },
