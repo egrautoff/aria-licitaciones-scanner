@@ -487,6 +487,9 @@ async function main() {
     documentos: paq.documentos.length,
     ocr: paq.documentos.some((d) => d.ocr_paginas) || undefined,
     generado: paq.generado.slice(0, 10),
+    // Ultima vez que el proceso recibio documentos nuevos (adendas, respuestas a
+    // observaciones, pliego definitivo...). El tablero lo marca en la tarjeta.
+    docs_nuevos: paq.docs_nuevos || undefined,
   });
 
   let i = 0;
@@ -512,6 +515,7 @@ async function main() {
       const firma = sha(docs.map((d) => `${d.nombre}|${d.bytes}|${d.fecha}`).sort().join("\n"));
       if (previo && previo.firma === firma) {
         previo.ultima_vez_en_radar = hoy;
+        if (!previo.todos) previo.todos = [...new Set(docs.map((d) => d.nombre))];
         writeFileSync(archivo, JSON.stringify(previo));
         if (previo.partes?.length) manifiesto[it.id_proceso] = resumen(previo);
         sinCambios++;
@@ -519,6 +523,16 @@ async function main() {
       }
       try {
         const paq = await armar(it, docs);
+        // Lista completa de nombres (leidos y omitidos), para detectar en la
+        // proxima corrida que documentos llegaron nuevos.
+        paq.todos = [...new Set(docs.map((d) => d.nombre))];
+        if (previo?.todos && previo.firma && previo.firma !== firma) {
+          const antes = new Set(previo.todos);
+          const nuevos = paq.todos.filter((n) => !antes.has(n));
+          if (nuevos.length) paq.docs_nuevos = { fecha: hoy, nombres: nuevos.slice(0, 20) };
+        }
+        // Se conserva el aviso anterior si en esta corrida no llego nada nuevo.
+        if (!paq.docs_nuevos && previo?.docs_nuevos) paq.docs_nuevos = previo.docs_nuevos;
         const incompleto =
           paq.documentos.some((d) => d.ocr_incompleto) || paq.problemas.some((x) => /pendiente de OCR/.test(x.motivo));
         // Sin firma, la proxima corrida lo vuelve a armar.
