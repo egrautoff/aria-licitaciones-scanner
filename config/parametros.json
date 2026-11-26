@@ -399,5 +399,16 @@
     "_leeme": "Salario minimo mensual legal vigente, para convertir presupuestos a SMMLV. Se deriva de los pliegos: IDARTES publica sus lotes en pesos y en SMMLV y la division da esta cifra. Actualizar cada enero.",
     "anio": 2026,
     "valor": 1750905
+  },
+  "paquetes": {
+    "_leeme": "Paquetes de lectura para el boton 'Analizar con IA'. Se arman para todo proceso que no sea contratacion directa. limite_parte_kb deja espacio a las instrucciones dentro del tope de 256 KiB por consulta.",
+    "excluir_modalidades": [
+      "Contratación directa"
+    ],
+    "limite_parte_kb": 240,
+    "max_minutos": 35,
+    "concurrencia": 4,
+    "retencion_dias": 30,
+    "max_paginas_ocr": 200
   }
 }

@@ -44,6 +44,9 @@ const DATA = {
   oportunidades,
   parametros: d.parametros,
   requisitos: d.requisitos,
+  // Indice de paquetes de lectura: el boton "Analizar con IA" sabe cuales
+  // procesos tienen documentos listos y con que version (hash).
+  paquetes: d.paquetes || {},
 };
 
 const marca = /\/\* DATA_BLOCK_START \*\/[\s\S]*?\/\* DATA_BLOCK_END \*\//;
@@ -58,7 +61,7 @@ const bloque =
 const resultado = html.replace(marca, () => bloque);
 
 // Verificacion antes de escribir: el resto del tablero tiene que seguir intacto.
-for (const senal of ["itemsVisibles", "alternarSeguimiento", "renderFrescura", "cablearFiltros"]) {
+for (const senal of ["itemsVisibles", "alternarSeguimiento", "renderFrescura", "cablearFiltros", "categoria", "iaPanelHtml"]) {
   if (!resultado.includes(senal)) {
     console.error(`ERROR: falta "${senal}" en el resultado; el HTML quedo mal. No se escribe nada.`);
     process.exit(1);

@@ -52,6 +52,20 @@ jobs:
       - name: Analizar requisitos de experiencia
         run: node scripts/requisitos.mjs
 
+      # Paquetes de lectura para el boton "Analizar con IA" del tablero: todos los
+      # documentos que fijan requisitos, completos, partidos en bloques que caben en
+      # una consulta. tesseract lee solo las PAGINAS escaneadas. Un proceso se
+      # vuelve a armar solo si cambio su lista de documentos, y hay un tope de
+      # minutos: lo que no alcance sigue en la corrida siguiente. Si este paso
+      # falla, el resto del radar se publica igual.
+      - name: Instalar OCR para paginas escaneadas
+        run: sudo apt-get install -y -qq --no-install-recommends tesseract-ocr tesseract-ocr-spa
+
+      - name: Armar paquetes de lectura para la IA
+        continue-on-error: true
+        timeout-minutes: 45
+        run: node scripts/paquetes.mjs
+
       - name: Commit updated data
         run: |
           git config user.name "secop-bot"
