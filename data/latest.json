@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T11:01:10.656Z",
+  "generated_at": "2026-11-27T20:01:11.392Z",
   "dia": "2026-11-27",
   "window_days": 15,
   "source_dataset": "datos.gov.co / p6dx-8zbt (SECOP II)",
-  "total_scanned": 2203,
-  "total_matched": 68,
+  "total_scanned": 2107,
+  "total_matched": 67,
   "total_destacados": 1,
   "total_nuevos": 0,
   "items": [
@@ -1688,31 +1688,6 @@
       "primera_vez_visto": "2026-11-16",
       "dias_en_radar": 12,
       "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11367030",
-      "fuente": "SECOP II",
-      "entidad": "UNAD",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11176395",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-12T13:58:15.844",
-      "descripcion": "DESARROLLO DE LA FASE III DEL SIA CONTRALORÍAS MODERNIZADO, QUE COMPRENDE LA INTEROPERABILIDAD Y EL SOPORTE DE LA FASE I, CON EL PROPÓSITO DE APOYAR A LAS CONTRALORÍAS TERRITORIALES, DEPARTAMENTALES Y MUNICIPALES EN LA OPTIMIZACIÓN DE SUS PROCESOS DE CONTROL FISCAL, MEDIANTE LA ADOPCIÓN DE SOLUCIONES TECNOLÓGICAS INNOVADORAS DERIVADO DEL CONTRATO INTERADMINISTRATIVO CI-2-2026 SUSCRITO CON LA AUDITORÍA GENERAL DE LA REPÚBLICA. DE CONFORMIDAD CON LOS TÉRMINOS DE REFERENCIA DE LA INVITACIÓN DIRECTA",
-      "valor": 183000000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11220272",
-      "matched_groups": [
-        "Integracion / BUS"
-      ],
-      "matched_keywords": [
-        "interoperabilidad"
-      ],
-      "destacado": false,
-      "primera_vez_visto": "2026-11-16",
-      "dias_en_radar": 12,
-      "es_nuevo": false
     }
   ],
   "candidatos_exploratorios": [
@@ -1882,27 +1857,6 @@
       ],
       "primera_vez_visto": "2026-11-26",
       "dias_en_radar": 2,
-      "es_nuevo": false
-    },
-    {
-      "id_proceso": "CO1.REQ.11365933",
-      "fuente": "SECOP II",
-      "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
-      "unspsc": "UNSPECIFIED",
-      "id_portafolio": "CO1.BDOS.11175522",
-      "fecha_cierre": null,
-      "lotes": 0,
-      "fecha_publicacion": "2026-11-12T11:10:32.230",
-      "descripcion": "PRESTACION DE SERVICIOS DE APOYO A LA GESTION PARA LA EJECUCION DE ACTIVIDADES ASISTENCIALES Y OPERATIVAS; REALIZANDO EL MANEJO E INGRESO DE INFORMACION EN LOS SISTEMAS ELECTRÓNICOS, ASÍ COMO LA GESTIÓN DOCUMENTAL APLICABLE A LA ACTIVIDAD CONTRACTUAL DE LA PERSONERÍA DISTRITAL DE MEDELLIN, DURANTE LA VIGENCIA 2026.",
-      "valor": 34500000,
-      "estado": "Publicado",
-      "modalidad": "Contratación régimen especial",
-      "url": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=CO1.NTC.11219186",
-      "matched_broad_keywords": [
-        "gestion documental"
-      ],
-      "primera_vez_visto": "2026-11-14",
-      "dias_en_radar": 14,
       "es_nuevo": false
     }
   ],
@@ -2321,12 +2275,11 @@
     }
   },
   "paquetes": {
-    "CO1.REQ.11405402": {
-      "hash": "128883c35f38",
+    "CO1.REQ.11375414": {
+      "hash": "c5844f08f6e4",
       "partes": 2,
-      "kb": 417,
-      "documentos": 18,
-      "ocr": true,
+      "kb": 331,
+      "documentos": 10,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11383898": {
@@ -2337,19 +2290,19 @@
       "ocr": true,
       "generado": "2026-11-26"
     },
+    "CO1.REQ.11382805": {
+      "hash": "a98d85f71ebd",
+      "partes": 1,
+      "kb": 11,
+      "documentos": 1,
+      "generado": "2026-11-26"
+    },
     "CO1.REQ.11407081": {
       "hash": "b08c3af20b8a",
       "partes": 1,
       "kb": 125,
       "documentos": 31,
       "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11382805": {
-      "hash": "a98d85f71ebd",
-      "partes": 1,
-      "kb": 11,
-      "documentos": 1,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11374458": {
@@ -2360,13 +2313,6 @@
       "ocr": true,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11381902": {
-      "hash": "07e47b1ab6fc",
-      "partes": 1,
-      "kb": 137,
-      "documentos": 22,
-      "generado": "2026-11-26"
-    },
     "CO1.REQ.11381790": {
       "hash": "ffcd588570ab",
       "partes": 1,
@@ -2375,12 +2321,11 @@
       "ocr": true,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11412524": {
-      "hash": "4b3a12f26b30",
+    "CO1.REQ.11381902": {
+      "hash": "07e47b1ab6fc",
       "partes": 1,
-      "kb": 45,
-      "documentos": 8,
-      "ocr": true,
+      "kb": 137,
+      "documentos": 22,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11418288": {
@@ -2390,11 +2335,19 @@
       "documentos": 6,
       "generado": "2026-11-27"
     },
-    "CO1.REQ.11407219": {
-      "hash": "0e6c40be3546",
+    "CO1.REQ.11406224": {
+      "hash": "e41e06f9dccd",
       "partes": 1,
-      "kb": 87,
-      "documentos": 25,
+      "kb": 142,
+      "documentos": 9,
+      "ocr": true,
+      "generado": "2026-11-27"
+    },
+    "CO1.REQ.11412524": {
+      "hash": "4b3a12f26b30",
+      "partes": 1,
+      "kb": 45,
+      "documentos": 8,
       "ocr": true,
       "generado": "2026-11-26"
     },
@@ -2403,6 +2356,21 @@
       "partes": 1,
       "kb": 50,
       "documentos": 3,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11419171": {
+      "hash": "0a6f9657f542",
+      "partes": 1,
+      "kb": 65,
+      "documentos": 6,
+      "generado": "2026-11-27"
+    },
+    "CO1.REQ.11407219": {
+      "hash": "0e6c40be3546",
+      "partes": 1,
+      "kb": 87,
+      "documentos": 25,
       "ocr": true,
       "generado": "2026-11-26"
     },
@@ -2436,34 +2404,12 @@
       "documentos": 2,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11406224": {
-      "hash": "e41e06f9dccd",
-      "partes": 1,
-      "kb": 142,
-      "documentos": 9,
-      "ocr": true,
-      "generado": "2026-11-27"
-    },
-    "CO1.REQ.11402751": {
-      "hash": "1dcd1337dbe2",
-      "partes": 1,
-      "kb": 19,
-      "documentos": 2,
-      "generado": "2026-11-26"
-    },
     "CO1.REQ.11404481": {
       "hash": "77724a92f94f",
       "partes": 1,
       "kb": 3,
       "documentos": 1,
       "generado": "2026-11-27"
-    },
-    "CO1.REQ.11381744": {
-      "hash": "733005ae2621",
-      "partes": 1,
-      "kb": 68,
-      "documentos": 2,
-      "generado": "2026-11-26"
     },
     "CO1.REQ.10541394": {
       "hash": "4cab8ae22a8b",
@@ -2472,12 +2418,19 @@
       "documentos": 7,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11419171": {
-      "hash": "0a6f9657f542",
+    "CO1.REQ.11381744": {
+      "hash": "733005ae2621",
       "partes": 1,
-      "kb": 65,
-      "documentos": 6,
-      "generado": "2026-11-27"
+      "kb": 68,
+      "documentos": 2,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11402751": {
+      "hash": "1dcd1337dbe2",
+      "partes": 1,
+      "kb": 19,
+      "documentos": 2,
+      "generado": "2026-11-26"
     },
     "CO1.REQ.11399805": {
       "hash": "28897e3adb19",
@@ -2486,19 +2439,11 @@
       "documentos": 3,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11388686": {
-      "hash": "8d970339cf64",
-      "partes": 2,
-      "kb": 323,
-      "documentos": 6,
-      "ocr": true,
-      "generado": "2026-11-26"
-    },
-    "CO1.REQ.11365933": {
-      "hash": "c8ab669fb597",
+    "CO1.REQ.11397178": {
+      "hash": "cfeed2f9f914",
       "partes": 1,
-      "kb": 53,
-      "documentos": 5,
+      "kb": 112,
+      "documentos": 7,
       "ocr": true,
       "generado": "2026-11-26"
     },
@@ -2509,13 +2454,6 @@
       "documentos": 13,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11407215": {
-      "hash": "277a3d843d5c",
-      "partes": 1,
-      "kb": 105,
-      "documentos": 5,
-      "generado": "2026-11-26"
-    },
     "CO1.REQ.11384314": {
       "hash": "4fd7d8cecdc4",
       "partes": 1,
@@ -2523,11 +2461,11 @@
       "documentos": 7,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11375414": {
-      "hash": "c5844f08f6e4",
-      "partes": 2,
-      "kb": 331,
-      "documentos": 10,
+    "CO1.REQ.11407215": {
+      "hash": "277a3d843d5c",
+      "partes": 1,
+      "kb": 105,
+      "documentos": 5,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11416322": {
@@ -2545,19 +2483,27 @@
       "documentos": 2,
       "generado": "2026-11-26"
     },
-    "CO1.REQ.11397178": {
-      "hash": "cfeed2f9f914",
-      "partes": 1,
-      "kb": 112,
-      "documentos": 7,
+    "CO1.REQ.11405402": {
+      "hash": "128883c35f38",
+      "partes": 2,
+      "kb": 417,
+      "documentos": 18,
+      "ocr": true,
+      "generado": "2026-11-26"
+    },
+    "CO1.REQ.11388686": {
+      "hash": "8d970339cf64",
+      "partes": 2,
+      "kb": 323,
+      "documentos": 6,
       "ocr": true,
       "generado": "2026-11-26"
     },
     "CO1.REQ.11375242": {
-      "hash": "47ca23287d1e",
+      "hash": "b5ece6b8340b",
       "partes": 1,
-      "kb": 130,
-      "documentos": 11,
+      "kb": 199,
+      "documentos": 26,
       "ocr": true,
       "generado": "2026-11-27"
     }
@@ -2634,44 +2580,6 @@
       "revisado_en": "2026-11-22",
       "documentos_en_el_proceso": 6,
       "estado_analisis": "sin_documentos_de_requisitos",
-      "documentos": [],
-      "texto": "",
-      "unspsc_exigidos": [],
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-27",
-      "recortado": false
-    },
-    "CO1.REQ.11365933": {
-      "id_proceso": "CO1.REQ.11365933",
-      "entidad": "EMPRESA DE DESARROLLO URBANO DE ANDES - EDUAN",
-      "revisado_en": "2026-11-26",
-      "documentos_en_el_proceso": 7,
-      "estado_analisis": "ok",
-      "documentos": [
-        {
-          "nombre": "2-Estudios previos CPS- 027-2026  (1).pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=890048396&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        },
-        {
-          "nombre": "3-Invitacion CPS 027-2026.pdf",
-          "extension": "pdf",
-          "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=890048397&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
-        }
-      ],
-      "texto": "• Formación Académica: Profesional en Derecho, Contaduría Pública y/o experiencia\n relacionada.\n • Experiencia: Mínimo doce (12) meses de experiencia relacionada con la prestación de\n servicios de apoyo a la gestión, ejecución de actividades asistenciales y operativas, manejo\n de sistemas electrónicos y gestión documental aplicable a la actividad contractual.\n • Equivalencias: El título de especialización equivale a dos (02) años de experiencia profesional\n relacionada, y viceversa, siempre que se acredite el título profesional de base.\n\na. DOCUMENTOS DE CARÁCTER JURÍDICO:\n• Los documentos de carácter jurídico exigidos en el presente numeral, serán verificados por el\nGerente General o por el Profesional contratado para el efecto.\n• Son documentos integrantes del presente proceso, además de la presente invitación y\n\fdocumentos que se generen en el desarrollo del mismo, los siguientes documentos que se\ndeberán anexar a la oferta técnica y económica a presentar:\n• Carta de Presentación de la Propuesta.\n• El oferente deberá manifestar, bajo la gravedad del juramento que se entenderá prestado con\nla firma de la propuesta, no encontrarse incurso en ninguna causal de inhabilidad o\nincompatibilidad constitucional o legal para la celebración y ejecución del contrato que llegue\na suscribirse.\n• Deberá adjuntar copia de la Cédula de Ciudadanía.\n• Certificado de afiliación de seguridad social y soporte de pago:\n• Deberá presentar una certificación, donde manifieste que se encuentra afiliado y a paz y salvo\npor concepto de seguridad social.\n• Verificación de los Antecedentes Disciplinarios, Fiscales, Judiciales, Medidas Correctivas,\nAntecedentes por delitos sexuales y REDAM.\n• El proponente podrá presentar certificado de antecedentes disciplinarios, expedido por la\nProcuraduría Gene\n\n[...]",
-      "unspsc_exigidos": [],
-      "minimo_codigos": null,
-      "max_contratos": null,
-      "smmlv": [],
-      "ultima_vez_en_radar": "2026-11-27",
-      "recortado": true
-    },
-    "CO1.REQ.11367030": {
-      "id_proceso": "CO1.REQ.11367030",
-      "revisado_en": "2026-11-16",
-      "documentos_en_el_proceso": 0,
-      "estado_analisis": "sin_documentos",
       "documentos": [],
       "texto": "",
       "unspsc_exigidos": [],
