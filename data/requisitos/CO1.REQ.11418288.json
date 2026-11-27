@@ -1,11 +1,46 @@
 {
   "id_proceso": "CO1.REQ.11418288",
-  "revisado_en": "2026-11-26",
-  "documentos_en_el_proceso": 0,
-  "estado_analisis": "sin_documentos",
-  "documentos": [],
-  "texto": "",
+  "entidad": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+  "revisado_en": "2026-11-27",
+  "documentos_en_el_proceso": 6,
+  "estado_analisis": "ok",
+  "fuente": "paquete",
+  "documentos": [
+    {
+      "nombre": "04Cdp653.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=895951516&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "02Solicitud18901.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=895951513&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "18LegalizacionSupervisor.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=895951515&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "01OSE8040112023SOL18901.PDF",
+      "extension": "PDF",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=895951512&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "03Obligaciones.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=895951518&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "16ComunicacionAsignacion.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=895951514&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "EL RESPONSABLE DE LA INVITACION REALIZO LA SELECCION DEL CONTRATISTA DE MANERA OBJETIVA, TRAS VERIFICAR EL CUMPLIMIENTO DE LOS REQUISITOS EXIGIDOS, ASI COMO LA IDONEIDAD EN SU FORMACION ACADEMICA, CONOCIMIENTOS Y LA EXPERIENCIA. SE SENALA ASI MISMO QUE DE CONFORMIDAD CON EL ARTICULO 2 DE LA RESOLUCION DE RECTORIA 395 DE 2023, NO EXISTE PERSONAL DE PLANTA DISPONIBLE, QUE PUEDA DESARROLLAR LAS ACTIVIDADES DE LA PRESENTE SOLICITUD Y SEGUN OFICIO VR-262 DEL 23 DE JUNIO DE 2015, QUE NO SE REQUIERE CERTIFICADO DE PERSONAL PARA ESTE TIPO DE CONTRATACIONES.",
   "unspsc_exigidos": [],
+  "minimo_codigos": null,
+  "max_contratos": null,
   "smmlv": [],
-  "ultima_vez_en_radar": "2026-11-26"
+  "ultima_vez_en_radar": "2026-11-27"
 }
