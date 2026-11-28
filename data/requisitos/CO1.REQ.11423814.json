@@ -1,0 +1,32 @@
+{
+  "id_proceso": "CO1.REQ.11423814",
+  "entidad": "INSTITUTO NACIONAL DE VIGILANCIA DE MEDICAMENTOS Y ALIMENTOS //",
+  "revisado_en": "2026-11-28",
+  "documentos_en_el_proceso": 19,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "PLIEGO DE CONDICIONES DEFINITIVO CIBERSEGURIDAD.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=896685602&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    },
+    {
+      "nombre": "PROYECTO DE PLIEGO DE CONDICIONES SASI 025 DE 2026.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=889760831&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "Se tendrá como experiencia mínima habilitante la acreditación, a través del Registro Único de\nProponentes (RUP), de máximo CUATRO (4) contratos suscritos y ejecutados por el proponente\nantes de la fecha de cierre del presente proceso de selección, con entidades públicas y/o privadas,\ncuyo objeto, alcance o actividades guarden relación con el objeto del presente proceso. El valor\nindividual o la sumatoria de los contratos acreditados deberá corresponder, como mínimo, al valor\nexpresado en SMMLV exigido por la Entidad para acreditar la experiencia.\n\nSe tendrá como experiencia mínima habilitante la acreditación, a través del Registro Único de\nProponentes (RUP), de máximo cinco (5) contratos suscritos, ejecutados, terminados y/o liquidados\nantes de la fecha de cierre del presente proceso de selección por el proponente con entidades\npúblicas y/o privadas, cuyo valor individual o sumado, expresado en SMMLV, sea igual o superior al\nvalor mínimo de experiencia exigido para el presente proceso, y cuyos objetos se encuentren\nclasificados en al menos dos (2) de los códigos del Clasificador de Bienes y Servicios hasta el tercer\nnivel, de conformidad con los valores señalados en la tabla que se presenta a continuación:\n\nSe tendrá como experiencia mínima habilitante la acreditación, a través del RUP, de máximo cinco\n(5) contratos suscritos, ejecutados, terminados y/o liquidados antes de la fecha de cierre del\npresente proceso de selección por el proponente con entidades públicas y/o privadas, que de forma\nindividual o conjunta acrediten una sumatoria en SMMLV igual o superior a la cantidad exigida para\nel presente proceso, y cuyos objetos se encuentren clasificados en al menos dos (2) de los códigos\n\fdel Clasificador de Bienes y Servicios hasta el tercer nivel, de conformidad con los valores descritos\nen la tabla que se presenta a continuación:Los contratos, suscritos y ejecutados por el proponente,\ndeben sumar por lo menos la cantidad señalada como se indica a continuación:\n CLASIFICADOR DE BIENES Y SERVICIOS\n Clasificación Cuantía\n Segmento Familia Clase Producto\n UNSPSC SMMLV\n 43\n 32 00\n Difusión de\n 23 Software de Software de\n 43233200 tecnologías de\n Software seguridad y seguridad y\n información y\n protección protección\n telecomunicaciones\n 80\n Servicios de 16\n 28\n Gestión, Servicios 14 Actividades de\n Servicio de\n 80141628 Profesionales de Comercialización ventas y\n distribuidores\n Empresa o y Distribución promoción de\n por comisión\n Servicios negocios. 604,33\n Administrativos SMMLV\n 81\n 25 02\n Servicios Basados 11\n Mantenimiento Actualizaciones\n 81112202 en Ingeniería, Servicios\n y soporte de o parches de\n Investigación y informáticos\n software software\n Tecnología\n 81 08\n 11 22\n Servicios Basados Mantenimiento\n Servicios Mantenimiento\n 81112208 en Ingeniería, de software de\n informáticos y soporte de\n Investigación y protección y\n software\n Tecnología seguridad",
+  "unspsc_exigidos": [
+    "43233200",
+    "80141628",
+    "81112202",
+    "81112208"
+  ],
+  "minimo_codigos": 1,
+  "max_contratos": 4,
+  "smmlv": [
+    "604,33"
+  ],
+  "ultima_vez_en_radar": "2026-11-28"
+}

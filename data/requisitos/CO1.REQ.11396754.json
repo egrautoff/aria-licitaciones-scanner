@@ -1,0 +1,24 @@
+{
+  "id_proceso": "CO1.REQ.11396754",
+  "entidad": "ADRES",
+  "revisado_en": "2026-11-28",
+  "documentos_en_el_proceso": 9,
+  "estado_analisis": "ok",
+  "documentos": [
+    {
+      "nombre": "4. Estudios Previos - Microsoft Unified.pdf",
+      "extension": "pdf",
+      "url": "https://community.secop.gov.co/Public/Archive/RetrieveFile/Index?DocumentId=894587351&InCommunity=False&InPaymentGateway=False&DocUniqueIdentifier="
+    }
+  ],
+  "texto": "o Autenticación passwordless. Consiste en avanzar hacia mecanismos de autenticación más\n robustos que reduzcan la dependencia de contraseñas y, por ende, la exposición a ataques\n como phishing, reutilización o filtración de credenciales. El objetivo es fortalecer la postura\n de acceso manteniendo una experiencia de usuario ágil. Comprende actividades de\n habilitación y ajuste de métodos de autenticación modernos, verificación de prerrequisitos y\n pruebas controladas con grupos piloto.\n\nDurante la evaluación se revisan aspectos clave como redundancia de componentes,\nconfiguración de alta disponibilidad, planes de recuperación, monitoreo de salud de servicios y prácticas\nde continuidad de negocio. El resultado es un conjunto de recomendaciones priorizadas que ayudan a\nmitigar vulnerabilidades, optimizar la resiliencia operativa y garantizar que las cargas de trabajo críticas\npuedan soportar interrupciones sin afectar el cumplimiento normativo ni la experiencia del usuario.\n\nIdentificación en el clasificador de bienes y servicios (Clasificador UNSPSC)",
+  "unspsc_exigidos": [
+    "81000000",
+    "81110000",
+    "81112200"
+  ],
+  "minimo_codigos": null,
+  "max_contratos": null,
+  "smmlv": [],
+  "ultima_vez_en_radar": "2026-11-28"
+}
